@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "dens_addition:item/flint_shovel"
+  }
+}

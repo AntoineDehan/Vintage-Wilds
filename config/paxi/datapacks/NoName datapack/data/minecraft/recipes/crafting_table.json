@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "C": {
+      "item": "minecraft:clay_ball"
+    },
+    "S": {
+      "tag": "ytech:saws"
+    }
+  },
+  "pattern": ["##C", "##S"],
+  "result": {
+    "item": "minecraft:crafting_table"
+  },
+  "show_notification": false
+}

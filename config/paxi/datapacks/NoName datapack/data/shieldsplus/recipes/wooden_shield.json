@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["PMP", "MBM", "PMP"],
+  "key": {
+    "M": {
+      "item": "ytech:wooden_plate"
+    },
+    "B": {
+      "tag": "minecraft:logs"
+    },
+    "P": {
+      "item": "ytech:wooden_bolt"
+    }
+  },
+  "result": {
+    "item": "shieldsplus:wooden_shield"
+  }
+}

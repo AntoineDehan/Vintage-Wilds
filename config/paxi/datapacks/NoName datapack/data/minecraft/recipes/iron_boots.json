@@ -1,0 +1,14 @@
+{
+  "type": "iguanatweaksexpanded:forging",
+  "category": "forge_misc",
+  "ingredient": {
+    "item": "ytech:iron_plate"
+  },
+  "amount": 4,
+  "gear": {
+    "item": "ytech:leather_strips"
+  },
+  "result": "minecraft:iron_boots",
+  "smashes_required": 6,
+  "experience": 8
+}

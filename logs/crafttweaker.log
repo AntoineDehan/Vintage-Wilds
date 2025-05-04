@@ -1,0 +1,53 @@
+[13:36:44.788][INFO][CraftTweaker-EarlyInit]: CraftTweaker is running on a Minecraft 1.20.1 production client modded with platform Forge
+[13:36:44.821][INFO][CraftTweaker-EarlyInit]: Successfully injected RecipeFS file system
+[13:36:44.918][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin
+[13:36:44.919][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin_forge
+[13:36:45.497][INFO][CraftTweaker]: The following mods have explicit CraftTweaker support through the default plugin:
+[13:36:45.498][INFO][CraftTweaker]: - 'crafttweaker' at version '14.0.43'
+[13:36:45.498][INFO][CraftTweaker]: - 'spoiled' at version '2.1.2'
+[13:36:46.918][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'initialize'
+[13:36:47.527][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[13:36:47.600][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[13:36:47.857][INFO][CraftTweaker-ZenCode]: Execution for loader 'initialize' completed successfully
+[13:36:57.902][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'tags'
+[13:36:57.913][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[13:36:57.938][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[13:36:57.945][INFO][CraftTweaker-ZenCode]: Execution for loader 'tags' completed successfully
+[13:36:58.185][INFO][CraftTweaker]: CraftTweaker reload starting!
+[13:36:58.186][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'crafttweaker'
+[13:36:58.199][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[13:36:58.469][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [mods, crafttweaker, expansions]
+[13:36:58.469][INFO][CraftTweaker-ZenCode]: Loading file 'furnace.zs' with priority 0
+[13:36:58.480][ERROR][CraftTweaker-ZenCode]: furnace.zs:6:8: furnace.zs:6:8: No such member: output
+[13:36:58.480][ERROR][CraftTweaker]: Scripts are invalid!
+[13:36:58.480][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
+[13:36:58.484][INFO][CraftTweaker]: CraftTweaker reload complete!
+[13:36:58.485][INFO][CraftTweaker]: This reload was made possible by Hooley and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[13:37:01.162][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'tags'
+[13:37:01.162][INFO][CraftTweaker-ZenCode]: Undoing previous actions
+[13:37:01.175][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[13:37:01.176][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[13:37:01.182][INFO][CraftTweaker-ZenCode]: Execution for loader 'tags' completed successfully
+[13:37:01.253][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'crafttweaker'
+[13:37:01.253][INFO][CraftTweaker-ZenCode]: Undoing previous actions
+[13:37:01.262][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[13:37:01.315][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [mods, crafttweaker, expansions]
+[13:37:01.315][INFO][CraftTweaker-ZenCode]: Loading file 'furnace.zs' with priority 0
+[13:37:01.316][ERROR][CraftTweaker-ZenCode]: furnace.zs:6:8: furnace.zs:6:8: No such member: output
+[13:37:01.316][ERROR][CraftTweaker]: Scripts are invalid!
+[13:37:01.316][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
+[13:37:01.317][INFO][CraftTweaker]: This reload was made possible by Jellycraft and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[13:37:01.844][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'tags'
+[13:37:01.844][INFO][CraftTweaker-ZenCode]: Undoing previous actions
+[13:37:01.853][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[13:37:01.854][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[13:37:01.859][INFO][CraftTweaker-ZenCode]: Execution for loader 'tags' completed successfully
+[13:37:01.902][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'crafttweaker'
+[13:37:01.902][INFO][CraftTweaker-ZenCode]: Undoing previous actions
+[13:37:01.910][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[13:37:01.947][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [mods, crafttweaker, expansions]
+[13:37:01.947][INFO][CraftTweaker-ZenCode]: Loading file 'furnace.zs' with priority 0
+[13:37:01.948][ERROR][CraftTweaker-ZenCode]: furnace.zs:6:8: furnace.zs:6:8: No such member: output
+[13:37:01.948][ERROR][CraftTweaker]: Scripts are invalid!
+[13:37:01.948][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
+[13:37:01.948][INFO][CraftTweaker]: This reload was made possible by embeddedt and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod

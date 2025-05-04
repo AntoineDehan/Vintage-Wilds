@@ -1,0 +1,44 @@
+[
+  {
+    "entity": "minecraft:zombie",
+    "weight": 15,
+    "first_day": 0,
+    "last_day": 0
+  },
+  {
+    "entity": "luminous_monsters:miner_zombie",
+    "weight": 3,
+    "first_day": 0,
+    "last_day": 0
+  },
+  {
+    "entity": "legendarycreatures:forest_mojo",
+    "weight": 5,
+    "first_day": 14,
+    "last_day": 0
+  },
+  {
+    "entity": "enemyexpansion:huntsman",
+    "weight": 5,
+    "first_day": 20,
+    "last_day": 0
+  },
+  {
+    "entity": "enemyexpansion:equestrian",
+    "weight": 3,
+    "first_day": 30,
+    "last_day": 0
+  },
+  {
+    "entity": "alexsmobs:rocky_roller",
+    "weight": 4,
+    "first_day": 30,
+    "last_day": 0
+  },
+  {
+    "entity": "legendarycreatures:corpse_eater",
+    "weight": 4,
+    "first_day": 40,
+    "last_day": 0
+  }
+]

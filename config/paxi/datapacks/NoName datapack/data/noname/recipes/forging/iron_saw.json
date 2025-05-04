@@ -1,0 +1,14 @@
+{
+  "type": "iguanatweaksexpanded:forging",
+  "category": "forge_misc",
+  "ingredient": {
+    "item": "ytech:iron_plate"
+  },
+  "amount": 2,
+  "gear": {
+    "item": "minecraft:stick"
+  },
+  "result": "ytech:iron_saw",
+  "smashes_required": 12,
+  "experience": 15
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:bricks"
+    },
+    "C": {
+      "item": "minecraft:campfire"
+    },
+    "i": {
+      "item": "ytech:copper_plate"
+    }
+  },
+  "pattern": ["iii", "B B", "BCB"],
+  "result": {
+    "item": "farmersdelight:stove"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,241 @@
+{
+	bestiaryTabs: [
+		{
+			tabID: [I;
+				-333950909
+				1074678012
+				-1548287681
+				1927308023
+			]
+			defaultBackground: 1b
+			background: {
+				id: "minecraft:air"
+				Count: 1b
+			}
+			icon: {
+				id: "minecraft:oak_log"
+				Count: 1b
+			}
+			tabEntries: [
+				{
+					entries: [
+						{
+							text_y_offset: 0
+							isCentered_x: 1b
+							render_setting: {
+								isCreated: 1b
+								green: 255
+								size_y: 14
+								size_x: 226
+								autoSize_advanced: 0b
+								scale: 1.0d
+								positions_y: 29
+								positions_x: 138
+								centerType: "CENTER_X"
+								autoSize: 1b
+								red: 100
+								blue: 180
+								alpha: 255
+							}
+							text_x_offset: 0
+							drawBackground: 1b
+							entryContentID: [I;
+								-1924340031
+								-826916658
+								-1891102411
+								-1771432725
+							]
+							text: "big test"
+							isCentered_y: 0b
+							entryID: "sdmTextEntryContent"
+						}
+						{
+							image: {
+								id: "minecraft:oak_log"
+								Count: 1b
+							}
+							path: ""
+							render_setting: {
+								isCreated: 1b
+								green: 255
+								size_y: 14
+								size_x: 226
+								autoSize_advanced: 0b
+								scale: 1.0d
+								positions_y: 29
+								positions_x: 138
+								centerType: "CENTER_X"
+								autoSize: 0b
+								red: 255
+								blue: 255
+								alpha: 255
+							}
+							button_type: "LINK"
+							imageBackground: {
+								id: "minecraft:air"
+								Count: 1b
+							}
+							entryContentID: [I;
+								1322148182
+								-118079018
+								-1604387529
+								1007862694
+							]
+							text: "button"
+							pos_x_offset: 0
+							pos_y_offset: 0
+							entryID: "buttonEntryContent"
+						}
+						{
+							text_y_offset: 0
+							isCentered_x: 1b
+							render_setting: {
+								isCreated: 1b
+								green: 255
+								size_y: 14
+								size_x: 226
+								autoSize_advanced: 0b
+								scale: 1.0d
+								positions_y: 29
+								positions_x: 138
+								centerType: "CENTER_X"
+								autoSize: 0b
+								red: 255
+								blue: 255
+								alpha: 255
+							}
+							text_x_offset: 0
+							drawBackground: 0b
+							entryContentID: [I;
+								1195880263
+								-1394851369
+								-1414395092
+								1490446649
+							]
+							text: ""
+							isCentered_y: 0b
+							entryID: "ftbTextEntryContent"
+						}
+						{
+							render_setting: {
+								isCreated: 1b
+								green: 255
+								size_y: 2
+								size_x: 226
+								autoSize_advanced: 0b
+								scale: 1.0d
+								positions_y: 29
+								positions_x: 138
+								centerType: "CENTER_X"
+								autoSize: 0b
+								red: 255
+								blue: 255
+								alpha: 255
+							}
+							entryContentID: [I;
+								-1630114711
+								1560432583
+								-1559663711
+								-971241022
+							]
+							space: 0
+							entryID: "spaceBestiaryEntryContent"
+						}
+						{
+							auto_rotate: 1b
+							render_setting: {
+								isCreated: 1b
+								green: 255
+								size_y: 32
+								size_x: 32
+								autoSize_advanced: 0b
+								scale: 5.0d
+								positions_y: 29
+								positions_x: 138
+								centerType: "CENTER_XY"
+								autoSize: 0b
+								red: 255
+								blue: 255
+								alpha: 255
+							}
+							speed_rotate: 1
+							entryContentID: [I;
+								424449199
+								-29013382
+								-1815016702
+								357420074
+							]
+							pitch: 180.0d
+							pos_x_offset: 0
+							yaw: 0.0d
+							pos_y_offset: 0
+							entity: "minecraft:ghast"
+							entryID: "entityBestiaryEntryContent"
+						}
+					]
+					defaultBackground: 1b
+					background: {
+						id: "minecraft:air"
+						Count: 1b
+					}
+					icon: {
+						id: "minecraft:air"
+						Count: 1b
+					}
+					title: ""
+					descriptions: [ ]
+					entryID: [I;
+						771559637
+						-131840132
+						-1428287692
+						177647922
+					]
+				}
+				{
+					entries: [ ]
+					defaultBackground: 1b
+					background: {
+						id: "minecraft:air"
+						Count: 1b
+					}
+					icon: {
+						id: "minecraft:air"
+						Count: 1b
+					}
+					title: ""
+					descriptions: [ ]
+					entryID: [I;
+						-1473266883
+						804146922
+						-2045250223
+						1545486996
+					]
+				}
+			]
+			titleScale: 1.0d
+			title: "Test"
+			renderTitle: 0b
+		}
+		{
+			tabID: [I;
+				1529786623
+				1793082081
+				-1336905957
+				1751357305
+			]
+			defaultBackground: 1b
+			background: {
+				id: "minecraft:air"
+				Count: 1b
+			}
+			icon: {
+				id: "minecraft:air"
+				Count: 1b
+			}
+			tabEntries: [ ]
+			titleScale: 1.0d
+			title: "Early Game"
+			renderTitle: 0b
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 0,
+    "discard_chance_on_air_exposure": 1,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:tag_match",
+          "tag": "minecraft:sand"
+        },
+        "state": {
+          "Name": "iguanatweaksexpanded:sand_durium_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:gravel"
+        },
+        "state": {
+          "Name": "iguanatweaksexpanded:gravel_durium_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:clay"
+        },
+        "state": {
+          "Name": "iguanatweaksexpanded:clay_durium_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:tag_match",
+          "tag": "minecraft:dirt"
+        },
+        "state": {
+          "Name": "iguanatweaksexpanded:dirt_durium_ore"
+        }
+      }
+    ]
+  }
+}

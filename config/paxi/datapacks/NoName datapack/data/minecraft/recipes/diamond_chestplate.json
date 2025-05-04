@@ -1,0 +1,14 @@
+{
+  "type": "iguanatweaksexpanded:forging",
+  "category": "forge_misc",
+  "ingredient": {
+    "item": "minecraft:diamond"
+  },
+  "amount": 8,
+  "gear": {
+    "item": "minecraft:golden_chestplate"
+  },
+  "result": "minecraft:diamond_chestplate",
+  "smashes_required": 16,
+  "experience": 23
+}

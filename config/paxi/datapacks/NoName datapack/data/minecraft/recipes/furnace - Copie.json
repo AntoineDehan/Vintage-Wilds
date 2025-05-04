@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:cobbled_deepslate"
+    },
+    "F": {
+      "item": "minecraft:furnace"
+    },
+    "A": {
+      "item": "ytech:copper_plate"
+    },
+    "B": {
+      "item": "minecraft:smooth_stone"
+    }
+  },
+  "pattern": ["CCC", "AFA", "BBB"],
+  "result": {
+    "item": "iguanatweaksexpanded:blast_furnace"
+  },
+  "show_notification": true
+}

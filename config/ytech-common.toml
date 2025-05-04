@@ -1,0 +1,83 @@
+
+[dryingRack]
+	#If Drying Rack should stop working during rain
+	noDryingDuringRain = true
+
+[irrigation]
+
+	[irrigation.aqueduct]
+		#Base amount of fluid stored per block
+		#Range: > 1
+		baseFluidStoragePerBlock = 500
+		#If raining should fill aqueduct
+		rainingFillAqueduct = true
+		#Amount of which will be aqueduct filled per nth tick when raining
+		#Range: > 1
+		rainingFillAmount = 1
+		#How often should be filled aqueduct when raining (1 - every tick, 20 - every second)
+		#Range: > 1
+		rainingFillPerNthTick = 80
+		#If aqueduct must see sky and must be in valid biome where is raining when raining for filling
+		validBlockForRaining = true
+		#If dripping should fill aqueduct
+		drippingFillAqueduct = true
+		#Amount of which will be aqueduct filled per nth tick when dripping
+		#Range: > 1
+		drippingFillAmount = 1
+		#How often should be filled aqueduct when dripping (1 - every tick, 20 - every second)
+		#Range: > 1
+		drippingFillPerNthTick = 220
+
+	[irrigation.valve]
+		#Amount of which will be aqueduct filled every nth tick thru valve
+		#Range: > 1
+		valveFillAmount = 1
+		#How often should be filled aqueduct thru valve (1 - every tick, 20 - every second)
+		#Range: > 1
+		valveFillPerNthTick = 10
+
+	[irrigation.hydrator]
+		#Amount of which will be aqueduct drained every nth tick thru hydrator
+		#Range: > 1
+		hydratorDrainAmount = 100
+		#How often should be drained aqueduct thru hydrator (1 - every tick, 20 - every second)
+		#Range: > 1
+		hydratorDrainPerNthTick = 200
+
+	[irrigation.fertilizer]
+		#How long last single piece of fertilizer
+		#Range: > 1
+		fertilizerDuration = 600
+		#How often should be applied bone meal effect (1 / n chance per tick)
+		#Range: > 1
+		applyFertilizerChance = 60
+
+	[irrigation.wellPulley]
+		#How much water Well Pulley generate each 10 ticks
+		#Range: > 1
+		wellPulleyGeneration = 100
+		#Bonus for Well Pulley generation in wet biome
+		#Range: 4.9E-324 ~ 1.7976931348623157E308
+		wetBiomeBonus = 2.0
+		#Bonus for Well Pulley generation in dry biome
+		#Range: 4.9E-324 ~ 1.7976931348623157E308
+		dryBiomeBonus = 0.5
+
+[wildAnimalsBreeding]
+	#Minimum generations for domestic animal breeding result
+	#Range: > 1
+	minBreedingGenerations = 3
+	#Chance for domestic animal breeding result, multiplied by each generation after minBreedingGenerations
+	#Range: 2.2250738585072014E-308 ~ 1.0
+	domesticChance = 0.2
+	#If remove vanilla mobs spawning (sheeps, cows, chickens and pigs)
+	removeVanillaMobs = false
+
+[waterBehavior]
+	#If water sources are finite
+	finiteWaterSource = true
+	#If crops need watered farmland for growing
+	cropsNeedWateredFarmland = true
+	#If hydrating farmland causes removing water source
+	farmlandConsumesWater = true
+

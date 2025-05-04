@@ -1,0 +1,70 @@
+
+# Options related to mob spawning
+# Whether or not the mob will spawn naturally in the biomes defined in json/[mobName]-spawn.json
+# Whether or not the mob will spawn when breaking blocks defined in json/[mobName]-spawn.json
+# Whether or not the mob will spawn when killing entities defined in json/[mobName]-spawn.json
+[MobSpawning]
+
+	[MobSpawning.desert_mojo]
+		"Desert Mojo Natural Spawn " = true
+		"Desert Mojo Breaking Block Spawn " = true
+		"Desert Mojo Killing Entity Spawn " = true
+
+	[MobSpawning.forest_mojo]
+		"Forest Mojo Natural Spawn " = true
+		"Forest Mojo Breaking Block Spawn " = true
+		"Forest Mojo Killing Entity Spawn " = true
+
+	[MobSpawning.hound]
+		"Hound Natural Spawn " = true
+		"Hound Breaking Block Spawn " = true
+		"Hound Killing Entity Spawn " = true
+
+	[MobSpawning.Scarecrow]
+		"Scarecrow Natural Spawn " = true
+		"Scarecrow Breaking Block Spawn " = true
+		"Scarecrow Killing Entity Spawn " = true
+
+	[MobSpawning.scorpion]
+		"Scorpion Natural Spawn " = true
+		"Scorpion Breaking Block Spawn " = true
+		"Scorpion Killing Entity Spawn " = true
+
+	[MobSpawning.scorpion_baby]
+		"Baby Scorpion Natural Spawn " = true
+		"Baby Scorpion Breaking Block Spawn " = true
+		"Baby Scorpion Killing Entity Spawn " = true
+
+	[MobSpawning.wisp]
+		"Wisp Natural Spawn " = true
+		"Wisp Breaking Block Spawn " = true
+		"Wisp Killing Entity Spawn " = true
+		"Wisp Purse Xp Reward Range " = [30, 30]
+
+	[MobSpawning.nether_wisp]
+		"Nether Wisp Natural Spawn " = true
+		"Nether Wisp Breaking Block Spawn " = true
+		"Nether Wisp Killing Entity Spawn " = true
+		"Nether Wisp Purse Xp Reward Range " = [80, 80]
+
+	[MobSpawning.ender_wisp]
+		"Ender Wisp Natural Spawn " = true
+		"Ender Wisp Breaking Block Spawn " = true
+		"Ender Wisp Killing Entity Spawn " = true
+		"Ender Wisp Purse Xp Reward Range " = [240, 240]
+
+	[MobSpawning.corpse_eater]
+		"Corpse Eater Natural Spawn " = true
+		"Corpse Eater Breaking Block Spawn " = true
+		"Corpse Eater Killing Entity Spawn " = true
+
+	[MobSpawning.peacock_spider]
+		"Peacock Spider Natural Spawn " = true
+		"Peacock Spider Breaking Block Spawn " = true
+		"Peacock Spider Killing Entity Spawn " = true
+
+	[MobSpawning.bullfrog]
+		"Bullfrog Natural Spawn " = true
+		"Bullfrog Breaking Block Spawn " = true
+		"Bullfrog Killing Entity Spawn " = true
+

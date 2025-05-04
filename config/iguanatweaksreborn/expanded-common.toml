@@ -1,0 +1,194 @@
+"Enable Combat" = true
+"Enable Experience" = true
+"Enable Hunger & Health" = true
+"Enable Items" = true
+"Enable Mining" = true
+"Enable Miscellaneous" = true
+"Enable Mobs" = false
+"Enable Movement" = true
+"Enable Sleep & Respawn" = true
+"Enable World" = true
+
+[World]
+	#If this feature is enabled, 'Unlit campfire' from IguanaTweaks Reborn is set to true
+	"Enable Coal & Charcoal" = true
+
+	#If this feature is enabled, 'Unlit campfire' from IguanaTweaks Reborn is set to true
+	[World."Coal & Charcoal"]
+		#Chance for logs to release charcoal layer when burnt
+		#Range: 0.0 ~ 1.0
+		"Charcoal from burnt logs chance" = 0.8
+		#If enabled, a data pack will be enabled that removes the Charcoal recipe from smelting and makes Coal Ore require an Iron Pickaxe or better to mine.
+		"No charcoal smelting and iron coal" = true
+
+		[World."Coal & Charcoal"."Two flint fire starter"]
+			#If true, two flints (on per hand) can start a fire
+			Enabled = true
+			#Chance to ignite a block when using two flints
+			#Range: 0.0 ~ 1.0
+			"Ignite Chance" = 0.2
+			#Chance for the flint to break when using two flints
+			#Range: 0.0 ~ 1.0
+			"Break Chance" = 0.35
+
+["Sleep & Respawn"]
+	#Zombies drop cloth instead of Rotten Flesh. Cloth is used to make beds and various other stuff.
+	"Enable Cloth" = true
+	#Generate Respawn Obelisks around the world where a precise respawn can be set
+	"Enable Respawn Obelisk" = true
+
+	#Zombies drop cloth instead of Rotten Flesh. Cloth is used to make beds and various other stuff.
+	["Sleep & Respawn".Cloth]
+		#Enables a Data Pack that makes zombies drop cloth instead of rotten flesh and beds require Cloth to be crafted.
+		"Data Pack" = false
+
+[Movement]
+
+	[Movement.Minecarts]
+		#If true, enables a data pack that makes rails cheaper and adds recipes for new rails.
+		"Data Pack" = true
+
+[Mobs]
+	#Increase monsters health, movement speed, etc. This feature uses Mobs Properties Randomness.
+	"Enable Stats Buffs" = false
+	#Changes some values in EnhancedAI config
+	"Enable EnhancedAI" = false
+
+	#Increase monsters health, movement speed, etc. This feature uses Mobs Properties Randomness.
+	[Mobs."Stats Buffs"]
+		#Enables a Data Pack that buffs mobs.
+		"Enable DataPack" = false
+
+[Miscellaneous]
+	#Various data packs that can be enabled/disabled
+	"Enable Data Packs" = true
+
+	#Various data packs that can be enabled/disabled
+	[Miscellaneous."Data Packs"]
+		#If true, no integrated data pack will be loaded
+		"Disable ALL data packs" = false
+		#Enables a Data Pack that overhauls advancements to make them work with IguanaTweaks.
+		Advancements = true
+		#Enables a data pack that changes all the item stats
+		"Item Stats" = false
+		#If true a data pack will be enabled that overhauls structure loot. This overrides some loot tables from ITR
+		"Better Structure Loot" = false
+		#Change some vanilla textures such as arrows to flint, spawners to echo and also some lang entries
+		"Assets override" = true
+		"Block Data Data Pack" = true
+
+[Mining]
+	#Add repair kits, making you able to repair items in the crafting grid
+	"Enable Repair Kits" = false
+	#Add Soul Steel, a new metal made by alloying Iron, Soul Sand and Hellish Coal
+	"Enable Soul Steel" = false
+	#Enables a Data Pack that makes Beeg Ore Veins generate. On the surface of the overworld you can now find ore rocks. These indicate that underground there's a huge vein of that ore
+	"Enable Beeg Ore Veins" = true
+
+	#Add Durium, a new metal made by alloying Durium Scrap (found as scrap pieces in ores in the Overworld) and can be used to upgrade Iron Equipment
+	[Mining.Durium]
+		#Enables a data pack that makes Lodestone require Durium instead of Netherite.
+		"Durium Lodestone" = false
+
+	#Add repair kits, making you able to repair items in the crafting grid
+	[Mining."Repair Kits"]
+		#How many ingots does a repair kit repair
+		#Range: > 1
+		"Repair Kit Ingot Ratio" = 2
+
+	#Add new multi block furnaces
+	[Mining."Multi Block Furnaces"]
+		#If true, the Blasting category will be hidden in EMI.
+		"Hide Blasting category in EMI" = true
+		#Enables a data pack that changes the vanilla Blast Furnace recipe to give the multi block blast furnace. Also prevents using the vanilla Blast Furnace (break it to get ITR one)
+		"Blast Furnace Data pack" = true
+
+	[Mining.Forging]
+		#Enchanted items can't be forged
+		"Unforgable enchanted items" = true
+		#Enables the following changes to vanilla data pack:
+		#* All metal gear requires a forge to be made
+		#* Diamond Gear requires Gold gear to be forged
+		#* Gold Gear requires Flint / Leather gear to be forged
+		#* Iron Gear requires Stone / Chained Copper gear to be forged
+		#* Buckets, Flint and Steel and Shears require a forge to be made
+		"Forging Equipment Crafting Data Pack" = true
+
+[Items]
+	"Enable Tool Belt Integration" = true
+	#Back to base
+	"Enable Recall Potion" = true
+
+	#Add flint tools and shield.
+	[Items."Flint Expansion"]
+		#If true, a data pack will be enabled that disables stone tools crafting and generation in chests will be replaced with flint ones
+		"Disable Stone Tools" = true
+
+	#A new block that can let you carry more stuff around.
+	[Items.Crate]
+		#Range: > 0
+		"Max crates without slowdown" = 1
+		#When you have > 'Max crates without slowdown' this is the base value for the slowdown. The slowdown is calculated as (crates above 'Max crates' * this * crates above 'Max crates')
+		#Range: 0.0 ~ 1.0
+		"Base Slowness per crate over max" = 0.05
+
+	#Check your altitude
+	[Items.Altimeter]
+		"Show approx altitude in tooltip" = true
+
+	[Items."Tool Belt Integration"]
+		#Enables a data pack that changes the crafting of the Tool Belt to give more slots (2 -> 4). Also makes the cost to upgrade start from 4 instead of 2
+		"Bigger ToolBelt" = true
+
+["Hunger & Health"]
+	#Adds new foods and drinks.
+	"Enable New Foods & Drinks" = true
+
+[Experience]
+	#Adds a brand new enchanting table. If this feature is enabled, a data pack is also enabled that changes the enchanting table recipe to give the new one and replaces xp bottles with enchanted cleansed lapis. Items in iguanatweaksexpanded:not_enchantable tag cannot be enchanted.
+	"Enable Enchanting" = false
+	#Adds new enchantments. Please note that Damaging enchantments such as water coolant are enabled only if ITR 'Replace damaging enchantments' is enabled. This also applies for protection enchantments and ITR 'Replace protection enchantments'
+	"Enable New Enchantments" = true
+
+	#Adds a brand new enchanting table. If this feature is enabled, a data pack is also enabled that changes the enchanting table recipe to give the new one and replaces xp bottles with enchanted cleansed lapis. Items in iguanatweaksexpanded:not_enchantable tag cannot be enchanted.
+	[Experience.Enchanting]
+		#Enchanted items can no longer be merged with other enchanted items (also applies to enchanted books).
+		"No enchantment merge" = false
+		#Enchanted items can no longer be upgraded (e.g. netherite)
+		"No enchanted smithing" = true
+		#If true, some mixins are used on Allurement to make the enchantments work on more things and configs are changed to not overlap with ITE.
+		#Requires Minecraft Restart.
+		#PLEASE NOTE that due to config limitation, some things cannot be disabled, so better use item tags. E.g. Launch enchantment uses a new iguanatweaksexpanded:enchanting/allurement/accepts_launch_enchantments item tag to decide which item accepts the enchantment.
+		#
+		"Allurement integration" = false
+		#If true, the new enchanting table must learn all the enchantments and not only treasure.
+		"Enchanting Table requires learning enchantments" = true
+
+		[Experience.Enchanting.Grindstone]
+			#If true, grindstone will give XP based off the new enchanting table. This is based off the ITR levelScalingFormula set to a fixed value
+			"Better XP" = true
+			#If true, grindstone will be able to extract treasure enchantments (and curses) from items onto books. Please note this feature is incompatible with Forgery, so you should ban the "Grindstone disenchantment" feature from it.
+			"Treasure enchantment extraction" = true
+			#If true, grindstone will be able to extract all enchantments, not only treasure enchantments.
+			"Enchantment extraction" = true
+			#If true, grindstone will also remove curses when disenchanting.
+			"Curse removal" = true
+
+[Combat]
+	#Gives a use to the fletching table.
+	"Enable Fletching table" = true
+	#Changes to Shields+.
+	"Enable Shields+" = true
+
+	#Gives a use to the fletching table.
+	[Combat."Fletching table"]
+		#Enables the following changes:
+		#* Replaces the vanilla fletching table recipe with the mod's one
+		#* Adds more arrows recipes
+		"Fletching Data Pack" = true
+
+	#Changes to Shields+.
+	[Combat."Shields+"]
+		#Changes the crafting recipes of metal shields to require a Forge and rebalances the shields.
+		"Shields+ Compat DataPack" = true
+

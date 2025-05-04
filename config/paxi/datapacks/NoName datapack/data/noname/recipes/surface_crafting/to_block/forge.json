@@ -1,0 +1,54 @@
+{
+  "type": "craft_on_surface:surface_crafting_recipe",
+  "materials": [
+    {
+      "item": "minecraft:smooth_stone"
+    },
+    {
+      "item": "minecraft:smooth_stone"
+    },
+    {
+      "item": "minecraft:smooth_stone"
+    },
+    {
+      "item": "minecraft:smooth_stone"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "ytech:wooden_bolt"
+    },
+    {
+      "item": "ytech:wooden_bolt"
+    },
+    {
+      "item": "ytech:wooden_plate"
+    }
+  ],
+  "output": {
+    "item": "iguanatweaksexpanded:forge"
+  },
+  "surface_block": "dens_addition:primitive_crafting_table"
+}

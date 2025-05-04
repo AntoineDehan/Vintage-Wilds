@@ -1,0 +1,14 @@
+{
+  "type": "iguanatweaksexpanded:forging",
+  "category": "forge_misc",
+  "ingredient": {
+    "item": "ytech:copper_plate"
+  },
+  "amount": 2,
+  "gear": {
+    "item": "minecraft:leather_boots"
+  },
+  "result": "dens_addition:copper_reinforced_leather_boots",
+  "smashes_required": 6,
+  "experience": 15
+}

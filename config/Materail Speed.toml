@@ -1,0 +1,149 @@
+
+[AirAtFeet]
+	#Speed at which you go when you aren't walking through any blocks,
+	"Air At Feet" = 1.0
+
+["minecraft:dirt"]
+	#How fast you go on Dirt
+	"minecraft:dirt" = 1.0
+	#How fast you go on Dirt when you are passing through a block at your feet, this should be slower than the minecraft:dirt value
+	"dirt/block at feet" = 1.0
+	#How fast you go on Dirt when you are passing through a block at your face, this should be slower than the minecraft:dirt value
+	"dirt/block at face" = 1.0
+
+["minecraft:planks"]
+	#How fast you go on Planks
+	"minecraft:planks" = 1.0
+	#How fast you go on Planks when you are passing through a block at your feet, this should be slower than the minecraft:planks value
+	"planks/block at feet" = 1.0
+	#How fast you go on Planks when you are passing through a block at your face, this should be slower than the minecraft:planks value
+	"planks/block at face" = 1.0
+
+["minecraft:glass"]
+	#How fast you go on Glass
+	"minecraft:glass" = 1.0
+	#How fast you go on Glass when you are passing through a block at your feet, this should be slower than the minecraft:glass value
+	"glass/block at feet" = 1.0
+	#How fast you go on Glass when you are passing through a block at your face, this should be slower than the minecraft:glass value
+	"glass/block at face" = 1.0
+
+["forge:plastic"]
+	#How fast you go on Plastic
+	"forge:plastic" = 1.0
+	#How fast you go on Plastic when you are passing through a block at your feet, this should be slower than the forge:plastic value
+	"plastic/block at feet" = 1.0
+	#How fast you go on Plastic when you are passing through a block at your face, this should be slower than the forge:plastic value
+	"plastic/block at face" = 1.0
+
+["minecraft:log"]
+	#How fast you go on Logs
+	"minecraft:log" = 1.0
+	#How fast you go on Logs when you are passing through a block at your feet, this should be slower than the minecraft:log value
+	"log/block at feet" = 1.0
+	#How fast you go on Logs when you are passing through a block at your face this should be slower than the minecraft:log value
+	"log/block at face" = 1.0
+
+["minecraft:grass_block"]
+	#How fast you go on Grass
+	"minecraft:grass_block" = 1.0
+	#How fast you go on Grass when you are passing through a block at your feet, this should be slower than the minecraft:grass_block value
+	"grass/block at feet" = 1.0
+	#How fast you go on Grass when you are passing through a block at your face this should be slower than the minecraft:grass_block value
+	"grass/block at face" = 1.0
+
+["minecraft:wool"]
+	#How fast you go on Wool
+	"minecraft:wool" = 1.0
+	#How fast you go on Wool when you are passing through a block at your feet, this should be slower than the minecraft:wool value
+	"wool/block at feet" = 1.0
+	#How fast you go on Wool when you are passing through a block at your face this should be slower than the minecraft:wool value
+	"wool/block at face" = 1.0
+
+["minecraft:stone"]
+	#How fast you go on Stone
+	"minecraft:stone" = 1.0
+	#How fast you go on Stone when you are passing through a block at your feet, this should be slower than the minecraft:stone value
+	"stone/block at feet" = 1.0
+	#How fast you go on Stone when you are passing through a block at your face this should be slower than the minecraft:stone value
+	"stone/block at face" = 1.0
+
+["minecraft:terracotta"]
+	#How fast you go on Terracotta
+	"minecraft:terracotta" = 1.0
+	#How fast you go on Terracotta when you are passing through a block at your feet, this should be slower than the minecraft:terracotta value
+	"terracotta/block at feet" = 1.0
+	#How fast you go on Terracotta when you are passing through a block at your face this should be slower than the minecraft:terracotta value
+	"terracotta/block at face" = 1.0
+
+["minecraft:netherrack"]
+	#How fast you go on Netherrack
+	"minecraft:netherrack" = 1.0
+	#How fast you go on Netherrack when you are passing through a block at your feet, this should be slower than the minecraft:netherrack value
+	"netherrack/block at feet" = 1.0
+	#How fast you go on Netherrack when you are passing through a block at your face this should be slower than the minecraft:netherrack value
+	"netherrack/block at face" = 1.0
+
+["forge:ores"]
+	#How fast you go on Ores
+	"forge:ores" = 1.0
+	#How fast you go on Ores when you are passing through a block at your feet, this should be slower than the forge:ores value
+	"ores/block at feet" = 1.0
+	#How fast you go on Ores when you are passing through a block at your face this should be slower than the forge:ores value
+	"ores/block at face" = 1.0
+
+["forge:metal"]
+	#How fast you go on Metal
+	"forge:metal" = 1.0
+	#How fast you go on Metal when you are passing through a block at your feet, this should be slower than the forge:metal value
+	"metal/block at feet" = 1.0
+	#How fast you go on Metal when you are passing through a block at your face this should be slower than the forge:metal value
+	"metal/block at face" = 1.0
+
+["minecraft:sand"]
+	#How fast you go on Sand
+	"minecraft:sand" = 1.0
+	#How fast you go on Sand when you are passing through a block at your feet, this should be slower than the minecraft:sand value
+	"sand/block at feet" = 1.0
+	#How fast you go on Sand when you are passing through a block at your face this should be slower than the minecraft:sand value
+	"sand/block at face" = 1.0
+
+["minecraft:gravel"]
+	#How fast you go on Gravel
+	"minecraft:gravel" = 1.0
+	#How fast you go on Gravel when you are passing through a block at your feet, this should be slower than the minecraft:gravel value
+	"gravel/block at feet" = 1.0
+	#How fast you go on Gravel when you are passing through a block at your face this should be slower than the minecraft:gravel value
+	"gravel/block at face" = 1.0
+
+["minecraft:snow"]
+	#How fast you go on Snow
+	"minecraft:snow" = 1.0
+	#How fast you go on Snow when you are passing through a block at your feet, this should be slower than the minecraft:snow value
+	"snow/block at feet" = 1.0
+	#How fast you go on Snow when you are passing through a block at your face this should be slower than the minecraft:snow value
+	"snow/block at face" = 1.0
+
+["minecraft:concrete_powder"]
+	#How fast you go on Concrete Powder
+	"minecraft:concrete_powder" = 1.0
+	#How fast you go on Concrete Powder when you are passing through a block at your feet, this should be slower than the minecraft:concrete_powder value
+	"concrete powder/block at feet" = 1.0
+	#How fast you go on Concrete Powder when you are passing through a block at your face, this should be slower than the minecraft:concrete_powder value
+	"concrete powder/block at face" = 1.0
+
+["minecraft:leaves"]
+	#How fast you go on Leaves
+	"minecraft:leaves" = 1.0
+	#How fast you go on Leaves when you are passing through a block at your feet, this should be slower than the minecraft:leaves value
+	"leaves/block at feet" = 1.0
+	#How fast you go on Leaves when you are passing through a block at your face, this should be slower than the minecraft:leaves value
+	"leaves/block at face" = 1.0
+
+["minecraft:clay"]
+	#How fast you go on Clay
+	"minecraft:clay" = 1.0
+	#How fast you go on Clay when you are passing through a block at your feet, this should be slower than the minecraft:clay value
+	"clay/block at feet" = 1.0
+	#How fast you go on Clay when you are passing through a block at your face, this should be slower than the minecraft:clay value
+	"clay/block at face" = 1.0
+

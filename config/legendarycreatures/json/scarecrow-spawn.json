@@ -1,0 +1,28 @@
+{
+  "block_names": {},
+  "block_tags": {
+    "minecraft:crops": {
+      "chance": 0.0
+    },
+    "sereneseasons:winter_crops": {
+      "chance": 0.0
+    },
+    "sereneseasons:spring_crops": {
+      "chance": 0.0
+    },
+    "sereneseasons:summer_crops": {
+      "chance": 0.0
+    },
+    "sereneseasons:autumn_crops": {
+      "chance": 0.0
+    }
+  },
+  "entity_names": {},
+  "entity_type_tags": {},
+  "black_list": {
+    "block_names": [],
+    "block_tags": [],
+    "entity_names": [],
+    "entity_type_tags": []
+  }
+}

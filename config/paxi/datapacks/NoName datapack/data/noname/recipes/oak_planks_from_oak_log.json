@@ -1,0 +1,16 @@
+{
+  "type": "bookshelf:shapeless_durability",
+  "damageAmount": 1,
+  "ingredients": [
+    {
+      "tag": "ytech:saws"
+    },
+    {
+      "item": "minecraft:oak_log"
+    }
+  ],
+  "result": {
+    "item": "minecraft:oak_planks",
+    "count": 4
+  }
+}

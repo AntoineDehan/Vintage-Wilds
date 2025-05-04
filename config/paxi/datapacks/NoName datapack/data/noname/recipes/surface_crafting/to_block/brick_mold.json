@@ -1,0 +1,36 @@
+{
+  "type": "craft_on_surface:surface_crafting_recipe",
+  "materials": [
+    {
+      "item": "ytech:wooden_plate"
+    },
+    {
+      "item": "ytech:wooden_plate"
+    },
+    {
+      "item": "ytech:wooden_plate"
+    },
+    {
+      "item": "ytech:wooden_plate"
+    },
+    {
+      "item": "ytech:wooden_plate"
+    },
+    {
+      "item": "ytech:wooden_bolt"
+    },
+    {
+      "item": "ytech:wooden_bolt"
+    },
+    {
+      "item": "ytech:wooden_bolt"
+    },
+    {
+      "item": "ytech:wooden_bolt"
+    }
+  ],
+  "output": {
+    "item": "ytech:brick_mold"
+  },
+  "surface_block": "dens_addition:primitive_crafting_table"
+}

@@ -1,0 +1,287 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "primitive_age"
+	group: ""
+	icon: "ytech:unfired_brick"
+	id: "41D2D6714A7FDF3F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"To chop wood you will need an axe, the first tier of tools is made with flint."
+				"To obtain some flint you will find them scattered on the ground or you can still break gravel to get some."
+			]
+			id: "57D5FC4FD49527C6"
+			tasks: [{
+				id: "2E4117C5CCFB7EB1"
+				item: "minecraft:flint"
+				title: "Obtain some Flint"
+				type: "item"
+			}]
+			title: "First step"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57D5FC4FD49527C6"]
+			description: ["Craft your first Flint Axe, congrats, you can now chop some wood!"]
+			id: "49CF295AF121E359"
+			tasks: [{
+				id: "6AF6945196475401"
+				item: {
+					Count: 1
+					id: "dens_addition:flint_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["49CF295AF121E359"]
+			description: [
+				"You've got a wooden log but you won't be able to create planks like that, you will need at least a Copper Saw for that."
+				""
+				"You can use logs to craft other items and/or the Primitive Crafting Table."
+			]
+			id: "63400B5D93B518A2"
+			tasks: [{
+				id: "67A29AC4A1B60C38"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63400B5D93B518A2"]
+			description: [
+				"To craft a campfire, right click on the ground on any solid block with some Fire Logs, Sticks and Charcoal."
+				""
+				"To create Charcoal you can burn a log, you can use two Flints (one in your main hand and the other in your off hand) to create a fire."
+			]
+			id: "0BD45BC48F14EE97"
+			tasks: [{
+				icon: "minecraft:campfire"
+				id: "2C457D90F376C34D"
+				observe_type: 0
+				timer: 0L
+				title: "Craft a Campfire"
+				to_observe: "minecraft:campfire"
+				type: "observation"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F62812051EA21B6"]
+			description: ["To progress further Clay is an important step."]
+			hide_until_deps_complete: true
+			id: "1DE8DC32ADF342DC"
+			tasks: [{
+				id: "23251E7DB60AAD6C"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6F62812051EA21B6"]
+			description: [
+				"You won't be able to craft a crafting table for some moment so you need to use the primitive crafting table."
+				""
+				"To craft a Primitive Crafting Table, place a log and right-click on it with a flint knife."
+				""
+				"To craft items with it, right click with an item/block on it to combine certain item/block."
+			]
+			hide_until_deps_complete: true
+			id: "3D33914EC566F90F"
+			tasks: [{
+				icon: "dens_addition:primitive_crafting_table"
+				id: "2CD327318703B8A3"
+				observe_type: 0
+				timer: 0L
+				title: "Create a Primitive Crafting Table"
+				to_observe: "dens_addition:primitive_crafting_table"
+				type: "observation"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3D33914EC566F90F"]
+			description: ["First early game storage"]
+			id: "37047310D3CB7DE8"
+			tasks: [{
+				id: "399503B240457033"
+				item: "primalstorage:oak_shelves"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D33914EC566F90F"]
+			id: "2B148EDECB3CAFD7"
+			tasks: [{
+				id: "40A661C7199B54A4"
+				item: "ytech:grass_bed"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5109FC4CE3A511AE"]
+			id: "458A888B9749186F"
+			tasks: [{
+				id: "7B1F50298CEEA8C3"
+				item: "brickfurnace:brick_furnace"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["458A888B9749186F"]
+			id: "305A4CD7A3FE133A"
+			tasks: [{
+				id: "20D9068B4E4C5C40"
+				item: "brickfurnace:brick_smoker"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["458A888B9749186F"]
+			description: ["The Brick Blast Furnace is you only furnace that is hot enough to smelt Copper."]
+			id: "18F5F126DAD1061E"
+			tasks: [{
+				id: "4335D10AEB73E88F"
+				item: "brickfurnace:brick_blast_furnace"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18F5F126DAD1061E"]
+			description: [
+				"Your only way to find Copper during the Primitive Stage is to found Copper Ore Rocks spawning on the surface."
+				""
+				"You will be able to found it in pretty much all biomes, there will be a good amount on the surface, mark the spot, it also means that there is Copper beneath it underground!"
+			]
+			id: "33DB428B465669F4"
+			tasks: [{
+				id: "564D7B5B5509C35B"
+				item: "minecraft:raw_copper"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["458A888B9749186F"]
+			id: "653F090B135AF9E8"
+			tasks: [{
+				id: "415BBFD1F262474A"
+				item: "storage_pots:storage_pot"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["458A888B9749186F"]
+			id: "4B5685D5181756BF"
+			tasks: [{
+				id: "65A00AB5C2524DAE"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0BD45BC48F14EE97"]
+			description: [
+				"Forget hitting Flint to create a fire. Obtain some Switch Grass Fiber and caft a Sparkling Flint."
+				""
+				"This item (and more) work to be able to lit up furnaces."
+			]
+			id: "6F62812051EA21B6"
+			tasks: [{
+				id: "289BD87FAAD20308"
+				item: {
+					Count: 1
+					id: "lititup:sparkling_flint"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57D5FC4FD49527C6"]
+			description: ["Craft your first knife, thanks to the Flint Knife you will be able to obtain Straw by cutting grass"]
+			id: "00346FE92D7FF10E"
+			tasks: [{
+				id: "1BA1C05BD9F88B48"
+				item: {
+					Count: 1
+					id: "farmersdelight:flint_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1DE8DC32ADF342DC"
+				"3D33914EC566F90F"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"You should start making bricks since they take a lot of time to cook."
+				""
+				"You will need a Brick Mold to shape your bricks."
+				""
+				"Put your Unfired Brick on a Campfire to cook it."
+			]
+			id: "5109FC4CE3A511AE"
+			tasks: [{
+				id: "19FB3E1FA08D81AE"
+				item: "ytech:unfired_brick"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["458A888B9749186F"]
+			id: "7222CD9FBB25DB68"
+			tasks: [{
+				id: "08822EE08C9EB14D"
+				item: "ytech:potters_wheel"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+	]
+	title: "Primitive age"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "iguanatweaksexpanded:multi_item_blasting",
+  "category": "blast_furnace_misc",
+  "cookingtime": 400,
+  "experience": 4.0,
+  "group": "emerald",
+  "ingredients": [
+    {
+      "item": "minecraft:emerald_ore"
+    }
+  ],
+  "result": "minecraft:emerald"
+}

@@ -1,0 +1,17 @@
+{
+	"ftbteams": {
+		"my_team": true
+	},
+	"sdm_bestiary": {
+		"bestiary": true
+	},
+	"ftbquests": {
+		"quests": true
+	},
+	"ftblibrary": {
+		"toggle.gamemode": true,
+		"toggle.rain": true,
+		"toggle.day": true,
+		"toggle.night": true
+	}
+}

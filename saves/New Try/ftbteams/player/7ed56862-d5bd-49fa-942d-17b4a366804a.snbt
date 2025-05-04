@@ -1,0 +1,17 @@
+{
+	id: "7ed56862-d5bd-49fa-942d-17b4a366804a"
+	type: "player"
+	player_name: "Den_lille"
+	ranks: {
+		7ed56862-d5bd-49fa-942d-17b4a366804a: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Den_lille"
+		"ftbteams:description": ""
+		"ftbteams:color": "#6859FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

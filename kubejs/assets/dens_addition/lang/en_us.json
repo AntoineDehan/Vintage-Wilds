@@ -1,0 +1,21 @@
+{
+  "item.dens_addition.clay_brick": "Clay brick",
+  "item.dens_addition.reinforced_leather": "Reinforced Leather",
+
+  "item.dens_addition.flint_pickaxe": "Flint Pickaxe",
+  "item.dens_addition.flint_axe": "Flint Axe",
+  "item.dens_addition.flint_shovel": "Flint Shovel",
+  "item.dens_addition.flint_sword": "Flint Sword",
+
+  "item.dens_addition.copper_pickaxe": "Copper Pickaxe",
+  "item.dens_addition.copper_axe": "Copper Axe",
+  "item.dens_addition.copper_shovel": "Copper Shovel",
+  "item.dens_addition.copper_sword": "Copper Sword",
+  "item.dens_addition.copper_hoe": "Copper Hoe",
+
+
+  "item.dens_addition.copper_reinforced_leather_helmet": "Copper Reinforced Leather Helmet",
+  "item.dens_addition.copper_reinforced_leather_chestplate": "Copper Reinforced Leather Chestplate",
+  "item.dens_addition.copper_reinforced_leather_leggings": "Copper Reinforced Leather Leggings",
+  "item.dens_addition.copper_reinforced_leather_boots": "Copper Reinforced Leather Boots"
+}

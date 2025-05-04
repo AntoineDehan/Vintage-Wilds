@@ -1,0 +1,14 @@
+{
+  "type": "iguanatweaksexpanded:forging",
+  "category": "forge_misc",
+  "ingredient": {
+    "item": "ytech:golden_plate"
+  },
+  "amount": 2,
+  "gear": {
+    "item": "minecraft:stick"
+  },
+  "result": "minecraft:golden_hoe",
+  "smashes_required": 6,
+  "experience": 9
+}

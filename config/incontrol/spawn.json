@@ -1,0 +1,29 @@
+[
+  {
+    "cave": false,
+    "hostile": true,
+    "result": "deny"
+  },
+  {
+    "cave": false,
+    "hostile": true,
+    "winter": true,
+    "result": "default"
+  },
+  {
+    "winter": true,
+    "hostile": true,
+    "healthmultiply": 1.2,
+    "damagemultiply": 1.2,
+    "speedmultiply": 0.9
+  },
+  {
+    "winter": true,
+    "hostile": false,
+    "speedmultiply": 0.9
+  },
+  {
+    "mod": "ytech",
+    "result": "deny"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "type": "iguanatweaksexpanded:forging",
+  "category": "forge_misc",
+  "ingredient": {
+    "item": "ytech:copper_plate"
+  },
+  "amount": 2,
+  "gear": {
+    "item": "minecraft:leather_helmet"
+  },
+  "result": "dens_addition:copper_reinforced_leather_helmet",
+  "smashes_required": 8,
+  "experience": 15
+}

@@ -1,0 +1,10 @@
+[10:51:24] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[10:51:24] [INIT] Loaded plugins:
+[10:51:24] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[10:51:24] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[10:51:24] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[10:51:24] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[10:51:24] [INIT] - com.yanny.ytech.compatibility.KubeJsCompatibility
+[10:51:24] [ERROR] ! items_rename.js#5: ReferenceError: "RecipeViewerEvents" is not defined.
+[10:51:24] [INFO] Loaded 0/1 KubeJS client scripts in 0.025 s with 0 errors and 0 warnings
+[10:51:27] [INFO] Client resource reload complete!

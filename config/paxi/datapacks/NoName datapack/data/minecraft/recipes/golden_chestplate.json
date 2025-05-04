@@ -1,0 +1,14 @@
+{
+  "type": "iguanatweaksexpanded:forging",
+  "category": "forge_misc",
+  "ingredient": {
+    "item": "ytech:golden_plate"
+  },
+  "amount": 8,
+  "gear": {
+    "item": "ytech:leather_strips"
+  },
+  "result": "minecraft:golden_chestplate",
+  "smashes_required": 6,
+  "experience": 15
+}

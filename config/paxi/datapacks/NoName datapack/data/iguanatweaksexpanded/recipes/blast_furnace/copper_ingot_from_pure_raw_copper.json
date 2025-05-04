@@ -1,0 +1,13 @@
+{
+  "type": "iguanatweaksexpanded:multi_item_blasting",
+  "category": "blast_furnace_misc",
+  "cookingtime": 100,
+  "experience": 0.75,
+  "group": "copper_ingot",
+  "ingredients": [
+    {
+      "item": "hardmodeores:pure_raw_copper"
+    }
+  ],
+  "result": "minecraft:copper_ingot"
+}

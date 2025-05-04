@@ -1,0 +1,136 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "copper_age"
+	group: ""
+	icon: "minecraft:copper_ingot"
+	id: "1FDFA403A6757176"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "58043DF622C90D95"
+			tasks: [{
+				id: "0223DB1AA6F3DFFC"
+				item: "iguanatweaksexpanded:forge"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			id: "40A1BB51AB005F84"
+			tasks: [
+				{
+					id: "1C06AACCB402D91C"
+					item: {
+						Count: 1
+						id: "dens_addition:copper_reinforced_leather_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "22F491E5A225C6CE"
+					item: {
+						Count: 1
+						id: "dens_addition:copper_reinforced_leather_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40102FC1186FE2C1"
+					item: {
+						Count: 1
+						id: "dens_addition:copper_reinforced_leather_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1AFE1169A0D3DDA2"
+					item: {
+						Count: 1
+						id: "dens_addition:copper_reinforced_leather_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			id: "03634F063EBF5ED5"
+			tasks: [{
+				id: "46C94720DC54A7D4"
+				item: {
+					Count: 1
+					id: "dens_addition:copper_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			id: "218D9D1EB0F8D4FC"
+			tasks: [{
+				id: "48DF1BBC54210558"
+				item: {
+					Count: 1
+					id: "ytech:copper_saw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			id: "3C5F868D05978A38"
+			tasks: [{
+				id: "1FE8E8AC3A3CC98A"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			id: "20A377F26B080F66"
+			tasks: [{
+				id: "0AF38310FC93225D"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			id: "0F9170C3DF8E5B58"
+			tasks: [{
+				id: "610F0A7899A0AA85"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+	]
+	title: "Copper age"
+}
