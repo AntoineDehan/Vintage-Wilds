@@ -8,7 +8,7 @@
 	properties: {
 		"ftbteams:display_name": "Den_lille"
 		"ftbteams:description": ""
-		"ftbteams:color": "#59FF5F"
+		"ftbteams:color": "#FF599F"
 		"ftbteams:free_to_join": 0b
 		"ftbteams:max_msg_history_size": 1000
 	}

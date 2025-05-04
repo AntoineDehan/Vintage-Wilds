@@ -236,7 +236,7 @@
 			#Range: 1.0 ~ 64.0
 			Maximum = 24.0
 
-		#The ticks cooldown after shooting. This is reduced by 33% in Hard difficulty
+		#The ticks cooldown after shooting
 		[Skeletons."Skeleton Shoot"."Shooting Cooldown"]
 			#Range: 0.0 ~ 1.7976931348623157E308
 			Minimum = 40.0
@@ -587,6 +587,9 @@
 
 	#Endermen will make the player's item fall from his hands. Add/remove mobs via the enhancedai:can_disrupt_item entity type tag
 	[Mobs."Item Disruption"]
+		#Cooldown (in ticks) before being able to use the ability again.
+		#Range: > -2147483648
+		Cooldown = 200
 
 		#Chance can be changed within entity data's ForgeData."enhancedai:item_disruption_chance"
 		[Mobs."Item Disruption".Chance]
@@ -603,9 +606,9 @@
 		#I recommend Mobs Properties Randomness to have more control over mobs equipment.
 		#Range: 0.0 ~ 1.0
 		"Equip Fishing Rod Chance" = 0.05
-		#Chance for a fisher mob to steal an item from the players' inventory instead of reeling the player.
+		#Chance for a fisher mob to steal an entity item in the hands instead of reeling the player.
 		#Range: 0.0 ~ 1.0
-		"Hook Inventory Chance" = 0.4
+		"Hook Hands Chance" = 0.4
 
 		#How fast will a mob reel in the grappled entity (or if the hook is on the ground).
 		[Mobs."Fisher Mobs"."Reel in ticks"]
@@ -615,6 +618,15 @@
 			Normal = 30.0
 			#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 			Hard = 20.0
+
+		#How much will a mob wait before casting the bobber again. The cooldown is doubled if successfully reels in someone.
+		[Mobs."Fisher Mobs".Cooldown]
+			#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+			"Easy/Peaceful" = 80.0
+			#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+			Normal = 80.0
+			#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+			Hard = 60.0
 
 	[Mobs.Spawning]
 		#How far away from any player monsters will instantly despawn? Vanilla is 128

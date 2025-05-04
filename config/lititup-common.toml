@@ -62,6 +62,9 @@
 	Aether_mod_compatibility = false
 	#Enable or disable compatibility with the CrockPot mod. Link: https://www.curseforge.com/minecraft/mc-mods/crock-pot
 	Crock_Pot_mod_compatibility = true
+	#Enable or disable compatibility with Let's Do Candlelight mod.
+	#Link: https://www.curseforge.com/minecraft/mc-mods/lets-do-candlelight
+	Let_Do_Candlelight_Compatibility = true
 
 ["Extra Settings"]
 	#If true, campfires placed by the player will not be lit.
