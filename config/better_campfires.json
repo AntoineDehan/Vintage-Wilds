@@ -1,35 +1,35 @@
 {
   "only_campfires_placed_by_players": false,
-  "campfires_start_unlit": false,
+  "campfires_start_unlit": true,
   "campfires_can_burn_out": true,
   "can_check_burn_out_time_left": true,
   "campfires_burn_out_time": 24000,
   "campfires_extinguish_by_rain": true,
-  "rain_exinguish_time_multiply": 10,
+  "rain_exinguish_time_multiply": 15,
   "campfires_extinguish_by_snow": true,
-  "snow_extinguish_time_multiply": 3,
+  "snow_extinguish_time_multiply": 5,
   "campfires_can_buff": true,
   "campfires_can_buff_for_non_hostile_mobs": true,
   "campfires_can_buff_for_hostile_mobs": true,
-  "campfires_can_burn_hostile_mobs_based_on_buff_radius": true,
+  "campfires_can_burn_hostile_mobs_based_on_buff_radius": false,
   "buff_radius": 7,
   "through_walls": true,
   "buff_check_interval": 30,
   "buffs": [
     {
-      "effect": "minecraft:regeneration",
+      "effect": "legendarysurvivaloverhaul:cold_resist",
       "duration": 200,
       "amplifier": 0
     },
     {
-      "effect": "minecraft:resistance",
+      "effect": "farmersdelight:comfort",
       "duration": 200,
       "amplifier": 0
     }
   ],
   "hostile_mob_buffs": [
     {
-      "effect": "minecraft:weakness",
+      "effect": "legendarysurvivaloverhaul:vulnerability",
       "duration": 100,
       "amplifier": 0
     },
@@ -47,6 +47,34 @@
     {
       "fuelId": "#minecraft:planks",
       "addBurnTime": 400
+    },
+    {
+      "fuelId": "lititup:switchgrass_fiber",
+      "addBurnTime": 400
+    },
+    {
+      "fuelId": "lititup:baled_switchgrass",
+      "addBurnTime": 400
+    },
+    {
+      "fuelId": "projectvibrantjourneys:pinecones",
+      "addBurnTime": 200
+    },
+    {
+      "fuelId": "projectvibrantjourneys:bark_mushroom",
+      "addBurnTime": 200
+    },
+    {
+      "fuelId": "projectvibrantjourneys:orange_bark_mushroom",
+      "addBurnTime": 200
+    },
+    {
+      "fuelId": "projectvibrantjourneys:light_brown_bark_mushroom",
+      "addBurnTime": 200
+    },
+    {
+      "fuelId": "projectvibrantjourneys:glowing_blue_fungus",
+      "addBurnTime": 200
     },
     {
       "fuelId": "minecraft:stick",

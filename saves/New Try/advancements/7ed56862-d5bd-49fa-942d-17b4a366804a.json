@@ -1,956 +1,1097 @@
 {
-  "minecraft:recipes/decorations/crafting_table": {
-    "criteria": {
-      "unlock_right_away": "2025-05-03 21:01:02 +0200"
-    },
-    "done": true
-  },
-  "yungscavebiomes:root": {
-    "criteria": {
-      "always": "2025-05-03 21:01:02 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/ladder": {
     "criteria": {
-      "has_stick": "2025-05-03 21:14:46 +0200"
+      "has_stick": "2025-05-04 21:33:36 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+  "minecraft:recipes/decorations/gray_bed": {
     "criteria": {
-      "has_stick": "2025-05-03 21:14:46 +0200"
+      "has_item": "2025-05-04 21:43:19 +0200"
     },
     "done": true
   },
-  "ytech:recipes/misc/wooden_bolt_using_axe": {
+  "minecraft:recipes/building_blocks/coarse_dirt": {
     "criteria": {
-      "has_stick": "2025-05-03 21:14:46 +0200"
+      "has_gravel": "2025-05-04 21:54:15 +0200"
     },
     "done": true
   },
-  "iguanatweaksexpanded:recipes/tools/flint_axe": {
+  "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
     "criteria": {
-      "has_stick": "2025-05-03 21:14:46 +0200"
+      "has_gravel": "2025-05-04 21:54:15 +0200"
     },
     "done": true
   },
-  "ytech:recipes/misc/wooden_bolt_using_saw": {
+  "minecraft:recipes/building_blocks/pink_concrete_powder": {
     "criteria": {
-      "has_stick": "2025-05-03 21:14:46 +0200"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/combat/flint_knife": {
-    "criteria": {
-      "has_stick": "2025-05-03 21:14:46 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/bow": {
-    "criteria": {
-      "has_stick": "2025-05-03 21:14:46 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/cherry_fence": {
-    "criteria": {
-      "has_stick": "2025-05-03 21:14:46 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/birch_fence": {
-    "criteria": {
-      "has_stick": "2025-05-03 21:14:46 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_axe": {
-    "criteria": {
-      "has_stick": "2025-05-03 21:14:46 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/fishing_rod": {
-    "criteria": {
-      "has_item": "2025-05-03 21:14:46 +0200"
-    },
-    "done": true
-  },
-  "iguanatweaksexpanded:recipes/tools/flint_pickaxe": {
-    "criteria": {
-      "has_stick": "2025-05-03 21:14:46 +0200"
-    },
-    "done": true
-  },
-  "naturalist:recipes/food/cooked_egg": {
-    "criteria": {
-      "has_eggs": "2025-05-03 21:14:46 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/warped_fence_gate": {
-    "criteria": {
-      "has_stick": "2025-05-03 21:14:46 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/oak_fence": {
-    "criteria": {
-      "has_stick": "2025-05-03 21:14:46 +0200"
-    },
-    "done": true
-  },
-  "astikorcarts:recipes/supply_cart": {
-    "criteria": {
-      "has_wheel": "2025-05-03 21:14:46 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/birch_fence_gate": {
-    "criteria": {
-      "has_stick": "2025-05-03 21:14:46 +0200"
-    },
-    "done": true
-  },
-  "iguanatweaksexpanded:recipes/tools/flint_shovel": {
-    "criteria": {
-      "has_stick": "2025-05-03 21:14:46 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/spruce_fence": {
-    "criteria": {
-      "has_stick": "2025-05-03 21:14:46 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/acacia_fence_gate": {
-    "criteria": {
-      "has_stick": "2025-05-03 21:14:46 +0200"
-    },
-    "done": true
-  },
-  "iguanatweaksexpanded:recipes/tools/flint_hoe": {
-    "criteria": {
-      "has_stick": "2025-05-03 21:14:46 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/bamboo_fence": {
-    "criteria": {
-      "has_stick": "2025-05-03 21:14:46 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/jungle_fence_gate": {
-    "criteria": {
-      "has_stick": "2025-05-03 21:14:46 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/dark_oak_fence": {
-    "criteria": {
-      "has_stick": "2025-05-03 21:14:46 +0200"
-    },
-    "done": true
-  },
-  "astikorcarts:recipes/plow": {
-    "criteria": {
-      "has_wheel": "2025-05-03 21:14:46 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/cherry_fence_gate": {
-    "criteria": {
-      "has_stick": "2025-05-03 21:14:46 +0200"
-    },
-    "done": true
-  },
-  "astikorcarts:recipes/animal_cart": {
-    "criteria": {
-      "has_wheel": "2025-05-03 21:14:46 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/mangrove_fence": {
-    "criteria": {
-      "has_stick": "2025-05-03 21:14:46 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_hoe": {
-    "criteria": {
-      "has_stick": "2025-05-03 21:14:46 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/oak_fence_gate": {
-    "criteria": {
-      "has_stick": "2025-05-03 21:14:46 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_pickaxe": {
-    "criteria": {
-      "has_stick": "2025-05-03 21:14:46 +0200"
-    },
-    "done": true
-  },
-  "farmersdelight:main/root": {
-    "criteria": {
-      "seeds": "2025-05-03 21:14:46 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/mangrove_fence_gate": {
-    "criteria": {
-      "has_stick": "2025-05-03 21:14:46 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/spruce_fence_gate": {
-    "criteria": {
-      "has_stick": "2025-05-03 21:14:46 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_shovel": {
-    "criteria": {
-      "has_stick": "2025-05-03 21:14:46 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/crimson_fence": {
-    "criteria": {
-      "has_stick": "2025-05-03 21:14:46 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/acacia_fence": {
-    "criteria": {
-      "has_stick": "2025-05-03 21:14:46 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/jungle_fence": {
-    "criteria": {
-      "has_stick": "2025-05-03 21:14:46 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/crimson_fence_gate": {
-    "criteria": {
-      "has_stick": "2025-05-03 21:14:46 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/wooden_sword": {
-    "criteria": {
-      "has_stick": "2025-05-03 21:14:46 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/warped_fence": {
-    "criteria": {
-      "has_stick": "2025-05-03 21:14:46 +0200"
-    },
-    "done": true
-  },
-  "ytech:recipes/tools/flint_axe": {
-    "criteria": {
-      "has_stick": "2025-05-03 21:14:46 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/bamboo_fence_gate": {
-    "criteria": {
-      "has_stick": "2025-05-03 21:14:46 +0200"
-    },
-    "done": true
-  },
-  "iguanatweaksexpanded:recipes/combat/flint_sword": {
-    "criteria": {
-      "has_stick": "2025-05-03 21:14:46 +0200"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/decorations/cutting_board": {
-    "criteria": {
-      "has_stick": "2025-05-03 21:14:46 +0200"
-    },
-    "done": true
-  },
-  "ytech:recipes/combat/flint_knife": {
-    "criteria": {
-      "has_flint": "2025-05-03 21:15:10 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/arrow": {
-    "criteria": {
-      "has_flint": "2025-05-03 21:15:10 +0200"
-    },
-    "done": true
-  },
-  "ytech:stone_age/root": {
-    "criteria": {
-      "has_item": "2025-05-03 21:15:10 +0200"
-    },
-    "done": true
-  },
-  "iguanatweaksexpanded:recipes/tools/flint_hammer": {
-    "criteria": {
-      "has_material": "2025-05-03 21:15:10 +0200"
-    },
-    "done": true
-  },
-  "ytech:recipes/block_hit/sharp_flint": {
-    "criteria": {
-      "has_item": "2025-05-03 21:15:10 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/flint_and_steel": {
-    "criteria": {
-      "has_flint": "2025-05-03 21:15:10 +0200"
-    },
-    "done": true
-  },
-  "iguanatweaksexpanded:recipes/misc/flint_from_gravel": {
-    "criteria": {
-      "has_flint": "2025-05-03 21:15:10 +0200"
-    },
-    "done": true
-  },
-  "iguanatweaksexpanded:recipes/combat/flint_shield": {
-    "criteria": {
-      "has_flint": "2025-05-03 21:15:10 +0200"
-    },
-    "done": true
-  },
-  "iguanatweaksexpanded:recipes/tools/flint_repair_kit": {
-    "criteria": {
-      "has_material": "2025-05-03 21:15:10 +0200"
-    },
-    "done": true
-  },
-  "iguanatweaksexpanded:recipes/combat/arrow_from_fletching": {
-    "criteria": {
-      "has_flint": "2025-05-03 21:15:10 +0200"
-    },
-    "done": true
-  },
-  "farmersdelight:main/craft_knife": {
-    "criteria": {
-      "flint_knife": "2025-05-03 21:15:33 +0200"
+      "has_gravel": "2025-05-04 21:54:15 +0200"
     },
     "done": true
   },
   "farmersdelight:recipes/building_blocks/straw_bale": {
     "criteria": {
-      "has_straw": "2025-05-03 21:15:35 +0200"
+      "has_straw": "2025-05-04 21:34:32 +0200"
     },
     "done": true
   },
-  "farmersdelight:recipes/tools/lead_from_straw": {
+  "legendarysurvivaloverhaul:recipes/food/beetroot_juice": {
     "criteria": {
-      "has_straw": "2025-05-03 21:15:35 +0200"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/misc/canvas": {
-    "criteria": {
-      "has_straw": "2025-05-03 21:15:35 +0200"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/building_blocks/packed_mud_from_straw": {
-    "criteria": {
-      "has_straw": "2025-05-03 21:15:35 +0200"
-    },
-    "done": true
-  },
-  "farmersdelight:main/harvest_straw": {
-    "criteria": {
-      "harvest_straw": "2025-05-03 21:15:35 +0200"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/building_blocks/organic_compost_from_rotten_flesh": {
-    "criteria": {
-      "has_straw": "2025-05-03 21:15:35 +0200"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/decorations/rope": {
-    "criteria": {
-      "has_straw": "2025-05-03 21:15:35 +0200"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/building_blocks/organic_compost_from_tree_bark": {
-    "criteria": {
-      "has_straw": "2025-05-03 21:15:35 +0200"
-    },
-    "done": true
-  },
-  "ytech:recipes/misc/grass_twine": {
-    "criteria": {
-      "has_the_recipe": "2025-05-03 21:15:45 +0200"
-    },
-    "done": true
-  },
-  "ytech:recipes/misc/twine_mesh": {
-    "criteria": {
-      "has_item": "2025-05-03 21:16:01 +0200"
-    },
-    "done": true
-  },
-  "ytech:recipes/misc/crafting_workspace": {
-    "criteria": {
-      "has_item": "2025-05-03 21:16:01 +0200"
-    },
-    "done": true
-  },
-  "ytech:recipes/misc/basket": {
-    "criteria": {
-      "has_item": "2025-05-03 21:16:01 +0200"
-    },
-    "done": true
-  },
-  "ytech:recipes/workspace_crafting/oak_drying_rack": {
-    "criteria": {
-      "has_logs": "2025-05-03 21:25:13 +0200"
-    },
-    "done": true
-  },
-  "ytech:recipes/workspace_crafting/strainer": {
-    "criteria": {
-      "has_item": "2025-05-03 21:25:13 +0200"
-    },
-    "done": true
-  },
-  "ytech:recipes/workspace_crafting/birch_drying_rack": {
-    "criteria": {
-      "has_logs": "2025-05-03 21:25:13 +0200"
-    },
-    "done": true
-  },
-  "ytech:recipes/workspace_crafting/birch_tanning_rack": {
-    "criteria": {
-      "has_logs": "2025-05-03 21:25:13 +0200"
-    },
-    "done": true
-  },
-  "ytech:recipes/workspace_crafting/tree_stump": {
-    "criteria": {
-      "has_item": "2025-05-03 21:25:13 +0200"
-    },
-    "done": true
-  },
-  "ytech:recipes/workspace_crafting/millstone": {
-    "criteria": {
-      "has_logs": "2025-05-03 21:25:13 +0200"
-    },
-    "done": true
-  },
-  "ytech:recipes/building_blocks/oak_planks": {
-    "criteria": {
-      "has_oak_log": "2025-05-03 21:25:13 +0200"
-    },
-    "done": true
-  },
-  "ytech:recipes/workspace_crafting/jungle_drying_rack": {
-    "criteria": {
-      "has_logs": "2025-05-03 21:25:13 +0200"
-    },
-    "done": true
-  },
-  "ytech:recipes/chopping/oak_planks_from_chopping": {
-    "criteria": {
-      "has_oak_log": "2025-05-03 21:25:13 +0200"
-    },
-    "done": true
-  },
-  "ytech:recipes/workspace_crafting/acacia_tanning_rack": {
-    "criteria": {
-      "has_logs": "2025-05-03 21:25:13 +0200"
-    },
-    "done": true
-  },
-  "ytech:recipes/workspace_crafting/spruce_drying_rack": {
-    "criteria": {
-      "has_logs": "2025-05-03 21:25:13 +0200"
-    },
-    "done": true
-  },
-  "ytech:recipes/workspace_crafting/spruce_tanning_rack": {
-    "criteria": {
-      "has_logs": "2025-05-03 21:25:13 +0200"
-    },
-    "done": true
-  },
-  "ytech:recipes/workspace_crafting/jungle_tanning_rack": {
-    "criteria": {
-      "has_logs": "2025-05-03 21:25:13 +0200"
-    },
-    "done": true
-  },
-  "ytech:recipes/workspace_crafting/mangrove_tanning_rack": {
-    "criteria": {
-      "has_logs": "2025-05-03 21:25:13 +0200"
-    },
-    "done": true
-  },
-  "ytech:recipes/workspace_crafting/cherry_tanning_rack": {
-    "criteria": {
-      "has_logs": "2025-05-03 21:25:13 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/charcoal": {
-    "criteria": {
-      "has_log": "2025-05-03 21:25:13 +0200"
-    },
-    "done": true
-  },
-  "ytech:recipes/workspace_crafting/cherry_drying_rack": {
-    "criteria": {
-      "has_logs": "2025-05-03 21:25:13 +0200"
-    },
-    "done": true
-  },
-  "ytech:recipes/workspace_crafting/dark_oak_tanning_rack": {
-    "criteria": {
-      "has_logs": "2025-05-03 21:25:13 +0200"
-    },
-    "done": true
-  },
-  "ytech:recipes/misc/potters_wheel": {
-    "criteria": {
-      "has_logs": "2025-05-03 21:25:13 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/oak_planks": {
-    "criteria": {
-      "has_oak_log": "2025-05-03 21:25:13 +0200"
-    },
-    "done": true
-  },
-  "ytech:recipes/workspace_crafting/oak_tanning_rack": {
-    "criteria": {
-      "has_logs": "2025-05-03 21:25:13 +0200"
-    },
-    "done": true
-  },
-  "ytech:recipes/workspace_crafting/acacia_drying_rack": {
-    "criteria": {
-      "has_logs": "2025-05-03 21:25:13 +0200"
-    },
-    "done": true
-  },
-  "ytech:recipes/workspace_crafting/dark_oak_drying_rack": {
-    "criteria": {
-      "has_logs": "2025-05-03 21:25:13 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/oak_wood": {
-    "criteria": {
-      "has_log": "2025-05-03 21:25:13 +0200"
-    },
-    "done": true
-  },
-  "ytech:recipes/workspace_crafting/mangrove_drying_rack": {
-    "criteria": {
-      "has_logs": "2025-05-03 21:25:13 +0200"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/apple_cider": {
-    "criteria": {
-      "has_apple": "2025-05-03 21:25:14 +0200"
-    },
-    "done": true
-  },
-  "legendarysurvivaloverhaul:recipes/food/apple_juice": {
-    "criteria": {
-      "has_apple": "2025-05-03 21:25:14 +0200"
-    },
-    "done": true
-  },
-  "projectvibrantjourneys:recipes/misc/brown_dye_from_light_brown_bark_mushroom": {
-    "criteria": {
-      "has_light_brown_bark_mushroom": "2025-05-03 21:25:15 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_brown_bed": {
-    "criteria": {
-      "has_needed_dye": "2025-05-03 21:25:21 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/brown_candle": {
-    "criteria": {
-      "has_brown_dye": "2025-05-03 21:25:21 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_brown_wool": {
-    "criteria": {
-      "has_needed_dye": "2025-05-03 21:25:21 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_brown_carpet": {
-    "criteria": {
-      "has_needed_dye": "2025-05-03 21:25:21 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/brown_stained_glass_pane_from_glass_pane": {
-    "criteria": {
-      "has_brown_dye": "2025-05-03 21:25:21 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/chest": {
-    "criteria": {
-      "has_lots_of_items": "2025-05-03 21:27:33 +0200"
-    },
-    "done": true
-  },
-  "iguanatweaksexpanded:story/charcoal": {
-    "criteria": {
-      "charcoal": "2025-05-03 21:27:46 +0200"
-    },
-    "done": true
-  },
-  "ytech:recipes/misc/unlit_torch": {
-    "criteria": {
-      "has_item": "2025-05-03 21:27:46 +0200"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/root": {
-    "criteria": {
-      "consumed_item": "2025-05-03 21:30:28 +0200"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/balanced_diet": {
-    "criteria": {
-      "apple": "2025-05-03 21:30:28 +0200"
-    },
-    "done": false
-  },
-  "minecraft:recipes/decorations/gray_bed": {
-    "criteria": {
-      "has_item": "2025-05-03 21:48:55 +0200"
+      "has_beetroot": "2025-05-04 21:34:09 +0200"
     },
     "done": true
   },
   "minecraft:recipes/decorations/orange_bed": {
     "criteria": {
-      "has_item": "2025-05-03 21:48:55 +0200"
+      "has_item": "2025-05-04 21:43:19 +0200"
     },
     "done": true
   },
   "minecraft:recipes/decorations/brown_bed": {
     "criteria": {
-      "has_item": "2025-05-03 21:48:55 +0200"
+      "has_item": "2025-05-04 21:43:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+    "criteria": {
+      "has_stick": "2025-05-04 21:33:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2025-05-04 21:43:11 +0200"
     },
     "done": true
   },
   "minecraft:recipes/decorations/purple_bed": {
     "criteria": {
-      "has_item": "2025-05-03 21:48:55 +0200"
+      "has_item": "2025-05-04 21:43:19 +0200"
+    },
+    "done": true
+  },
+  "iguanatweaksexpanded:story/charcoal": {
+    "criteria": {
+      "charcoal": "2025-05-04 21:40:51 +0200"
+    },
+    "done": true
+  },
+  "ytech:recipes/misc/wooden_bolt_using_axe": {
+    "criteria": {
+      "has_stick": "2025-05-04 21:33:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-05-04 21:54:15 +0200"
+    },
+    "done": true
+  },
+  "iguanatweaksexpanded:recipes/tools/flint_axe": {
+    "criteria": {
+      "has_stick": "2025-05-04 21:33:36 +0200"
+    },
+    "done": true
+  },
+  "ytech:recipes/misc/wooden_bolt_using_saw": {
+    "criteria": {
+      "has_stick": "2025-05-04 21:33:36 +0200"
     },
     "done": true
   },
   "ytech:recipes/pottery/unfired_flower_pot": {
     "criteria": {
-      "has_item": "2025-05-03 21:35:06 +0200"
+      "has_item": "2025-05-04 21:44:47 +0200"
+    },
+    "done": true
+  },
+  "ytech:recipes/combat/flint_knife": {
+    "criteria": {
+      "has_flint": "2025-05-04 21:34:22 +0200"
+    },
+    "done": true
+  },
+  "ytech:recipes/misc/twine_mesh": {
+    "criteria": {
+      "has_item": "2025-05-04 21:35:47 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-05-04 21:54:15 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/flint_knife": {
+    "criteria": {
+      "has_stick": "2025-05-04 21:33:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-05-04 21:54:15 +0200"
+    },
+    "done": true
+  },
+  "terrainslabs:recipes/building_blocks/gravel_slab": {
+    "criteria": {
+      "has_gravel_block": "2025-05-04 21:54:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_stick": "2025-05-04 21:33:36 +0200"
     },
     "done": true
   },
   "legendarysurvivaloverhaul:recipes/combat/snow_boots": {
     "criteria": {
-      "has_wool": "2025-05-03 21:48:55 +0200"
+      "has_wool": "2025-05-04 21:43:19 +0200"
     },
     "done": true
   },
   "ytech:recipes/misc/beeswax": {
     "criteria": {
-      "has_clay_ball": "2025-05-03 21:35:06 +0200"
+      "has_clay_ball": "2025-05-04 21:44:47 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2025-05-04 21:34:09 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/tools/lead_from_straw": {
+    "criteria": {
+      "has_straw": "2025-05-04 21:34:32 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-05-04 21:54:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_beetroot": "2025-05-04 21:34:09 +0200"
+    },
+    "done": true
+  },
+  "ytech:recipes/workspace_crafting/oak_drying_rack": {
+    "criteria": {
+      "has_logs": "2025-05-04 21:36:49 +0200"
+    },
+    "done": true
+  },
+  "ytech:recipes/workspace_crafting/strainer": {
+    "criteria": {
+      "has_item": "2025-05-04 21:36:49 +0200"
+    },
+    "done": true
+  },
+  "ytech:recipes/workspace_crafting/birch_drying_rack": {
+    "criteria": {
+      "has_logs": "2025-05-04 21:36:49 +0200"
+    },
+    "done": true
+  },
+  "ytech:recipes/workspace_crafting/birch_tanning_rack": {
+    "criteria": {
+      "has_logs": "2025-05-04 21:36:49 +0200"
     },
     "done": true
   },
   "legendarysurvivaloverhaul:recipes/combat/snow_helmet": {
     "criteria": {
-      "has_wool": "2025-05-03 21:48:55 +0200"
+      "has_wool": "2025-05-04 21:43:19 +0200"
     },
     "done": true
   },
-  "farmersdelight:recipes/cooking/noodle_soup": {
+  "ytech:recipes/workspace_crafting/tree_stump": {
     "criteria": {
-      "has_any_ingredient": "2025-05-03 21:48:14 +0200"
+      "has_item": "2025-05-04 21:36:49 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cherry_fence": {
+    "criteria": {
+      "has_stick": "2025-05-04 21:33:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_fence": {
+    "criteria": {
+      "has_stick": "2025-05-04 21:33:36 +0200"
+    },
+    "done": true
+  },
+  "ytech:recipes/misc/grass_twine": {
+    "criteria": {
+      "has_the_recipe": "2025-05-04 21:35:45 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2025-05-04 21:33:36 +0200"
     },
     "done": true
   },
   "minecraft:recipes/decorations/painting": {
     "criteria": {
-      "has_wool": "2025-05-03 21:48:55 +0200"
+      "has_wool": "2025-05-04 21:43:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_flint": "2025-05-04 21:34:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-05-04 21:54:15 +0200"
     },
     "done": true
   },
   "ytech:recipes/pottery/unfired_amphora": {
     "criteria": {
-      "has_item": "2025-05-03 21:35:06 +0200"
+      "has_item": "2025-05-04 21:44:47 +0200"
     },
     "done": true
   },
-  "ytech:recipes/building_blocks/thatch_stairs": {
+  "ytech:recipes/workspace_crafting/millstone": {
     "criteria": {
-      "has_item": "2025-05-03 21:42:18 +0200"
+      "has_logs": "2025-05-04 21:36:49 +0200"
     },
     "done": true
   },
   "minecraft:recipes/decorations/light_blue_bed": {
     "criteria": {
-      "has_item": "2025-05-03 21:48:55 +0200"
+      "has_item": "2025-05-04 21:43:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_item": "2025-05-04 21:33:36 +0200"
+    },
+    "done": true
+  },
+  "ytech:stone_age/root": {
+    "criteria": {
+      "has_item": "2025-05-04 21:34:22 +0200"
+    },
+    "done": true
+  },
+  "iguanatweaksexpanded:recipes/tools/flint_pickaxe": {
+    "criteria": {
+      "has_stick": "2025-05-04 21:33:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-05-04 21:32:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-05-04 21:35:47 +0200"
+    },
+    "done": true
+  },
+  "ytech:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_oak_log": "2025-05-04 21:38:47 +0200"
+    },
+    "done": true
+  },
+  "naturalist:recipes/food/cooked_egg": {
+    "criteria": {
+      "has_eggs": "2025-05-04 21:33:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/warped_fence_gate": {
+    "criteria": {
+      "has_stick": "2025-05-04 21:33:36 +0200"
+    },
+    "done": true
+  },
+  "ytech:recipes/drying/dried_mutton": {
+    "criteria": {
+      "has_mutton": "2025-05-04 21:43:11 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-05-04 21:54:15 +0200"
     },
     "done": true
   },
   "minecraft:recipes/decorations/yellow_bed": {
     "criteria": {
-      "has_item": "2025-05-03 21:48:55 +0200"
+      "has_item": "2025-05-04 21:43:19 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+  "minecraft:recipes/decorations/oak_fence": {
     "criteria": {
-      "has_porkchop": "2025-05-03 21:48:14 +0200"
+      "has_stick": "2025-05-04 21:33:36 +0200"
     },
     "done": true
   },
-  "farmersdelight:recipes/cooking/pumpkin_soup": {
+  "astikorcarts:recipes/supply_cart": {
     "criteria": {
-      "has_any_ingredient": "2025-05-03 21:48:14 +0200"
+      "has_wheel": "2025-05-04 21:33:00 +0200"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/clay": {
     "criteria": {
-      "has_clay_ball": "2025-05-03 21:35:06 +0200"
+      "has_clay_ball": "2025-05-04 21:44:47 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+  "minecraft:recipes/redstone/birch_fence_gate": {
     "criteria": {
-      "has_dandelion": "2025-05-03 21:45:25 +0200"
+      "has_stick": "2025-05-04 21:33:36 +0200"
+    },
+    "done": true
+  },
+  "iguanatweaksexpanded:recipes/tools/flint_hammer": {
+    "criteria": {
+      "has_material": "2025-05-04 21:34:22 +0200"
+    },
+    "done": true
+  },
+  "ytech:recipes/workspace_crafting/jungle_drying_rack": {
+    "criteria": {
+      "has_logs": "2025-05-04 21:36:49 +0200"
     },
     "done": true
   },
   "legendarysurvivaloverhaul:recipes/misc/bandage": {
     "criteria": {
-      "has_wool": "2025-05-03 21:48:55 +0200"
+      "has_wool": "2025-05-04 21:43:19 +0200"
+    },
+    "done": true
+  },
+  "ytech:recipes/chopping/oak_planks_from_chopping": {
+    "criteria": {
+      "has_oak_log": "2025-05-04 21:38:47 +0200"
     },
     "done": true
   },
   "minecraft:recipes/decorations/magenta_bed": {
     "criteria": {
-      "has_item": "2025-05-03 21:48:55 +0200"
+      "has_item": "2025-05-04 21:43:19 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/misc/canvas": {
+    "criteria": {
+      "has_straw": "2025-05-04 21:34:32 +0200"
+    },
+    "done": true
+  },
+  "iguanatweaksexpanded:recipes/tools/flint_shovel": {
+    "criteria": {
+      "has_stick": "2025-05-04 21:33:36 +0200"
     },
     "done": true
   },
   "minecraft:recipes/decorations/oak_hanging_sign": {
     "criteria": {
-      "has_stripped_logs": "2025-05-03 21:40:56 +0200"
+      "has_stripped_logs": "2025-05-04 21:51:48 +0200"
     },
     "done": true
   },
   "minecraft:recipes/decorations/lime_bed": {
     "criteria": {
-      "has_item": "2025-05-03 21:48:55 +0200"
+      "has_item": "2025-05-04 21:43:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2025-05-04 21:43:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_fence": {
+    "criteria": {
+      "has_stick": "2025-05-04 21:33:36 +0200"
     },
     "done": true
   },
   "minecraft:recipes/decorations/white_carpet": {
     "criteria": {
-      "has_white_wool": "2025-05-03 21:48:55 +0200"
+      "has_white_wool": "2025-05-04 21:43:19 +0200"
     },
     "done": true
   },
   "legendarysurvivaloverhaul:recipes/food/healing_herbs": {
     "criteria": {
-      "has_flower": "2025-05-03 21:45:25 +0200"
+      "has_flower": "2025-05-04 21:43:11 +0200"
+    },
+    "done": true
+  },
+  "projectvibrantjourneys:recipes/misc/orange_dye_from_orange_bark_mushroom": {
+    "criteria": {
+      "has_orange_bark_mushroom": "2025-05-04 21:47:19 +0200"
+    },
+    "done": true
+  },
+  "ytech:recipes/workspace_crafting/acacia_tanning_rack": {
+    "criteria": {
+      "has_logs": "2025-05-04 21:36:49 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_fence_gate": {
+    "criteria": {
+      "has_stick": "2025-05-04 21:33:36 +0200"
     },
     "done": true
   },
   "legendarysurvivaloverhaul:recipes/combat/snow_chestplate": {
     "criteria": {
-      "has_wool": "2025-05-03 21:48:55 +0200"
+      "has_wool": "2025-05-04 21:43:19 +0200"
+    },
+    "done": true
+  },
+  "iguanatweaksexpanded:recipes/tools/flint_hoe": {
+    "criteria": {
+      "has_stick": "2025-05-04 21:33:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/bamboo_fence": {
+    "criteria": {
+      "has_stick": "2025-05-04 21:33:36 +0200"
     },
     "done": true
   },
   "minecraft:recipes/decorations/cyan_bed": {
     "criteria": {
-      "has_item": "2025-05-03 21:48:55 +0200"
+      "has_item": "2025-05-04 21:43:19 +0200"
+    },
+    "done": true
+  },
+  "ytech:recipes/workspace_crafting/spruce_drying_rack": {
+    "criteria": {
+      "has_logs": "2025-05-04 21:36:49 +0200"
+    },
+    "done": true
+  },
+  "ytech:recipes/workspace_crafting/spruce_tanning_rack": {
+    "criteria": {
+      "has_logs": "2025-05-04 21:36:49 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_fence_gate": {
+    "criteria": {
+      "has_stick": "2025-05-04 21:33:36 +0200"
+    },
+    "done": true
+  },
+  "ytech:recipes/block_hit/sharp_flint": {
+    "criteria": {
+      "has_item": "2025-05-04 21:34:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_fence": {
+    "criteria": {
+      "has_stick": "2025-05-04 21:33:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lime_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-05-04 21:54:15 +0200"
+    },
+    "done": true
+  },
+  "immersive_weathering:immersive_weathering/bark_off": {
+    "criteria": {
+      "wax_off": "2025-05-04 21:48:34 +0200"
     },
     "done": true
   },
   "legendarysurvivaloverhaul:recipes/misc/plaster": {
     "criteria": {
-      "has_wool": "2025-05-03 21:48:55 +0200"
+      "has_wool": "2025-05-04 21:43:19 +0200"
+    },
+    "done": true
+  },
+  "immersive_weathering:recipes/oak_bark": {
+    "criteria": {
+      "has_copper_block": "2025-05-04 21:48:35 +0200"
+    },
+    "done": true
+  },
+  "ytech:recipes/misc/crafting_workspace": {
+    "criteria": {
+      "has_item": "2025-05-04 21:35:47 +0200"
     },
     "done": true
   },
   "minecraft:recipes/decorations/black_bed": {
     "criteria": {
-      "has_item": "2025-05-03 21:48:55 +0200"
+      "has_item": "2025-05-04 21:43:19 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_porkchop": {
+  "ytech:recipes/workspace_crafting/jungle_tanning_rack": {
     "criteria": {
-      "has_porkchop": "2025-05-03 21:48:14 +0200"
+      "has_logs": "2025-05-04 21:36:49 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-05-04 21:54:15 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/roasted_mutton_chops": {
+    "criteria": {
+      "has_mutton": "2025-05-04 21:44:24 +0200"
     },
     "done": true
   },
   "legendarysurvivaloverhaul:recipes/combat/snow_leggings": {
     "criteria": {
-      "has_wool": "2025-05-03 21:48:55 +0200"
+      "has_wool": "2025-05-04 21:43:19 +0200"
     },
     "done": true
   },
   "minecraft:recipes/decorations/light_gray_bed": {
     "criteria": {
-      "has_item": "2025-05-03 21:48:55 +0200"
+      "has_item": "2025-05-04 21:43:19 +0200"
+    },
+    "done": true
+  },
+  "astikorcarts:recipes/plow": {
+    "criteria": {
+      "has_wheel": "2025-05-04 21:33:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_fence_gate": {
+    "criteria": {
+      "has_stick": "2025-05-04 21:33:36 +0200"
+    },
+    "done": true
+  },
+  "ytech:recipes/workspace_crafting/mangrove_tanning_rack": {
+    "criteria": {
+      "has_logs": "2025-05-04 21:36:49 +0200"
     },
     "done": true
   },
   "iguanatweaksexpanded:story/battle_pickaxes": {
     "criteria": {
-      "hit_entity_with_pickaxe": "2025-05-03 21:47:27 +0200"
+      "hit_entity_with_pickaxe": "2025-05-04 21:43:09 +0200"
     },
     "done": true
   },
-  "ytech:recipes/building_blocks/thatch": {
+  "astikorcarts:recipes/animal_cart": {
     "criteria": {
-      "has_the_recipe": "2025-05-03 21:42:18 +0200"
+      "has_wheel": "2025-05-04 21:33:00 +0200"
+    },
+    "done": true
+  },
+  "ytech:recipes/workspace_crafting/cherry_tanning_rack": {
+    "criteria": {
+      "has_logs": "2025-05-04 21:36:49 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mangrove_fence": {
+    "criteria": {
+      "has_stick": "2025-05-04 21:33:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton": {
+    "criteria": {
+      "has_mutton": "2025-05-04 21:43:11 +0200"
+    },
+    "done": true
+  },
+  "terrainslabs:recipes/building_blocks/dirt_slab": {
+    "criteria": {
+      "has_dirt_block": "2025-05-04 21:33:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-05-04 21:54:15 +0200"
     },
     "done": true
   },
   "minecraft:recipes/decorations/blue_bed": {
     "criteria": {
-      "has_item": "2025-05-03 21:48:55 +0200"
+      "has_item": "2025-05-04 21:43:19 +0200"
     },
     "done": true
   },
   "minecraft:recipes/decorations/green_bed": {
     "criteria": {
-      "has_item": "2025-05-03 21:48:55 +0200"
+      "has_item": "2025-05-04 21:43:19 +0200"
+    },
+    "done": true
+  },
+  "ytech:recipes/building_blocks/mud": {
+    "criteria": {
+      "has_dirt": "2025-05-04 21:33:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_flint": "2025-05-04 21:34:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2025-05-04 21:34:09 +0200"
+    },
+    "done": true
+  },
+  "iguanatweaksexpanded:recipes/misc/flint_from_gravel": {
+    "criteria": {
+      "has_flint": "2025-05-04 21:34:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2025-05-04 21:33:36 +0200"
+    },
+    "done": true
+  },
+  "ytech:recipes/misc/basket": {
+    "criteria": {
+      "has_item": "2025-05-04 21:35:47 +0200"
     },
     "done": true
   },
   "minecraft:recipes/decorations/white_banner": {
     "criteria": {
-      "has_white_wool": "2025-05-03 21:48:55 +0200"
+      "has_white_wool": "2025-05-04 21:43:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_fence_gate": {
+    "criteria": {
+      "has_stick": "2025-05-04 21:33:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2025-05-04 21:36:49 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2025-05-04 21:33:36 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2025-05-04 21:33:00 +0200"
+    },
+    "done": true
+  },
+  "yungscavebiomes:root": {
+    "criteria": {
+      "always": "2025-05-04 21:32:35 +0200"
     },
     "done": true
   },
   "ytech:recipes/pottery/unfired_decoration_pot": {
     "criteria": {
-      "has_item": "2025-05-03 21:35:06 +0200"
+      "has_item": "2025-05-04 21:44:47 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/packed_mud_from_straw": {
+    "criteria": {
+      "has_straw": "2025-05-04 21:34:32 +0200"
     },
     "done": true
   },
   "minecraft:recipes/decorations/pink_bed": {
     "criteria": {
-      "has_item": "2025-05-03 21:48:55 +0200"
+      "has_item": "2025-05-04 21:43:19 +0200"
+    },
+    "done": true
+  },
+  "ytech:recipes/misc/unlit_torch": {
+    "criteria": {
+      "has_item": "2025-05-04 21:40:51 +0200"
+    },
+    "done": true
+  },
+  "ytech:recipes/workspace_crafting/cherry_drying_rack": {
+    "criteria": {
+      "has_logs": "2025-05-04 21:36:49 +0200"
     },
     "done": true
   },
   "ytech:recipes/misc/unfired_brick": {
     "criteria": {
-      "has_clay_ball": "2025-05-03 21:35:06 +0200"
+      "has_clay_ball": "2025-05-04 21:44:47 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_fence_gate": {
+    "criteria": {
+      "has_stick": "2025-05-04 21:33:36 +0200"
+    },
+    "done": true
+  },
+  "ytech:recipes/workspace_crafting/dark_oak_tanning_rack": {
+    "criteria": {
+      "has_logs": "2025-05-04 21:36:49 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2025-05-04 21:43:11 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:main/harvest_straw": {
+    "criteria": {
+      "harvest_straw": "2025-05-04 21:34:32 +0200"
     },
     "done": true
   },
   "ytech:recipes/pottery/unfired_clay_bucket": {
     "criteria": {
-      "has_item": "2025-05-03 21:35:06 +0200"
+      "has_item": "2025-05-04 21:44:47 +0200"
     },
     "done": true
   },
-  "ytech:recipes/building_blocks/thatch_slab": {
+  "minecraft:recipes/building_blocks/yellow_concrete_powder": {
     "criteria": {
-      "has_item": "2025-05-03 21:42:18 +0200"
+      "has_gravel": "2025-05-04 21:54:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_fence_gate": {
+    "criteria": {
+      "has_stick": "2025-05-04 21:33:36 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/pasta_with_mutton_chop": {
+    "criteria": {
+      "has_any_ingredient": "2025-05-04 21:43:11 +0200"
+    },
+    "done": true
+  },
+  "ytech:recipes/misc/potters_wheel": {
+    "criteria": {
+      "has_logs": "2025-05-04 21:36:49 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2025-05-04 21:33:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crimson_fence": {
+    "criteria": {
+      "has_stick": "2025-05-04 21:33:36 +0200"
     },
     "done": true
   },
   "ytech:recipes/misc/brick_mold": {
     "criteria": {
-      "has_item": "2025-05-03 21:36:53 +0200"
+      "has_item": "2025-05-04 21:47:41 +0200"
     },
     "done": true
   },
   "minecraft:recipes/misc/brick": {
     "criteria": {
-      "has_item": "2025-05-03 21:40:00 +0200"
+      "has_item": "2025-05-04 21:48:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/acacia_fence": {
+    "criteria": {
+      "has_stick": "2025-05-04 21:33:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
+    "criteria": {
+      "has_sunflower": "2025-05-04 21:43:11 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/ratatouille": {
+    "criteria": {
+      "has_any_ingredient": "2025-05-04 21:34:09 +0200"
     },
     "done": true
   },
   "minecraft:adventure/root": {
     "criteria": {
-      "killed_something": "2025-05-03 21:47:29 +0200"
+      "killed_something": "2025-05-04 21:43:11 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_fence": {
+    "criteria": {
+      "has_stick": "2025-05-04 21:33:36 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/organic_compost_from_rotten_flesh": {
+    "criteria": {
+      "has_straw": "2025-05-04 21:34:32 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_fence_gate": {
+    "criteria": {
+      "has_stick": "2025-05-04 21:33:36 +0200"
     },
     "done": true
   },
   "iguanatweaksexpanded:story/seeds": {
     "criteria": {
-      "seeds": "2025-05-03 21:42:09 +0200"
+      "seeds": "2025-05-04 21:34:09 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+  "minecraft:recipes/combat/wooden_sword": {
     "criteria": {
-      "has_porkchop": "2025-05-03 21:48:14 +0200"
+      "has_stick": "2025-05-04 21:33:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_oak_log": "2025-05-04 21:38:47 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gray_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-05-04 21:54:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-05-04 21:54:15 +0200"
+    },
+    "done": true
+  },
+  "ytech:recipes/workspace_crafting/oak_tanning_rack": {
+    "criteria": {
+      "has_logs": "2025-05-04 21:36:49 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/shepherds_pie_block": {
+    "criteria": {
+      "has_cooked_mutton": "2025-05-04 21:44:24 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/warped_fence": {
+    "criteria": {
+      "has_stick": "2025-05-04 21:33:36 +0200"
+    },
+    "done": true
+  },
+  "ytech:recipes/workspace_crafting/acacia_drying_rack": {
+    "criteria": {
+      "has_logs": "2025-05-04 21:36:49 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/mutton_wrap": {
+    "criteria": {
+      "has_mutton": "2025-05-04 21:44:24 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2025-05-04 21:34:09 +0200"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:lukewarm_ocean": "2025-05-03 21:34:52 +0200",
-      "minecraft:savanna": "2025-05-03 21:47:27 +0200"
+      "minecraft:birch_forest": "2025-05-04 21:32:37 +0200",
+      "minecraft:river": "2025-05-04 21:33:23 +0200",
+      "minecraft:forest": "2025-05-04 21:33:07 +0200",
+      "minecraft:old_growth_birch_forest": "2025-05-04 21:34:06 +0200"
     },
     "done": false
   },
+  "ytech:recipes/tools/flint_axe": {
+    "criteria": {
+      "has_stick": "2025-05-04 21:33:36 +0200"
+    },
+    "done": true
+  },
+  "iguanatweaksexpanded:recipes/combat/flint_shield": {
+    "criteria": {
+      "has_flint": "2025-05-04 21:34:22 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stripped_oak_wood": {
     "criteria": {
-      "has_log": "2025-05-03 21:40:56 +0200"
+      "has_log": "2025-05-04 21:51:48 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:main/craft_knife": {
+    "criteria": {
+      "flint_knife": "2025-05-04 21:34:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_fence_gate": {
+    "criteria": {
+      "has_stick": "2025-05-04 21:33:36 +0200"
+    },
+    "done": true
+  },
+  "iguanatweaksexpanded:recipes/combat/flint_sword": {
+    "criteria": {
+      "has_stick": "2025-05-04 21:33:36 +0200"
+    },
+    "done": true
+  },
+  "immersive_weathering:immersive_weathering/dirts": {
+    "criteria": {
+      "dirt": "2025-05-04 21:33:00 +0200"
+    },
+    "done": false
+  },
+  "rucksacks:recipes/iron_rucksack": {
+    "criteria": {
+      "has_leather_rucksack": "2025-05-04 21:33:00 +0200"
     },
     "done": true
   },
   "minecraft:recipes/decorations/white_bed": {
     "criteria": {
-      "has_item": "2025-05-03 21:48:55 +0200"
+      "has_item": "2025-05-04 21:43:19 +0200"
     },
     "done": true
   },
-  "ytech:recipes/drying/dried_porkchop": {
+  "ytech:recipes/workspace_crafting/dark_oak_drying_rack": {
     "criteria": {
-      "has_porkchop": "2025-05-03 21:48:14 +0200"
+      "has_logs": "2025-05-04 21:36:49 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/cutting_board": {
+    "criteria": {
+      "has_stick": "2025-05-04 21:33:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "cooked_mutton": "2025-05-04 21:44:28 +0200",
+      "beetroot": "2025-05-04 21:43:44 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/purple_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-05-04 21:54:15 +0200"
+    },
+    "done": true
+  },
+  "iguanatweaksexpanded:recipes/tools/flint_repair_kit": {
+    "criteria": {
+      "has_material": "2025-05-04 21:34:22 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/rope": {
+    "criteria": {
+      "has_straw": "2025-05-04 21:34:32 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-05-04 21:54:15 +0200"
+    },
+    "done": true
+  },
+  "iguanatweaksexpanded:recipes/combat/arrow_from_fletching": {
+    "criteria": {
+      "has_flint": "2025-05-04 21:34:22 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/organic_compost_from_tree_bark": {
+    "criteria": {
+      "has_straw": "2025-05-04 21:34:32 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/vegetable_soup": {
+    "criteria": {
+      "has_any_ingredient": "2025-05-04 21:34:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2025-05-04 21:38:47 +0200"
     },
     "done": true
   },
   "minecraft:recipes/decorations/red_bed": {
     "criteria": {
-      "has_item": "2025-05-03 21:48:55 +0200"
+      "has_item": "2025-05-04 21:43:19 +0200"
+    },
+    "done": true
+  },
+  "ytech:recipes/workspace_crafting/mangrove_drying_rack": {
+    "criteria": {
+      "has_logs": "2025-05-04 21:36:49 +0200"
     },
     "done": true
   },

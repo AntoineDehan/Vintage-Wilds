@@ -1,3 +1,7 @@
+
+
+
+
 ItemEvents.toolTierRegistry((event) => {
   event.add("flint", (tier) => {
     tier.uses = 35;
@@ -19,6 +23,12 @@ ItemEvents.toolTierRegistry((event) => {
     tier.repairIngredient = "#forge:ingots/copper";
   });
 });
+
+
+
+
+
+// Armors
 
 ItemEvents.armorTierRegistry((event) => {
   event.add("reinforced_leather", (tier) => {

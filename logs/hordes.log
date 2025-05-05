@@ -56,11 +56,11 @@ Loaded entity minecraft:skeleton_horse as entity.minecraft.skeleton_horse with w
 loaded horde table hordes:skeletons
 Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 15, min day 0 and max day 0
 Loaded entity luminous_monsters:miner_zombie as entity.luminous_monsters.miner_zombie with weight 3, min day 0 and max day 0
-Loaded entity legendarycreatures:forest_mojo as entity.legendarycreatures.forest_mojo with weight 5, min day 14 and max day 0
+Loaded entity legendarycreatures:forest_mojo as entity.minecraft.pig with weight 5, min day 14 and max day 0
 Loaded entity enemyexpansion:huntsman as entity.enemyexpansion.huntsman with weight 5, min day 20 and max day 0
 Loaded entity enemyexpansion:equestrian as entity.enemyexpansion.equestrian with weight 3, min day 30 and max day 0
 Loaded entity alexsmobs:rocky_roller as entity.minecraft.pig with weight 4, min day 30 and max day 0
-Loaded entity legendarycreatures:corpse_eater as entity.legendarycreatures.corpse_eater with weight 4, min day 40 and max day 0
+Loaded entity legendarycreatures:corpse_eater as entity.minecraft.pig with weight 4, min day 40 and max day 0
 loaded horde table hordes:basic_rift
 Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 30, min day 0 and max day 0
 loaded horde table hordes:fallback
@@ -120,11 +120,11 @@ Loaded entity minecraft:skeleton_horse as entity.minecraft.skeleton_horse with w
 loaded horde table hordes:skeletons
 Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 15, min day 0 and max day 0
 Loaded entity luminous_monsters:miner_zombie as entity.luminous_monsters.miner_zombie with weight 3, min day 0 and max day 0
-Loaded entity legendarycreatures:forest_mojo as entity.legendarycreatures.forest_mojo with weight 5, min day 14 and max day 0
+Loaded entity legendarycreatures:forest_mojo as entity.minecraft.pig with weight 5, min day 14 and max day 0
 Loaded entity enemyexpansion:huntsman as entity.enemyexpansion.huntsman with weight 5, min day 20 and max day 0
 Loaded entity enemyexpansion:equestrian as entity.enemyexpansion.equestrian with weight 3, min day 30 and max day 0
 Loaded entity alexsmobs:rocky_roller as entity.minecraft.pig with weight 4, min day 30 and max day 0
-Loaded entity legendarycreatures:corpse_eater as entity.legendarycreatures.corpse_eater with weight 4, min day 40 and max day 0
+Loaded entity legendarycreatures:corpse_eater as entity.minecraft.pig with weight 4, min day 40 and max day 0
 loaded horde table hordes:basic_rift
 Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 30, min day 0 and max day 0
 loaded horde table hordes:fallback
@@ -184,11 +184,11 @@ Loaded entity minecraft:skeleton_horse as entity.minecraft.skeleton_horse with w
 loaded horde table hordes:skeletons
 Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 15, min day 0 and max day 0
 Loaded entity luminous_monsters:miner_zombie as entity.luminous_monsters.miner_zombie with weight 3, min day 0 and max day 0
-Loaded entity legendarycreatures:forest_mojo as entity.legendarycreatures.forest_mojo with weight 5, min day 14 and max day 0
+Loaded entity legendarycreatures:forest_mojo as entity.minecraft.pig with weight 5, min day 14 and max day 0
 Loaded entity enemyexpansion:huntsman as entity.enemyexpansion.huntsman with weight 5, min day 20 and max day 0
 Loaded entity enemyexpansion:equestrian as entity.enemyexpansion.equestrian with weight 3, min day 30 and max day 0
 Loaded entity alexsmobs:rocky_roller as entity.minecraft.pig with weight 4, min day 30 and max day 0
-Loaded entity legendarycreatures:corpse_eater as entity.legendarycreatures.corpse_eater with weight 4, min day 40 and max day 0
+Loaded entity legendarycreatures:corpse_eater as entity.minecraft.pig with weight 4, min day 40 and max day 0
 loaded horde table hordes:basic_rift
 Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 30, min day 0 and max day 0
 loaded horde table hordes:fallback

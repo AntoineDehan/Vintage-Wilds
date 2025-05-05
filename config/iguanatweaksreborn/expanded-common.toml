@@ -17,7 +17,7 @@
 	[World."Coal & Charcoal"]
 		#Chance for logs to release charcoal layer when burnt
 		#Range: 0.0 ~ 1.0
-		"Charcoal from burnt logs chance" = 0.8
+		"Charcoal from burnt logs chance" = 1.0
 		#If enabled, a data pack will be enabled that removes the Charcoal recipe from smelting and makes Coal Ore require an Iron Pickaxe or better to mine.
 		"No charcoal smelting and iron coal" = true
 
@@ -35,7 +35,7 @@
 	#Zombies drop cloth instead of Rotten Flesh. Cloth is used to make beds and various other stuff.
 	"Enable Cloth" = true
 	#Generate Respawn Obelisks around the world where a precise respawn can be set
-	"Enable Respawn Obelisk" = true
+	"Enable Respawn Obelisk" = false
 
 	#Zombies drop cloth instead of Rotten Flesh. Cloth is used to make beds and various other stuff.
 	["Sleep & Respawn".Cloth]

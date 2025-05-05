@@ -42,6 +42,7 @@
     "minecraft:waxed_oxidized_cut_copper_slab",
     "minecraft:waxed_oxidized_cut_copper_stairs",
     "minecraft:waxed_oxidized_cut_copper",
-    "minecraft:lightning_rod"
+    "minecraft:lightning_rod",
+    "minecraft:chest"
   ]
 }
