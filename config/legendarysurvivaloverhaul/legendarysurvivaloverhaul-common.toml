@@ -313,10 +313,10 @@
 	[thirst.canteen]
 		# Capacity of the canteen used to store water.
 		#Range: 0 ~ 1000
-		"Canteen Capacity" = 3
+		"Canteen Capacity" = 2
 		# Capacity of the large canteen used to store water.
 		#Range: 0 ~ 1000
-		"Large Canteen Capacity" = 20
+		"Large Canteen Capacity" = 15
 		# Allow override of purified water stored in canteen with normal water.
 		"Allow Override Purified Water" = true
 

@@ -1,12 +1,12 @@
-[11:57:36] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[11:57:36] [INIT] Loaded plugins:
-[11:57:36] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[11:57:36] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[11:57:36] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[11:57:36] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[11:57:36] [INIT] - com.yanny.ytech.compatibility.KubeJsCompatibility
-[11:57:36] [INFO] Loaded script startup_scripts:block_creation.js in 0.054 s
-[11:57:36] [INFO] Loaded script startup_scripts:item_creation.js in 0.001 s
-[11:57:36] [INFO] Loaded script startup_scripts:no_tree_punching.js in 0.003 s
-[11:57:36] [INFO] Loaded script startup_scripts:tiers.js in 0.001 s
-[11:57:36] [INFO] Loaded 4/4 KubeJS startup scripts in 0.551 s with 0 errors and 0 warnings
+[15:27:29] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[15:27:29] [INIT] Loaded plugins:
+[15:27:29] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[15:27:29] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[15:27:29] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[15:27:29] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[15:27:29] [INIT] - com.yanny.ytech.compatibility.KubeJsCompatibility
+[15:27:30] [INFO] Loaded script startup_scripts:block_creation.js in 0.046 s
+[15:27:30] [INFO] Loaded script startup_scripts:item_creation.js in 0.001 s
+[15:27:30] [INFO] Loaded script startup_scripts:no_tree_punching.js in 0.004 s
+[15:27:30] [INFO] Loaded script startup_scripts:tiers.js in 0.002 s
+[15:27:30] [INFO] Loaded 4/4 KubeJS startup scripts in 0.452 s with 0 errors and 0 warnings

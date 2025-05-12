@@ -45,6 +45,14 @@
       "addBurnTime": 1600
     },
     {
+      "fuelId": "dens_addition:fire_wood",
+      "addBurnTime": 1000
+    },
+    {
+      "fuelId": "farmersdelight:straw",
+      "addBurnTime": 150
+    },
+    {
       "fuelId": "#minecraft:planks",
       "addBurnTime": 400
     },
@@ -54,11 +62,11 @@
     },
     {
       "fuelId": "lititup:baled_switchgrass",
-      "addBurnTime": 400
+      "addBurnTime": 2400
     },
     {
       "fuelId": "projectvibrantjourneys:pinecones",
-      "addBurnTime": 200
+      "addBurnTime": 600
     },
     {
       "fuelId": "projectvibrantjourneys:bark_mushroom",

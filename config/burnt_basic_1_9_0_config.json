@@ -16,7 +16,7 @@
   "soot_on // stone blocks can become covered in soot": true,
   "crafted_blocks_burn // if false only trees and leaves will burn": true,
   "wool_burns // turn wool burning on or off": true,
-  "flame_bow_on // flame enchanted vanilla bow can start the burn": true,
+  "flame_bow_on // flame enchanted vanilla bow can start the burn": false,
   "fire_aspect_on // fire aspect enchanted tools can start the burn": false,
   "flame_particles": true,
   "smoke_particles": true,

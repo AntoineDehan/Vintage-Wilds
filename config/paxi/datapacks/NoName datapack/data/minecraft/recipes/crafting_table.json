@@ -9,7 +9,7 @@
       "item": "minecraft:clay_ball"
     },
     "S": {
-      "tag": "ytech:saws"
+      "tag": "forge:saws"
     }
   },
   "pattern": ["##C", "##S"],

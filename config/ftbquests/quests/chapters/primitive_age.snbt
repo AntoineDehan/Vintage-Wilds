@@ -25,7 +25,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["57D5FC4FD49527C6"]
+			dependencies: ["00346FE92D7FF10E"]
 			description: ["Craft your first Flint Axe, congrats, you can now chop some wood!"]
 			id: "49CF295AF121E359"
 			tasks: [{
@@ -39,8 +39,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["49CF295AF121E359"]
@@ -51,12 +51,19 @@
 			]
 			id: "63400B5D93B518A2"
 			tasks: [{
-				id: "67A29AC4A1B60C38"
-				item: "minecraft:oak_log"
+				id: "0377DDE4F2AAD53F"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Log"
 				type: "item"
 			}]
 			x: 3.0d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["63400B5D93B518A2"]
@@ -76,10 +83,13 @@
 				type: "observation"
 			}]
 			x: 4.0d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
-			dependencies: ["6F62812051EA21B6"]
+			dependencies: [
+				"3D33914EC566F90F"
+				"7222CD9FBB25DB68"
+			]
 			description: ["To progress further Clay is an important step."]
 			hide_until_deps_complete: true
 			id: "1DE8DC32ADF342DC"
@@ -88,11 +98,11 @@
 				item: "minecraft:clay_ball"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 1.0d
+			x: 9.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["6F62812051EA21B6"]
+			dependencies: ["094BD2013092183D"]
 			description: [
 				"You won't be able to craft a crafting table for some moment so you need to use the primitive crafting table."
 				""
@@ -102,6 +112,7 @@
 			]
 			hide_until_deps_complete: true
 			id: "3D33914EC566F90F"
+			size: 1.25d
 			tasks: [{
 				icon: "dens_addition:primitive_crafting_table"
 				id: "2CD327318703B8A3"
@@ -111,8 +122,8 @@
 				to_observe: "dens_addition:primitive_crafting_table"
 				type: "observation"
 			}]
-			x: 7.0d
-			y: -1.0d
+			x: 8.125d
+			y: -1.25d
 		}
 		{
 			dependencies: ["3D33914EC566F90F"]
@@ -123,8 +134,8 @@
 				item: "primalstorage:oak_shelves"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -2.0d
+			x: 7.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["3D33914EC566F90F"]
@@ -134,7 +145,7 @@
 				item: "ytech:grass_bed"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 8.0d
 			y: -2.5d
 		}
 		{
@@ -145,7 +156,7 @@
 				item: "brickfurnace:brick_furnace"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 11.5d
 			y: 0.0d
 		}
 		{
@@ -156,23 +167,24 @@
 				item: "brickfurnace:brick_smoker"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 11.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["458A888B9749186F"]
-			description: ["The Brick Blast Furnace is you only furnace that is hot enough to smelt Copper."]
+			description: ["The Brick Blast Furnace is your only furnace that is hot enough to smelt Copper."]
 			id: "18F5F126DAD1061E"
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
 				id: "4335D10AEB73E88F"
-				item: "brickfurnace:brick_blast_furnace"
+				item: "ytech:primitive_smelter"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 13.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["18F5F126DAD1061E"]
 			description: [
 				"Your only way to find Copper during the Primitive Stage is to found Copper Ore Rocks spawning on the surface."
 				""
@@ -184,7 +196,7 @@
 				item: "minecraft:raw_copper"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 16.0d
 			y: 0.0d
 		}
 		{
@@ -195,8 +207,8 @@
 				item: "storage_pots:storage_pot"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -2.0d
+			x: 11.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["458A888B9749186F"]
@@ -206,30 +218,8 @@
 				item: "farmersdelight:cooking_pot"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["0BD45BC48F14EE97"]
-			description: [
-				"Forget hitting Flint to create a fire. Obtain some Switch Grass Fiber and caft a Sparkling Flint."
-				""
-				"This item (and more) work to be able to lit up furnaces."
-			]
-			id: "6F62812051EA21B6"
-			tasks: [{
-				id: "289BD87FAAD20308"
-				item: {
-					Count: 1
-					id: "lititup:sparkling_flint"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 5.0d
-			y: 0.0d
+			x: 11.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["57D5FC4FD49527C6"]
@@ -246,14 +236,11 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 0.0d
+			x: -0.5d
+			y: 1.0d
 		}
 		{
-			dependencies: [
-				"1DE8DC32ADF342DC"
-				"3D33914EC566F90F"
-			]
+			dependencies: ["1DE8DC32ADF342DC"]
 			dependency_requirement: "one_completed"
 			description: [
 				"You should start making bricks since they take a lot of time to cook."
@@ -268,18 +255,59 @@
 				item: "ytech:unfired_brick"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 10.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["458A888B9749186F"]
+			dependencies: ["094BD2013092183D"]
 			id: "7222CD9FBB25DB68"
+			size: 1.25d
 			tasks: [{
 				id: "08822EE08C9EB14D"
 				item: "ytech:potters_wheel"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 8.125d
+			y: 1.25d
+		}
+		{
+			dependencies: ["458A888B9749186F"]
+			id: "3561CBF3BB5C5A94"
+			tasks: [{
+				id: "45595FFDD25D64B6"
+				item: "legendarysurvivaloverhaul:canteen"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0BD45BC48F14EE97"]
+			id: "094BD2013092183D"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "52AA1524CFC6153F"
+				item: "ytech:crafting_workspace"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "4FAC05FC0150CE58"
+			tasks: [{
+				id: "42F30AF19F5C9AEE"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ytech:molds/ingot"
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
 			y: 0.0d
 		}
 	]

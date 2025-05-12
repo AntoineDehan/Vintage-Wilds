@@ -6,7 +6,7 @@
       "tag": "forge:leather"
     },
     "c": {
-      "tag": "forge:chests/wooden"
+      "item": "iguanatweaksexpanded:crate"
     },
     "s": {
       "item": "sapwood:sap"

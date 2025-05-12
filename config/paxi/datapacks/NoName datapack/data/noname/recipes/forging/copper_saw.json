@@ -9,6 +9,6 @@
     "item": "minecraft:stick"
   },
   "result": "ytech:copper_saw",
-  "smashes_required": 12,
+  "smashes_required": 10,
   "experience": 15
 }

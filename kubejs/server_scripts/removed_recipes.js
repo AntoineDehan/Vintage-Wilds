@@ -47,6 +47,8 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "ytech:golden_saw" });
   event.remove({ id: "ytech:iron_saw" });
 
+  // event.remove({ type: "ytech:workspace_crafting" });
+
   // event.remove({ type: "ytech:hammering" });
   event.remove({ id: "ytech:copper_plate" });
   event.remove({ id: "ytech:iron_plate" });
@@ -145,7 +147,7 @@ ServerEvents.recipes((event) => {
   event.remove({ output: "ytech:copper_boots" });
 
   event.remove({ output: "ytech:bronze_anvil" });
-  event.remove({ output: "ytech:bronze_ingot" });
+  // event.remove({ output: "ytech:bronze_ingot" });
   event.remove({ output: "ytech:bronze_saw" });
   event.remove({ output: "ytech:bronze_plate" });
   event.remove({ output: "ytech:bronze_rod" });
@@ -170,8 +172,8 @@ ServerEvents.recipes((event) => {
   event.remove({ output: "ytech:raw_cassiterite_block" });
 
   event.remove({ output: "ytech:reinforced_brick_chimney" });
-  event.remove({ output: "ytech:brick_chimney" });
-  event.remove({ output: "ytech:primitive_smelter" });
+  // event.remove({ output: "ytech:brick_chimney" });
+  // event.remove({ output: "ytech:primitive_smelter" });
   event.remove({ output: "ytech:primitive_alloy_smelter" });
 
   // Reset Craft on Surface recipes
@@ -184,4 +186,5 @@ ServerEvents.recipes((event) => {
   });
 
   event.remove({ id: "iguanatweaksexpanded:forge" });
+  event.remove({ output: "brickfurnace:brick_blast_furnace" });
 });

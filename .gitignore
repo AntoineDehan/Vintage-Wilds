@@ -1,5 +1,6 @@
 shaderpacks/
 mods/
+mods
 resourcepacks/
 .curseclient
 knownkeys.txt
@@ -17,6 +18,7 @@ fancymenu_data/
 lightspeed-cache/
 local/
 logs/
+logs
 crash-reports/
 modernfix/
 saves/
@@ -60,3 +62,10 @@ config/packetfixer.properties
 config/spawnbalanceutility/BiomeMobWeight.rpt
 config/jei/ingredient-list-type-sort-order.ini
 config/jei/recipe-category-sort-order.ini
+logs/hordes.log
+logs/latest.log
+logs/MobsPropertiesRandomness.log
+logs/kubejs/client.log
+logs/kubejs/server.log
+logs/kubejs/startup.log
+config/spawnbalanceutility/AllMobEntities.rpt

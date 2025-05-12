@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "ytech:remaining_shaped_crafting",
   "category": "misc",
   "key": {
     "B": {
@@ -10,9 +10,12 @@
     },
     "i": {
       "item": "ytech:copper_plate"
+    },
+    "H": {
+      "tag": "forge:hammers"
     }
   },
-  "pattern": ["iii", "B B", "BCB"],
+  "pattern": ["iii", "BHB", "BCB"],
   "result": {
     "item": "farmersdelight:stove"
   },

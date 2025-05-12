@@ -1,0 +1,14 @@
+{
+  "type": "iguanatweaksexpanded:forging",
+  "category": "forge_misc",
+  "ingredient": {
+    "item": "minecraft:copper_ingot"
+  },
+  "amount": 3,
+  "gear": {
+    "item": "ytech:axe_blade_pattern"
+  },
+  "result": "dens_addition:copper_axe",
+  "smashes_required": 15,
+  "experience": 15
+}

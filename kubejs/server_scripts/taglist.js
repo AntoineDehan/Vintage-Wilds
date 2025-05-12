@@ -10,3 +10,7 @@ ServerEvents.tags("item", (event) => {
     tag.add(id);
   });
 });
+
+ServerEvents.tags("item", (event) => {
+  event.add("minecraft:axes", "dens_addition:copper_axe");
+});

@@ -1,0 +1,28 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Den_lille",
+      "uniqueId": "7ed56862-d5bd-49fa-942d-17b4a366804a"
+    },
+    "time": 1746630815638,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/nb9cwR3Bh3"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Den_lille",
+      "uniqueId": "7ed56862-d5bd-49fa-942d-17b4a366804a"
+    },
+    "time": 1746629956718,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/OO4iHm0fIw"
+    }
+  }
+]

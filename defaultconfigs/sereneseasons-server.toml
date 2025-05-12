@@ -7,16 +7,16 @@
 	day_duration = 33600
 	#The duration of a sub season in days
 	#Range: > 1
-	sub_season_duration = 10
+	sub_season_duration = 12
 	#The starting sub season for new worlds.
 	#0 = Random, 1 - 3 = Early/Mid/Late Spring
 	#4 - 6 = Early/Mid/Late Summer
 	#7 - 9 = Early/Mid/Late Autumn
 	#10 - 12 = Early/Mid/Late Winter
 	#Range: 0 ~ 12
-	starting_sub_season = 1
+	starting_sub_season = 2
 	#If the season should progress on a server with no players online
-	progress_season_while_offline = true
+	progress_season_while_offline = false
 
 [aesthetic_settings]
 	#Change the grass color based on the current season

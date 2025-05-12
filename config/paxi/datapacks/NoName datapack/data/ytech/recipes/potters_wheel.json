@@ -1,27 +1,22 @@
 {
-  "type": "ytech:remaining_shaped_crafting",
-  "category": "misc",
+  "type": "ytech:workspace_crafting",
   "key": {
-    "A": {
-      "tag": "minecraft:axes"
-    },
-    "B": {
-      "tag": "ytech:saws"
+    "C": {
+      "tag": "forge:stripped_logs"
     },
     "S": {
-      "tag": "minecraft:wooden_slabs"
-    },
-    "W": {
-      "tag": "minecraft:logs"
+      "item": "minecraft:stick"
     }
   },
-  "pattern": [
-    "ASB",
-    " W ",
-    "SSS"
-  ],
+  "pattern": {
+    "bottom": ["CCC", "CCC", "CCC"],
+    "middle": ["   ", " S ", "   "],
+    "top": ["   ", " C ", "   "]
+  },
   "result": {
     "item": "ytech:potters_wheel"
   },
-  "show_notification": true
+  "tool": {
+    "tag": "forge:knives"
+  }
 }
