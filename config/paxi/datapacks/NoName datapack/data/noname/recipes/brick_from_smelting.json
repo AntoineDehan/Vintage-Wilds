@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:blasting",
+  "type": "minecraft:smelting",
   "cookingtime": 90,
   "ingredient": {
     "item": "minecraft:clay_ball"

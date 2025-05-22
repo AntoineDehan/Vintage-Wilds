@@ -1,0 +1,20 @@
+{
+  "type": "ytech:remaining_shaped_crafting",
+  "category": "misc",
+  "key": {
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "R": {
+      "tag": "forge:rods/metal"
+    },
+    "A": {
+      "tag": "forge:plates/metal"
+    }
+  },
+  "pattern": ["RPR", "PAP", "PPP"],
+  "result": {
+    "item": "minecraft:chest"
+  },
+  "show_notification": true
+}

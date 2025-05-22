@@ -62,7 +62,7 @@
 				title: "Log"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: 1.0d
 		}
 		{
@@ -71,6 +71,8 @@
 				"To craft a campfire, right click on the ground on any solid block with some Fire Logs, Sticks and Charcoal."
 				""
 				"To create Charcoal you can burn a log, you can use two Flints (one in your main hand and the other in your off hand) to create a fire."
+				""
+				"The campfire will burn out (you can add fuel) and will extinguish under rain."
 			]
 			id: "0BD45BC48F14EE97"
 			tasks: [{
@@ -82,7 +84,7 @@
 				to_observe: "minecraft:campfire"
 				type: "observation"
 			}]
-			x: 4.0d
+			x: 3.5d
 			y: 1.0d
 		}
 		{
@@ -90,6 +92,7 @@
 				"3D33914EC566F90F"
 				"7222CD9FBB25DB68"
 			]
+			dependency_requirement: "one_completed"
 			description: ["To progress further Clay is an important step."]
 			hide_until_deps_complete: true
 			id: "1DE8DC32ADF342DC"
@@ -106,7 +109,7 @@
 			description: [
 				"You won't be able to craft a crafting table for some moment so you need to use the primitive crafting table."
 				""
-				"To craft a Primitive Crafting Table, place a log and right-click on it with a flint knife."
+				"To craft a Primitive Crafting Table, search the recipe on JEI."
 				""
 				"To craft items with it, right click with an item/block on it to combine certain item/block."
 			]
@@ -115,10 +118,9 @@
 			size: 1.25d
 			tasks: [{
 				icon: "dens_addition:primitive_crafting_table"
-				id: "2CD327318703B8A3"
+				id: "4512E219DAC8AACD"
 				observe_type: 0
 				timer: 0L
-				title: "Create a Primitive Crafting Table"
 				to_observe: "dens_addition:primitive_crafting_table"
 				type: "observation"
 			}]
@@ -128,6 +130,7 @@
 		{
 			dependencies: ["3D33914EC566F90F"]
 			description: ["First early game storage"]
+			hide_until_deps_complete: true
 			id: "37047310D3CB7DE8"
 			tasks: [{
 				id: "399503B240457033"
@@ -139,6 +142,7 @@
 		}
 		{
 			dependencies: ["3D33914EC566F90F"]
+			hide_until_deps_complete: true
 			id: "2B148EDECB3CAFD7"
 			tasks: [{
 				id: "40A661C7199B54A4"
@@ -150,6 +154,13 @@
 		}
 		{
 			dependencies: ["5109FC4CE3A511AE"]
+			description: [
+				"The Brick Furnace is used to cook clay bricks faster as well as hardening pottery's items."
+				""
+				"This Brick Furnace wont be able to cook food or ore!"
+				""
+				"&9&oThis Brick Furnace might be removed in the future to only use the Primitive Smelter, what do you think about it?&r&r"
+			]
 			id: "458A888B9749186F"
 			tasks: [{
 				id: "7B1F50298CEEA8C3"
@@ -161,18 +172,15 @@
 		}
 		{
 			dependencies: ["458A888B9749186F"]
-			id: "305A4CD7A3FE133A"
-			tasks: [{
-				id: "20D9068B4E4C5C40"
-				item: "brickfurnace:brick_smoker"
-				type: "item"
-			}]
-			x: 11.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["458A888B9749186F"]
-			description: ["The Brick Blast Furnace is your only furnace that is hot enough to smelt Copper."]
+			description: [
+				"The Primitive Smelter is your next tier of furnace."
+				""
+				"You will need to have a sufficient temperature to smelt specific ores."
+				""
+				"To increase the max temperature you will need to place Brick Chimney on top of it."
+				"You can place up to 4 Chimneys."
+			]
+			hide_until_deps_complete: true
 			id: "18F5F126DAD1061E"
 			shape: "hexagon"
 			size: 1.5d
@@ -185,8 +193,9 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["18F5F126DAD1061E"]
 			description: [
-				"Your only way to find Copper during the Primitive Stage is to found Copper Ore Rocks spawning on the surface."
+				"Your only way to find Copper during the Primitive Stage is to find Copper Ore Rocks spawning on the surface."
 				""
 				"You will be able to found it in pretty much all biomes, there will be a good amount on the surface, mark the spot, it also means that there is Copper beneath it underground!"
 			]
@@ -196,11 +205,12 @@
 				item: "minecraft:raw_copper"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 16.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["458A888B9749186F"]
+			hide_until_deps_complete: true
 			id: "653F090B135AF9E8"
 			tasks: [{
 				id: "415BBFD1F262474A"
@@ -212,6 +222,7 @@
 		}
 		{
 			dependencies: ["458A888B9749186F"]
+			hide_until_deps_complete: true
 			id: "4B5685D5181756BF"
 			tasks: [{
 				id: "65A00AB5C2524DAE"
@@ -260,18 +271,30 @@
 		}
 		{
 			dependencies: ["094BD2013092183D"]
+			description: [
+				"The Potter's Wheel is an important block early game to obtain pottery items."
+				""
+				"Those items can be hardened in a Brick Furnace to obtain."
+				""
+				"Check the recipe through JEI."
+			]
+			hide_until_deps_complete: true
 			id: "7222CD9FBB25DB68"
 			size: 1.25d
 			tasks: [{
-				id: "08822EE08C9EB14D"
-				item: "ytech:potters_wheel"
-				type: "item"
+				icon: "ytech:potters_wheel"
+				id: "25577B4C8AE59C27"
+				observe_type: 0
+				timer: 0L
+				to_observe: "ytech:potters_wheel"
+				type: "observation"
 			}]
 			x: 8.125d
 			y: 1.25d
 		}
 		{
 			dependencies: ["458A888B9749186F"]
+			hide_until_deps_complete: true
 			id: "3561CBF3BB5C5A94"
 			tasks: [{
 				id: "45595FFDD25D64B6"
@@ -283,6 +306,7 @@
 		}
 		{
 			dependencies: ["0BD45BC48F14EE97"]
+			description: ["You can place Blocks and/or Items in the Workspace to craft some blocks."]
 			id: "094BD2013092183D"
 			shape: "hexagon"
 			size: 1.5d
@@ -295,21 +319,111 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["18F5F126DAD1061E"]
+			description: [
+				"You're getting closer to your first ingot!"
+				""
+				"You will need an ingot mold, to create it you can use sand and a brick."
+			]
 			id: "4FAC05FC0150CE58"
 			tasks: [{
-				id: "42F30AF19F5C9AEE"
+				id: "796B4E4D844A04CD"
+				item: "ytech:ingot_sand_mold"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18F5F126DAD1061E"]
+			description: [
+				"To create chimneys you will need sap."
+				""
+				"You will need to find maple trees which are uncommon but can be easily seen thanks to the colored leaves."
+				"Put a spigot on the logs of the tree, wait a bit and you will be able to get some sap!"
+			]
+			id: "2BB259934AD35A68"
+			tasks: [{
+				count: 4L
+				id: "705E518ABC8BE048"
+				item: "ytech:brick_chimney"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["094BD2013092183D"]
+			description: [
+				"Tanning Racks are used to obtain leather."
+				""
+				"&o&7This not implemented currently&r&r"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: false
+			id: "0EDEE36E8BE2E469"
+			tasks: [{
+				id: "7CF76B5FE86B38FC"
 				item: {
 					Count: 1
 					id: "itemfilters:tag"
 					tag: {
-						value: "ytech:molds/ingot"
+						value: "ytech:tanning_racks"
 					}
 				}
 				type: "item"
 			}]
-			x: 15.0d
+			title: "Tanning Racks"
+			x: 7.5d
 			y: 0.0d
 		}
+		{
+			dependencies: ["18F5F126DAD1061E"]
+			description: ["To handle hot items in the Primitive Smelter you will need a Wooden Thong in your off hand!"]
+			id: "489DAD9243F5837E"
+			tasks: [{
+				id: "4AD7246BAA20DF04"
+				item: "dens_addition:wooden_tongs"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3D33914EC566F90F"]
+			hide_until_deps_complete: true
+			id: "0BACC3AEB20766C4"
+			tasks: [{
+				id: "0AB2669AF3D6AC49"
+				item: {
+					Count: 1
+					id: "ytech:brick_mold"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["458A888B9749186F"]
+			id: "5823599F43F28B08"
+			tasks: [{
+				id: "466E8F3059CE262A"
+				item: {
+					Count: 1
+					id: "lititup:sparkling_flint"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.0d
+		}
 	]
-	title: "Primitive age"
+	title: "Primitive Age"
 }

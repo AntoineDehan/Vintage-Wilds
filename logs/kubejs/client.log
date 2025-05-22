@@ -1,10 +1,12 @@
-[15:27:30] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[15:27:30] [INIT] Loaded plugins:
-[15:27:30] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[15:27:30] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[15:27:30] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[15:27:30] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[15:27:30] [INIT] - com.yanny.ytech.compatibility.KubeJsCompatibility
-[15:27:30] [ERROR] ! items_rename.js#5: ReferenceError: "RecipeViewerEvents" is not defined.
-[15:27:30] [INFO] Loaded 0/1 KubeJS client scripts in 0.015 s with 0 errors and 0 warnings
-[15:27:33] [INFO] Client resource reload complete!
+[14:05:04] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[14:05:04] [INIT] Loaded plugins:
+[14:05:04] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[14:05:04] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[14:05:04] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[14:05:04] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[14:05:04] [INIT] - com.yanny.ytech.compatibility.KubeJsCompatibility
+[14:05:04] [INIT] - com.probejs.ProbeJSPlugin
+[14:05:04] [INIT] - snownee.lychee.compat.kubejs.LycheeKubeJSPlugin
+[14:05:04] [ERROR] ! items_rename.js#5: ReferenceError: "RecipeViewerEvents" is not defined.
+[14:05:04] [INFO] Loaded 0/1 KubeJS client scripts in 0.015 s with 0 errors and 0 warnings
+[14:05:08] [INFO] Client resource reload complete!

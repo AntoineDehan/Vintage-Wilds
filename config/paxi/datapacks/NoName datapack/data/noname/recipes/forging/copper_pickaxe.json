@@ -2,13 +2,13 @@
   "type": "iguanatweaksexpanded:forging",
   "category": "forge_misc",
   "ingredient": {
-    "item": "minecraft:copper_ingot"
+    "item": "ytech:copper_pickaxe_head_part"
   },
-  "amount": 2,
+  "amount": 1,
   "gear": {
-    "item": "ytech:pickaxe_blade_pattern"
+    "item": "minecraft:stick"
   },
   "result": "dens_addition:copper_pickaxe",
-  "smashes_required": 15,
+  "smashes_required": 5,
   "experience": 15
 }

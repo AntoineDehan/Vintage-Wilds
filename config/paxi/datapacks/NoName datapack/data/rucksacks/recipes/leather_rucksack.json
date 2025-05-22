@@ -1,9 +1,12 @@
 {
   "type": "ytech:remaining_shaped_crafting",
-  "pattern": ["sls", "lcl", " f "],
+  "pattern": ["sls", "tct", " f "],
   "key": {
     "l": {
       "tag": "forge:leather"
+    },
+    "t": {
+      "item": "ytech:leather_strips"
     },
     "c": {
       "item": "iguanatweaksexpanded:crate"

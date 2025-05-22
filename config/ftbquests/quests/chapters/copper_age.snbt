@@ -9,67 +9,24 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["0F9170C3DF8E5B58"]
+			description: [
+				"To handle ingot and create tools or other items you will need a forge."
+				"You will need hammers to use the forge as well!"
+			]
 			id: "58043DF622C90D95"
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
 				id: "0223DB1AA6F3DFFC"
 				item: "iguanatweaksexpanded:forge"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 5.0d
 			y: 0.5d
 		}
 		{
-			id: "40A1BB51AB005F84"
-			tasks: [
-				{
-					id: "1C06AACCB402D91C"
-					item: {
-						Count: 1
-						id: "dens_addition:copper_reinforced_leather_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "22F491E5A225C6CE"
-					item: {
-						Count: 1
-						id: "dens_addition:copper_reinforced_leather_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "40102FC1186FE2C1"
-					item: {
-						Count: 1
-						id: "dens_addition:copper_reinforced_leather_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1AFE1169A0D3DDA2"
-					item: {
-						Count: 1
-						id: "dens_addition:copper_reinforced_leather_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: 2.5d
-			y: 1.5d
-		}
-		{
+			dependencies: ["52663D363DC057A0"]
 			id: "03634F063EBF5ED5"
 			tasks: [{
 				id: "46C94720DC54A7D4"
@@ -82,10 +39,11 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.5d
+			x: 6.0d
+			y: 4.5d
 		}
 		{
+			dependencies: ["6C20B22ED5FCBD81"]
 			id: "218D9D1EB0F8D4FC"
 			tasks: [{
 				id: "48DF1BBC54210558"
@@ -98,39 +56,422 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
-			y: -0.5d
+			x: 4.0d
+			y: -2.5d
 		}
 		{
+			dependencies: ["20A377F26B080F66"]
 			id: "3C5F868D05978A38"
 			tasks: [{
 				id: "1FE8E8AC3A3CC98A"
 				item: "farmersdelight:stove"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 12.5d
 			y: 0.5d
 		}
 		{
+			dependencies: ["58043DF622C90D95"]
 			id: "20A377F26B080F66"
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
 				id: "0AF38310FC93225D"
 				item: "minecraft:crafting_table"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -1.5d
+			x: 8.5d
+			y: 0.5d
 		}
 		{
+			description: [
+				"To cool hot items (such as hot copper ingot and such) you need to throw them in water!"
+				"Don't forget to have a Wooden Tong in your off hand."
+			]
 			id: "0F9170C3DF8E5B58"
+			size: 1.25d
 			tasks: [{
 				id: "610F0A7899A0AA85"
 				item: "minecraft:copper_ingot"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 2.5d
 			y: 0.5d
 		}
+		{
+			dependencies: ["20A377F26B080F66"]
+			id: "7C44BA22A303409A"
+			tasks: [{
+				id: "6339512F19D7A46F"
+				item: {
+					Count: 1
+					id: "ytech:copper_shears"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["58043DF622C90D95"]
+			id: "2B57000CBB83C1FB"
+			tasks: [{
+				id: "37E5584D1902EDC4"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ytech:molds/axe_head"
+					}
+				}
+				type: "item"
+			}]
+			title: "Axe Mold"
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["58043DF622C90D95"]
+			id: "60AE087FE62235A7"
+			tasks: [{
+				id: "693F4C756698A958"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ytech:molds/hammer_head"
+					}
+				}
+				type: "item"
+			}]
+			title: "Hammer Mold"
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["58043DF622C90D95"]
+			id: "52663D363DC057A0"
+			tasks: [{
+				id: "54071DB939E87DB2"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ytech:molds/pickaxe_head"
+					}
+				}
+				type: "item"
+			}]
+			title: "Pickaxe Mold"
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["58043DF622C90D95"]
+			id: "450BA985B4B5807E"
+			tasks: [{
+				id: "7EB2C21EE53D12EE"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ytech:molds/sword_blade"
+					}
+				}
+				title: "Hammer Mold"
+				type: "item"
+			}]
+			title: "Blade Mold"
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["58043DF622C90D95"]
+			id: "6C20B22ED5FCBD81"
+			size: 1.15d
+			tasks: [{
+				id: "212AB6B7B753D8F6"
+				item: "ytech:copper_plate"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["60AE087FE62235A7"]
+			id: "182285A55BBA2BBD"
+			tasks: [{
+				id: "0474A0736B0DFC9E"
+				item: {
+					Count: 1
+					id: "iguanatweaksexpanded:copper_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2B57000CBB83C1FB"]
+			id: "027E590E6420035F"
+			tasks: [{
+				id: "24013D8F7A1D4269"
+				item: {
+					Count: 1
+					id: "dens_addition:copper_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["450BA985B4B5807E"]
+			id: "648B122AC055A5E7"
+			tasks: [{
+				id: "00B390854AE4D066"
+				item: {
+					Count: 1
+					id: "dens_addition:copper_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6C20B22ED5FCBD81"]
+			id: "3B2A79EFCBF8FF96"
+			tasks: [{
+				id: "609C1BBA07E05E2C"
+				item: {
+					Count: 1
+					id: "ytech:copper_file"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6C20B22ED5FCBD81"]
+			id: "6F0257E3F4607274"
+			tasks: [{
+				id: "5AB3127E4D151E03"
+				item: {
+					Count: 1
+					id: "dens_addition:copper_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6C20B22ED5FCBD81"]
+			id: "42CFEB76C823DCF5"
+			tasks: [{
+				id: "7AADE7D2FD5090A3"
+				item: {
+					Count: 1
+					id: "ytech:copper_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["221037CDF2C8F061"]
+			id: "66AB02852F2F4ECB"
+			tasks: [{
+				id: "22CADE1AE555E410"
+				item: "ytech:aqueduct_hydrator"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["20A377F26B080F66"]
+			id: "221037CDF2C8F061"
+			tasks: [{
+				id: "5851426750986F41"
+				item: "ytech:terracotta_aqueduct"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["221037CDF2C8F061"]
+			id: "1D18B42EF044A70B"
+			tasks: [{
+				id: "578948E06859C50F"
+				item: "ytech:aqueduct_valve"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"6C20B22ED5FCBD81"
+				"20A377F26B080F66"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "05F0C7CDBB2B76E1"
+			tasks: [{
+				id: "73244B0B46C6EEDD"
+				item: {
+					Count: 1
+					id: "dew_drop_watering_cans:copper_watering_can"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["221037CDF2C8F061"]
+			id: "24CA8D1DAC623580"
+			tasks: [
+				{
+					id: "1386C8F4B837E317"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:seeds"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57B9B20D334D6692"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "createaddition:plant_foods"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3C5F868D05978A38"]
+			id: "00F865F3F932C5E8"
+			tasks: [{
+				id: "7B4C15D5C6F0BFE2"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "farmersdelight:cabinets"
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["20A377F26B080F66"]
+			id: "45644E8BCB3C6617"
+			tasks: [{
+				id: "58591658C38D9985"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7C44BA22A303409A"]
+			id: "2CE1BAD1FAB54D41"
+			tasks: [{
+				id: "383B462A8D268AAA"
+				item: "ytech:beeswax"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2CE1BAD1FAB54D41"]
+			id: "329837FAADDB35DC"
+			tasks: [{
+				id: "3867EBB095BB0BF4"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ytech:patterns"
+					}
+				}
+				type: "item"
+			}]
+			title: "Patterns"
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["329837FAADDB35DC"]
+			id: "60D7011DDA8D0C06"
+			tasks: [{
+				id: "0DB2BFB1F2642DD3"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ytech:clay_molds"
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["20A377F26B080F66"]
+			id: "56C656F2F40CCC4F"
+			tasks: [{
+				id: "5B4BCC4E8ACC425E"
+				item: "rucksacks:leather_rucksack"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
 	]
-	title: "Copper age"
+	title: "Copper Age"
 }

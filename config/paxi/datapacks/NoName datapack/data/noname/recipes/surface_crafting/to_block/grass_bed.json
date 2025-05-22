@@ -2,16 +2,16 @@
   "type": "craft_on_surface:surface_crafting_recipe",
   "materials": [
     {
-      "item": "ytech:thatch"
+      "item": "farmersdelight:canvas"
     },
     {
-      "item": "ytech:thatch"
+      "item": "farmersdelight:canvas"
     },
     {
-      "item": "ytech:thatch"
+      "item": "farmersdelight:canvas"
     },
     {
-      "item": "ytech:thatch"
+      "item": "farmersdelight:canvas"
     },
     {
       "item": "farmersdelight:straw"

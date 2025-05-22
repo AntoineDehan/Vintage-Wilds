@@ -1,0 +1,14 @@
+{
+  "type": "iguanatweaksexpanded:forging",
+  "category": "forge_misc",
+  "ingredient": {
+    "tag": "forge:plates/copper"
+  },
+  "amount": 2,
+  "gear": {
+    "item": "minecraft:stick"
+  },
+  "result": "ytech:copper_hoe",
+  "smashes_required": 7,
+  "experience": 15
+}

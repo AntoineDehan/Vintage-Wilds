@@ -1,0 +1,28 @@
+{
+  "type": "lychee:item_inside",
+  "item_in": {
+    "item": "dens_addition:hot_copper_axe_head_part"
+  },
+  "block_in": {
+    "block": "water",
+    "state": {
+      "level": "0"
+    }
+  },
+  "post": [
+    {
+      "type": "drop_item",
+      "item": "ytech:copper_axe_head_part"
+    },
+    {
+      "type": "execute",
+      "command": "particle minecraft:smoke ~ ~ ~ 0 1 1 0 20",
+      "hide": true
+    },
+    {
+      "type": "execute",
+      "command": "playsound minecraft:block.lava.extinguish master @p",
+      "hide": true
+    }
+  ]
+}

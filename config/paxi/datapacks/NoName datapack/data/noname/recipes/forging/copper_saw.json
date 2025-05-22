@@ -4,11 +4,11 @@
   "ingredient": {
     "item": "ytech:copper_plate"
   },
-  "amount": 2,
+  "amount": 3,
   "gear": {
     "item": "minecraft:stick"
   },
   "result": "ytech:copper_saw",
-  "smashes_required": 10,
+  "smashes_required": 7,
   "experience": 15
 }

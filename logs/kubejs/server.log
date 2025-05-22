@@ -1,28 +1,28 @@
-[16:20:42] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[16:20:42] [INIT] Loaded plugins:
-[16:20:42] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[16:20:42] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[16:20:42] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[16:20:42] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[16:20:42] [INIT] - com.yanny.ytech.compatibility.KubeJsCompatibility
-[16:20:42] [INFO] Loaded script server_scripts:food_removed_furnace.js in 0.0 s
-[16:20:42] [INFO] Loaded script server_scripts:hostile_mobs.js in 0.0 s
-[16:20:42] [INFO] Loaded script server_scripts:ore_removed_furnace.js in 0.001 s
-[16:20:42] [INFO] Loaded script server_scripts:primitive_crafting_table.js in 0.0 s
-[16:20:42] [INFO] Loaded script server_scripts:raw_materials_tag.js in 0.0 s
-[16:20:42] [INFO] Loaded script server_scripts:removed_recipes.js in 0.001 s
-[16:20:42] [INFO] Loaded script server_scripts:taglist.js in 0.0 s
-[16:20:42] [INFO] Loaded 7/7 KubeJS server scripts in 0.004 s with 0 errors and 0 warnings
-[16:20:42] [INFO] Scripts loaded
-[16:20:42] [INFO] Initializing recipe event...
-[16:20:42] [INFO] [minecraft:item] Found 1275 tags, added 249 objects, removed 0 objects
-[16:20:43] [INFO] Processing recipes...
-[16:20:43] [WARN] Failed to parse recipe 'autumnity:maple_pressure_plate[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[16:20:43] [WARN] Failed to parse recipe 'woodenshears:wooden_shears[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[16:20:43] [WARN] Failed to parse recipe 'ytech:oak_planks_from_chopping[ytech:chopping]'! Falling back to vanilla: Array must have size 1, but has size 2
-[16:20:43] [WARN] Failed to parse recipe 'autumnity:maple_button[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[16:20:43] [INFO] Found 3811 recipes in 7.411 ms
-[16:20:43] [INFO] Posted recipe events in 34.88 ms
-[16:20:43] [WARN] Error parsing recipe burnt:gunpowder_recipe[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"burnt:deleted_mod_element"},{"item":"burnt:deleted_mod_element"},{"item":"minecraft:gravel"}],"result":{"item":"minecraft:gunpowder","count":1}}: Unknown item 'burnt:deleted_mod_element'
-[16:20:43] [INFO] Added 0 recipes, removed 212 recipes, modified 2 recipes, with 1 failed recipes in 2.040 ms
-[16:20:43] [INFO] Server resource reload complete!
+[14:13:49] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[14:13:49] [INIT] Loaded plugins:
+[14:13:49] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[14:13:49] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[14:13:49] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[14:13:49] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[14:13:49] [INIT] - com.yanny.ytech.compatibility.KubeJsCompatibility
+[14:13:49] [INIT] - com.probejs.ProbeJSPlugin
+[14:13:49] [INIT] - snownee.lychee.compat.kubejs.LycheeKubeJSPlugin
+[14:13:49] [INFO] Loaded script server_scripts:furnace_removed_recipes.js in 0.001 s
+[14:13:49] [INFO] Loaded script server_scripts:hot_items.js in 0.0 s
+[14:13:49] [INFO] Loaded script server_scripts:message.js in 0.0 s
+[14:13:49] [INFO] Loaded script server_scripts:primitive_crafting_table.js in 0.0 s
+[14:13:49] [INFO] Loaded script server_scripts:removed_recipes.js in 0.001 s
+[14:13:49] [INFO] Loaded script server_scripts:tag_handling.js in 0.0 s
+[14:13:49] [INFO] Loaded 6/6 KubeJS server scripts in 0.006 s with 0 errors and 0 warnings
+[14:13:49] [INFO] Scripts loaded
+[14:13:49] [INFO] Initializing recipe event...
+[14:13:49] [INFO] [minecraft:item] Found 1281 tags, added 264 objects, removed 0 objects
+[14:13:49] [INFO] Processing recipes...
+[14:13:49] [WARN] Failed to parse recipe 'autumnity:maple_pressure_plate[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[14:13:49] [WARN] Failed to parse recipe 'woodenshears:wooden_shears[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[14:13:49] [WARN] Failed to parse recipe 'autumnity:maple_button[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[14:13:49] [INFO] Found 3844 recipes in 9.323 ms
+[14:13:49] [INFO] Posted recipe events in 31.60 ms
+[14:13:49] [WARN] Error parsing recipe burnt:gunpowder_recipe[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"burnt:deleted_mod_element"},{"item":"burnt:deleted_mod_element"},{"item":"minecraft:gravel"}],"result":{"item":"minecraft:gunpowder","count":1}}: Unknown item 'burnt:deleted_mod_element'
+[14:13:49] [INFO] Added 0 recipes, removed 651 recipes, modified 2 recipes, with 1 failed recipes in 3.494 ms
+[14:13:50] [INFO] Server resource reload complete!

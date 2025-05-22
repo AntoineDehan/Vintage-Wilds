@@ -69,3 +69,10 @@ logs/kubejs/client.log
 logs/kubejs/server.log
 logs/kubejs/startup.log
 config/spawnbalanceutility/AllMobEntities.rpt
+emi.json
+kubejs/jsconfig.json
+.vscode/probe.doc-schema.json
+.vscode/probe.lang_key-definitions.json
+.vscode/probe.lang-schema.json
+.vscode/probe.registry-definitions.json
+.vscode/settings.json

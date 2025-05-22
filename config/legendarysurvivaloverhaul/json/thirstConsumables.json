@@ -1,5 +1,5 @@
 {
-  "legendarysurvivaloverhaul:melon_juice": [
+  "farmersdelight:melon_juice": [
     {
       "hydration": 8,
       "saturation": 4.0,
@@ -7,6 +7,119 @@
       "nbt": {}
     }
   ],
+  "farmersdelight:milk_bottle": [
+    {
+      "hydration": 2,
+      "saturation": 0.5,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "farmersdelight:tomato_sauce": [
+    {
+      "hydration": 4,
+      "saturation": 1.0,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "farmersdelight:melon_popsicle": [
+    {
+      "hydration": 6,
+      "saturation": 6.0,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "farmersdelight:glow_berry_custard": [
+    {
+      "hydration": 2,
+      "saturation": 0.5,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "farmersdelight:vegetable_soup": [
+    {
+      "hydration": 4,
+      "saturation": 2.0,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "farmersdelight:chicken_soup": [
+    {
+      "hydration": 4,
+      "saturation": 2.0,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "farmersdelight:beef_stew": [
+    {
+      "hydration": 4,
+      "saturation": 2.0,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "farmersdelight:mixed_salad": [
+    {
+      "hydration": 2,
+      "saturation": 1.0,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "farmersdelight:fish_stew": [
+    {
+      "hydration": 4,
+      "saturation": 2.0,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "farmersdelight:fruit_salad": [
+    {
+      "hydration": 6,
+      "saturation": 3.5,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "farmersdelight:bone_broth": [
+    {
+      "hydration": 2,
+      "saturation": 0.5,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "farmersdelight:baked_cod_stew": [
+    {
+      "hydration": 4,
+      "saturation": 2.0,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "farmersdelight:pumpkin_soup": [
+    {
+      "hydration": 4,
+      "saturation": 2.0,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "farmersdelight:noodle_soup": [
+    {
+      "hydration": 4,
+      "saturation": 2.0,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+
   "minecraft:apple": [
     {
       "hydration": 2,
@@ -15,9 +128,26 @@
       "nbt": {}
     }
   ],
-  "minecraft:cooked_beef": [
+  "farmersdelight:tomato": [
     {
-      "hydration": 1,
+      "hydration": 2,
+      "saturation": 0.5,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "farmersdelight:hot_cocoa": [
+    {
+      "hydration": 6,
+      "saturation": 1,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "farmersdelight:apple_cider": [
+    {
+      "hydration": 4,
+      "saturation": 1,
       "effects": [],
       "nbt": {}
     }

@@ -139,7 +139,7 @@ ServerEvents.recipes((event) => {
   event.remove({ output: "ytech:copper_axe" });
   event.remove({ output: "ytech:copper_sword" });
   event.remove({ output: "ytech:copper_shovel" });
-  event.remove({ output: "ytech:copper_hoe" });
+  // event.remove({ output: "ytech:copper_hoe" });
 
   event.remove({ output: "ytech:copper_helmet" });
   event.remove({ output: "ytech:copper_chestplate" });
@@ -171,10 +171,7 @@ ServerEvents.recipes((event) => {
   event.remove({ output: "ytech:tin_saw" });
   event.remove({ output: "ytech:raw_cassiterite_block" });
 
-  event.remove({ output: "ytech:reinforced_brick_chimney" });
-  // event.remove({ output: "ytech:brick_chimney" });
-  // event.remove({ output: "ytech:primitive_smelter" });
-  event.remove({ output: "ytech:primitive_alloy_smelter" });
+  event.remove({ mod: "ytech", output: "minecraft:copper_ingot" });
 
   // Reset Craft on Surface recipes
   event.remove({ mod: "craft_on_surface" });
@@ -184,7 +181,20 @@ ServerEvents.recipes((event) => {
     mod: "minecraft",
     type: "iguanatweaksexpanded:forging",
   });
+  event.remove({
+    mod: "iguanatweaksexpanded",
+    type: "iguanatweaksexpanded:forging",
+  });
 
   event.remove({ id: "iguanatweaksexpanded:forge" });
   event.remove({ output: "brickfurnace:brick_blast_furnace" });
+  event.remove({
+    type: "minecraft:blasting",
+  });
+  event.remove({
+    type: "iguanatweaksexpanded:multi_item_blasting",
+  });
+  event.remove({
+    type: "iguanatweaksexpanded:multi_item_soul_blasting",
+  });
 });

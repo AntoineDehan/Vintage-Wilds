@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "tools",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "x": {
+      "item": "ytech:grass_twine"
+    }
+  },
+  "pattern": ["   ", "x# ", "#x "],
+  "result": {
+    "item": "dens_addition:wooden_tongs"
+  },
+  "show_notification": true
+}

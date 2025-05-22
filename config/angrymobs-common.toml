@@ -1,0 +1,12 @@
+
+#Common settings
+[Common]
+	#When true makes all vanilla animals attack you if you hurt them
+	angryAnimals = false
+	#When true makes all vanilla animals call for reinforcement when you hurt them
+	angryReinforcements = false
+	#When true makes all vanilla animals attack you on sight
+	aggressiveAnimals = false
+	#When true makes the melee goals add the mobs attack damage and knockback onto the specified values
+	useAttributes = true
+

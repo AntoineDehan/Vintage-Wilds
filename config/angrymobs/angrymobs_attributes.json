@@ -1,0 +1,9 @@
+{
+  "additionList": [
+    {
+      "entity": "insert:mob_here",
+      "attribute": "generic.attack_damage",
+      "value": 1.0
+    }
+  ]
+}
