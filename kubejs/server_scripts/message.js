@@ -11,4 +11,5 @@ PlayerEvents.loggedIn((event) => {
       .underlined(true)
       .clickOpenUrl(discordLink)
   );
+  event.player.tell("Read quest and check recipes through JEI. Good luck!");
 });
