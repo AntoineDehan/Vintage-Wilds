@@ -1,7 +1,0 @@
-
-[general_settings]
-	#If Serene Season Fix alternate season logic should be used.
-	enable_season_time_override = true
-	#If season ticking and commads on dimensions outside the whitelist should be disabled.
-	block_blacklisted = true
-

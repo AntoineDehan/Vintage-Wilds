@@ -26,18 +26,14 @@
               {
                 "type": "minecraft:matching_blocks",
                 "blocks": "minecraft:dirt",
-                "offset": [
-                  0,
-                  -1,
-                  0
-                ]
+                "offset": [0, -1, 0]
               }
             ]
           }
         }
       ]
     },
-    "tries": 96,
+    "tries": 106,
     "xz_spread": 7,
     "y_spread": 3
   }

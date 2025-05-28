@@ -39,6 +39,14 @@
       "nbt": {}
     }
   ],
+  "quarkdelight:bowl_of_exotic_fruits": [
+    {
+      "hydration": 2,
+      "saturation": 0.5,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
   "farmersdelight:vegetable_soup": [
     {
       "hydration": 4,

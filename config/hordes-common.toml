@@ -21,7 +21,7 @@
 	#Max cap for the number of entities that can exist from the horde at once.
 	hordeSpawnMax = 160
 	#Length of a day (use only if you have another day that changes the length of the day/night cycle) Default is 24000
-	dayLength = 24000
+	dayLength = 33600
 	#How many ticks does the horde pathing ai take before recalculating? (Increase this if you are having server slowdown during horde events.)
 	hordePathingInterval = 10
 	#How fast do horde mobs move towards their tracked player?
@@ -67,7 +67,7 @@
 
 [Misc]
 	#Whether zombies and drowned burn in sunlight.
-	zombiesBurn = false
+	zombiesBurn = true
 	#Whether skeletons and strays burn in sunlight.
 	skeletonsBurn = false
 	#Whether zombie villagers have vanilla curing mechanics or not

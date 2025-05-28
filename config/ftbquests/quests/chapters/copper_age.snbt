@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "copper_age"
-	group: ""
+	group: "255F4DDB219D03B1"
 	icon: "minecraft:copper_ingot"
 	id: "1FDFA403A6757176"
 	order_index: 1
@@ -14,6 +14,7 @@
 				"To handle ingot and create tools or other items you will need a forge."
 				"You will need hammers to use the forge as well!"
 			]
+			hide_until_deps_complete: true
 			id: "58043DF622C90D95"
 			shape: "hexagon"
 			size: 1.5d
@@ -67,11 +68,12 @@
 				item: "farmersdelight:stove"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 0.5d
+			x: 11.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["58043DF622C90D95"]
+			hide_until_deps_complete: true
 			id: "20A377F26B080F66"
 			shape: "hexagon"
 			size: 1.5d
@@ -401,8 +403,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.5d
-			y: -0.5d
+			x: 11.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["20A377F26B080F66"]
@@ -471,6 +473,16 @@
 			}]
 			x: 11.0d
 			y: 3.0d
+		}
+		{
+			id: "351EF2615AD9E6E8"
+			tasks: [{
+				id: "6DF261EC24BF6329"
+				item: "ytech:primitive_alloy_smelter"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.5d
 		}
 	]
 	title: "Copper Age"

@@ -1,0 +1,67 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "defenses"
+	group: "5C8449D345F9B8B9"
+	icon: {
+		Count: 1
+		id: "minecraft:iron_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "7C658B3B0F94E1E0"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Description about the raid system."]
+			id: "63E6C6DD4AC47DD9"
+			tasks: [{
+				id: "7FEBF8F44388F44A"
+				title: "Ennemies are coming"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "3F1B7F153F9D0E95"
+			tasks: [
+				{
+					id: "76EA9BF5ED9F1791"
+					item: "simply_traps:stake"
+					type: "item"
+				}
+				{
+					id: "7E02C220A6585026"
+					item: "simply_traps:stake_wall"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "562F99615E41C278"
+			tasks: [{
+				id: "3283C096F3DB3B49"
+				item: "simply_traps:spike_trap"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			id: "018421CD6205F587"
+			tasks: [{
+				id: "4C5FDDFDF7D2EFE0"
+				item: "blocky_siege:brazier_off"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+	]
+	title: "Defenses"
+}

@@ -124,7 +124,7 @@
 	#Treat Block Whitelist as Blocklist
 	"Breaklist as Blacklist" = false
 	#Use the block breaking sound instead of a knocking sound
-	Sound = false
+	Sound = true
 	#Chance for a mob to be able to break blocks
 	#Range: 0.0 ~ 1.0
 	"Breaker Chance" = 0.3
@@ -176,10 +176,10 @@
 	"Difficulty Steal AI" = 9.0
 	#Chance for mobs to be able to summon an aquatic mount
 	#Range: 0.0 ~ 1.0
-	"Guardian Chance" = 0.4
+	"Guardian Chance" = 0.1
 	#Chance for mobs to be able to summon a flying mount
 	#Range: 0.0 ~ 1.0
-	"Phantom Chance" = 0.3
+	"Phantom Chance" = 0.1
 	#Set this to true to allow tnt thrown by mobs to destroy blocks
 	"TNT Block Destruction" = false
 	#Chance for a mob to ignore line of sight

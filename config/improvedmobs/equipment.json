@@ -6,259 +6,73 @@
     "Quality is a modifier applied to the weight. The final weight used is weight + quality * current difficulty"
   ],
   "MAINHAND": {
-    "butchersdelight:cleaver": [
-      3809,
-      0.0354
-    ],
-    "dens_addition:copper_sword": [
-      3864,
-      0.0299
-    ],
-    "dens_addition:flint_axe": [
-      4009,
-      0.015399999
-    ],
-    "minecraft:bow": [
-      1595,
-      4.508568
-    ],
-    "minecraft:crossbow": [
-      1889,
-      3.826627
-    ],
-    "minecraft:diamond_axe": [
-      1358,
-      5.022479
-    ],
-    "minecraft:diamond_sword": [
-      1420,
-      4.889481
-    ],
-    "minecraft:enchanted_book": [
-      2563,
-      1.8573177
-    ],
-    "minecraft:golden_axe": [
-      4019,
-      0.014399999
-    ],
-    "minecraft:golden_sword": [
-      4082,
-      0.0081
-    ],
-    "minecraft:iron_axe": [
-      3586,
-      0.51635593
-    ],
-    "minecraft:iron_shovel": [
-      10843,
-      0.031999998
-    ],
-    "minecraft:iron_sword": [
-      3673,
-      0.049
-    ],
+    "dens_addition:copper_sword": [3864, 0.0299],
+    "dens_addition:flint_axe": [4009, 0.015399999],
+    "minecraft:bow": [1595, 4.508568],
+    "minecraft:crossbow": [1889, 3.826627],
+    "minecraft:diamond_axe": [1358, 5.022479],
+    "minecraft:diamond_sword": [1420, 4.889481],
+    "minecraft:enchanted_book": [2563, 1.8573177],
+    "minecraft:golden_axe": [4019, 0.014399999],
+    "minecraft:golden_sword": [4082, 0.0081],
+    "minecraft:iron_axe": [3586, 0.51635593],
+    "minecraft:iron_shovel": [10843, 0.031999998],
+    "minecraft:iron_sword": [3673, 0.049],
     "minecraft:lingering_potion{Potion:\"minecraft:harming\"}": [
-      2663,
-      1.7269388
+      2663, 1.7269388
     ],
-    "minecraft:snowball": [
-      3613,
-      0.46844563
-    ],
-    "minecraft:splash_potion{Potion:\"minecraft:harming\"}": [
-      2663,
-      1.7269388
-    ],
-    "minecraft:tnt": [
-      2463,
-      1.9881918
-    ],
-    "minecraft:trident": [
-      1663,
-      4.357304
-    ],
-    "minecraft:wooden_axe": [
-      3973,
-      0.019
-    ],
-    "minecraft:wooden_sword": [
-      4036,
-      0.0127
-    ]
+    "minecraft:snowball": [3613, 0.46844563],
+    "minecraft:splash_potion{Potion:\"minecraft:harming\"}": [2663, 1.7269388],
+    "minecraft:tnt": [2463, 1.9881918],
+    "minecraft:trident": [1663, 4.357304],
+    "minecraft:wooden_axe": [3973, 0.019],
+    "minecraft:wooden_sword": [4036, 0.0127]
   },
   "OFFHAND": {
-    "iguanatweaksexpanded:copper_shield": [
-      1448,
-      1.1050538
-    ],
-    "iguanatweaksexpanded:flint_shield": [
-      1650,
-      0.8454504
-    ],
-    "minecraft:ender_pearl": [
-      1366,
-      1.2102311
-    ],
-    "minecraft:flint_and_steel": [
-      1338,
-      1.2461817
-    ],
-    "minecraft:lava_bucket": [
-      966,
-      1.7269388
-    ],
-    "minecraft:shield": [
-      1044,
-      1.6255897
-    ],
-    "shieldsplus:golden_shield": [
-      1632,
-      0.86872035
-    ],
-    "shieldsplus:wooden_shield": [
-      1548,
-      0.97681177
-    ]
+    "iguanatweaksexpanded:copper_shield": [1448, 1.1050538],
+    "iguanatweaksexpanded:flint_shield": [1650, 0.8454504],
+    "minecraft:ender_pearl": [1366, 1.2102311],
+    "minecraft:flint_and_steel": [1338, 1.2461817],
+    "minecraft:lava_bucket": [966, 1.7269388],
+    "minecraft:shield": [1044, 1.6255897],
+    "shieldsplus:golden_shield": [1632, 0.86872035],
+    "shieldsplus:wooden_shield": [1548, 0.97681177]
   },
   "FEET": {
-    "dens_addition:copper_reinforced_leather_boots": [
-      1152,
-      0.5130528
-    ],
-    "legendarysurvivaloverhaul:desert_boots": [
-      1493,
-      0.0234
-    ],
-    "legendarysurvivaloverhaul:snow_boots": [
-      1503,
-      0.0224
-    ],
-    "minecraft:chainmail_boots": [
-      1135,
-      0.540316
-    ],
-    "minecraft:diamond_boots": [
-      219,
-      1.7373508
-    ],
-    "minecraft:golden_boots": [
-      1201,
-      0.4136078
-    ],
-    "minecraft:iron_boots": [
-      887,
-      0.8764657
-    ],
-    "minecraft:leather_boots": [
-      1483,
-      0.0244
-    ]
+    "legendarysurvivaloverhaul:desert_boots": [1493, 0.0234],
+    "legendarysurvivaloverhaul:snow_boots": [1503, 0.0224],
+    "minecraft:chainmail_boots": [1135, 0.540316],
+    "minecraft:diamond_boots": [219, 1.7373508],
+    "minecraft:golden_boots": [1201, 0.4136078],
+    "minecraft:iron_boots": [887, 0.8764657],
+    "minecraft:leather_boots": [1483, 0.0244]
   },
   "LEGS": {
-    "dens_addition:copper_reinforced_leather_leggings": [
-      1143,
-      0.5277016
-    ],
-    "legendarysurvivaloverhaul:desert_leggings": [
-      1492,
-      0.0235
-    ],
-    "legendarysurvivaloverhaul:snow_leggings": [
-      1502,
-      0.022499999
-    ],
-    "minecraft:chainmail_leggings": [
-      1135,
-      0.540316
-    ],
-    "minecraft:diamond_leggings": [
-      219,
-      1.7373508
-    ],
-    "minecraft:golden_leggings": [
-      1201,
-      0.4136078
-    ],
-    "minecraft:iron_leggings": [
-      887,
-      0.8764657
-    ],
-    "minecraft:leather_leggings": [
-      1483,
-      0.0244
-    ]
+    "legendarysurvivaloverhaul:desert_leggings": [1492, 0.0235],
+    "legendarysurvivaloverhaul:snow_leggings": [1502, 0.022499999],
+    "minecraft:chainmail_leggings": [1135, 0.540316],
+    "minecraft:diamond_leggings": [219, 1.7373508],
+    "minecraft:golden_leggings": [1201, 0.4136078],
+    "minecraft:iron_leggings": [887, 0.8764657],
+    "minecraft:leather_leggings": [1483, 0.0244]
   },
   "CHEST": {
-    "dens_addition:copper_reinforced_leather_chestplate": [
-      1152,
-      0.5130528
-    ],
-    "legendarysurvivaloverhaul:desert_chestplate": [
-      1492,
-      0.0235
-    ],
-    "legendarysurvivaloverhaul:snow_chestplate": [
-      1502,
-      0.022499999
-    ],
-    "minecraft:chainmail_chestplate": [
-      1135,
-      0.540316
-    ],
-    "minecraft:diamond_chestplate": [
-      219,
-      1.7373508
-    ],
-    "minecraft:golden_chestplate": [
-      1201,
-      0.4136078
-    ],
-    "minecraft:iron_chestplate": [
-      887,
-      0.8764657
-    ],
-    "minecraft:leather_chestplate": [
-      1483,
-      0.0244
-    ]
+    "legendarysurvivaloverhaul:desert_chestplate": [1492, 0.0235],
+    "legendarysurvivaloverhaul:snow_chestplate": [1502, 0.022499999],
+    "minecraft:chainmail_chestplate": [1135, 0.540316],
+    "minecraft:diamond_chestplate": [219, 1.7373508],
+    "minecraft:golden_chestplate": [1201, 0.4136078],
+    "minecraft:iron_chestplate": [887, 0.8764657],
+    "minecraft:leather_chestplate": [1483, 0.0244]
   },
   "HEAD": {
-    "dens_addition:copper_reinforced_leather_helmet": [
-      1152,
-      0.5130528
-    ],
-    "legendarysurvivaloverhaul:desert_helmet": [
-      1492,
-      0.0235
-    ],
-    "legendarysurvivaloverhaul:snow_helmet": [
-      1502,
-      0.022499999
-    ],
-    "minecraft:chainmail_helmet": [
-      1135,
-      0.540316
-    ],
-    "minecraft:diamond_helmet": [
-      219,
-      1.7373508
-    ],
-    "minecraft:golden_helmet": [
-      1201,
-      0.4136078
-    ],
-    "minecraft:iron_helmet": [
-      887,
-      0.8764657
-    ],
-    "minecraft:leather_helmet": [
-      1483,
-      0.0244
-    ],
-    "minecraft:turtle_helmet": [
-      831,
-      0.948558
-    ]
+    "legendarysurvivaloverhaul:desert_helmet": [1492, 0.0235],
+    "legendarysurvivaloverhaul:snow_helmet": [1502, 0.022499999],
+    "minecraft:chainmail_helmet": [1135, 0.540316],
+    "minecraft:diamond_helmet": [219, 1.7373508],
+    "minecraft:golden_helmet": [1201, 0.4136078],
+    "minecraft:iron_helmet": [887, 0.8764657],
+    "minecraft:leather_helmet": [1483, 0.0244],
+    "minecraft:turtle_helmet": [831, 0.948558]
   }
 }

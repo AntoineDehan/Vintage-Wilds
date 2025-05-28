@@ -1,0 +1,8 @@
+StakeWallDamageMultiplier = 0.8
+StakeDamageMultiplier = 0.8
+SpikeDamageMultiplier = 1.0
+BarbedWireDamageMultiplier = 1.0
+BarbedIvyWireDamageMultiplier = 1.0
+#This variable represents time in ticks. 20 ticks = 1 second
+GrassTrapTime = 5.0
+

@@ -26,11 +26,7 @@
               {
                 "type": "minecraft:matching_block_tag",
                 "tag": "minecraft:dirt",
-                "offset": [
-                  0,
-                  -1,
-                  0
-                ]
+                "offset": [0, -1, 0]
               }
             ]
           }
@@ -62,18 +58,14 @@
               {
                 "type": "minecraft:matching_block_tag",
                 "tag": "minecraft:dirt",
-                "offset": [
-                  0,
-                  -1,
-                  0
-                ]
+                "offset": [0, -1, 0]
               }
             ]
           }
         }
       ]
     },
-    "tries": 28,
+    "tries": 38,
     "xz_spread": 6,
     "y_spread": 3
   }

@@ -3,7 +3,7 @@
 ItemEvents.toolTierRegistry((event) => {
   event.add("flint", (tier) => {
     tier.uses = 35;
-    tier.speed = 1.0;
+    tier.speed = 1.5;
     tier.attackDamageBonus = 0;
     tier.level = 0;
     tier.enchantmentValue = 3;

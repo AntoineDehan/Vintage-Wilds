@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "primitive_age"
-	group: ""
+	group: "255F4DDB219D03B1"
 	icon: "ytech:unfired_brick"
 	id: "41D2D6714A7FDF3F"
 	order_index: 0
@@ -68,7 +68,7 @@
 		{
 			dependencies: ["63400B5D93B518A2"]
 			description: [
-				"To craft a campfire, right click on the ground on any solid block with some Fire Logs, Sticks and Charcoal."
+				"To craft a campfire, right click on the ground on any solid block with some Fire Logs, Sticks and Charcoal. &3Check the recipe and more info through JEI&r."
 				""
 				"To create Charcoal you can burn a log, you can use two Flints (one in your main hand and the other in your off hand) to create a fire."
 				""
@@ -109,7 +109,7 @@
 			description: [
 				"You won't be able to craft a crafting table for some moment so you need to use the primitive crafting table."
 				""
-				"To craft a Primitive Crafting Table, search the recipe on JEI."
+				"&3To craft a Primitive Crafting Table, search the recipe on JEI.&r"
 				""
 				"To craft items with it, right click with an item/block on it to combine certain item/block."
 			]
@@ -124,6 +124,7 @@
 				to_observe: "dens_addition:primitive_crafting_table"
 				type: "observation"
 			}]
+			title: "Craft a Primitive Crafting Table"
 			x: 8.125d
 			y: -1.25d
 		}
@@ -134,7 +135,14 @@
 			id: "37047310D3CB7DE8"
 			tasks: [{
 				id: "399503B240457033"
-				item: "primalstorage:oak_shelves"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:shelves"
+					}
+				}
+				title: "Any #forge:shelves"
 				type: "item"
 			}]
 			x: 7.0d
@@ -158,6 +166,7 @@
 				"The Brick Furnace is used to cook clay bricks faster as well as hardening pottery's items."
 				""
 				"This Brick Furnace wont be able to cook food or ore!"
+				"This furnace is not lit by default."
 				""
 				"&9&oThis Brick Furnace might be removed in the future to only use the Primitive Smelter, what do you think about it?&r&r"
 			]
@@ -185,9 +194,12 @@
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "4335D10AEB73E88F"
-				item: "ytech:primitive_smelter"
-				type: "item"
+				icon: "ytech:primitive_smelter"
+				id: "6E2D87C346545520"
+				observe_type: 0
+				timer: 0L
+				to_observe: "ytech:primitive_smelter"
+				type: "observation"
 			}]
 			x: 13.5d
 			y: 0.0d
@@ -409,6 +421,10 @@
 		}
 		{
 			dependencies: ["458A888B9749186F"]
+			description: [
+				"Use this item with some Switchgrass Fiber to be able to lit up the furnace!"
+				"Otherwise the furnace won't be usable since it won't turn up."
+			]
 			id: "5823599F43F28B08"
 			tasks: [{
 				id: "466E8F3059CE262A"
@@ -423,6 +439,22 @@
 			}]
 			x: 11.5d
 			y: 1.0d
+		}
+		{
+			dependencies: ["0BD45BC48F14EE97"]
+			description: [
+				"Craft some Unlit Torches and then light them up on the campfire."
+				"Torches will burn out with time."
+			]
+			hide_until_deps_complete: true
+			id: "74769508996FE71B"
+			tasks: [{
+				id: "7A4D30490254F796"
+				item: "realistictorches:lit_torch"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
 		}
 	]
 	title: "Primitive Age"

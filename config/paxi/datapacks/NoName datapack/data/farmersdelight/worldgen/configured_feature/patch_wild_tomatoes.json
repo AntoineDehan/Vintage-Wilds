@@ -32,11 +32,7 @@
                   "minecraft:sand",
                   "minecraft:red_sand"
                 ],
-                "offset": [
-                  0,
-                  -1,
-                  0
-                ]
+                "offset": [0, -1, 0]
               }
             ]
           }
@@ -74,18 +70,14 @@
                   "minecraft:sand",
                   "minecraft:red_sand"
                 ],
-                "offset": [
-                  0,
-                  -1,
-                  0
-                ]
+                "offset": [0, -1, 0]
               }
             ]
           }
         }
       ]
     },
-    "tries": 28,
+    "tries": 38,
     "xz_spread": 6,
     "y_spread": 3
   }

@@ -30,12 +30,6 @@
     "last_day": 0
   },
   {
-    "entity": "alexsmobs:rocky_roller",
-    "weight": 4,
-    "first_day": 30,
-    "last_day": 0
-  },
-  {
     "entity": "legendarycreatures:corpse_eater",
     "weight": 4,
     "first_day": 40,

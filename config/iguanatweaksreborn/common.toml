@@ -242,16 +242,16 @@
 		#The range from world spawn where players will respawn.
 		["Sleep & Respawn".Respawn."Loose World Spawn Range"]
 			#Range: 0.0 ~ 1.7976931348623157E308
-			Minimum = 84.0
+			Minimum = 5.0
 			#Range: 0.0 ~ 1.7976931348623157E308
-			Maximum = 124.0
+			Maximum = 20.0
 
 		#The range from beds where players will respawn.
 		["Sleep & Respawn".Respawn."Loose Bed Spawn Range"]
 			#Range: 0.0 ~ 1.7976931348623157E308
-			Minimum = 16.0
+			Minimum = 2.0
 			#Range: 0.0 ~ 1.7976931348623157E308
-			Maximum = 32.0
+			Maximum = 6.0
 
 		["Sleep & Respawn".Respawn."Stats Penalty"]
 			#If hunger or saturation were above the values on death, they will not be reduced.

@@ -176,6 +176,11 @@ ServerEvents.recipes((event) => {
   // Reset Craft on Surface recipes
   event.remove({ mod: "craft_on_surface" });
 
+  // Traps
+  event.remove({ output: "simply_traps:slime_trap" });
+  event.remove({ output: "simply_traps:circular_barbed_wire_iron" });
+  event.remove({ output: "simply_traps:circular_barbed_wire_ivy" });
+
   // Misc
   event.remove({
     mod: "minecraft",

@@ -31,6 +31,17 @@ ServerEvents.tags("item", (event) => {
     "ytech:golden_plate"
   );
 
+  event.add(
+    "forge:shelves",
+    "primalstorage:mangrove_shelves",
+    "primalstorage:dark_oak_shelves",
+    "primalstorage:acacia_shelves",
+    "primalstorage:jungle_shelves",
+    "primalstorage:birch_shelves",
+    "primalstorage:spruce_shelves",
+    "primalstorage:oak_shelves"
+  );
+
   event.add("forge:stripped_logs", [
     "minecraft:stripped_oak_log",
     "minecraft:stripped_oak_wood",
