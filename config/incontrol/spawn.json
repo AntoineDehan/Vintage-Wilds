@@ -25,5 +25,9 @@
   {
     "mod": "ytech",
     "result": "deny"
+  },
+  {
+    "mob": ["enemyexpansion:meature"],
+    "result": "deny"
   }
 ]

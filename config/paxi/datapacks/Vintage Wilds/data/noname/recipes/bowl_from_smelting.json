@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 300,
+  "ingredient": {
+    "item": "dens_addition:unfired_bowl"
+  },
+  "result": "minecraft:bowl"
+}

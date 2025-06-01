@@ -13,7 +13,7 @@
 			description: [
 				"The &eSmithing System&r is still a &eWIP&r but I would like &eYOUR opinion&r about it."
 				""
-				"To handle ingot and &ecreate tools&r or other items you will n&eeed a Forge&r."
+				"To handle ingot and &ecreate tools&r or other items you will &eneed a Forge&r."
 				"To use the Forge add the materials needed and &ehit the forge&r (right-click) with a &eHammer&r."
 			]
 			hide_until_deps_complete: true

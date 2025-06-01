@@ -5,7 +5,7 @@ StartupEvents.registry("item", (e) => {
   // Pottery
   e.create("dens_addition:unfired_cooking_pot");
   e.create("dens_addition:unfired_canteen");
-  // e.create("dens_addition:unfired_grill");
+  e.create("dens_addition:unfired_bowl");
 
   //Flint tools
   e.create("dens_addition:flint_shovel", "shovel").tier("flint");
