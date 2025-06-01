@@ -11,23 +11,31 @@
 		{
 			dependencies: ["0F9170C3DF8E5B58"]
 			description: [
-				"To handle ingot and create tools or other items you will need a forge."
-				"You will need hammers to use the forge as well!"
+				"The &eSmithing System&r is still a &eWIP&r but I would like &eYOUR opinion&r about it."
+				""
+				"To handle ingot and &ecreate tools&r or other items you will n&eeed a Forge&r."
+				"To use the Forge add the materials needed and &ehit the forge&r (right-click) with a &eHammer&r."
 			]
 			hide_until_deps_complete: true
 			id: "58043DF622C90D95"
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "0223DB1AA6F3DFFC"
-				item: "iguanatweaksexpanded:forge"
-				type: "item"
+				icon: "iguanatweaksexpanded:forge"
+				id: "1DF655D6871B8670"
+				observe_type: 0
+				timer: 0L
+				title: "Check the recipe throguh JEI!"
+				to_observe: "iguanatweaksexpanded:forge"
+				type: "observation"
 			}]
+			title: "Smithing time"
 			x: 5.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["52663D363DC057A0"]
+			description: ["Assemble it at a &eForge&r."]
 			id: "03634F063EBF5ED5"
 			tasks: [{
 				id: "46C94720DC54A7D4"
@@ -45,6 +53,7 @@
 		}
 		{
 			dependencies: ["6C20B22ED5FCBD81"]
+			description: ["You can now craft &eWooden Planks&r, congrats!"]
 			id: "218D9D1EB0F8D4FC"
 			tasks: [{
 				id: "48DF1BBC54210558"
@@ -57,22 +66,28 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
+			x: 6.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["20A377F26B080F66"]
+			description: [
+				"A direct upgrade of the campfire, finally time to cook."
+				""
+				"The Stove is &enot lit up&r by default."
+			]
 			id: "3C5F868D05978A38"
 			tasks: [{
 				id: "1FE8E8AC3A3CC98A"
 				item: "farmersdelight:stove"
 				type: "item"
 			}]
+			title: "A better campfire?"
 			x: 11.0d
 			y: -1.5d
 		}
 		{
-			dependencies: ["58043DF622C90D95"]
+			dependencies: ["218D9D1EB0F8D4FC"]
 			hide_until_deps_complete: true
 			id: "20A377F26B080F66"
 			shape: "hexagon"
@@ -82,13 +97,14 @@
 				item: "minecraft:crafting_table"
 				type: "item"
 			}]
+			title: "The Crafting Table"
 			x: 8.5d
-			y: 0.5d
+			y: -0.5d
 		}
 		{
 			description: [
-				"To cool hot items (such as hot copper ingot and such) you need to throw them in water!"
-				"Don't forget to have a Wooden Tong in your off hand."
+				"To &ecool hot items&r (such as &ehot copper ingot&r and such) you need to &ethrow them in water&r!"
+				"Don't forget to have a &eWooden Tong&r in your &eoff hand&r."
 			]
 			id: "0F9170C3DF8E5B58"
 			size: 1.25d
@@ -97,11 +113,13 @@
 				item: "minecraft:copper_ingot"
 				type: "item"
 			}]
+			title: "Welcome to the Copper Age!"
 			x: 2.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["20A377F26B080F66"]
+			description: ["You can use those &eCopper Shears&r to collect &eBeeswax&r."]
 			id: "7C44BA22A303409A"
 			tasks: [{
 				id: "6339512F19D7A46F"
@@ -115,10 +133,15 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["58043DF622C90D95"]
+			description: [
+				"To craft an &eAxe&r you will need a &emold&r."
+				""
+				"Clay molds are more durable."
+			]
 			id: "2B57000CBB83C1FB"
 			tasks: [{
 				id: "37E5584D1902EDC4"
@@ -137,6 +160,11 @@
 		}
 		{
 			dependencies: ["58043DF622C90D95"]
+			description: [
+				"To craft a &eHammer&r you will need a &emold&r."
+				""
+				"Clay molds are more durable."
+			]
 			id: "60AE087FE62235A7"
 			tasks: [{
 				id: "693F4C756698A958"
@@ -155,6 +183,11 @@
 		}
 		{
 			dependencies: ["58043DF622C90D95"]
+			description: [
+				"To craft a &ePickaxe&r you will need a &emold&r."
+				""
+				"Clay molds are more durable."
+			]
 			id: "52663D363DC057A0"
 			tasks: [{
 				id: "54071DB939E87DB2"
@@ -173,6 +206,11 @@
 		}
 		{
 			dependencies: ["58043DF622C90D95"]
+			description: [
+				"To craft an &eSword&r you will need a &emold&r."
+				""
+				"Clay molds are more durable."
+			]
 			id: "450BA985B4B5807E"
 			tasks: [{
 				id: "7EB2C21EE53D12EE"
@@ -192,6 +230,7 @@
 		}
 		{
 			dependencies: ["58043DF622C90D95"]
+			description: ["&eCopper Plates&r are used in &ea lot &rof recipes. Crafted at a &eForge&r."]
 			id: "6C20B22ED5FCBD81"
 			size: 1.15d
 			tasks: [{
@@ -199,11 +238,13 @@
 				item: "ytech:copper_plate"
 				type: "item"
 			}]
+			title: "Thin Copper"
 			x: 5.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["60AE087FE62235A7"]
+			description: ["Assemble it at a &eForge&r."]
 			id: "182285A55BBA2BBD"
 			tasks: [{
 				id: "0474A0736B0DFC9E"
@@ -221,6 +262,7 @@
 		}
 		{
 			dependencies: ["2B57000CBB83C1FB"]
+			description: ["Assemble it at a &eForge&r."]
 			id: "027E590E6420035F"
 			tasks: [{
 				id: "24013D8F7A1D4269"
@@ -238,6 +280,7 @@
 		}
 		{
 			dependencies: ["450BA985B4B5807E"]
+			description: ["Assemble it at a &eForge&r."]
 			id: "648B122AC055A5E7"
 			tasks: [{
 				id: "00B390854AE4D066"
@@ -255,6 +298,7 @@
 		}
 		{
 			dependencies: ["6C20B22ED5FCBD81"]
+			description: ["Used in &ea lot&r of different recipes."]
 			id: "3B2A79EFCBF8FF96"
 			tasks: [{
 				id: "609C1BBA07E05E2C"
@@ -301,11 +345,16 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
+			x: 4.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["221037CDF2C8F061"]
+			description: [
+				"The &eAqueduct Hydrator&r is used to &ewater nearby farmlands&r."
+				""
+				"This is better than a Watering Can but it consume the water that is in the Aqueduct."
+			]
 			id: "66AB02852F2F4ECB"
 			tasks: [{
 				id: "22CADE1AE555E410"
@@ -317,17 +366,29 @@
 		}
 		{
 			dependencies: ["20A377F26B080F66"]
+			description: [
+				"Farming in &aVintage Wilds&r is a &ereal challenge&r. You need to put crops in their &egrowing seasons&r, crops have a &ereduced growth&r, &ewater is finite&r and &efarmland consume water&r."
+				""
+				"But it's a &enecessity&r if you want to &3survive the Winter&r."
+				""
+				"&eAqueduct&r can be &eused to bring water&r to an end point. &eHighly recommended&r!"
+			]
 			id: "221037CDF2C8F061"
 			tasks: [{
 				id: "5851426750986F41"
 				item: "ytech:terracotta_aqueduct"
 				type: "item"
 			}]
+			title: "Move water"
 			x: 8.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["221037CDF2C8F061"]
+			description: [
+				"An &eAqueduct Valve&r will let &ewater pass trough it&r so it can &eflow in an Aqueduct&r."
+				"Put it &ebeside a water source&r."
+			]
 			id: "1D18B42EF044A70B"
 			tasks: [{
 				id: "578948E06859C50F"
@@ -343,6 +404,7 @@
 				"20A377F26B080F66"
 			]
 			dependency_requirement: "one_completed"
+			description: ["In &aVintage Wilds&r, &ewater is finite&r. Using a Watering Can &edo not consume water&r."]
 			hide_dependency_lines: true
 			id: "05F0C7CDBB2B76E1"
 			tasks: [{
@@ -391,6 +453,7 @@
 		}
 		{
 			dependencies: ["3C5F868D05978A38"]
+			description: ["&ePerishable food&r will rot &e25% slower&r in a cabinet."]
 			id: "00F865F3F932C5E8"
 			tasks: [{
 				id: "7B4C15D5C6F0BFE2"
@@ -403,19 +466,28 @@
 				}
 				type: "item"
 			}]
+			title: "Kitchen storage"
 			x: 11.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["20A377F26B080F66"]
+			description: [
+				"Finally some storage. congrats!"
+				""
+				"Be carefull, &emobs from hordes&r will have a small chance of &estealing items&r from it."
+				""
+				"&ePerishable food&r will rot &e10% slower&r in this countainer."
+			]
 			id: "45644E8BCB3C6617"
 			tasks: [{
 				id: "58591658C38D9985"
 				item: "minecraft:chest"
 				type: "item"
 			}]
+			title: "Proper storage!"
 			x: 10.0d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7C44BA22A303409A"]
@@ -426,10 +498,11 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2CE1BAD1FAB54D41"]
+			description: ["Used for &eClay Molds&r!"]
 			id: "329837FAADDB35DC"
 			tasks: [{
 				id: "3867EBB095BB0BF4"
@@ -444,10 +517,11 @@
 			}]
 			title: "Patterns"
 			x: 7.5d
-			y: 3.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["329837FAADDB35DC"]
+			description: ["&eClay Molds&r are &emore durabl&re than Sand Molds and so &ewon't break everytime&r you use them in a Smelter."]
 			id: "60D7011DDA8D0C06"
 			tasks: [{
 				id: "0DB2BFB1F2642DD3"
@@ -460,8 +534,9 @@
 				}
 				type: "item"
 			}]
+			title: "Durable Molds"
 			x: 7.5d
-			y: 4.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["20A377F26B080F66"]
@@ -469,20 +544,11 @@
 			tasks: [{
 				id: "5B4BCC4E8ACC425E"
 				item: "rucksacks:leather_rucksack"
+				title: "Portable storage"
 				type: "item"
 			}]
 			x: 11.0d
-			y: 3.0d
-		}
-		{
-			id: "351EF2615AD9E6E8"
-			tasks: [{
-				id: "6DF261EC24BF6329"
-				item: "ytech:primitive_alloy_smelter"
-				type: "item"
-			}]
-			x: 13.0d
-			y: 0.5d
+			y: 2.0d
 		}
 	]
 	title: "Copper Age"

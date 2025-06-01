@@ -16,7 +16,25 @@ ServerEvents.tags("item", (event) => {
   let axes = ["dens_addition:flint_axe", "dens_addition:copper_axe"];
   event.add("minecraft:axes", axes);
 
-  // New Tags
+  /// Defenses Tags
+  // Reinforced Doors
+  event.add(
+    "forge:doors/reinforced",
+    "blocky_siege:reinforced_mangrove_door",
+    "blocky_siege:reinforced_dark_oak_door",
+    "blocky_siege:reinforced_acacia_door",
+    "blocky_siege:reinforced_spruce_door",
+    "blocky_siege:reinforced_oak_door",
+    "blocky_siege:reinforced_birch_door",
+    "blocky_siege:reinforced_warped_door",
+    "blocky_siege:reinforced_crimson_door",
+    "blocky_siege:reinforced_bamboo_door"
+  );
+
+  // Breakable Blocks - Blocks that will be able to be broken by raiding monsters
+  event.add("forge:raidable_blocks", "ytech:reinforced_bricks");
+
+  //// Crafting tags
   event.add(
     "forge:rods/metal",
     "ytech:copper_rod",
@@ -75,4 +93,7 @@ ServerEvents.tags("item", (event) => {
   ];
 
   event.add("forge:raw_materials", ores);
+
+  // Misc
+  event.add("forge:buckets/empty", "ytech:clay_bucket");
 });

@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "cookingtime": 90,
-  "ingredient": {
-    "item": "minecraft:clay_ball"
-  },
-  "result": "minecraft:brick"
-}

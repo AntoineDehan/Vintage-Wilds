@@ -15,9 +15,20 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Description about the raid system."]
+			description: [
+				"Every week or so, wave of monsters will come through &4rifts&r."
+				""
+				"Those hordes &ewill improve with time&r and will be able to &ebreak blocks&r, better have good defenses!"
+				""
+				"Traps and blocks with high hardness will be what you want around your base."
+				""
+				"&eThe Horde system&r is still &every very early and WIP&r. It's barely implemented but &ewill be an important aspect&r of &aVintage Wilds&r."
+			]
 			id: "63E6C6DD4AC47DD9"
+			optional: true
+			size: 2.0d
 			tasks: [{
+				icon: "minecraft:zombie_head"
 				id: "7FEBF8F44388F44A"
 				title: "Ennemies are coming"
 				type: "custom"
@@ -39,10 +50,12 @@
 					type: "item"
 				}
 			]
+			title: "First defenses"
 			x: 2.0d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["1FDFA403A6757176"]
 			id: "562F99615E41C278"
 			tasks: [{
 				id: "3283C096F3DB3B49"
@@ -50,9 +63,10 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
+			dependencies: ["1FDFA403A6757176"]
 			id: "018421CD6205F587"
 			tasks: [{
 				id: "4C5FDDFDF7D2EFE0"
@@ -60,7 +74,51 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1FDFA403A6757176"]
+			id: "2CB23C7C586E05FD"
+			tasks: [{
+				id: "68E48EF10A9380AD"
+				item: "blocky_siege:cannon"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1FDFA403A6757176"]
+			id: "5D74F9CE45BBA9F5"
+			tasks: [{
+				id: "29DF676DF01E00F4"
+				item: "blocky_siege:mortar"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1FDFA403A6757176"]
+			id: "3EA1A0F7CEEB02AF"
+			tasks: [{
+				id: "78B6D5384B68D78E"
+				item: "blocky_siege:crusher"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1FDFA403A6757176"]
+			id: "41C2AF544651E823"
+			tasks: [{
+				id: "3CECA286DF890C9C"
+				item: "blocky_siege:giant_saw_block_off"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.5d
 		}
 	]
 	title: "Defenses"

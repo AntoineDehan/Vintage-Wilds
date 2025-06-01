@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "category": "clay",
-  "cookingtime": 1150,
-  "ingredient": {
-    "item": "ytech:unfired_decoration_pot"
-  },
-  "result": "storage_pots:storage_pot"
-}

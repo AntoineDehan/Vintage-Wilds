@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "category": "clay",
-  "cookingtime": 800,
-  "ingredient": {
-    "item": "ytech:unfired_clay_bucket"
-  },
-  "result": "ytech:clay_bucket"
-}

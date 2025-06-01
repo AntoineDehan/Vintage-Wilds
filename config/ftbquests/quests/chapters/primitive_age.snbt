@@ -10,8 +10,12 @@
 	quests: [
 		{
 			description: [
-				"To chop wood you will need an axe, the first tier of tools is made with flint."
-				"To obtain some flint you will find them scattered on the ground or you can still break gravel to get some."
+				"Welcome to an early beta of &aVintage Wilds&r!"
+				""
+				"I will asume that you know how to use JEI and that you have some basic modded knowledge (for the beta releases)."
+				""
+				"&eYour first goal&r is to &eobtain flint&r since you won't be able to chop wood bare handed."
+				"Flint will &espawn on the ground&r and you can still find while breaking gravel."
 			]
 			id: "57D5FC4FD49527C6"
 			tasks: [{
@@ -20,13 +24,17 @@
 				title: "Obtain some Flint"
 				type: "item"
 			}]
-			title: "First step"
+			title: "Welcome and First step"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["00346FE92D7FF10E"]
-			description: ["Craft your first Flint Axe, congrats, you can now chop some wood!"]
+			description: [
+				"You can check the recipe through JEI."
+				""
+				"To be &eable to chop wood &ryou will &eneed a Flint Axe&r, there is a tree cutting mod, it &emight take time&r with this primitive axe..."
+			]
 			id: "49CF295AF121E359"
 			tasks: [{
 				id: "6AF6945196475401"
@@ -39,15 +47,18 @@
 				}
 				type: "item"
 			}]
+			title: "It's time to chop wood"
 			x: 0.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["49CF295AF121E359"]
 			description: [
-				"You've got a wooden log but you won't be able to create planks like that, you will need at least a Copper Saw for that."
+				"Congratulation you've got wood!"
 				""
-				"You can use logs to craft other items and/or the Primitive Crafting Table."
+				"Bad news, you won't be able to craft planks without a saw, you will have to use other means as of now."
+				""
+				"A &eCampfire&r would be the next step."
 			]
 			id: "63400B5D93B518A2"
 			tasks: [{
@@ -62,17 +73,19 @@
 				title: "Log"
 				type: "item"
 			}]
+			title: "Obtain a wooden log"
 			x: 2.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["63400B5D93B518A2"]
 			description: [
-				"To craft a campfire, right click on the ground on any solid block with some Fire Logs, Sticks and Charcoal. &3Check the recipe and more info through JEI&r."
+				"To craft a &eCampfire&r, &eright click on the ground&r on any solid block with some &eFire Logs&r, &eSticks&r and &eCharcoal&r. &3Check the recipe and more info through JEI&r."
 				""
-				"To create Charcoal you can burn a log, you can use two Flints (one in your main hand and the other in your off hand) to create a fire."
+				"To &eobtain Charcoal&r you can &eburn a log&r, you can use two Flints (one in your main hand and the other in your off hand) to create a fire."
 				""
-				"The campfire will burn out (you can add fuel) and will extinguish under rain."
+				"&eThe Campfire is essential&r to your survival, eating &eraw food is not recommanded&r, &enights&r might be a bit &ecold&r, you will be able to make torches and is needed for &ebrick making&r."
+				"It will burn out (you can add fuel) and extinguish under rain."
 			]
 			id: "0BD45BC48F14EE97"
 			tasks: [{
@@ -80,10 +93,11 @@
 				id: "2C457D90F376C34D"
 				observe_type: 0
 				timer: 0L
-				title: "Craft a Campfire"
+				title: "Check the recipes through JEI!"
 				to_observe: "minecraft:campfire"
 				type: "observation"
 			}]
+			title: "Build a Campfire"
 			x: 3.5d
 			y: 1.0d
 		}
@@ -93,21 +107,33 @@
 				"7222CD9FBB25DB68"
 			]
 			dependency_requirement: "one_completed"
-			description: ["To progress further Clay is an important step."]
+			description: [
+				"To progress further &eClay&r is an &eimportant step&r."
+				""
+				"You can craft a &eFlint Shovel&r to help you &eobtain Clay&r."
+			]
 			hide_until_deps_complete: true
 			id: "1DE8DC32ADF342DC"
+			rewards: [{
+				count: 4
+				id: "7D25FF7FE15A4398"
+				item: "minecraft:clay_ball"
+				random_bonus: 8
+				type: "item"
+			}]
 			tasks: [{
 				id: "23251E7DB60AAD6C"
 				item: "minecraft:clay_ball"
 				type: "item"
 			}]
+			title: "Clay Age?"
 			x: 9.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["094BD2013092183D"]
 			description: [
-				"You won't be able to craft a crafting table for some moment so you need to use the primitive crafting table."
+				"As said previously, you &ewon't be able&r to &ecraft a crafting table&r before the &6Copper Age&r so you need to use the &ePrimitive Crafting Table&r for certain recipes."
 				""
 				"&3To craft a Primitive Crafting Table, search the recipe on JEI.&r"
 				""
@@ -121,6 +147,7 @@
 				id: "4512E219DAC8AACD"
 				observe_type: 0
 				timer: 0L
+				title: "Check the recipe through JEI!"
 				to_observe: "dens_addition:primitive_crafting_table"
 				type: "observation"
 			}]
@@ -130,7 +157,12 @@
 		}
 		{
 			dependencies: ["3D33914EC566F90F"]
-			description: ["First early game storage"]
+			description: [
+				"As you can see you &ewon't be able to craft Chest&r before the &6Copper Age&r."
+				"There are different &ePrimitive storage&r solution available."
+				""
+				"&o&7More to come in the future&r&r"
+			]
 			hide_until_deps_complete: true
 			id: "37047310D3CB7DE8"
 			tasks: [{
@@ -145,11 +177,20 @@
 				title: "Any #forge:shelves"
 				type: "item"
 			}]
+			title: "Craft a shelf"
 			x: 7.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["3D33914EC566F90F"]
+			description: [
+				"You &ecannot sleep without being&r &9Tired&r but if you sleep to rarely &eyou will have debuffs&r and might hear some sounds that are not there..."
+				"Some &econsumables&r can give you a &eboost of energy &rwithout sleeping."
+				""
+				"The Grass Bed &ewon't set your respawn point&r."
+				""
+				"&o&7The sleeping/tired system is a WIP and I'm interested in hearing your opinion about it&r&r."
+			]
 			hide_until_deps_complete: true
 			id: "2B148EDECB3CAFD7"
 			tasks: [{
@@ -157,18 +198,19 @@
 				item: "ytech:grass_bed"
 				type: "item"
 			}]
+			title: "Might not be confortable"
 			x: 8.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["5109FC4CE3A511AE"]
 			description: [
-				"The Brick Furnace is used to cook clay bricks faster as well as hardening pottery's items."
+				"The &eBrick Furnace&r is used to &eharden&r &eClay Bricks faster&r as well as hardening &ePottery's items&r."
 				""
-				"This Brick Furnace wont be able to cook food or ore!"
-				"This furnace is not lit by default."
+				"This Brick Furnace &ewont be able to cook food or ore&r!"
+				"This furnace is &enot lit&r when you place it."
 				""
-				"&9&oThis Brick Furnace might be removed in the future to only use the Primitive Smelter, what do you think about it?&r&r"
+				"&o&7This Brick Furnace might be removed in the future to only use the Primitive Smelter, what do you think about it?&r&r"
 			]
 			id: "458A888B9749186F"
 			tasks: [{
@@ -176,18 +218,20 @@
 				item: "brickfurnace:brick_furnace"
 				type: "item"
 			}]
+			title: "That should be faster than a Campfire"
 			x: 11.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["458A888B9749186F"]
 			description: [
-				"The Primitive Smelter is your next tier of furnace."
+				"The &ePrimitive Smelter&r is your &enext tier of furnace&r and a very important block."
 				""
-				"You will need to have a sufficient temperature to smelt specific ores."
+				"You will need to have a &esufficient temperature&r to smelt &especific items&r such as &eores&r."
 				""
-				"To increase the max temperature you will need to place Brick Chimney on top of it."
-				"You can place up to 4 Chimneys."
+				"To &eincrease&r the max &etemperature&r you will need to place &eBrick Chimney&r on top of it."
+				"You can place up to &e4 Chimneys&r. "
+				"In the future, you will be able to place up to 4 more Reinforced Chimneys."
 			]
 			hide_until_deps_complete: true
 			id: "18F5F126DAD1061E"
@@ -198,18 +242,20 @@
 				id: "6E2D87C346545520"
 				observe_type: 0
 				timer: 0L
+				title: "Check the recipe through JEI!"
 				to_observe: "ytech:primitive_smelter"
 				type: "observation"
 			}]
+			title: "Finally, a true furnace"
 			x: 13.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["18F5F126DAD1061E"]
 			description: [
-				"Your only way to find Copper during the Primitive Stage is to find Copper Ore Rocks spawning on the surface."
+				"Your &eonly way&r to find &6Copper&r during the &ePrimitive Stage&r is to find &eCopper Ore Rocks&r spawning &eon the surface&r."
 				""
-				"You will be able to found it in pretty much all biomes, there will be a good amount on the surface, mark the spot, it also means that there is Copper beneath it underground!"
+				"You will be able to found it in &epretty much all biomes (forests and plateaux)&r, there will be a good amount on the surface, &emark the spot&r, it also means that there is &6Copper&r &ebeneath it underground&r!"
 			]
 			id: "33DB428B465669F4"
 			tasks: [{
@@ -217,6 +263,7 @@
 				item: "minecraft:raw_copper"
 				type: "item"
 			}]
+			title: "Time to find some Copper Rocks"
 			x: 16.5d
 			y: 0.0d
 		}
@@ -229,11 +276,13 @@
 				item: "storage_pots:storage_pot"
 				type: "item"
 			}]
+			title: "Another storage solution"
 			x: 11.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["458A888B9749186F"]
+			description: ["Having a &ePot&r might be &ebetter&r for cooking than a simple Campfire."]
 			hide_until_deps_complete: true
 			id: "4B5685D5181756BF"
 			tasks: [{
@@ -241,12 +290,18 @@
 				item: "farmersdelight:cooking_pot"
 				type: "item"
 			}]
+			title: "Let him cook"
 			x: 11.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["57D5FC4FD49527C6"]
-			description: ["Craft your first knife, thanks to the Flint Knife you will be able to obtain Straw by cutting grass"]
+			description: [
+				"You can check the recipe through JEI."
+				""
+				"After crafting your &eFlint Knife&r, &esimply break grass&r to obtain &eStraw&r."
+			]
+			hide_until_deps_complete: true
 			id: "00346FE92D7FF10E"
 			tasks: [{
 				id: "1BA1C05BD9F88B48"
@@ -259,6 +314,7 @@
 				}
 				type: "item"
 			}]
+			title: "Craft a knife to obtain straw"
 			x: -0.5d
 			y: 1.0d
 		}
@@ -266,11 +322,11 @@
 			dependencies: ["1DE8DC32ADF342DC"]
 			dependency_requirement: "one_completed"
 			description: [
-				"You should start making bricks since they take a lot of time to cook."
+				"You should start making &ebricks&r as &esoon as possible&r, it takes a &elot of time&r to harden &eon a simple Campfire&r."
 				""
-				"You will need a Brick Mold to shape your bricks."
+				"You will need a &eBrick Mold&r to shape your bricks."
 				""
-				"Put your Unfired Brick on a Campfire to cook it."
+				"Put your &eUnfired Brick&r on a &eCampfire&r to harden it."
 			]
 			id: "5109FC4CE3A511AE"
 			tasks: [{
@@ -278,17 +334,18 @@
 				item: "ytech:unfired_brick"
 				type: "item"
 			}]
+			title: "Shape it into bricks!"
 			x: 10.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["094BD2013092183D"]
 			description: [
-				"The Potter's Wheel is an important block early game to obtain pottery items."
+				"The &ePotter's Wheel&r is an important block early game to &eobtain pottery items&r."
 				""
-				"Those items can be hardened in a Brick Furnace to obtain."
+				"Those items can be&e hardened&r in a &eBrick Furnace&r."
 				""
-				"Check the recipe through JEI."
+				"Check the recipes through JEI."
 			]
 			hide_until_deps_complete: true
 			id: "7222CD9FBB25DB68"
@@ -298,14 +355,20 @@
 				id: "25577B4C8AE59C27"
 				observe_type: 0
 				timer: 0L
+				title: "Check the recipe through JEI!"
 				to_observe: "ytech:potters_wheel"
 				type: "observation"
 			}]
+			title: "Make a Potter's Wheel"
 			x: 8.125d
 			y: 1.25d
 		}
 		{
 			dependencies: ["458A888B9749186F"]
+			description: [
+				"Drinking straight from a puddle is &eno more&r."
+				"You should make yourself a &eCeramic Canteen&r, you will be able to &epurify water&r by then putting the &efull Canteen&r in a furnace."
+			]
 			hide_until_deps_complete: true
 			id: "3561CBF3BB5C5A94"
 			tasks: [{
@@ -313,12 +376,17 @@
 				item: "legendarysurvivaloverhaul:canteen"
 				type: "item"
 			}]
+			title: "Stop being thirsty"
 			x: 12.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["0BD45BC48F14EE97"]
-			description: ["You can place Blocks and/or Items in the Workspace to craft some blocks."]
+			description: [
+				"The &eCrafting Workspace&r is used to &ecraft other blocks&r in a Primitive way."
+				""
+				"To use it, simply place it &ewhere you want your future crafted block to be&r, then right click with a block/item you want to place as if it was a Crafting Table GUI."
+			]
 			id: "094BD2013092183D"
 			shape: "hexagon"
 			size: 1.5d
@@ -327,15 +395,18 @@
 				item: "ytech:crafting_workspace"
 				type: "item"
 			}]
+			title: "Your first craft station"
 			x: 5.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["18F5F126DAD1061E"]
 			description: [
-				"You're getting closer to your first ingot!"
+				"You're getting &ecloser&r to your &efirst ingot&r! Which means &eCopper Age&r is &esoon&r!"
 				""
-				"You will need an ingot mold, to create it you can use sand and a brick."
+				"To shape ingots in your &ePrimitive Smelter&r you will need an &eIngot Mold&r, to create it you can use &esand&r and &ea brick&r."
+				""
+				"This mold will get used while smelting but you will be able to craft better molds soon."
 			]
 			id: "4FAC05FC0150CE58"
 			tasks: [{
@@ -343,16 +414,18 @@
 				item: "ytech:ingot_sand_mold"
 				type: "item"
 			}]
+			title: "Shape of an ingot"
 			x: 15.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["18F5F126DAD1061E"]
 			description: [
-				"To create chimneys you will need sap."
+				"&eBrick Chimneys&r will &eincrease&r the &emax temperature&r of your &ePrimitive Smelter&r by &c50°C&r &eeach&r when placed &eon top of the Smelter&r."
 				""
-				"You will need to find maple trees which are uncommon but can be easily seen thanks to the colored leaves."
-				"Put a spigot on the logs of the tree, wait a bit and you will be able to get some sap!"
+				"To create Chimneys you will need &eSap&r that can be &eextracted from Maple Trees&r. It's an &euncommon tree&r that can be &eeasily seen&r thanks to it's &ecolored leaves&r!"
+				""
+				"Put a &eSpigot&r on the logs of the Maple Tree, wait a bit and you will be able to get some Sap!"
 			]
 			id: "2BB259934AD35A68"
 			tasks: [{
@@ -361,6 +434,7 @@
 				item: "ytech:brick_chimney"
 				type: "item"
 			}]
+			title: "It's getting hot..."
 			x: 14.5d
 			y: 1.0d
 		}
@@ -391,7 +465,11 @@
 		}
 		{
 			dependencies: ["18F5F126DAD1061E"]
-			description: ["To handle hot items in the Primitive Smelter you will need a Wooden Thong in your off hand!"]
+			description: [
+				"To handle &ehot items&r in the&e Primitive Smelter&r you will need a &eWooden Thong&r in &eyour off hand&r!"
+				""
+				"&o&7As you can see, a lot of the textures are a WIP...&r&r"
+			]
 			id: "489DAD9243F5837E"
 			tasks: [{
 				id: "4AD7246BAA20DF04"
@@ -403,6 +481,7 @@
 		}
 		{
 			dependencies: ["3D33914EC566F90F"]
+			description: ["Needed to make bricks!"]
 			hide_until_deps_complete: true
 			id: "0BACC3AEB20766C4"
 			tasks: [{
@@ -422,8 +501,12 @@
 		{
 			dependencies: ["458A888B9749186F"]
 			description: [
-				"Use this item with some Switchgrass Fiber to be able to lit up the furnace!"
+				"Use a &eSparkling Flin&rt with &eSwitchgrass Fiber&r to be &eable to lit up&r the furnace!"
 				"Otherwise the furnace won't be usable since it won't turn up."
+				""
+				"Be careful not setting up random fire, it spreads very fast and is deadly."
+				""
+				"&7Little hint: the leaves are a shade of purple. You might have already found some!&r"
 			]
 			id: "5823599F43F28B08"
 			tasks: [{
@@ -443,7 +526,7 @@
 		{
 			dependencies: ["0BD45BC48F14EE97"]
 			description: [
-				"Craft some Unlit Torches and then light them up on the campfire."
+				"Craft some &eUnlit Torches&r (same recipe as vanilla torches) and then &elight them up &ron the &eCampfire&r."
 				"Torches will burn out with time."
 			]
 			hide_until_deps_complete: true
@@ -453,6 +536,7 @@
 				item: "realistictorches:lit_torch"
 				type: "item"
 			}]
+			title: "Need some light"
 			x: 4.0d
 			y: 2.0d
 		}

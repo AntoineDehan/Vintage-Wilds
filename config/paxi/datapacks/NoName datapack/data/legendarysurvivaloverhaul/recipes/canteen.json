@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "category": "clay",
-  "cookingtime": 800,
-  "ingredient": {
-    "item": "dens_addition:unfired_canteen"
-  },
-  "result": "legendarysurvivaloverhaul:canteen"
-}

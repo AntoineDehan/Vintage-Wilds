@@ -113,7 +113,7 @@
 	"Minimum size Multiplier" = 0.75
 	#Chance that a mob will be affected by size changes
 	#Range: 0.0 ~ 1.0
-	"Size Chance" = 0.5
+	"Size Chance" = 0.2
 
 #Settings regarding custom ai for mobs
 [ai]
@@ -159,7 +159,7 @@
 	"Steal Block Blacklist" = []
 	#Items which will be given to mobs who can break blocks. Empty list = no items. Syntax: id;weight
 	#Note: Mobs can only break blocks if the tool they are holding can break the blocks
-	"Breaking items" = ["minecraft:diamond_pickaxe;1", "minecraft:iron_axe;2", "minecraft:iron_shovel;3"]
+	"Breaking items" = ["dens_addition:copper_pickaxe;1", "dens_addition:copper_axe;2", "dens_addition:copper_shovel;3"]
 	#Should mobs be able to break block entities? Evaluated before the break list
 	"Break BlockEntities" = true
 	#Chance for neutral mobs to be aggressive
