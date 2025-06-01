@@ -1,0 +1,10 @@
+{
+  "replace": true,
+  "values": [
+    "iguanatweaksexpanded:wooden_hammer",
+    "iguanatweaksexpanded:flint_hammer",
+    "iguanatweaksexpanded:copper_hammer",
+    "iguanatweaksexpanded:iron_hammer",
+    "iguanatweaksexpanded:diamond_hammer"
+  ]
+}

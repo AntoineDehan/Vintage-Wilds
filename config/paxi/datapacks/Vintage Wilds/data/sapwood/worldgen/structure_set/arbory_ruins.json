@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "sapwood:arbory_ruins",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 250,
+    "separation": 15,
+    "salt": 717833686
+  }
+}

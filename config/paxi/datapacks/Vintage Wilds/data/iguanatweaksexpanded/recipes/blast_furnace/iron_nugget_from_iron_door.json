@@ -1,0 +1,13 @@
+{
+  "type": "iguanatweaksexpanded:multi_item_blasting",
+  "category": "blast_furnace_misc",
+  "cookingtime": 200,
+  "group": "iron_nugget",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_door"
+    }
+  ],
+  "output_increase": 4.4,
+  "result": "minecraft:iron_nugget"
+}

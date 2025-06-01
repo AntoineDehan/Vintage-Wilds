@@ -1,0 +1,16 @@
+{
+  "type": "bookshelf:shapeless_durability",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bamboo"
+    },
+    {
+      "tag": "forge:knives"
+    }
+  ],
+  "result": {
+    "item": "sapwood:spigot",
+    "count": 1
+  }
+}

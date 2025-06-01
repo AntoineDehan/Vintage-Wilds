@@ -1,0 +1,23 @@
+{
+  "type": "ytech:remaining_shaped_crafting",
+  "category": "building",
+  "key": {
+    "#": {
+      "tag": "forge:bolts/copper"
+    },
+    "B": {
+      "item": "minecraft:bricks"
+    },
+    "P": {
+      "tag": "forge:plates/copper"
+    },
+    "D": {
+      "item": "minecraft:cobbled_deepslate"
+    }
+  },
+  "pattern": ["#P#", "PBP", "DPD"],
+  "result": {
+    "item": "ytech:reinforced_bricks"
+  },
+  "show_notification": true
+}

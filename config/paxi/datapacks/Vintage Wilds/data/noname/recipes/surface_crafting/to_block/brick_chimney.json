@@ -1,0 +1,30 @@
+{
+  "type": "craft_on_surface:surface_crafting_recipe",
+  "materials": [
+    {
+      "item": "minecraft:bricks"
+    },
+    {
+      "item": "minecraft:bricks"
+    },
+    {
+      "item": "minecraft:bricks"
+    },
+    {
+      "item": "minecraft:bricks"
+    },
+    {
+      "item": "minecraft:bricks"
+    },
+    {
+      "item": "minecraft:bricks"
+    },
+    {
+      "item": "sapwood:sap"
+    }
+  ],
+  "output": {
+    "item": "ytech:brick_chimney"
+  },
+  "surface_block": "dens_addition:primitive_crafting_table"
+}

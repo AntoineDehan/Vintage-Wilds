@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "iri",
+    "iii"
+  ],
+  "key": {
+    "i": {
+      "tag": "forge:ingots/iron"
+    },
+    "r": {
+      "item": "rucksacks:leather_rucksack"
+    }
+  },
+  "result": {
+    "item": "rucksacks:iron_rucksack",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "ytech:remaining_shaped_crafting",
+  "category": "misc",
+  "pattern": ["  a", " ak", "a  "],
+  "key": {
+    "a": {
+      "tag": "minecraft:logs"
+    },
+    "k": {
+      "tag": "forge:knives"
+    }
+  },
+  "result": {
+    "item": "simply_traps:stake",
+    "count": 2
+  }
+}

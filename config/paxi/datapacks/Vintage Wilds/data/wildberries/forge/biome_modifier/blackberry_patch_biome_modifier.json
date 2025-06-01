@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "dark_forest",
+    "forest"
+  ],
+  "features": "wildberries:blackberry_patch",
+  "step": "vegetal_decoration"
+}

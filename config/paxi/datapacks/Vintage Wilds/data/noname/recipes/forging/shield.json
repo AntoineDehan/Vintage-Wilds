@@ -1,0 +1,14 @@
+{
+  "type": "iguanatweaksexpanded:forging",
+  "category": "forge_misc",
+  "ingredient": {
+    "item": "ytech:iron_plate"
+  },
+  "amount": 4,
+  "gear": {
+    "item": "shielsplus:wooden_shield"
+  },
+  "result": "shieldsplus:iron_shield",
+  "smashes_required": 10,
+  "experience": 8
+}

@@ -1,0 +1,14 @@
+{
+  "type": "iguanatweaksexpanded:forging",
+  "category": "forge_misc",
+  "ingredient": {
+    "item": "ytech:copper_plate"
+  },
+  "amount": 2,
+  "gear": {
+    "tag": "forge:buckets/empty"
+  },
+  "result": "dew_drop_watering_cans:copper_watering_can",
+  "smashes_required": 3,
+  "experience": 9
+}

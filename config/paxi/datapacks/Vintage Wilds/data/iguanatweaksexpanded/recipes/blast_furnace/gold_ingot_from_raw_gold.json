@@ -1,0 +1,15 @@
+{
+  "type": "iguanatweaksexpanded:multi_item_blasting",
+  "category": "blast_furnace_misc",
+  "cookingtime": 200,
+  "experience": 2.0,
+  "group": "gold_ingot",
+  "ingredients": [
+    {
+      "item": "minecraft:raw_gold"
+    }
+  ],
+  "output_increase": 2.0,
+  "result": "minecraft:gold_nugget",
+  "count": 2
+}

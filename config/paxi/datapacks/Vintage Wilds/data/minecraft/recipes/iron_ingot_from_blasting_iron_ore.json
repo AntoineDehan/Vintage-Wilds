@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "group": "iron_ingot",
+  "ingredient": {
+    "item": "minecraft:iron_ore"
+  },
+  "result": {
+    "item": "minecraft:iron_nugget",
+    "count": 2
+  },
+  "experience": 0.7,
+  "cookingtime": 100
+}

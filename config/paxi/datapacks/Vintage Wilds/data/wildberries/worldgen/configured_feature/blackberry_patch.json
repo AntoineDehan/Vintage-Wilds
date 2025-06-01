@@ -1,0 +1,63 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 104,
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:randomized_int_state_provider",
+            "source": {
+              "type": "minecraft:simple_state_provider",
+              "state": {
+                "Name": "wildberries:blackberry_bush"
+              }
+            },
+            "property": "blockstate",
+            "values": {
+              "type": "weighted_list",
+              "distribution": [
+                {
+                  "data": 0,
+                  "weight": 10
+                },
+                {
+                  "data": 1,
+                  "weight": 20
+                },
+                {
+                  "data": 2,
+                  "weight": 40
+                },
+                {
+                  "data": 3,
+                  "weight": 30
+                }
+              ]
+            }
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:air"
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:grass_block",
+                "offset": [0, -1, 0]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

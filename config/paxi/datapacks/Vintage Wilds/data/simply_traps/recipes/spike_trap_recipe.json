@@ -1,0 +1,20 @@
+{
+  "type": "ytech:remaining_shaped_crafting",
+  "category": "misc",
+  "pattern": ["aaa", "bbb", " h "],
+  "key": {
+    "a": {
+      "tag": "forge:rods/metal"
+    },
+    "b": {
+      "item": "minecraft:smooth_stone_slab"
+    },
+    "h": {
+      "tag": "forge:hammers"
+    }
+  },
+  "result": {
+    "item": "simply_traps:spike_trap",
+    "count": 2
+  }
+}

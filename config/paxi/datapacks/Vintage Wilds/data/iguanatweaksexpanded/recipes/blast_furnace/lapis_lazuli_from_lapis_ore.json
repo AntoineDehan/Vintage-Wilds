@@ -1,0 +1,14 @@
+{
+  "type": "iguanatweaksexpanded:multi_item_blasting",
+  "category": "blast_furnace_misc",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "group": "lapis_lazuli",
+  "ingredients": [
+    {
+      "item": "minecraft:lapis_ore"
+    }
+  ],
+  "output_increase": 2.0,
+  "result": "minecraft:lapis_lazuli"
+}

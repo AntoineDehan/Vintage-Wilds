@@ -1,0 +1,23 @@
+{
+  "type": "ytech:remaining_shaped_crafting",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:bricks"
+    },
+    "C": {
+      "item": "minecraft:campfire"
+    },
+    "i": {
+      "item": "ytech:copper_plate"
+    },
+    "H": {
+      "tag": "forge:hammers"
+    }
+  },
+  "pattern": ["iii", "BHB", "BCB"],
+  "result": {
+    "item": "farmersdelight:stove"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,22 @@
+{
+  "type": "ytech:workspace_crafting",
+  "key": {
+    "A": {
+      "item": "brickfurnace:brick_furnace"
+    },
+    "C": {
+      "item": "minecraft:bricks"
+    }
+  },
+  "pattern": {
+    "bottom": ["CCC", "CCC", "CCC"],
+    "middle": ["CCC", "CAC", "C C"],
+    "top": ["CCC", "C C", "CCC"]
+  },
+  "result": {
+    "item": "ytech:primitive_smelter"
+  },
+  "tool": {
+    "tag": "forge:hammers"
+  }
+}

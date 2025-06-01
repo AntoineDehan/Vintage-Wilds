@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "birch_forest",
+    "forest",
+    "old_growth_birch_forest"
+  ],
+  "features": "wildberries:raspberry_patch",
+  "step": "vegetal_decoration"
+}

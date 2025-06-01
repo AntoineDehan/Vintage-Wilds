@@ -1,0 +1,27 @@
+{
+  "type": "craft_on_surface:surface_crafting_recipe",
+  "materials": [
+    {
+      "item": "minecraft:stripped_jungle_log"
+    },
+    {
+      "item": "minecraft:stripped_jungle_log"
+    },
+    {
+      "item": "ytech:wooden_bolt"
+    },
+    {
+      "item": "ytech:wooden_bolt"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "minecraft:clay_ball"
+    }
+  ],
+  "output": {
+    "item": "primalstorage:jungle_shelves"
+  },
+  "surface_block": "dens_addition:primitive_crafting_table"
+}

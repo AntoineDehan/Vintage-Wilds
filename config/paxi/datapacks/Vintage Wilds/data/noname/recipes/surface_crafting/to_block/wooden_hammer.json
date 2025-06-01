@@ -1,0 +1,24 @@
+{
+  "type": "craft_on_surface:surface_crafting_recipe",
+  "materials": [
+    {
+      "item": "ytech:wooden_plate"
+    },
+    {
+      "item": "ytech:wooden_plate"
+    },
+    {
+      "item": "ytech:wooden_plate"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "ytech:wooden_bolt"
+    }
+  ],
+  "output": {
+    "item": "iguanatweaksexpanded:wooden_hammer"
+  },
+  "surface_block": "dens_addition:primitive_crafting_table"
+}

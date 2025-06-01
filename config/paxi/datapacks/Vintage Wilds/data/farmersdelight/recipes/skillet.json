@@ -1,0 +1,20 @@
+{
+  "type": "ytech:remaining_shaped_crafting",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "forge:ingots/iron"
+    },
+    "/": {
+      "item": "minecraft:brick"
+    },
+    "f": {
+      "tag": "forge:files"
+    }
+  },
+  "pattern": [" ##", " ##", "/ f"],
+  "result": {
+    "item": "farmersdelight:skillet"
+  },
+  "show_notification": true
+}

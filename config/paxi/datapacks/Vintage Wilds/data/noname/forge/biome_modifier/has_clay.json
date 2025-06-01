@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#noname:has_clay",
+  "features": ["noname:clay_patch"],
+  "step": "raw_generation"
+}

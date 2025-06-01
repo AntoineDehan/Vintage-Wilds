@@ -1,0 +1,15 @@
+{
+  "type": "ytech:smelting",
+  "ingredient": {
+    "item": "hardmodeores:pure_raw_copper"
+  },
+  "inputCount": 1,
+  "minTemp": 1085,
+  "mold": {
+    "tag": "ytech:molds/ingot"
+  },
+  "result": {
+    "item": "dens_addition:hot_copper_ingot"
+  },
+  "smeltingTime": 200
+}

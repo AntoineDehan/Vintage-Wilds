@@ -1,0 +1,14 @@
+{
+  "type": "iguanatweaksexpanded:forging",
+  "category": "forge_misc",
+  "ingredient": {
+    "item": "ytech:copper_plate"
+  },
+  "amount": 3,
+  "gear": {
+    "item": "minecraft:stick"
+  },
+  "result": "ytech:copper_saw",
+  "smashes_required": 6,
+  "experience": 15
+}

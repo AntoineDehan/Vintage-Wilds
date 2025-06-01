@@ -1,0 +1,25 @@
+{
+  "type": "ytech:remaining_shaped_crafting",
+  "pattern": ["sls", "tct", " f "],
+  "key": {
+    "l": {
+      "tag": "forge:leather"
+    },
+    "t": {
+      "item": "ytech:leather_strips"
+    },
+    "c": {
+      "item": "iguanatweaksexpanded:crate"
+    },
+    "s": {
+      "item": "sapwood:sap"
+    },
+    "f": {
+      "tag": "forge:files"
+    }
+  },
+  "result": {
+    "item": "rucksacks:leather_rucksack",
+    "count": 1
+  }
+}

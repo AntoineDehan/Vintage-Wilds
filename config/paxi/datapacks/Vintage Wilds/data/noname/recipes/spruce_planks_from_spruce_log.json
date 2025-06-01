@@ -1,0 +1,16 @@
+{
+  "type": "bookshelf:shapeless_durability",
+  "damageAmount": 1,
+  "ingredients": [
+    {
+      "tag": "forge:saws"
+    },
+    {
+      "item": "minecraft:spruce_log"
+    }
+  ],
+  "result": {
+    "item": "minecraft:spruce_planks",
+    "count": 4
+  }
+}

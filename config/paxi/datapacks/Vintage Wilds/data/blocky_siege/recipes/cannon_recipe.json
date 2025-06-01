@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["haf", "aba", "cac"],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_block"
+    },
+    "b": {
+      "item": "ytech:reinforced_brick_chimney"
+    },
+    "c": {
+      "tag": "minecraft:planks"
+    },
+    "h": {
+      "tag": "forge:hammers"
+    },
+    "f": {
+      "tag": "forge:files"
+    }
+  },
+  "result": {
+    "item": "blocky_siege:cannon",
+    "count": 1
+  }
+}

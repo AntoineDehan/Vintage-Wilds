@@ -1,0 +1,14 @@
+{
+  "type": "iguanatweaksexpanded:forging",
+  "category": "forge_misc",
+  "ingredient": {
+    "item": "iguanatweaksexpanded:soul_steel_ingot"
+  },
+  "amount": 1,
+  "gear": {
+    "item": "minecraft:flint"
+  },
+  "result": "minecraft:flint_and_steel",
+  "smashes_required": 10,
+  "experience": 11
+}

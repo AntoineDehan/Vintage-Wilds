@@ -1,0 +1,14 @@
+{
+  "type": "iguanatweaksexpanded:forging",
+  "category": "forge_misc",
+  "ingredient": {
+    "item": "minecraft:iron_ingot"
+  },
+  "amount": 2,
+  "gear": {
+    "item": "ytech:copper_rod"
+  },
+  "result": "minecraft:shears",
+  "smashes_required": 10,
+  "experience": 9
+}

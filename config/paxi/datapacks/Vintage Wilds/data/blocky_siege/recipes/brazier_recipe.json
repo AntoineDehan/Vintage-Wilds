@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["aba", "ccc"],
+  "key": {
+    "a": {
+      "item": "forge:rods/metal"
+    },
+    "b": {
+      "item": "minecraft:campfire"
+    },
+    "c": {
+      "item": "forge:plates"
+    }
+  },
+  "result": {
+    "item": "blocky_siege:brazier_off",
+    "count": 1
+  }
+}

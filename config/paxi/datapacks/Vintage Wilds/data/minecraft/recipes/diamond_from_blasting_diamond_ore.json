@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "minecraft:diamond_ore"
+  },
+  "result": {
+    "item": "hardmodeores:diamondshard",
+    "count": 2
+  },
+  "experience": 0.3,
+  "cookingtime": 100
+}

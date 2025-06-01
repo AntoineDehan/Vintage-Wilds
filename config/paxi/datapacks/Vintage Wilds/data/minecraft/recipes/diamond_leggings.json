@@ -1,0 +1,14 @@
+{
+  "type": "iguanatweaksexpanded:forging",
+  "category": "forge_misc",
+  "ingredient": {
+    "item": "minecraft:diamond"
+  },
+  "amount": 7,
+  "gear": {
+    "item": "minecraft:golden_leggings"
+  },
+  "result": "minecraft:diamond_leggings",
+  "smashes_required": 14,
+  "experience": 21
+}

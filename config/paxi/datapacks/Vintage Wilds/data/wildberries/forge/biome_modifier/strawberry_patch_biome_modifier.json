@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "plains",
+    "meadow"
+  ],
+  "features": "wildberries:strawberry_patch",
+  "step": "vegetal_decoration"
+}

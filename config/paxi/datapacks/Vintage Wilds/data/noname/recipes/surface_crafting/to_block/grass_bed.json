@@ -1,0 +1,33 @@
+{
+  "type": "craft_on_surface:surface_crafting_recipe",
+  "materials": [
+    {
+      "item": "farmersdelight:canvas"
+    },
+    {
+      "item": "farmersdelight:canvas"
+    },
+    {
+      "item": "farmersdelight:canvas"
+    },
+    {
+      "item": "farmersdelight:canvas"
+    },
+    {
+      "item": "farmersdelight:straw"
+    },
+    {
+      "item": "farmersdelight:straw"
+    },
+    {
+      "item": "farmersdelight:straw"
+    },
+    {
+      "item": "farmersdelight:straw"
+    }
+  ],
+  "output": {
+    "item": "ytech:grass_bed"
+  },
+  "surface_block": "dens_addition:primitive_crafting_table"
+}

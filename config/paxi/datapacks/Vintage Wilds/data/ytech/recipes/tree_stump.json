@@ -1,0 +1,22 @@
+{
+  "type": "ytech:workspace_crafting",
+  "key": {
+    "C": {
+      "tag": "minecraft:logs"
+    },
+    "S": {
+      "item": "minecraft:bricks"
+    }
+  },
+  "pattern": {
+    "bottom": ["SSS", "SSS", "SSS"],
+    "middle": ["CCC", "CCC", "CCC"],
+    "top": ["CCC", "CCC", "CCC"]
+  },
+  "result": {
+    "item": "ytech:tree_stump"
+  },
+  "tool": {
+    "tag": "minecraft:axes"
+  }
+}

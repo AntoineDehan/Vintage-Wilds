@@ -1,0 +1,19 @@
+{
+  "type": "ytech:workspace_crafting",
+  "key": {
+    "C": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "pattern": {
+    "bottom": [" C ", " C ", " C "],
+    "middle": [" C ", " C ", " C "],
+    "top": ["C  ", "   ", "  C"]
+  },
+  "result": {
+    "item": "simply_traps:stake_wall"
+  },
+  "tool": {
+    "tag": "forge:knives"
+  }
+}

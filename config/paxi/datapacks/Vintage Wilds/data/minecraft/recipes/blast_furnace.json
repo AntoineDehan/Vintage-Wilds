@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["III", "AXA", "###"],
+  "key": {
+    "#": {
+      "item": "minecraft:deepslate_bricks"
+    },
+    "I": {
+      "item": "ytech:copper_plate"
+    },
+    "A": {
+      "item": "ytech:copper_bolt"
+    },
+    "X": {
+      "item": "minecraft:furnace"
+    }
+  },
+  "result": {
+    "item": "iguanatweaksexpanded:blast_furnace"
+  }
+}

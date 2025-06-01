@@ -1,0 +1,19 @@
+{
+  "type": "ytech:workspace_crafting",
+  "key": {
+    "C": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "pattern": {
+    "bottom": ["   ", " C ", "   "],
+    "middle": ["   ", " C ", "   "],
+    "top": ["CCC", "CCC", "CCC"]
+  },
+  "result": {
+    "item": "dens_addition:primitive_crafting_table"
+  },
+  "tool": {
+    "tag": "forge:knives"
+  }
+}

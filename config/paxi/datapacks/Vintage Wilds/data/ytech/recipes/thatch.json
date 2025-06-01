@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "farmersdelight:straw"
+    }
+  },
+  "pattern": ["BB", "BB"],
+  "result": {
+    "item": "ytech:thatch"
+  }
+}
