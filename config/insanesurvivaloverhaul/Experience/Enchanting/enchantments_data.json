@@ -1,0 +1,491 @@
+[
+  {
+    "id": "minecraft:unbreaking",
+    "cost_per_level": 1
+  },
+  {
+    "id": "iguanatweaksexpanded:enduring",
+    "cost_per_level": 1
+  },
+  {
+    "id": "minecraft:mending",
+    "cost_per_level": 2
+  },
+  {
+    "id": "allurement:reforming",
+    "cost_per_level": 2
+  },
+  {
+    "id": "iguanatweaksexpanded:soulbound",
+    "cost_per_level": 2
+  },
+  {
+    "id": "iguanatweaksreborn:luck",
+    "cost_per_level": 4
+  },
+  {
+    "id": "iguanatweaksexpanded:smartness",
+    "cost_per_level": 4
+  },
+  {
+    "id": "iguanatweaksexpanded:reach",
+    "cost_per_level": 3
+  },
+  {
+    "id": "iguanatweaksexpanded:knowledgeable",
+    "cost_per_level": 4
+  },
+  {
+    "id": "iguanatweaksexpanded:adrenaline",
+    "cost_per_level": 1
+  },
+  {
+    "id": "minecraft:lure",
+    "cost_per_level": 2
+  },
+  {
+    "id": "iguanatweaksexpanded:lucky_hook",
+    "cost_per_level": 4
+  },
+  {
+    "id": "minecraft:power",
+    "cost_per_level": 1
+  },
+  {
+    "id": "minecraft:punch",
+    "cost_per_level": 2
+  },
+  {
+    "id": "minecraft:flame",
+    "cost_per_level": 2
+  },
+  {
+    "id": "minecraft:infinity",
+    "cost_per_level": 1
+  },
+  {
+    "id": "minecraft:quick_charge",
+    "costs": [
+      1,
+      2,
+      4,
+      6
+    ]
+  },
+  {
+    "id": "minecraft:multishot",
+    "cost_per_level": 3
+  },
+  {
+    "id": "minecraft:piercing",
+    "cost_per_level": 1
+  },
+  {
+    "id": "allurement:reeling",
+    "cost_per_level": 2
+  },
+  {
+    "id": "allurement:spread_of_ailments",
+    "cost_per_level": 1
+  },
+  {
+    "id": "iguanatweaksexpanded:gravity_defying",
+    "cost_per_level": 2
+  },
+  {
+    "id": "minecraft:loyalty",
+    "cost_per_level": 2
+  },
+  {
+    "id": "minecraft:channeling",
+    "cost_per_level": 4
+  },
+  {
+    "id": "minecraft:riptide",
+    "cost_per_level": 1
+  },
+  {
+    "id": "minecraft:impaling",
+    "cost_per_level": 1
+  },
+  {
+    "id": "minecraft:efficiency",
+    "cost_per_level": 1
+  },
+  {
+    "id": "iguanatweaksexpanded:haste",
+    "cost_per_level": 1
+  },
+  {
+    "id": "iguanatweaksexpanded:blasting",
+    "cost_per_level": 1
+  },
+  {
+    "id": "iguanatweaksexpanded:expanded",
+    "cost_per_level": 2
+  },
+  {
+    "id": "iguanatweaksexpanded:veining",
+    "cost_per_level": 2
+  },
+  {
+    "id": "minecraft:silk_touch",
+    "cost_per_level": 4
+  },
+  {
+    "id": "iguanatweaksexpanded:exchange",
+    "cost_per_level": 2
+  },
+  {
+    "id": "iguanatweaksreborn:sharpness",
+    "cost_per_level": 1
+  },
+  {
+    "id": "iguanatweaksreborn:bane_of_sssss",
+    "cost_per_level": 1
+  },
+  {
+    "id": "iguanatweaksreborn:smite",
+    "cost_per_level": 1
+  },
+  {
+    "id": "iguanatweaksexpanded:water_coolant",
+    "cost_per_level": 1
+  },
+  {
+    "id": "iguanatweaksexpanded:bane_of_noses",
+    "cost_per_level": 1
+  },
+  {
+    "id": "iguanatweaksexpanded:rage",
+    "cost_per_level": 1
+  },
+  {
+    "id": "iguanatweaksexpanded:swift_strike",
+    "cost_per_level": 1
+  },
+  {
+    "id": "iguanatweaksreborn:critical",
+    "cost_per_level": 1
+  },
+  {
+    "id": "iguanatweaksexpanded:armor_piercer",
+    "cost_per_level": 1
+  },
+  {
+    "id": "iguanatweaksreborn:fire_aspect",
+    "cost_per_level": 2
+  },
+  {
+    "id": "iguanatweaksexpanded:cryo_aspect",
+    "cost_per_level": 2
+  },
+  {
+    "id": "iguanatweaksexpanded:explosive",
+    "cost_per_level": 2
+  },
+  {
+    "id": "iguanatweaksreborn:knockback",
+    "cost_per_level": 2
+  },
+  {
+    "id": "iguanatweaksexpanded:padding",
+    "cost_per_level": 2
+  },
+  {
+    "id": "allurement:launch",
+    "cost_per_level": 2
+  },
+  {
+    "id": "iguanatweaksreborn:sweeping_edge",
+    "cost_per_level": 2
+  },
+  {
+    "id": "iguanatweaksexpanded:part_breaker",
+    "cost_per_level": 4
+  },
+  {
+    "id": "iguanatweaksexpanded:air_stealer",
+    "cost_per_level": 2
+  },
+  {
+    "id": "iguanatweaksreborn:protection",
+    "cost_per_level": 4
+  },
+  {
+    "id": "iguanatweaksreborn:blast_protection",
+    "cost_per_level": 1
+  },
+  {
+    "id": "iguanatweaksreborn:fire_protection",
+    "cost_per_level": 1
+  },
+  {
+    "id": "iguanatweaksreborn:projectile_protection",
+    "cost_per_level": 1
+  },
+  {
+    "id": "iguanatweaksexpanded:magic_protection",
+    "cost_per_level": 1
+  },
+  {
+    "id": "iguanatweaksexpanded:melee_protection",
+    "cost_per_level": 1
+  },
+  {
+    "id": "iguanatweaksexpanded:healthy",
+    "cost_per_level": 1
+  },
+  {
+    "id": "allurement:alleviating",
+    "cost_per_level": 4
+  },
+  {
+    "id": "iguanatweaksexpanded:flat_protection",
+    "cost_per_level": 4
+  },
+  {
+    "id": "iguanatweaksexpanded:absorption",
+    "cost_per_level": 4
+  },
+  {
+    "id": "minecraft:aqua_affinity",
+    "cost_per_level": 3
+  },
+  {
+    "id": "minecraft:respiration",
+    "cost_per_level": 2
+  },
+  {
+    "id": "iguanatweaksexpanded:enlightened",
+    "cost_per_level": 2
+  },
+  {
+    "id": "minecraft:thorns",
+    "cost_per_level": 2
+  },
+  {
+    "id": "iguanatweaksexpanded:air_born",
+    "cost_per_level": 3
+  },
+  {
+    "id": "iguanatweaksexpanded:recovery",
+    "cost_per_level": 2
+  },
+  {
+    "id": "iguanatweaksexpanded:vindication",
+    "cost_per_level": 2
+  },
+  {
+    "id": "iguanatweaksexpanded:invulnerability",
+    "cost_per_level": 4
+  },
+  {
+    "id": "iguanatweaksexpanded:fire_guardian",
+    "cost_per_level": 3
+  },
+  {
+    "id": "minecraft:swift_sneak",
+    "cost_per_level": 2
+  },
+  {
+    "id": "iguanatweaksexpanded:magnetic",
+    "cost_per_level": 2
+  },
+  {
+    "id": "iguanatweaksexpanded:retreat",
+    "cost_per_level": 2
+  },
+  {
+    "id": "iguanatweaksexpanded:sprint_pact",
+    "cost_per_level": 4
+  },
+  {
+    "id": "iguanatweaksexpanded:step_up",
+    "cost_per_level": 2
+  },
+  {
+    "id": "iguanatweaksexpanded:zippy",
+    "cost_per_level": 2
+  },
+  {
+    "id": "iguanatweaksexpanded:charged_jump",
+    "cost_per_level": 3
+  },
+  {
+    "id": "iguanatweaksreborn:feather_falling",
+    "cost_per_level": 1
+  },
+  {
+    "id": "minecraft:soul_speed",
+    "cost_per_level": 2
+  },
+  {
+    "id": "minecraft:depth_strider",
+    "cost_per_level": 2
+  },
+  {
+    "id": "minecraft:frost_walker",
+    "cost_per_level": 2
+  },
+  {
+    "id": "allurement:shockwave",
+    "cost_per_level": 1
+  },
+  {
+    "id": "iguanatweaksexpanded:double_jump",
+    "cost_per_level": 4
+  },
+  {
+    "id": "iguanatweaksexpanded:hoppy",
+    "cost_per_level": 2
+  },
+  {
+    "id": "iguanatweaksexpanded:steady_fall",
+    "cost_per_level": 4
+  },
+  {
+    "id": "passablefoliage:leaf_walker",
+    "cost_per_level": 2
+  },
+  {
+    "id": "shieldsplus:ablaze",
+    "cost_per_level": 1
+  },
+  {
+    "id": "shieldsplus:aegis",
+    "cost_per_level": 1
+  },
+  {
+    "id": "shieldsplus:celestial_guardian",
+    "cost_per_level": 4
+  },
+  {
+    "id": "shieldsplus:fast_recovery",
+    "cost_per_level": 2
+  },
+  {
+    "id": "shieldsplus:lightweight",
+    "cost_per_level": 2
+  },
+  {
+    "id": "shieldsplus:perfect_parry",
+    "cost_per_level": 4
+  },
+  {
+    "id": "shieldsplus:recoil",
+    "cost_per_level": 2
+  },
+  {
+    "id": "shieldsplus:reflection",
+    "cost_per_level": 1
+  },
+  {
+    "id": "shieldsplus:reinforced",
+    "cost_per_level": 1
+  },
+  {
+    "id": "allurement:ascension_curse",
+    "cost_per_level": 3
+  },
+  {
+    "id": "allurement:fleeting_curse",
+    "cost_per_level": 2
+  },
+  {
+    "id": "allurement:obedience",
+    "cost_per_level": 2
+  },
+  {
+    "id": "farmersdelight:backstabbing",
+    "cost_per_level": 2
+  },
+  {
+    "id": "iguanatweaksexpanded:blood_pact_curse",
+    "cost_per_level": 2
+  },
+  {
+    "id": "iguanatweaksexpanded:dumbness_curse",
+    "cost_per_level": 2
+  },
+  {
+    "id": "iguanatweaksexpanded:ender_curse",
+    "cost_per_level": 2
+  },
+  {
+    "id": "iguanatweaksexpanded:experience_curse",
+    "cost_per_level": 3
+  },
+  {
+    "id": "iguanatweaksexpanded:fragility_curse",
+    "cost_per_level": 2
+  },
+  {
+    "id": "iguanatweaksexpanded:frenzy_curse",
+    "cost_per_level": 3
+  },
+  {
+    "id": "iguanatweaksexpanded:hop_curse",
+    "cost_per_level": 2
+  },
+  {
+    "id": "iguanatweaksexpanded:inefficiency_curse",
+    "cost_per_level": 2
+  },
+  {
+    "id": "iguanatweaksexpanded:obscurity_curse",
+    "cost_per_level": 2
+  },
+  {
+    "id": "iguanatweaksexpanded:short_arm_curse",
+    "cost_per_level": 2
+  },
+  {
+    "id": "iguanatweaksexpanded:slow_charge_curse",
+    "cost_per_level": 2
+  },
+  {
+    "id": "iguanatweaksexpanded:slow_strike_curse",
+    "cost_per_level": 2
+  },
+  {
+    "id": "iguanatweaksexpanded:static_charge_curse",
+    "cost_per_level": 2
+  },
+  {
+    "id": "iguanatweaksexpanded:steel_fall_curse",
+    "cost_per_level": 2
+  },
+  {
+    "id": "iguanatweaksexpanded:tear_curse",
+    "cost_per_level": 2
+  },
+  {
+    "id": "iguanatweaksexpanded:unhurried_curse",
+    "cost_per_level": 2
+  },
+  {
+    "id": "iguanatweaksexpanded:unstable_motion_curse",
+    "cost_per_level": 3
+  },
+  {
+    "id": "iguanatweaksexpanded:void_curse",
+    "cost_per_level": 2
+  },
+  {
+    "id": "iguanatweaksexpanded:walking_curse",
+    "cost_per_level": 3
+  },
+  {
+    "id": "minecraft:binding_curse",
+    "cost_per_level": 3
+  },
+  {
+    "id": "minecraft:vanishing_curse",
+    "cost_per_level": 3
+  },
+  {
+    "id": "supplementaries:stasis",
+    "cost_per_level": 4
+  }
+]

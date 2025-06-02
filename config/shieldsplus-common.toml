@@ -12,6 +12,8 @@
 	"Combat Test shield disabling" = true
 	#If true, shields can be lifted only for a certain amount of time and will go on cooldown.
 	"Lifted and Cooldown" = true
+	#If true, crouching will block with the shield and you can attack while blocking.
+	"Block with crouch" = true
 
 	["Shields+".Enchantments]
 		#How many seconds will ablaze set entities on fire per level.

@@ -344,7 +344,7 @@
 	#Use the enhancedai:change_snow_golems entity type tag to add more snow golems.
 	"Enable Snow Golems" = true
 	#Use the enhancedai:change_wolves entity type tag to add more wolves.
-	"Enable Wolves" = true
+	"Enable Wolves" = false
 
 	#Use the enhancedai:change_iron_golems entity type tag to add more iron golems.
 	[Pets."Iron Golems"]
@@ -777,7 +777,7 @@
 		[Creepers."Creeper Swell".Breach]
 			#Breaching creepers will try to open a hole in the wall to let mobs in.
 			#Range: 0.0 ~ 1.0
-			Chance = 0.075
+			Chance = 0.4
 			#How far away (horizontally) from the target breaching creepers can breach.
 			#Range: > 0
 			"Horizontal Range" = 24

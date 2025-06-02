@@ -1,8 +1,0 @@
-{
-    "type": "iguanatweaksexpanded:solium_boulder_feature",
-    "config": {
-        "state": {
-            "Name": "minecraft:stone"
-        }
-    }
-}

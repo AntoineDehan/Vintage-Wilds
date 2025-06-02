@@ -1,0 +1,168 @@
+[
+  {
+    "item_a": "minecraft:emerald",
+    "item_a_count": 2,
+    "item_result": "minecraft:wheat_seeds",
+    "max_uses": 4,
+    "xp": 0
+  },
+  {
+    "item_a": "minecraft:emerald",
+    "item_a_count": 2,
+    "item_result": "iguanatweaksreborn:carrot_seeds",
+    "max_uses": 4,
+    "xp": 0
+  },
+  {
+    "item_a": "minecraft:emerald",
+    "item_a_count": 2,
+    "item_result": "iguanatweaksreborn:rooted_potato",
+    "max_uses": 4,
+    "xp": 0
+  },
+  {
+    "item_a": "minecraft:emerald",
+    "item_a_count": 2,
+    "item_result": "minecraft:beetroot_seeds",
+    "max_uses": 4,
+    "xp": 0
+  },
+  {
+    "item_a": "minecraft:emerald",
+    "item_result": "minecraft:brown_mushroom",
+    "max_uses": 4,
+    "xp": 0
+  },
+  {
+    "item_a": "minecraft:emerald",
+    "item_result": "minecraft:red_mushroom",
+    "max_uses": 4,
+    "xp": 0
+  },
+  {
+    "item_a": "minecraft:emerald",
+    "item_a_count": 3,
+    "item_result": "minecraft:melon",
+    "max_uses": 2,
+    "xp": 0
+  },
+  {
+    "item_a": "minecraft:emerald",
+    "item_a_count": 3,
+    "item_result": "minecraft:pumpkin",
+    "max_uses": 2,
+    "xp": 0
+  },
+  {
+    "item_a": "minecraft:emerald",
+    "item_result": "minecraft:vine",
+    "max_uses": 4,
+    "xp": 0
+  },
+  {
+    "item_a": "minecraft:emerald",
+    "item_result": "minecraft:lily_pad",
+    "item_result_count": 2,
+    "max_uses": 4,
+    "xp": 0
+  },
+  {
+    "item_a": "minecraft:emerald",
+    "item_a_count": 2,
+    "item_result": "minecraft:pointed_dripstone",
+    "item_result_count": 2,
+    "max_uses": 3,
+    "xp": 0
+  },
+  {
+    "item_a": "minecraft:emerald",
+    "item_a_count": 2,
+    "item_result": "minecraft:sea_pickle",
+    "max_uses": 3,
+    "xp": 0
+  },
+  {
+    "item_a": "minecraft:emerald",
+    "item_a_count": 3,
+    "item_result": "minecraft:cactus",
+    "max_uses": 3,
+    "xp": 0
+  },
+  {
+    "item_a": "minecraft:emerald",
+    "item_a_count": 3,
+    "item_result": "minecraft:kelp",
+    "max_uses": 3,
+    "xp": 0
+  },
+  {
+    "item_a": "minecraft:emerald",
+    "item_a_count": 5,
+    "item_result": "minecraft:acacia_sapling",
+    "max_uses": 3,
+    "xp": 0
+  },
+  {
+    "item_a": "minecraft:emerald",
+    "item_a_count": 5,
+    "item_result": "minecraft:birch_sapling",
+    "max_uses": 3,
+    "xp": 0
+  },
+  {
+    "item_a": "minecraft:emerald",
+    "item_a_count": 5,
+    "item_result": "minecraft:cherry_sapling",
+    "max_uses": 3,
+    "xp": 0
+  },
+  {
+    "item_a": "minecraft:emerald",
+    "item_a_count": 5,
+    "item_result": "minecraft:spruce_sapling",
+    "max_uses": 3,
+    "xp": 0
+  },
+  {
+    "item_a": "minecraft:emerald",
+    "item_a_count": 5,
+    "item_result": "minecraft:oak_sapling",
+    "max_uses": 3,
+    "xp": 0
+  },
+  {
+    "item_a": "minecraft:emerald",
+    "item_a_count": 5,
+    "item_result": "minecraft:dark_oak_sapling",
+    "max_uses": 3,
+    "xp": 0
+  },
+  {
+    "item_a": "minecraft:emerald",
+    "item_a_count": 5,
+    "item_result": "minecraft:jungle_sapling",
+    "max_uses": 3,
+    "xp": 0
+  },
+  {
+    "item_a": "minecraft:emerald",
+    "item_a_count": 5,
+    "item_result": "minecraft:nautilus_shell",
+    "max_uses": 5,
+    "xp": 0
+  },
+  {
+    "item_a": "minecraft:emerald",
+    "item_a_count": 3,
+    "item_result": "minecraft:tropical_fish_bucket",
+    "max_uses": 4,
+    "xp": 0
+  },
+  {
+    "item_a": "minecraft:emerald",
+    "item_a_count": 3,
+    "item_result": "minecraft:pufferfish_bucket",
+    "max_uses": 4,
+    "xp": 0
+  }
+]
