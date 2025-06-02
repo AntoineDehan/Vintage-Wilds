@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "tools",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "x": {
+      "item": "ytech:wooden_bolt"
+    }
+  },
+  "pattern": ["   ", " # ", "#x "],
+  "result": {
+    "item": "dens_addition:saw_handle"
+  },
+  "show_notification": true
+}

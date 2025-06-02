@@ -6,7 +6,7 @@
   },
   "amount": 3,
   "gear": {
-    "item": "minecraft:stick"
+    "item": "dens_addition:saw_handle"
   },
   "result": "ytech:copper_saw",
   "smashes_required": 6,

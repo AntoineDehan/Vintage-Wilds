@@ -53,7 +53,11 @@
 		}
 		{
 			dependencies: ["6C20B22ED5FCBD81"]
-			description: ["You can now craft &eWooden Planks&r, congrats!"]
+			description: [
+				"You can now craft &eWooden Planks&r, congrats!"
+				""
+				"You will need a &eSaw Handle&r to craft a saw."
+			]
 			id: "218D9D1EB0F8D4FC"
 			tasks: [{
 				id: "48DF1BBC54210558"

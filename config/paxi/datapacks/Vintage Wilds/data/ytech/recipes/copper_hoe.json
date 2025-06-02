@@ -2,7 +2,7 @@
   "type": "iguanatweaksexpanded:forging",
   "category": "forge_misc",
   "ingredient": {
-    "tag": "forge:plates/copper"
+    "item": "minecraft:copper_ingot"
   },
   "amount": 2,
   "gear": {

@@ -26,4 +26,5 @@ StartupEvents.registry("item", (e) => {
   e.create("dens_addition:hot_copper_sword_blade_part");
 
   e.create("dens_addition:wooden_tongs");
+  e.create("dens_addition:saw_handle");
 });
