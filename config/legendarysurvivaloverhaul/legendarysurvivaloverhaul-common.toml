@@ -7,9 +7,9 @@
 	# Whether the thirst system is enabled.
 	"Thirst Enabled" = true
 	# Whether body members receive localized damages.
-	"Localized Body Damage Enabled" = true
+	"Localized Body Damage Enabled" = false
 	# Whether the overhaul health system is enabled.
-	"Health Overhaul Enabled" = true
+	"Health Overhaul Enabled" = false
 
 	[core.advanced]
 		# How often player temperature, thirst, body damage and health is regularly synced between the client and server, in ticks.
@@ -37,13 +37,13 @@
 [food]
 	# Food exhausted every 10 ticks. Increase the base minecraft food exhaustion.
 	#Range: 0.0 ~ 1000.0
-	"Base Food Exhaustion" = 0.03
+	"Base Food Exhaustion" = 0.01
 	# Food exhausted every 10 ticks while sprinting in addition to the sprinting minecraft food exhaustion.
 	#Range: 0.0 ~ 1000.0
-	"Sprinting Food Exhaustion" = 0.1
+	"Sprinting Food Exhaustion" = 0.05
 	# Food exhausted on every attack in addition to the minecraft attack food exhaustion.
 	#Range: 0.0 ~ 1000.0
-	"On Attack Food Exhaustion" = 0.1
+	"On Attack Food Exhaustion" = 0.0
 
 # Options related to the temperature system
 [temperature]
@@ -56,7 +56,7 @@
 	"Player On Fire Modifier" = 12.5
 	# How much of an effect sprinting has on a player's temperature.
 	#Range: -1000.0 ~ 1000.0
-	"Player Sprint Modifier" = 1.5
+	"Player Sprint Modifier" = 1.4
 	# How much the effects of the player's altitude on temperature are multiplied starting at Y 64.
 	# Each 64 blocks further from Y 64 will reduce player's temperature by this value.
 	# It means that for a value of -5, the body temperature of the player is reduced by 5 for each 64 blocks (the calculus is done linearly).
@@ -338,7 +338,7 @@
 	#Range: 0.0 ~ 1000.0
 	"Thirst Effect Modifier" = 0.25
 	# If enabled, each time the player receives a thirst effect, its duration will be added to the thirst effect duration if already on the player.
-	"Cumulative Thirst Effect Duration" = true
+	"Cumulative Thirst Effect Duration" = false
 
 	[thirst.exhaustion]
 		# Thirst exhausted every 10 ticks.

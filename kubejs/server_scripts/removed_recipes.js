@@ -202,4 +202,6 @@ ServerEvents.recipes((event) => {
   event.remove({
     type: "iguanatweaksexpanded:multi_item_soul_blasting",
   });
+
+  event.remove({ mod: "minecraft", output: "minecraft:chest" });
 });

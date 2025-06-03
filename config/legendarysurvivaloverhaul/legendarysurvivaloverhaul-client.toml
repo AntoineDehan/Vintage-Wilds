@@ -9,7 +9,7 @@
 		# Whether the vanilla animation of the Food bar and Hydration bar is rendered. The bar shakes more the lower they are.
 		# This mod render a new food bar as a secondary effect of a cold temperature.
 		# Disable this animation if the temperature secondary effect is enabled to allow a compatibility with other mods rendering the food bar (for example Appleskin).
-		"Show Vanilla Bar Animation Overlay" = true
+		"Show Vanilla Bar Animation Overlay" = false
 
 	[hud.temperature]
 		# How temperature is displayed. Accepted values are as follows:
