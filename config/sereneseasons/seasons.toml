@@ -14,7 +14,7 @@
 #Please be advised that certain season-related options are world-specific and are located in <Path to your world folder>/serverconfig/sereneseasons-server.toml.
 [weather_settings]
 	#Change the frequency of rain/snow/storms based on the season
-	change_weather_frequency = true
+	change_weather_frequency = false
 	#Generate snow and ice during the Winter season
 	generate_snow_ice = true
 
@@ -24,15 +24,15 @@
 	#4 - 6 = Early/Mid/Late Summer
 	#7 - 9 = Early/Mid/Late Autumn
 	#10 - 12 = Early/Mid/Late Winter
-	starting_sub_season = 1
+	starting_sub_season = 2
 	#The duration of a sub season in days.
-	sub_season_duration = 8
+	sub_season_duration = 12
 	#If the season should progress on a server with no players online
 	progress_season_while_offline = true
 	#The duration of a Minecraft day in ticks.
 	#This only adjusts the internal length of a day used by the season cycle.
 	#It is intended to be used in conjunction with another mod which adjusts the actual length of a Minecraft day.
-	day_duration = 24000
+	day_duration = 33600
 
 #melt_percent is the 0-1 percentage chance a snow or ice block will melt when chosen. (e.g. 100.0 = 100%, 50.0 = 50%)
 #melt_rolls is the number of blocks randomly picked in each chunk, each tick. (High number rolls is not recommended on servers)

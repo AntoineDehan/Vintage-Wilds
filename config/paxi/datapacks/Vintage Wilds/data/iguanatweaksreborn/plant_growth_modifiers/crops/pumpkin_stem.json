@@ -1,17 +1,23 @@
 {
-    "block": "#farmersdelight:rice_crops",
+    "block": "minecraft:pumpkin_stem",
     "growth_multiplier": 2,
     "modifiers": [
         {
             "id": "iguanatweaksreborn:sunlight",
             "min_sunlight": 10,
-            "modifier": 2,
+            "modifier": 2.5,
+            "operation": "add"
+        },
+        {
+            "id": "iguanatweaksreborn:night_time",
+            "modifier": 1.5,
             "operation": "add"
         },
         {
             "id": "iguanatweaksreborn:season",
             "seasons": [
                 "WINTER",
+                "SUMMER",
                 "SPRING"
             ],
             "modifier": -1,

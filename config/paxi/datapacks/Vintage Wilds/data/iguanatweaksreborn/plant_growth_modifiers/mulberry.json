@@ -1,18 +1,18 @@
 {
-    "block": "#farmersdelight:rice_crops",
+    "block": "upgrade_aquatic:mulberry_vine",
     "growth_multiplier": 2,
     "modifiers": [
         {
             "id": "iguanatweaksreborn:sunlight",
             "min_sunlight": 10,
-            "modifier": 2,
+            "modifier": 1.5,
             "operation": "add"
         },
         {
             "id": "iguanatweaksreborn:season",
             "seasons": [
                 "WINTER",
-                "SPRING"
+                "SUMMER"
             ],
             "modifier": -1,
             "operation": "multiply"

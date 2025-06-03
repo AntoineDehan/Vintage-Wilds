@@ -1,10 +1,18 @@
 {
-    "block": "#farmersdelight:rice_crops",
+    "block": "minecraft:wheat",
     "growth_multiplier": 2,
     "modifiers": [
         {
             "id": "iguanatweaksreborn:sunlight",
             "min_sunlight": 10,
+            "modifier": 2,
+            "operation": "add"
+        },
+        {
+            "id": "iguanatweaksreborn:matches_biome",
+            "biomes": [
+                "#forge:is_cold"
+            ],
             "modifier": 2,
             "operation": "add"
         },

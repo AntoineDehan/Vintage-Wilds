@@ -1,21 +1,29 @@
 {
-    "block": "#farmersdelight:rice_crops",
+    "block": "minecraft:sugar_cane",
     "growth_multiplier": 2,
     "modifiers": [
         {
             "id": "iguanatweaksreborn:sunlight",
             "min_sunlight": 10,
-            "modifier": 2,
+            "modifier": 1.75,
             "operation": "add"
         },
         {
             "id": "iguanatweaksreborn:season",
             "seasons": [
                 "WINTER",
-                "SPRING"
+                "AUTUMN"
             ],
             "modifier": -1,
             "operation": "multiply"
+        },
+        {
+            "id": "iguanatweaksreborn:season",
+            "seasons": [
+                "SPRING"
+            ],
+            "modifier": 2,
+            "operation": "add"
         }
     ]
 }

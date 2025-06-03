@@ -1,5 +1,5 @@
 {
-    "block": "#farmersdelight:rice_crops",
+    "block": "minecraft:pitcher_crop",
     "growth_multiplier": 2,
     "modifiers": [
         {
@@ -11,8 +11,7 @@
         {
             "id": "iguanatweaksreborn:season",
             "seasons": [
-                "WINTER",
-                "SPRING"
+                "WINTER"
             ],
             "modifier": -1,
             "operation": "multiply"

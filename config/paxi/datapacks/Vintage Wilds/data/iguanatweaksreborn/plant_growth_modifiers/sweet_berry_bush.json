@@ -1,6 +1,6 @@
 {
-    "block": "farmersdelight:cabbages",
-    "growth_multiplier": 2,
+    "block": "minecraft:sweet_berry_bush",
+    "growth_multiplier": 3,
     "modifiers": [
         {
             "id": "iguanatweaksreborn:sunlight",
@@ -9,21 +9,34 @@
             "operation": "add"
         },
         {
+            "id": "iguanatweaksreborn:night_time",
+            "modifier": 1.5,
+            "operation": "add"
+        },
+        {
             "id": "iguanatweaksreborn:matches_biome",
             "biomes": [
-                "#forge:is_cold"
+                "#forge:is_taiga"
             ],
             "inverse": true,
-            "modifier": 1.5,
+            "modifier": 3,
             "operation": "add"
         },
         {
             "id": "iguanatweaksreborn:season",
             "seasons": [
-                "SPRING",
-                "SUMMER"
+                "SUMMER",
+                "SPRING"
             ],
             "modifier": -1,
+            "operation": "multiply"
+        },
+        {
+            "id": "iguanatweaksreborn:season",
+            "seasons": [
+                "AUTUMN"
+            ],
+            "modifier": 2,
             "operation": "multiply"
         }
     ]

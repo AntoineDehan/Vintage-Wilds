@@ -79,3 +79,6 @@ patchouli_data.json
 minecraftinstance.json
 emi.json
 .curseclient
+config/oculus.properties
+config/fabric/indigo-renderer.properties
+config/spawnbalanceutility/AllMobEntities.rpt

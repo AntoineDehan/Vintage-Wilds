@@ -23,7 +23,7 @@
 	#Spawners are now a challenge. Monsters spawning from spawners ignore light.
 	"Enable Spawners" = true
 	#Change a few things relative to Serene Seasons
-	"Enable Seasons" = false
+	"Enable Seasons" = true
 	"Enable Faster Decay Leaves" = true
 	"Enable Biome Compass" = true
 
@@ -223,7 +223,7 @@
 		#Makes the following changes to Serene Seasons config:
 		#* seasonal_crops is set to false, as it's controlled by Plants Growth
 		#* Sets the starting season to the one in 'Starting season'
-		"Serene Seasons changes" = false
+		"Serene Seasons changes" = true
 		#Removes greenhouse glass.
 		"No greenhouse glass" = false
 		#Saplings no longer drop in Winter.

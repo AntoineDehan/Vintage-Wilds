@@ -1,18 +1,28 @@
 {
-    "block": "#farmersdelight:rice_crops",
+    "block": "atmospheric:dragon_roots",
     "growth_multiplier": 2,
     "modifiers": [
         {
             "id": "iguanatweaksreborn:sunlight",
             "min_sunlight": 10,
-            "modifier": 2,
+            "modifier": 1.5,
+            "operation": "add"
+        },
+        {
+            "id": "iguanatweaksreborn:matches_biome",
+            "biomes": [
+                "#forge:is_hot"
+            ],
+            "inverse": true,
+            "modifier": 3,
             "operation": "add"
         },
         {
             "id": "iguanatweaksreborn:season",
             "seasons": [
                 "WINTER",
-                "SPRING"
+                "SPRING",
+                "AUTUMN"
             ],
             "modifier": -1,
             "operation": "multiply"
