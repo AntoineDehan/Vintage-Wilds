@@ -908,7 +908,7 @@
 	#Retrieve name tags from name tagged entities.
 	"Enable Name tags" = true
 	#Less durable items and efficient tools. Items Durability and Efficiency are controlled via data packs
-	"Enable Unbreakable Items" = true
+	"Enable Unbreakable Items" = false
 	"Enable gigaherz Tool Belt" = true
 	#Make items not able to mine / attack
 	"Enable Disabled Items" = false

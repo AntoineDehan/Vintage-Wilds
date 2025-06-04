@@ -92,14 +92,19 @@
 		}
 		{
 			dependencies: ["218D9D1EB0F8D4FC"]
+			description: ["Finally the &eCrafting Table&r."]
 			hide_until_deps_complete: true
 			id: "20A377F26B080F66"
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "0AF38310FC93225D"
-				item: "minecraft:crafting_table"
-				type: "item"
+				icon: "minecraft:crafting_table"
+				id: "0849FB85246B97BA"
+				observe_type: 0
+				timer: 0L
+				title: "Check the recipe through JEI!"
+				to_observe: "minecraft:crafting_table"
+				type: "observation"
 			}]
 			title: "The Crafting Table"
 			x: 8.5d

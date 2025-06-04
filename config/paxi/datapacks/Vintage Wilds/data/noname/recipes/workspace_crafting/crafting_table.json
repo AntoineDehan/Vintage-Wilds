@@ -1,0 +1,22 @@
+{
+  "type": "ytech:workspace_crafting",
+  "key": {
+    "p": {
+      "tag": "minecraft:planks"
+    },
+    "l": {
+      "tag": "forge:leathers"
+    }
+  },
+  "pattern": {
+    "bottom": ["ppp", "ppp", "ppp"],
+    "middle": ["ppp", "p p", "ppp"],
+    "top": ["plp", "lll", "plp"]
+  },
+  "result": {
+    "item": "minecraft:crafting_table"
+  },
+  "tool": {
+    "tag": "forge:saws"
+  }
+}
