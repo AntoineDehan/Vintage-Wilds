@@ -14,7 +14,6 @@ ServerEvents.recipes((event) => {
   event.remove({ output: "iguanatweaksexpanded:flint_sword" });
 
   event.remove({ output: "ytech:flint_axe" });
-  event.remove({ output: "ytech:flint_knife" });
 
   // Copper tools - replaced by mine
   event.remove({ output: "iguanatweaksexpanded:copper_pickaxe" });
