@@ -29,5 +29,9 @@
   {
     "mob": ["enemyexpansion:meature"],
     "result": "deny"
+  },
+  {
+    "mod": ["kaolinclayze"],
+    "result": "deny"
   }
 ]
