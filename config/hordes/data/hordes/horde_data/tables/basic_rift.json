@@ -1,37 +1,109 @@
 [
   {
-    "entity": "minecraft:zombie",
+    "entity": "kaolinclayze:iloger_1",
+    "weight": 20,
+    "first_day": 0,
+    "last_day": 20
+  },
+  {
+    "entity": "illagerinvasion:provoker",
+    "weight": 15,
+    "first_day": 11,
+    "last_day": 0
+  },
+  {
+    "entity": "luminous_monsters:miner_zombie",
     "weight": 15,
     "first_day": 0,
     "last_day": 0
   },
   {
-    "entity": "luminous_monsters:miner_zombie",
-    "weight": 3,
+    "entity": "kaolinclayze:iloger_2",
+    "weight": 10,
+    "first_day": 0,
+    "last_day": 20
+  },
+  {
+    "entity": "minecraft:pillager",
+    "weight": 15,
     "first_day": 0,
     "last_day": 0
   },
   {
-    "entity": "legendarycreatures:forest_mojo",
-    "weight": 5,
-    "first_day": 14,
-    "last_day": 0
-  },
-  {
-    "entity": "enemyexpansion:huntsman",
-    "weight": 5,
+    "entity": "kaolinclayze:iloger_4",
+    "weight": 15,
     "first_day": 20,
     "last_day": 0
   },
   {
-    "entity": "enemyexpansion:equestrian",
-    "weight": 3,
+    "entity": "illagerinvasion:basher",
+    "weight": 10,
+    "first_day": 25,
+    "last_day": 0
+  },
+  {
+    "entity": "kaolinclayze:iloger_3",
+    "weight": 12,
+    "first_day": 25,
+    "last_day": 0
+  },
+  {
+    "entity": "illagerinvasion:marauder",
+    "weight": 10,
     "first_day": 30,
     "last_day": 0
   },
   {
-    "entity": "legendarycreatures:corpse_eater",
-    "weight": 4,
+    "entity": "illagerinvasion:alchemist",
+    "weight": 10,
+    "first_day": 30,
+    "last_day": 0
+  },
+  {
+    "entity": "minecraft:vindicator",
+    "weight": 8,
+    "first_day": 30,
+    "last_day": 0
+  },
+  {
+    "entity": "illagerinvasion:archivist",
+    "weight": 8,
+    "first_day": 40,
+    "last_day": 0
+  },
+  {
+    "entity": "minecraft:ravager",
+    "weight": 5,
+    "first_day": 40,
+    "last_day": 0
+  },
+  {
+    "entity": "minecraft:evoker",
+    "weight": 3,
+    "first_day": 50,
+    "last_day": 0
+  },
+  {
+    "entity": "illagerinvasion:inquisitor",
+    "weight": 5,
+    "first_day": 50,
+    "last_day": 0
+  },
+  {
+    "entity": "illagerinvasion:sorcerer",
+    "weight": 5,
+    "first_day": 40,
+    "last_day": 0
+  },
+  {
+    "entity": "illagerinvasion:firecaller",
+    "weight": 2,
+    "first_day": 40,
+    "last_day": 0
+  },
+  {
+    "entity": "illagerinvasion:necromancer",
+    "weight": 2,
     "first_day": 40,
     "last_day": 0
   }
