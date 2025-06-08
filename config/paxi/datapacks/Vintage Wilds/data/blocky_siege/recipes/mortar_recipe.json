@@ -1,0 +1,25 @@
+{
+  "type": "ytech:workspace_crafting",
+  "key": {
+    "C": {
+      "item": "sootychimneys:iron_chimney"
+    },
+    "p": {
+      "tag": "minecraft:planks"
+    },
+    "b": {
+      "item": "quark:iron_plate"
+    }
+  },
+  "pattern": {
+    "bottom": ["ppp", "ppp", "ppp"],
+    "middle": [" p ", " C ", " p "],
+    "top": ["bbb", "bCb", "bbb"]
+  },
+  "result": {
+    "item": "blocky_siege:mortar"
+  },
+  "tool": {
+    "tag": "forge:hammers"
+  }
+}

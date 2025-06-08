@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["aaa", "oco", "rcr"],
+  "key": {
+    "a": {
+      "item": "minecraft:stone_bricks"
+    },
+    "r": {
+      "item": "minecraft:redstone"
+    },
+    "c": {
+      "item": "quark:iron_pillar"
+    },
+    "o": {
+      "tag": "forge:rods"
+    }
+  },
+  "result": {
+    "item": "blocky_siege:crusher",
+    "count": 1
+  }
+}

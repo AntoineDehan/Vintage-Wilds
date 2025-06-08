@@ -1,0 +1,25 @@
+{
+  "type": "ytech:workspace_crafting",
+  "key": {
+    "r": {
+      "item": "minecraft:redstone"
+    },
+    "s": {
+      "item": "ytech:iron_saw_blade"
+    },
+    "b": {
+      "item": "quark:iron_plate"
+    }
+  },
+  "pattern": {
+    "bottom": ["   ", " b ", "   "],
+    "middle": [" s ", "sss", " s "],
+    "top": [" r ", "rbr", " r "]
+  },
+  "result": {
+    "item": "blocky_siege:giant_saw_block_off"
+  },
+  "tool": {
+    "tag": "forge:hammers"
+  }
+}

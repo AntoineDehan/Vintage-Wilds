@@ -1,0 +1,14 @@
+{
+  "type": "iguanatweaksexpanded:forging",
+  "category": "forge_blocks",
+  "ingredient": {
+    "item": "ytech:iron_plate"
+  },
+  "amount": 2,
+  "gear": {
+    "tag": "immersive_weathering:wax"
+  },
+  "result": "quark:iron_plate",
+  "smashes_required": 15,
+  "experience": 15
+}

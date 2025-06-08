@@ -190,6 +190,7 @@ ServerEvents.recipes((event) => {
     type: "iguanatweaksexpanded:forging",
   });
 
+  event.remove({ id: "blocky_siege:ballista_recipe" });
   event.remove({ id: "iguanatweaksexpanded:forge" });
   event.remove({ output: "brickfurnace:brick_blast_furnace" });
   event.remove({

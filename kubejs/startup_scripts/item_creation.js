@@ -1,5 +1,4 @@
 StartupEvents.registry("item", (e) => {
-  // The texture for this item has to be placed in kubejs/assets/kubejs/textures/item/test_item.png
   e.create("dens_addition:fire_wood");
 
   // Pottery
@@ -27,4 +26,7 @@ StartupEvents.registry("item", (e) => {
 
   e.create("dens_addition:wooden_tongs");
   e.create("dens_addition:saw_handle");
+
+  // Misc
+  e.create("dens_addition:empty_keg");
 });

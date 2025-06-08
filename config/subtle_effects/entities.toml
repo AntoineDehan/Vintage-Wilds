@@ -21,6 +21,7 @@ wardenDeathSoulParticles = true
 xpBottleParticlesDisplayType = "DEFAULT"
 xpBottleParticlesDensity = 10
 eggSmashSoundVolume = 0.5
+eggSplatParticles = true
 freezingSnowFlakes = true
 
 [attacked]
@@ -46,6 +47,7 @@ adjustNameTagWhenSleeping = true
 drowningBubblesDisplayType = "DEFAULT"
 drowningBubblesDensity = 10
 drowningBubbleAlpha = 1.0
+forceDrowningBubblesToColumn = false
 potionRingsDisplayType = "DEFAULT"
 potionRingsParticleType = "BOTH"
 NPCsHavePotionRings = true
@@ -58,6 +60,7 @@ seasons = "DEFAULT"
 additionalBiomes = [  ]
 
 [humanoids.player]
+enableBreathingEffectsInCreative = true
 stomachGrowlingThreshold = 6
 stomachGrowlingVolume = 1.0
 stomachGrowlingWaitTime = 15
@@ -66,7 +69,7 @@ heartbeatVolume = 1.0
 heartBeatingWaitTime = 3
 
 [dustClouds]
-scale = 2.0
+scale = 1.0
 alpha = 1.0
 preventWhenRaining = false
 flyIntoWall = true

@@ -1,7 +1,7 @@
 
 [animations]
-	#Choose your preferred animation speed (1-15)
-	#Range: 1.0 ~ 15.0
+	#Choose your preferred animation speed (0.5-1.5)
+	#Range: 0.5 ~ 1.5
 	animationSpeed = 1.0
 	#Enable or disable swimming animation
 	enableSwimmingAnimation = true
@@ -12,6 +12,9 @@
 	enableClimbAndCrawlAnimation = true
 	#Enable or disable punching animation
 	enablePunchingAnimation = true
+	#Switch speed (0-10)
+	#Range: 0.0 ~ 10.0
+	switchSpeed = 0.018
 
 [positions]
 	#Viewmodel X Offset

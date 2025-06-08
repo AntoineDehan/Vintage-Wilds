@@ -1,0 +1,21 @@
+{
+  "type": "lychee:block_interacting",
+  "item_in": {
+    "item": "dens_addition:empty_keg"
+  },
+  "block_in": "quark:gunpowder_sack",
+  "post": [
+    {
+      "type": "drop_item",
+      "item": "blocky_siege:keg_of_gunpowder_0"
+    },
+    {
+      "type": "place",
+      "block": "*",
+      "contextual": {
+        "type": "chance",
+        "chance": 0.05
+      }
+    }
+  ]
+}

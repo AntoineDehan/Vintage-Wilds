@@ -61,6 +61,8 @@
 	enableWanderingTraderMeat = true
 	#Enable Wolf Meat?
 	enableWolfMeat = true
+	#Enable Snow Golem Meat?
+	enableSnowGolemMeat = true
 
 #Enable/Disable Butcher Trades
 [trades]
@@ -108,4 +110,6 @@
 	enableTurtleMeatTrades = false
 	#Enable Villager Meat Trades? (Default: False)
 	enableVillagerMeatTrades = false
+	#Enable Snow Golem Meat Trades? (Default: False)
+	enableSnowGolemMeatTrades = false
 

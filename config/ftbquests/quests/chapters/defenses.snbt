@@ -16,27 +16,50 @@
 	quests: [
 		{
 			description: [
-				"Every week or so, wave of monsters will come through &4rifts&r."
+				"Pillagers have found your base, you &eneed to be ready&r!"
+				"Every week or so they will &4come back&r."
 				""
-				"Those hordes &ewill improve with time&r and will be able to &ebreak blocks&r, better have good defenses!"
+				"Those Pillagers hordes &ewill improve with time&r and are able to &ebreak blocks&r, better have good defenses!"
 				""
 				"Traps and blocks with high hardness will be what you want around your base."
 				""
 				"&eThe Horde system&r is still &every very early and WIP&r. It's barely implemented but &ewill be an important aspect&r of &aVintage Wilds&r."
 			]
 			id: "63E6C6DD4AC47DD9"
-			optional: true
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [{\"text\":\"You feel like you’re being \",\"italic\":true},{\"text\":\"watched. \",\"bold\":\"true\",\"color\":\"red\"},{\"text\":\"Illagers have found your base. They’ll return soon, and they \"},{\"text\":\"won’t be alone.\",\"bold\":\"true\",\"color\":\"red\"}]"
+					id: "6A8C20CD07373C85"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/playsound minecraft:item.goat_horn.sound.6 hostile @p"
+					id: "5F5D7979A6F69D71"
+					type: "command"
+				}
+			]
 			size: 2.0d
 			tasks: [{
-				icon: "minecraft:zombie_head"
-				id: "7FEBF8F44388F44A"
-				title: "Ennemies are coming"
-				type: "custom"
+				days: 6
+				icon: {
+					Count: 1
+					id: "minecraft:iron_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2B2F6286271AD3FB"
+				type: "questsadditions:days"
 			}]
-			x: 0.0d
-			y: 0.0d
+			title: "Pillagers have found you!"
+			x: 5.0d
+			y: -3.0d
 		}
 		{
+			dependencies: ["63E6C6DD4AC47DD9"]
+			description: ["Those spikes will damage enemies (and the player)."]
 			id: "3F1B7F153F9D0E95"
 			tasks: [
 				{
@@ -50,75 +73,137 @@
 					type: "item"
 				}
 			]
-			title: "First defenses"
-			x: 2.0d
-			y: 0.0d
+			title: "Primitive Defenses"
+			x: 2.5d
+			y: -2.0d
 		}
 		{
-			dependencies: ["1FDFA403A6757176"]
+			dependencies: [
+				"1FDFA403A6757176"
+				"63E6C6DD4AC47DD9"
+			]
+			description: ["Those spikes should take less space while &edealing more damage&r!"]
 			id: "562F99615E41C278"
 			tasks: [{
 				id: "3283C096F3DB3B49"
 				item: "simply_traps:spike_trap"
 				type: "item"
 			}]
-			x: 3.5d
+			title: "Improved spikes"
+			x: 5.5d
 			y: -0.5d
 		}
 		{
-			dependencies: ["1FDFA403A6757176"]
+			dependencies: [
+				"1FDFA403A6757176"
+				"63E6C6DD4AC47DD9"
+			]
+			description: [
+				"Turn your next arrows into &eflamed arrow&r."
+				""
+				"&eLight&r the brazier, &eright click with your bow&r and &edon't go too far away&r!"
+			]
 			id: "018421CD6205F587"
+			rewards: [{
+				count: 6
+				id: "698B349F37B01DA5"
+				item: "minecraft:arrow"
+				random_bonus: 12
+				type: "item"
+			}]
 			tasks: [{
 				id: "4C5FDDFDF7D2EFE0"
 				item: "blocky_siege:brazier_off"
 				type: "item"
 			}]
+			title: "Burn them with your arrows"
 			x: 4.5d
 			y: -0.5d
 		}
 		{
-			dependencies: ["1FDFA403A6757176"]
+			dependencies: [
+				"1FDFA403A6757176"
+				"63E6C6DD4AC47DD9"
+			]
+			description: ["To use the cannon you will need &eCannon Projectiles&r and some &eGunpowder&r."]
 			id: "2CB23C7C586E05FD"
+			rewards: [{
+				count: 8
+				id: "40BA13708DD8FD60"
+				item: "minecraft:gunpowder"
+				random_bonus: 8
+				type: "item"
+			}]
 			tasks: [{
 				id: "68E48EF10A9380AD"
 				item: "blocky_siege:cannon"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.5d
+			title: "Blow them up"
+			x: 5.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["1FDFA403A6757176"]
+			dependencies: [
+				"1FDFA403A6757176"
+				"63E6C6DD4AC47DD9"
+			]
 			id: "5D74F9CE45BBA9F5"
 			tasks: [{
 				id: "29DF676DF01E00F4"
 				item: "blocky_siege:mortar"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -0.5d
+			x: 8.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["1FDFA403A6757176"]
+			dependencies: [
+				"1FDFA403A6757176"
+				"63E6C6DD4AC47DD9"
+			]
 			id: "3EA1A0F7CEEB02AF"
 			tasks: [{
 				id: "78B6D5384B68D78E"
 				item: "blocky_siege:crusher"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -0.5d
+			x: 7.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["1FDFA403A6757176"]
+			dependencies: [
+				"1FDFA403A6757176"
+				"63E6C6DD4AC47DD9"
+			]
 			id: "41C2AF544651E823"
 			tasks: [{
 				id: "3CECA286DF890C9C"
 				item: "blocky_siege:giant_saw_block_off"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -0.5d
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2CB23C7C586E05FD"]
+			description: ["A &eKeg of Gunpowder&r will be the easiest projectile to craft &eearly game&r."]
+			id: "47B9C1F8F80B0523"
+			tasks: [{
+				id: "584CB831D0CF6B9F"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:cannon_projectiles"
+					}
+				}
+				title: "Cannon projectile"
+				type: "item"
+			}]
+			title: "To put IN the Cannon!"
+			x: 5.0d
+			y: 1.0d
 		}
 	]
 	title: "Defenses"

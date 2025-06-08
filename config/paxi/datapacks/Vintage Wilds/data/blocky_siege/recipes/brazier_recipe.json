@@ -10,7 +10,7 @@
       "item": "minecraft:campfire"
     },
     "c": {
-      "item": "forge:plates"
+      "tag": "forge:plates"
     }
   },
   "result": {

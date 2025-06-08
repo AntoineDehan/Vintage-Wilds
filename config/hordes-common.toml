@@ -15,6 +15,7 @@
 	#What time of day does the horde event start? eg 18000 is midnight with default day length.
 	hordeStartTime = 18000
 	#Amount of days between horde spawns.
+	#Range: > 1
 	hordeSpawnDays = 7
 	#Amount of days a horde event can be randomly delayed by
 	hordeSpawnVariation = 4
@@ -40,6 +41,8 @@
 	hordeStartBuffer = 1200
 	#How many attempts should horde events make to avoid spawning mobs in light areas or outside their spawn type.
 	hordeSpawnChecks = 25
+	#How far away should hordes attempt to spawn?
+	hordeSpawnDistance = 75.0
 
 [Infection]
 	#Set to false to completely disable mob infection and anything related to it.

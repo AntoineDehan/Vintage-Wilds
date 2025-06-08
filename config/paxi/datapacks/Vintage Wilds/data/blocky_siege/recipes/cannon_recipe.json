@@ -1,26 +1,25 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "pattern": ["haf", "aba", "cac"],
+  "type": "ytech:workspace_crafting",
   "key": {
-    "a": {
-      "item": "minecraft:iron_block"
-    },
-    "b": {
+    "C": {
       "item": "ytech:reinforced_brick_chimney"
     },
-    "c": {
+    "p": {
       "tag": "minecraft:planks"
     },
-    "h": {
-      "tag": "forge:hammers"
-    },
-    "f": {
-      "tag": "forge:files"
+    "b": {
+      "item": "minecraft:copper_block"
     }
   },
+  "pattern": {
+    "bottom": ["ppp", "ppp", "ppp"],
+    "middle": [" p ", " C ", " p "],
+    "top": ["bbb", "bCb", "bbb"]
+  },
   "result": {
-    "item": "blocky_siege:cannon",
-    "count": 1
+    "item": "blocky_siege:cannon"
+  },
+  "tool": {
+    "tag": "forge:hammers"
   }
 }

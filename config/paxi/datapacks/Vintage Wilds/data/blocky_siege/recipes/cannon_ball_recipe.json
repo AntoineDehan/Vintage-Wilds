@@ -1,0 +1,20 @@
+{
+  "type": "ytech:remaining_shaped_crafting",
+  "category": "misc",
+  "pattern": ["aba", "bfb", "aba"],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_nugget"
+    },
+    "b": {
+      "item": "minecraft:iron_ingot"
+    },
+    "f": {
+      "tag": "forge:files"
+    }
+  },
+  "result": {
+    "item": "blocky_siege:cannon_ball_0",
+    "count": 1
+  }
+}
