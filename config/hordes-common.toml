@@ -5,9 +5,9 @@
 	#Set to true to disable natural horde spawns (hordes can only be spawned with commands).
 	hordesCommandOnly = false
 	#Amount of mobs to spawn per wave.
-	spawnAmount = 8
+	spawnAmount = 5
 	#Multiplier by which the spawn amount increases by each time the event naturally spawns. (Set to 1 to disable scaling.)
-	hordeSpawnMultiplier = 1.05
+	hordeSpawnMultiplier = 1.1
 	#Time in ticks the event lasts for
 	hordeSpawnDuration = 5000
 	#Time in ticks between spawns for the horde spawn event.

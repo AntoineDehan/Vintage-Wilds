@@ -18,9 +18,6 @@ ServerEvents.tick((event) => {
       server.runCommandSilent("kill @e[type=item]");
       server.tell("§7Items have been cleaned.");
       server.runCommandSilent(
-        "effect give @a farmersdelight:nourishment 180 0 true"
-      );
-      server.runCommandSilent(
         "effect give @a legendarysurvivaloverhaul:cold_resistance 280 0 true"
       );
       server.runCommandSilent(

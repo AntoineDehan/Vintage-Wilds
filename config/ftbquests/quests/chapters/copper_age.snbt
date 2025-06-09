@@ -559,6 +559,34 @@
 			x: 11.0d
 			y: 2.0d
 		}
+		{
+			dependencies: ["20A377F26B080F66"]
+			description: ["Craft a &eMap Atlas&r. To expand the Atlas, add &eFilled&r or &eEmpty Maps&r to it via Crafting or Cartography Table."]
+			id: "4C2A0C57B8AADB11"
+			rewards: [{
+				count: 3
+				id: "7139A2E2394462F1"
+				item: "minecraft:paper"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "0512BC8DBCF7A36C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							maps: [I; ]
+						}
+					}
+					id: "map_atlases:atlas"
+				}
+				type: "item"
+			}]
+			title: "Use a map!"
+			x: 7.0d
+			y: -0.5d
+		}
 	]
 	title: "Copper Age"
 }

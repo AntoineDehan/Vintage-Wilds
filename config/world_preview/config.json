@@ -1,6 +1,6 @@
 {
   "savedSeeds": [],
-  "showInPauseMenu": true,
+  "showInPauseMenu": false,
   "showPlayer": true,
   "showControls": true,
   "showFrameTime": false,

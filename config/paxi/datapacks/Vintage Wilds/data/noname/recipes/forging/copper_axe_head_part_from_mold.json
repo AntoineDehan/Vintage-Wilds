@@ -6,10 +6,10 @@
   "inputCount": 3,
   "minTemp": 1085,
   "mold": {
-    "tag": "ytech:molds/pickaxe_head"
+    "tag": "ytech:molds/axe_head"
   },
   "result": {
-    "item": "dens_addition:hot_copper_pickaxe_head_part"
+    "item": "dens_addition:hot_copper_axe_head_part"
   },
   "smeltingTime": 600
 }
