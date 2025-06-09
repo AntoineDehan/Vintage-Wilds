@@ -5,7 +5,7 @@
 	#Set to true to disable natural horde spawns (hordes can only be spawned with commands).
 	hordesCommandOnly = false
 	#Amount of mobs to spawn per wave.
-	spawnAmount = 10
+	spawnAmount = 8
 	#Multiplier by which the spawn amount increases by each time the event naturally spawns. (Set to 1 to disable scaling.)
 	hordeSpawnMultiplier = 1.05
 	#Time in ticks the event lasts for
@@ -18,7 +18,7 @@
 	#Range: > 1
 	hordeSpawnDays = 7
 	#Amount of days a horde event can be randomly delayed by
-	hordeSpawnVariation = 4
+	hordeSpawnVariation = 2
 	#Max cap for the number of entities that can exist from the horde at once.
 	hordeSpawnMax = 160
 	#Length of a day (use only if you have another day that changes the length of the day/night cycle) Default is 24000
@@ -42,7 +42,7 @@
 	#How many attempts should horde events make to avoid spawning mobs in light areas or outside their spawn type.
 	hordeSpawnChecks = 25
 	#How far away should hordes attempt to spawn?
-	hordeSpawnDistance = 75.0
+	hordeSpawnDistance = 70.0
 
 [Infection]
 	#Set to false to completely disable mob infection and anything related to it.
@@ -72,7 +72,7 @@
 	#Whether zombies and drowned burn in sunlight.
 	zombiesBurn = true
 	#Whether skeletons and strays burn in sunlight.
-	skeletonsBurn = false
+	skeletonsBurn = true
 	#Whether zombie villagers have vanilla curing mechanics or not
 	zombieVillagersCanBeCured = false
 	#Whether piglins and hoglins automatically convert to zombies in the overworld

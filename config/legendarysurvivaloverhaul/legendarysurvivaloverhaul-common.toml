@@ -312,7 +312,7 @@
 		#Range: 0 ~ 100000
 		"Temperature Immunity On Death Time" = 1800
 		# If enabled, players will be immune to temperature effects on first spawn in a world.
-		"Temperature Immunity On First Spawn Enabled" = true
+		"Temperature Immunity On First Spawn Enabled" = false
 		# Temperature immunity period in ticks while the player is immune to temperature effects on first spawn.
 		#Range: 0 ~ 100000
 		"Temperature Immunity On First Spawn Time" = 4500

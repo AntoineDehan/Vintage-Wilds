@@ -40,6 +40,7 @@
 					type: "command"
 				}
 			]
+			secret: true
 			size: 2.0d
 			tasks: [{
 				days: 6
@@ -83,6 +84,7 @@
 				"63E6C6DD4AC47DD9"
 			]
 			description: ["Those spikes should take less space while &edealing more damage&r!"]
+			hide_until_deps_complete: true
 			id: "562F99615E41C278"
 			tasks: [{
 				id: "3283C096F3DB3B49"
@@ -103,6 +105,7 @@
 				""
 				"&eLight&r the brazier, &eright click with your bow&r and &edon't go too far away&r!"
 			]
+			hide_until_deps_complete: true
 			id: "018421CD6205F587"
 			rewards: [{
 				count: 6
@@ -126,6 +129,7 @@
 				"63E6C6DD4AC47DD9"
 			]
 			description: ["To use the cannon you will need &eCannon Projectiles&r and some &eGunpowder&r."]
+			hide_until_deps_complete: true
 			id: "2CB23C7C586E05FD"
 			rewards: [{
 				count: 8
@@ -148,6 +152,7 @@
 				"1FDFA403A6757176"
 				"63E6C6DD4AC47DD9"
 			]
+			hide_until_deps_complete: true
 			id: "5D74F9CE45BBA9F5"
 			tasks: [{
 				id: "29DF676DF01E00F4"
@@ -162,6 +167,7 @@
 				"1FDFA403A6757176"
 				"63E6C6DD4AC47DD9"
 			]
+			hide_until_deps_complete: true
 			id: "3EA1A0F7CEEB02AF"
 			tasks: [{
 				id: "78B6D5384B68D78E"
@@ -176,6 +182,7 @@
 				"1FDFA403A6757176"
 				"63E6C6DD4AC47DD9"
 			]
+			hide_until_deps_complete: true
 			id: "41C2AF544651E823"
 			tasks: [{
 				id: "3CECA286DF890C9C"

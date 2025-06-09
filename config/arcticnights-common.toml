@@ -1,0 +1,19 @@
+#The distance in blocks for a full circumference, i.e. double the distance between two poles.
+#Range: 4000 ~ 400000
+circumferenceBlockDistance = 40000
+#Whether temperature-based biome distribution should follow circumference.
+bandedTemperature = true
+#First time of day in game ticks when a new game is started.
+#Range: 0 ~ 12000
+firstTimeOfDay = 1000
+#Enable dynamic sunPathRotation for Iris shaders.
+shaderSunPathRotation = true
+#When no seasons mod is detected this is the number of days in a season.
+#Set to 0 to disable all seasonal effects.
+#Range: 0 ~ 100
+daysPerSeason = 24
+#Deny structures between these z block-coordinates.
+# Default: [0, 0]
+# Example: [-6000, 16000]
+structureDenyRange = [0, 0]
+

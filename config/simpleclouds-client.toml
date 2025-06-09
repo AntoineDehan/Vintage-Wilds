@@ -8,7 +8,7 @@ clientSideCloudMode = "AMBIENT"
 cloudStyle = "DEFAULT"
 #Specifies if the info pop-up should appear when opening the cloud previewer menu.
 #Default: true
-showCloudPreviewerInfoPopup = true
+showCloudPreviewerInfoPopup = false
 #Specifies the movement speed of the clouds.
 #Default: 1.0
 #Range: 0.1 ~ 32.0
