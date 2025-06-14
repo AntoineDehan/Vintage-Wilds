@@ -25,12 +25,12 @@ ItemEvents.toolTierRegistry((event) => {
 // Armors
 
 ItemEvents.armorTierRegistry((event) => {
-  event.add("reinforced_leather", (tier) => {
-    tier.durabilityMultiplier = 15;
-    tier.slotProtections = [2, 3, 4, 2];
-    tier.enchantmentValue = 9;
+  event.add("improvised", (tier) => {
+    tier.durabilityMultiplier = 4;
+    tier.slotProtections = [1, 1, 1, 1];
+    tier.enchantmentValue = 2;
     tier.equipSound = "minecraft:item.armor.equip_leather";
-    tier.repairIngredient = "#forge:ingots/copper";
+    tier.repairIngredient = "#immersive_weathering:bark";
     tier.toughness = 0.0;
     tier.knockbackResistance = 0.0;
   });

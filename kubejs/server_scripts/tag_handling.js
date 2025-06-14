@@ -85,15 +85,62 @@ ServerEvents.tags("item", (event) => {
     "sapwood:stripped_pale_wood",
   ]);
 
-  // Ores
-  let ores = [
+  //// Ores
+  event.add(
+    "forge:raw_materials",
     "hardmodeores:pure_raw_gold",
     "hardmodeores:pure_raw_iron",
-    "hardmodeores:pure_raw_copper",
-  ];
+    "hardmodeores:pure_raw_copper"
+  );
 
-  event.add("forge:raw_materials", ores);
+  //// Seasons crops
 
-  // Misc
+  // Spring
+  event.add(
+    "sereneseasons:spring_crops",
+    "wildberries:strawberry",
+    "wildberries:cranberries",
+    "wildberries:blackberry",
+    "wildberries:raspberry",
+    "wildberries:blueberries",
+    "quark:blue_blossom_sapling",
+    "quark:lavender_blossom_sapling",
+    "quark:orange_blossom_sapling",
+    "quark:yellow_blossom_sapling",
+    "quark:red_blossom_sapling",
+    "legendarysurvivaloverhaul:ice_fern_seeds",
+    "legendarysurvivaloverhaul:sun_fern_seeds",
+    "legendarysurvivaloverhaul:water_plant_seeds"
+  );
+  // Summer
+  event.add(
+    "sereneseasons:summer_crops",
+    "quark:ancient_sapling",
+    "legendarysurvivaloverhaul:ice_fern_seeds",
+    "legendarysurvivaloverhaul:sun_fern_seeds",
+    "legendarysurvivaloverhaul:water_plant_seeds"
+  );
+  // Autumn
+  event.add(
+    "sereneseasons:autumn_crops",
+    "wildberries:strawberry",
+    "wildberries:cranberries",
+    "wildberries:blackberry",
+    "wildberries:raspberry",
+    "wildberries:blueberries",
+    "quark:blue_blossom_sapling",
+    "quark:lavender_blossom_sapling",
+    "quark:orange_blossom_sapling",
+    "quark:yellow_blossom_sapling",
+    "quark:red_blossom_sapling",
+    "legendarysurvivaloverhaul:ice_fern_seeds",
+    "legendarysurvivaloverhaul:sun_fern_seeds",
+    "legendarysurvivaloverhaul:water_plant_seeds"
+  );
+  // Winter
+  event.add("sereneseasons:winter_crops");
+  // Year-Round
+
+  //// Misc
   event.add("forge:buckets/empty", "ytech:clay_bucket");
 });

@@ -1,0 +1,272 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "temperature"
+	group: "5C8449D345F9B8B9"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			Parent: {
+				temperature: 8.0f
+			}
+		}
+		id: "legendarysurvivaloverhaul:thermometer"
+	}
+	id: "66D3249DF48BB882"
+	images: [
+		{
+			height: 1.0d
+			image: "vintage_wilds:textures/titles/seasons.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "vintage_wilds:textures/titles/temperature.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 4.5d
+			y: 3.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "54DF43016BC077E7"
+			tasks: [{
+				id: "7BA8DC3798322422"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							temperature: 7.8f
+						}
+					}
+					id: "legendarysurvivaloverhaul:thermometer"
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			id: "24C0505B1D5F9021"
+			tasks: [{
+				id: "5AEAD2AC80CD7FB5"
+				item: "legendarysurvivaloverhaul:ice_fern_leaf"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			id: "5A4342FE5A2A0D8B"
+			tasks: [{
+				id: "0043EC0B3FA1DDF1"
+				item: "legendarysurvivaloverhaul:sun_fern_leaf"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			id: "3113EBC18E2F3E28"
+			tasks: [{
+				id: "4E6B7873C639AA6C"
+				item: "legendarysurvivaloverhaul:ice_fern_gold_leaf"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			id: "7FB22599FE14C418"
+			tasks: [{
+				id: "573DF8BFF29FBF8A"
+				item: "legendarysurvivaloverhaul:sun_fern_gold_leaf"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			id: "5EE954C693BBF980"
+			tasks: [{
+				id: "0331D1B82DAC4699"
+				item: "legendarysurvivaloverhaul:sewing_table"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			id: "6799462F48281D5E"
+			tasks: [{
+				id: "52E29BFD5B8FCA91"
+				item: "legendarysurvivaloverhaul:heater"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			id: "439A81009059FEBA"
+			tasks: [{
+				id: "2AADAF44AB3115E9"
+				item: "legendarysurvivaloverhaul:cold_string"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			id: "07FEE460565B4091"
+			tasks: [{
+				id: "47ED3118840D596F"
+				item: "legendarysurvivaloverhaul:warm_string"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			id: "13362DBBBBA7ABF9"
+			tasks: [{
+				id: "670E8BDF1477A962"
+				item: "legendarysurvivaloverhaul:cooler"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			id: "7CAB2514E0DF0ADB"
+			tasks: [{
+				id: "07D263786D915EDA"
+				item: "legendarysurvivaloverhaul:seasonal_calendar"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			id: "77D95D410D0741D7"
+			tasks: [{
+				id: "0E69F968DB6536F0"
+				item: "legendarysurvivaloverhaul:canteen"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			id: "74620907CE64A629"
+			tasks: [{
+				days: 2
+				icon: "quark:lavender_blossom_leaves"
+				id: "5BAC4AD9ECB59E37"
+				title: "Spring"
+				type: "questsadditions:days"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			id: "6E6DFA3382A1217B"
+			tasks: [{
+				days: 19
+				icon: "quark:yellow_blossom_leaves"
+				id: "1C8CEE6F5C279B26"
+				title: "Reach Summer"
+				type: "questsadditions:days"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			id: "77AD06F9211B2617"
+			tasks: [{
+				days: 46
+				icon: "quark:orange_blossom_leaves"
+				id: "4C280943928F48EF"
+				title: "Autumn"
+				type: "questsadditions:days"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			id: "33219E2294266012"
+			tasks: [{
+				days: 73
+				icon: "quark:blue_blossom_leaves"
+				id: "0F8B7E202D1E89EB"
+				title: "Winter"
+				type: "questsadditions:days"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Temperature"
+				""
+				"In the center of your hotbar, you'll see an icon representing your &ebody temperature&r."
+				"It will indicate whether you're starting to &eoverheat&r or &efreeze&r."
+				""
+				"If you get too cold, you'll first suffer from &bCold Hunger&r, which increases your food exhaustion."
+				"Failing to warm up will eventually lead to &3Frostbite&r, which causes damage over time until you warm up or die."
+				""
+				"If you get too hot, you'll first suffer from &eHeat Thirst&r, increasing your thirst exhaustion."
+				"Staying too hot for too long leads to &6Heat Stroke&r, which will damage you until you cool down or die."
+				""
+				"&nSeveral factors influence your body temperature:&r"
+				""
+				"- The biome you're in"
+				""
+				"- Your current activity (running increases body heat)"
+				""
+				"- Your altitude (higher elevations are colder)"
+				""
+				"- Nearby blocks"
+				""
+				"- The food you eat"
+				""
+				"- How wet you are"
+				""
+				"To &eregulate your temperature&r, you can &estay near certain blocks&r (like a campfire to warm up), or &eeat specific foods&r."
+				"For example, Melon Slices provide the &bCold Food&r effect, while Stews provide &6Hot Food&r."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"The world follows a seasonal cycle, with &efour seasons&r, each divided into &ethree sub-seasons&r."
+				"Each &esub-season lasts 9 days&r, making a &efull season last 27 days&r."
+				""
+				"You will begin your journey in the middle of &5Spring&r."
+				"Which means you will have 72 days before the start of &bWinter&r."
+				""
+				"Temperature changes with the seasons: &6Summer&r is the &6warmest&r, while &bWinter&r is the &bcoldest&r."
+				""
+				"Some &ecrops will only grow during specific seasons&r."
+				""
+				"&bWinter&r will be &eharsh&r, and you must prepare for it."
+				"Temperatures will &edrop significantly&r, monsters will spawn &eon the surface&r (they only spawn in caves during other seasons), crops will &ebarely grow&r, and wild animals will become &eextremely rare&r."
+				""
+				"To survive, you'll need to stock food, prepare a warm shelter, and plan ahead."
+			]
+			id: "07BA89EB7965F693"
+			tasks: [{
+				id: "76964EC87CC32D86"
+				title: "Temperature \\& Seasons explained"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "Seasons \\& Temperature"
+}

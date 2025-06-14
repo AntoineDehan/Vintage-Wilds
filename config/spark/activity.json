@@ -5,6 +5,19 @@
       "name": "Den_lille",
       "uniqueId": "7ed56862-d5bd-49fa-942d-17b4a366804a"
     },
+    "time": 1749483695473,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/RkHgFyrIFk"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Den_lille",
+      "uniqueId": "7ed56862-d5bd-49fa-942d-17b4a366804a"
+    },
     "time": 1748075327142,
     "type": "Profiler",
     "data": {

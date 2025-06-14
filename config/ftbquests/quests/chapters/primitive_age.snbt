@@ -5,6 +5,98 @@
 	group: "255F4DDB219D03B1"
 	icon: "ytech:unfired_brick"
 	id: "41D2D6714A7FDF3F"
+	images: [
+		{
+			height: 1.5d
+			image: "vintage_wilds:textures/titles/primitive_age.png"
+			rotation: 0.0d
+			width: 7.5d
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependency: "0BD45BC48F14EE97"
+			height: 0.75d
+			image: "subtle_effects:textures/particle/smoke_5.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependency: "0BD45BC48F14EE97"
+			height: 1.0d
+			image: "explosiveenhancement:textures/particle/smoke8.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependency: "0BD45BC48F14EE97"
+			height: 0.75d
+			image: "subtle_effects:textures/particle/smoke_0.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependency: "0BD45BC48F14EE97"
+			height: 1.0d
+			image: "burnt:textures/particle/arrow_fire.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependency: "094BD2013092183D"
+			height: 1.0d
+			image: "ytech:item/grass_twine"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependency: "094BD2013092183D"
+			height: 1.1d
+			image: "ytech:item/grass_twine"
+			rotation: 30.0d
+			width: 1.1d
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependency: "1DE8DC32ADF342DC"
+			height: 0.75d
+			image: "minecraft:item/clay_ball"
+			rotation: -30.0d
+			width: 0.75d
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependency: "7222CD9FBB25DB68"
+			height: 0.5d
+			image: "minecraft:item/clay_ball"
+			rotation: 35.0d
+			width: 0.5d
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependency: "7222CD9FBB25DB68"
+			height: 1.0d
+			image: "minecraft:item/clay_ball"
+			rotation: 30.0d
+			width: 1.0d
+			x: 8.5d
+			y: 1.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -539,6 +631,57 @@
 			title: "Need some light"
 			x: 4.0d
 			y: 2.0d
+		}
+		{
+			id: "290ABCE9D6CE687F"
+			tasks: [
+				{
+					id: "6382749D4D96298F"
+					item: {
+						Count: 1
+						id: "dens_addition:improvised_mask"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "673B8A010B1AAC45"
+					item: {
+						Count: 1
+						id: "dens_addition:improvised_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72F84C88890F484C"
+					item: {
+						Count: 1
+						id: "dens_addition:improvised_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "468FFBDF59098DB6"
+					item: {
+						Count: 1
+						id: "dens_addition:improvised_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -2.0d
 		}
 	]
 	title: "Primitive Age"

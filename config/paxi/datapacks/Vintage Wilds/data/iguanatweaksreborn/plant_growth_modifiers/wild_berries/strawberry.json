@@ -1,0 +1,12 @@
+{
+  "block": "minecraft:bamboo",
+  "growth_multiplier": 3,
+  "modifiers": [
+    {
+      "id": "iguanatweaksreborn:season",
+      "seasons": ["WINTER", "AUTUMN"],
+      "modifier": -1,
+      "operation": "multiply"
+    }
+  ]
+}
