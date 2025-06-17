@@ -655,7 +655,13 @@
 		}
 		{
 			dependencies: ["094BD2013092183D"]
-			description: ["Weak and fragile primitive armor but might save your life."]
+			description: [
+				"Weak and fragile primitive armor but might save your life."
+				""
+				"Crafted on the Primitive Crafting Table."
+				""
+				"&o&8The recipes are a placeholder for the moment.&r&r"
+			]
 			id: "290ABCE9D6CE687F"
 			tasks: [
 				{

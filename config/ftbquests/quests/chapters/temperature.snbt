@@ -35,6 +35,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: ["Display the current temperature."]
 			id: "54DF43016BC077E7"
 			tasks: [{
 				id: "7BA8DC3798322422"
@@ -237,7 +238,7 @@
 		}
 		{
 			description: [
-				"Temperature"
+				"{image:vintage_wilds:textures/titles/temperature.png width:40 height:10 align:center}"
 				""
 				"In the center of your hotbar, you'll see an icon representing your &ebody temperature&r."
 				"It will indicate whether you're starting to &eoverheat&r or &efreeze&r."
@@ -267,6 +268,7 @@
 				""
 				""
 				"{@pagebreak}"
+				"{image:vintage_wilds:textures/titles/seasons.png width:40 height:10 align:center}"
 				""
 				"The world follows a seasonal cycle, with &efour seasons&r, each divided into &ethree sub-seasons&r."
 				"Each &esub-season lasts 9 days&r, making a &efull season last 27 days&r."
@@ -285,6 +287,7 @@
 			]
 			id: "07BA89EB7965F693"
 			size: 2.0d
+			subtitle: "Read me for important informations!"
 			tasks: [{
 				id: "76964EC87CC32D86"
 				title: "Temperature \\& Seasons explained"
