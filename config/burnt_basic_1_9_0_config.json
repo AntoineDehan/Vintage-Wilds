@@ -1,5 +1,5 @@
 {
-  "burnt_on // this turns the entire Burnt mechanic on or off": true,
+  "burnt_on // this turns the entire Burnt mechanic on or off": false,
   "vanilla_catch // vanilla fire can start the burn": true,
   "rain_extinguish // rain in the world will extinguish all blocks": true,
   "lightning_catch // a lightning strike can start the burn": false,
