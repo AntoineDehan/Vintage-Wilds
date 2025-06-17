@@ -1,0 +1,24 @@
+{
+  "type": "ytech:remaining_shaped_crafting",
+  "category": "misc",
+  "group": "healing",
+  "key": {
+    "l": {
+      "item": "minecraft:leather"
+    },
+    "n": {
+      "item": "minecraft:iron_ingot"
+    },
+    "s": {
+      "item": "ytech:leather_strips"
+    },
+    "f": {
+      "tag": "forge:files"
+    }
+  },
+  "pattern": [" nf", "lsl", "lll"],
+  "result": {
+    "item": "legendarysurvivaloverhaul:large_canteen"
+  },
+  "show_notification": true
+}

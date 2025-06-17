@@ -143,4 +143,9 @@ ServerEvents.tags("item", (event) => {
 
   //// Misc
   event.add("forge:buckets/empty", "ytech:clay_bucket");
+  event.add(
+    "charcoal_pit:kiln_straw",
+    "farmersdelight:straw",
+    "lititup:switchgrass_fiber"
+  );
 });

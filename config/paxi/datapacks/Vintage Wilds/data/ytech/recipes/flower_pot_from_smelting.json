@@ -1,13 +1,8 @@
 {
-  "type": "ytech:smelting",
+  "type": "charcoal_pit:pottery",
   "ingredient": {
-    "tag": "ytech:unfired_flower_pots"
+    "item": "ytech:unfired_flower_pot"
   },
-  "inputCount": 1,
-  "minTemp": 900,
-  "mold": [],
-  "result": {
-    "item": "minecraft:flower_pot"
-  },
-  "smeltingTime": 800
+  "result": "minecraft:flower_pot",
+  "experience": 0.2
 }

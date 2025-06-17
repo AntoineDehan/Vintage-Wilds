@@ -1,0 +1,19 @@
+{
+  "type": "ytech:workspace_crafting",
+  "key": {
+    "C": {
+      "tag": "minecraft:logs_that_burn"
+    }
+  },
+  "pattern": {
+    "bottom": [" C ", "CCC", " C "],
+    "middle": [" C ", "CCC", " C "],
+    "top": [" C ", "CCC", " C "]
+  },
+  "result": {
+    "item": "charcoal_pit:log_pile"
+  },
+  "tool": {
+    "tag": "forge:knives"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "charcoal_pit:pottery",
+  "ingredient": {
+    "item": "dens_addition:unfired_bowl"
+  },
+  "result": "minecraft:bowl",
+  "experience": 0.1
+}

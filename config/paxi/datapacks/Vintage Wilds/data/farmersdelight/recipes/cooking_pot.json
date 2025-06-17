@@ -1,9 +1,8 @@
 {
-  "type": "minecraft:smelting",
-  "category": "clay",
-  "cookingtime": 1150,
+  "type": "charcoal_pit:pottery",
   "ingredient": {
     "item": "dens_addition:unfired_cooking_pot"
   },
-  "result": "farmersdelight:cooking_pot"
+  "result": "farmersdelight:cooking_pot",
+  "experience": 0.3
 }

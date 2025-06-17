@@ -1,0 +1,21 @@
+{
+  "type": "ytech:remaining_shaped_crafting",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "ytech:brick_molds"
+    },
+    "B": {
+      "item": "minecraft:clay_ball"
+    },
+    "S": {
+      "item": "minecraft:sand"
+    }
+  },
+  "pattern": ["BSB", "B#B", "BBB"],
+  "result": {
+    "count": 8,
+    "item": "charcoal_pit:unfired_sandy_brick"
+  },
+  "show_notification": true
+}

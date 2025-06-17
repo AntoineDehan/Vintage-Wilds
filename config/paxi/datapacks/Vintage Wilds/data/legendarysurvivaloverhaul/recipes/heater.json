@@ -1,0 +1,29 @@
+{
+  "type": "ytech:remaining_shaped_crafting",
+  "category": "misc",
+  "key": {
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "w": {
+      "item": "minecraft:coal_block"
+    },
+    "f": {
+      "tag": "forge:files"
+    },
+    "h": {
+      "tag": "forge:hammers"
+    },
+    "p": {
+      "tag": "forge:plates/metal"
+    },
+    "r": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": ["fih", "prp", "iwi"],
+  "result": {
+    "item": "legendarysurvivaloverhaul:heater"
+  },
+  "show_notification": true
+}

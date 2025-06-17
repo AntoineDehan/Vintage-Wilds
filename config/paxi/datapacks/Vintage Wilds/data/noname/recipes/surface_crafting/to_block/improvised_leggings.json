@@ -1,0 +1,28 @@
+{
+  "type": "craft_on_surface:surface_crafting_recipe",
+  "materials": [
+    {
+      "item": "ytech:grass_twine"
+    },
+    {
+      "item": "ytech:grass_twine"
+    },
+    {
+      "item": "ytech:grass_twine"
+    },
+    {
+      "item": "farmersdelight:straw"
+    },
+    {
+      "item": "farmersdelight:straw"
+    },
+    {
+      "item": "farmersdelight:straw"
+    }
+  ],
+  "output": {
+    "item": "dens_addition:improvised_leggings",
+    "count": 1
+  },
+  "surface_block": "dens_addition:primitive_crafting_table"
+}

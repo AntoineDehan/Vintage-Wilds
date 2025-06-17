@@ -1,0 +1,24 @@
+{
+  "type": "ytech:remaining_shaped_crafting",
+  "pattern": [" P ", "PAP", "SBH"],
+  "key": {
+    "A": {
+      "tag": "forge:buckets/empty"
+    },
+    "B": {
+      "tag": "forge:barrels"
+    },
+    "P": {
+      "tag": "forge:plates"
+    },
+    "S": {
+      "tag": "forge:saws"
+    },
+    "H": {
+      "tag": "forge:hammers"
+    }
+  },
+  "result": {
+    "item": "charcoal_pit:barrel"
+  }
+}

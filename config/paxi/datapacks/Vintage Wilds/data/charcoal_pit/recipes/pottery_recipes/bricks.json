@@ -1,8 +1,8 @@
 {
-  "type": "minecraft:campfire_cooking",
+  "type": "charcoal_pit:pottery",
   "ingredient": {
     "item": "ytech:unfired_brick"
   },
   "result": "minecraft:brick",
-  "cookingtime": 3850
+  "experience": 0.3
 }

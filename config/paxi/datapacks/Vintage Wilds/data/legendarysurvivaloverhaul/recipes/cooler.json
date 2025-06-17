@@ -1,0 +1,23 @@
+{
+  "type": "ytech:remaining_shaped_crafting",
+  "category": "misc",
+  "key": {
+    "p": {
+      "tag": "minecraft:planks"
+    },
+    "r": {
+      "item": "minecraft:redstone"
+    },
+    "s": {
+      "item": "minecraft:snow_block"
+    },
+    "a": {
+      "tag": "forge:saws"
+    }
+  },
+  "pattern": ["psp", "prp", "ppa"],
+  "result": {
+    "item": "legendarysurvivaloverhaul:cooler"
+  },
+  "show_notification": true
+}

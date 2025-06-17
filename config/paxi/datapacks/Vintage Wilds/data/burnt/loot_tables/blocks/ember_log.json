@@ -12,7 +12,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:charcoal"
+          "name": "minecraft:charcoal",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.7
+            }
+          ]
         }
       ]
     }

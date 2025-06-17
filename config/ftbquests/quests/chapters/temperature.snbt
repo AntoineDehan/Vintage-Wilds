@@ -7,7 +7,7 @@
 		Count: 1
 		ForgeCaps: {
 			Parent: {
-				temperature: 8.0f
+				temperature: 8.5f
 			}
 		}
 		id: "legendarysurvivaloverhaul:thermometer"
@@ -20,7 +20,7 @@
 			rotation: 0.0d
 			width: 5.0d
 			x: 4.5d
-			y: -4.0d
+			y: -4.5d
 		}
 		{
 			height: 1.0d
@@ -28,7 +28,7 @@
 			rotation: 0.0d
 			width: 5.0d
 			x: 4.5d
-			y: 3.5d
+			y: 5.0d
 		}
 	]
 	order_index: 1
@@ -49,70 +49,84 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
-			y: 0.0d
+			x: 4.5d
+			y: 2.5d
 		}
 		{
+			description: ["This plant can be found in &bcold biomes&r and will be used in different temperatures recipes."]
 			id: "24C0505B1D5F9021"
 			tasks: [{
 				id: "5AEAD2AC80CD7FB5"
 				item: "legendarysurvivaloverhaul:ice_fern_leaf"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.5d
+			x: 2.0d
+			y: 4.0d
 		}
 		{
+			description: ["This plant can be found in &ewarm biomes&r and will be used in different temperatures recipes."]
 			id: "5A4342FE5A2A0D8B"
 			tasks: [{
 				id: "0043EC0B3FA1DDF1"
 				item: "legendarysurvivaloverhaul:sun_fern_leaf"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 0.5d
+			x: 7.0d
+			y: 4.0d
 		}
 		{
+			dependencies: ["24C0505B1D5F9021"]
+			description: ["Can be used for very strong temperature potions!"]
 			id: "3113EBC18E2F3E28"
+			secret: true
 			tasks: [{
 				id: "4E6B7873C639AA6C"
 				item: "legendarysurvivaloverhaul:ice_fern_gold_leaf"
 				type: "item"
 			}]
 			x: 1.5d
-			y: -0.5d
+			y: 5.0d
 		}
 		{
+			dependencies: ["5A4342FE5A2A0D8B"]
+			description: ["Can be used for very strong temperature potions!"]
 			id: "7FB22599FE14C418"
+			secret: true
 			tasks: [{
 				id: "573DF8BFF29FBF8A"
 				item: "legendarysurvivaloverhaul:sun_fern_gold_leaf"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -0.5d
+			x: 7.5d
+			y: 5.0d
 		}
 		{
+			description: ["The &eSewing Table&r is made to create &eTemperature Strings&r, they are used in &eCoils&r to regulatre your armor temperature."]
 			id: "5EE954C693BBF980"
+			size: 1.25d
 			tasks: [{
 				id: "0331D1B82DAC4699"
 				item: "legendarysurvivaloverhaul:sewing_table"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 0.0d
+			title: "A Sewing Table"
+			x: 7.0d
+			y: 0.5d
 		}
 		{
+			description: ["The &eBoiler&r will use &eCharcoal&r and a &eredstone signal&r to warm the temperature."]
 			id: "6799462F48281D5E"
+			size: 1.5d
 			tasks: [{
 				id: "52E29BFD5B8FCA91"
 				item: "legendarysurvivaloverhaul:heater"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 1.5d
+			x: 5.25d
+			y: 3.75d
 		}
 		{
+			dependencies: ["5EE954C693BBF980"]
 			id: "439A81009059FEBA"
 			tasks: [{
 				id: "2AADAF44AB3115E9"
@@ -123,6 +137,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["5EE954C693BBF980"]
 			id: "07FEE460565B4091"
 			tasks: [{
 				id: "47ED3118840D596F"
@@ -130,40 +145,47 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 0.5d
+			y: 1.5d
 		}
 		{
+			description: ["The &bIce Box&r will use &eSnowballs&r and a &eredstone signal&r to cool the temperature."]
 			id: "13362DBBBBA7ABF9"
+			size: 1.5d
 			tasks: [{
 				id: "670E8BDF1477A962"
 				item: "legendarysurvivaloverhaul:cooler"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 1.5d
+			x: 3.75d
+			y: 3.75d
 		}
 		{
+			description: ["Display the current season and sub-season."]
 			id: "7CAB2514E0DF0ADB"
 			tasks: [{
 				id: "07D263786D915EDA"
 				item: "legendarysurvivaloverhaul:seasonal_calendar"
 				type: "item"
 			}]
+			title: "Craft a Seasonal Calendar"
 			x: 5.0d
 			y: -1.5d
 		}
 		{
+			description: ["Can be used to store water and can then be purified."]
 			id: "77D95D410D0741D7"
 			tasks: [{
 				id: "0E69F968DB6536F0"
 				item: "legendarysurvivaloverhaul:canteen"
 				type: "item"
 			}]
+			title: "To drink some wa'er"
 			x: 4.0d
 			y: -1.5d
 		}
 		{
 			id: "74620907CE64A629"
+			size: 1.5d
 			tasks: [{
 				days: 2
 				icon: "quark:lavender_blossom_leaves"
@@ -171,11 +193,12 @@
 				title: "Spring"
 				type: "questsadditions:days"
 			}]
-			x: 3.0d
-			y: -2.0d
+			x: 2.25d
+			y: -2.25d
 		}
 		{
 			id: "6E6DFA3382A1217B"
+			size: 1.5d
 			tasks: [{
 				days: 19
 				icon: "quark:yellow_blossom_leaves"
@@ -183,11 +206,12 @@
 				title: "Reach Summer"
 				type: "questsadditions:days"
 			}]
-			x: 4.0d
-			y: -2.5d
+			x: 3.75d
+			y: -3.0d
 		}
 		{
 			id: "77AD06F9211B2617"
+			size: 1.5d
 			tasks: [{
 				days: 46
 				icon: "quark:orange_blossom_leaves"
@@ -195,11 +219,12 @@
 				title: "Autumn"
 				type: "questsadditions:days"
 			}]
-			x: 5.0d
-			y: -2.5d
+			x: 5.25d
+			y: -3.0d
 		}
 		{
 			id: "33219E2294266012"
+			size: 1.5d
 			tasks: [{
 				days: 73
 				icon: "quark:blue_blossom_leaves"
@@ -207,8 +232,8 @@
 				title: "Winter"
 				type: "questsadditions:days"
 			}]
-			x: 6.0d
-			y: -2.0d
+			x: 6.75d
+			y: -2.25d
 		}
 		{
 			description: [
@@ -259,13 +284,209 @@
 				"To survive, you'll need to stock food, prepare a warm shelter, and plan ahead."
 			]
 			id: "07BA89EB7965F693"
+			size: 2.0d
 			tasks: [{
 				id: "76964EC87CC32D86"
 				title: "Temperature \\& Seasons explained"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["74620907CE64A629"]
+			id: "7608B59C87B5DCC4"
+			tasks: [{
+				id: "443075A0614F075C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "sereneseasons:spring_crops"
+					}
+				}
+				title: "Spring crops"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6E6DFA3382A1217B"]
+			id: "2556D7EE450D268B"
+			tasks: [{
+				id: "0C4AF1B437AA8D88"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "sereneseasons:summer_crops"
+					}
+				}
+				title: "Summer crops"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["77AD06F9211B2617"]
+			id: "308DDF1184996F91"
+			tasks: [{
+				id: "51D72ED5CBC29145"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "sereneseasons:autumn_crops"
+					}
+				}
+				title: "Autumn crops"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["33219E2294266012"]
+			id: "2993F599B13A2236"
+			tasks: [{
+				id: "7D24ED9F08546CE0"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "sereneseasons:winter_crops"
+					}
+				}
+				title: "Winter crops"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["77D95D410D0741D7"]
+			hide_until_deps_complete: true
+			id: "067D8ADC5BD27C4B"
+			tasks: [{
+				id: "1572C1F7ECA928BF"
+				item: "legendarysurvivaloverhaul:large_canteen"
+				type: "item"
+			}]
+			title: "Even more water!"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["439A81009059FEBA"]
+			hide_until_deps_complete: true
+			id: "7A80FC51D8FED5C2"
+			tasks: [{
+				id: "646CCA0EE743D683"
+				item: "legendarysurvivaloverhaul:cooling_coat_1"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7A80FC51D8FED5C2"]
+			id: "7E4C3D539E1E6956"
+			tasks: [{
+				id: "1386F21162F16FC8"
+				item: "legendarysurvivaloverhaul:cooling_coat_2"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7E4C3D539E1E6956"]
+			id: "5F71956F88295AAB"
+			tasks: [{
+				id: "31E274306FA4D997"
+				item: "legendarysurvivaloverhaul:cooling_coat_3"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["07FEE460565B4091"]
+			hide_until_deps_complete: true
+			id: "187CD9E8014B2EBC"
+			tasks: [{
+				id: "45BA27366C43B38C"
+				item: "legendarysurvivaloverhaul:heating_coat_1"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["187CD9E8014B2EBC"]
+			id: "3E678C14FD9A3406"
+			tasks: [{
+				id: "3D5EF8CFEB2E7340"
+				item: "legendarysurvivaloverhaul:heating_coat_2"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3E678C14FD9A3406"]
+			id: "657AD5F2B748E4DA"
+			tasks: [{
+				id: "339B103A3AC81B0A"
+				item: "legendarysurvivaloverhaul:heating_coat_3"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7A80FC51D8FED5C2"
+				"187CD9E8014B2EBC"
+			]
+			id: "3BECED91589AD265"
+			tasks: [{
+				id: "1715205BC88D948A"
+				item: "legendarysurvivaloverhaul:thermal_coat_1"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"7E4C3D539E1E6956"
+				"3E678C14FD9A3406"
+			]
+			id: "295331AD226AC72A"
+			tasks: [{
+				id: "14B89A15530AB8E7"
+				item: "legendarysurvivaloverhaul:thermal_coat_2"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"657AD5F2B748E4DA"
+				"5F71956F88295AAB"
+			]
+			id: "2522ECF173B5CF8C"
+			tasks: [{
+				id: "70F7796291868B0F"
+				item: "legendarysurvivaloverhaul:thermal_coat_3"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.5d
 		}
 	]
 	title: "Seasons \\& Temperature"

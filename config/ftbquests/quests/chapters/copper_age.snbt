@@ -11,7 +11,7 @@
 			image: "vintage_wilds:textures/titles/copper_age.png"
 			rotation: 0.0d
 			width: 7.5d
-			x: 9.0d
+			x: 10.0d
 			y: -0.5d
 		}
 		{
@@ -65,6 +65,7 @@
 			dependencies: ["52663D363DC057A0"]
 			description: ["Assemble it at a &eForge&r."]
 			id: "03634F063EBF5ED5"
+			shape: "octagon"
 			tasks: [{
 				id: "46C94720DC54A7D4"
 				item: {
@@ -99,7 +100,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["20A377F26B080F66"]
@@ -115,7 +116,7 @@
 				type: "item"
 			}]
 			title: "A better campfire?"
-			x: 16.0d
+			x: 16.5d
 			y: -3.5d
 		}
 		{
@@ -123,7 +124,7 @@
 			description: ["Finally the &eCrafting Table&r."]
 			hide_until_deps_complete: true
 			id: "20A377F26B080F66"
-			shape: "hexagon"
+			shape: "gear"
 			size: 1.5d
 			tasks: [{
 				icon: "minecraft:crafting_table"
@@ -135,8 +136,8 @@
 				type: "observation"
 			}]
 			title: "The Crafting Table"
-			x: 13.5d
-			y: -2.5d
+			x: 14.0d
+			y: -2.0d
 		}
 		{
 			description: [
@@ -169,7 +170,7 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
+			x: 14.0d
 			y: -1.0d
 		}
 		{
@@ -277,12 +278,13 @@
 			}]
 			title: "Thin Copper"
 			x: 5.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["60AE087FE62235A7"]
 			description: ["Assemble it at a &eForge&r."]
 			id: "182285A55BBA2BBD"
+			shape: "octagon"
 			tasks: [{
 				id: "0474A0736B0DFC9E"
 				item: {
@@ -301,6 +303,7 @@
 			dependencies: ["2B57000CBB83C1FB"]
 			description: ["Assemble it at a &eForge&r."]
 			id: "027E590E6420035F"
+			shape: "octagon"
 			tasks: [{
 				id: "24013D8F7A1D4269"
 				item: {
@@ -319,6 +322,7 @@
 			dependencies: ["450BA985B4B5807E"]
 			description: ["Assemble it at a &eForge&r."]
 			id: "648B122AC055A5E7"
+			shape: "octagon"
 			tasks: [{
 				id: "00B390854AE4D066"
 				item: {
@@ -349,7 +353,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6C20B22ED5FCBD81"]
@@ -366,7 +370,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6C20B22ED5FCBD81"]
@@ -383,7 +387,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["221037CDF2C8F061"]
@@ -398,7 +402,7 @@
 				item: "ytech:aqueduct_hydrator"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 14.0d
 			y: -6.5d
 		}
 		{
@@ -417,7 +421,7 @@
 				type: "item"
 			}]
 			title: "Move water"
-			x: 13.5d
+			x: 14.0d
 			y: -4.5d
 		}
 		{
@@ -432,7 +436,7 @@
 				item: "ytech:aqueduct_valve"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 14.0d
 			y: -5.5d
 		}
 		{
@@ -455,7 +459,7 @@
 				}
 				type: "item"
 			}]
-			x: 12.5d
+			x: 13.0d
 			y: -4.5d
 		}
 		{
@@ -485,7 +489,7 @@
 					type: "item"
 				}
 			]
-			x: 13.5d
+			x: 14.0d
 			y: -7.5d
 		}
 		{
@@ -504,7 +508,7 @@
 				type: "item"
 			}]
 			title: "Kitchen storage"
-			x: 16.0d
+			x: 16.5d
 			y: -4.5d
 		}
 		{
@@ -523,7 +527,7 @@
 				type: "item"
 			}]
 			title: "Proper storage!"
-			x: 15.0d
+			x: 15.5d
 			y: -1.0d
 		}
 		{
@@ -534,8 +538,8 @@
 				item: "ytech:beeswax"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 0.0d
+			x: 14.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["2CE1BAD1FAB54D41"]
@@ -553,8 +557,8 @@
 				type: "item"
 			}]
 			title: "Patterns"
-			x: 12.5d
-			y: 0.5d
+			x: 13.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["329837FAADDB35DC"]
@@ -572,8 +576,8 @@
 				type: "item"
 			}]
 			title: "Durable Molds"
-			x: 12.5d
-			y: 1.5d
+			x: 13.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["20A377F26B080F66"]
@@ -584,7 +588,7 @@
 				title: "Portable storage"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 16.5d
 			y: 0.0d
 		}
 		{
@@ -612,7 +616,7 @@
 				type: "item"
 			}]
 			title: "Use a map!"
-			x: 11.0d
+			x: 11.5d
 			y: -4.0d
 		}
 	]

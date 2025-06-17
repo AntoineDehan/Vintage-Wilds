@@ -1,0 +1,23 @@
+{
+  "type": "ytech:remaining_shaped_crafting",
+  "category": "misc",
+  "key": {
+    "i": {
+      "tag": "forge:plates/metal"
+    },
+    "p": {
+      "tag": "minecraft:planks"
+    },
+    "r": {
+      "item": "minecraft:redstone"
+    },
+    "f": {
+      "tag": "forge:files"
+    }
+  },
+  "pattern": ["iii", "rfi", "ppp"],
+  "result": {
+    "item": "legendarysurvivaloverhaul:sewing_table"
+  },
+  "show_notification": true
+}

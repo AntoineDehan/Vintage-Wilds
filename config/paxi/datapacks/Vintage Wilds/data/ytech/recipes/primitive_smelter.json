@@ -2,7 +2,7 @@
   "type": "ytech:workspace_crafting",
   "key": {
     "A": {
-      "item": "brickfurnace:brick_furnace"
+      "item": "quark:charcoal_block"
     },
     "C": {
       "item": "minecraft:bricks"
@@ -10,7 +10,7 @@
   },
   "pattern": {
     "bottom": ["CCC", "CCC", "CCC"],
-    "middle": ["CCC", "CAC", "C C"],
+    "middle": ["CCC", "AAA", "C C"],
     "top": ["CCC", "C C", "CCC"]
   },
   "result": {

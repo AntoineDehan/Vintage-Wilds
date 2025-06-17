@@ -27,6 +27,18 @@ ServerEvents.recipes((event) => {
     mod: "iguanatweaksreborn",
   });
 
+  ///// Charcoal Pit Items \\\\\
+  event.remove({ output: "charcoal_pit:unfired_brick" });
+  event.remove({ output: "charcoal_pit:sandy_collector" });
+  event.remove({ output: "charcoal_pit:bellows" });
+  event.remove({ output: "charcoal_pit:mechanical_bellows" });
+  event.remove({ output: "charcoal_pit:fire_starter" });
+  event.remove({ type: "charcoal_pit:orekiln" });
+  event.remove({ type: "charcoal_pit:bloomery" });
+  event.remove({ id: "charcoal_pit:clay_pot" });
+  event.remove({ id: "charcoal_pit:barrel2" });
+  event.remove({ output: "sapwood:log_pile" });
+
   ///// Iguanatweaksreborn Items \\\\\
   event.remove({ id: "iguanatweaksexpanded:chained_copper_helmet" });
   event.remove({ id: "iguanatweaksexpanded:chained_copper_chestplate" });
@@ -204,4 +216,5 @@ ServerEvents.recipes((event) => {
   });
 
   event.remove({ mod: "minecraft", output: "minecraft:chest" });
+  event.remove({ type: "minecraft:smelting", output: "minecraft:flower_pot" });
 });

@@ -1,9 +1,8 @@
 {
-  "type": "minecraft:smelting",
-  "category": "clay",
-  "cookingtime": 800,
+  "type": "charcoal_pit:pottery",
   "ingredient": {
     "item": "dens_addition:unfired_canteen"
   },
-  "result": "legendarysurvivaloverhaul:canteen"
+  "result": "legendarysurvivaloverhaul:canteen",
+  "experience": 0.4
 }

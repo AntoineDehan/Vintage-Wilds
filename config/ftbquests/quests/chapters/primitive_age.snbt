@@ -10,7 +10,7 @@
 			height: 1.5d
 			image: "vintage_wilds:textures/titles/primitive_age.png"
 			rotation: 0.0d
-			width: 7.5d
+			width: 8.0d
 			x: 8.0d
 			y: -4.0d
 		}
@@ -107,7 +107,7 @@
 				"I will asume that you know how to use JEI and that you have some basic modded knowledge (for the beta releases)."
 				""
 				"&eYour first goal&r is to &eobtain flint&r since you won't be able to chop wood bare handed."
-				"Flint will &espawn on the ground&r and you can still find while breaking gravel."
+				"Flint will &espawn on the ground&r and you can still find it while breaking gravel."
 			]
 			id: "57D5FC4FD49527C6"
 			tasks: [{
@@ -176,7 +176,8 @@
 				""
 				"To &eobtain Charcoal&r you can &eburn a log&r, you can use two Flints (one in your main hand and the other in your off hand) to create a fire."
 				""
-				"&eThe Campfire is essential&r to your survival, eating &eraw food is not recommanded&r, &enights&r might be a bit &ecold&r, you will be able to make torches and is needed for &ebrick making&r."
+				"&eThe Campfire is essential&r to your survival, eating &eraw food is not recommanded&r and &enights&r might be a bit &ecold&r. "
+				""
 				"It will burn out (you can add fuel) and extinguish under rain."
 			]
 			id: "0BD45BC48F14EE97"
@@ -297,25 +298,43 @@
 		{
 			dependencies: ["5109FC4CE3A511AE"]
 			description: [
-				"The &eBrick Furnace&r is used to &eharden&r &eClay Bricks faster&r as well as hardening &ePottery's items&r."
+				"A &ePit Kiln&r is used to &eharden&r &eClay Bricks&r and other &ePottery items&r."
 				""
-				"This Brick Furnace &ewont be able to cook food or ore&r!"
-				"This furnace is &enot lit&r when you place it."
+				"&lCreating a &ePit Kiln&r &lis simple:&r&r"
 				""
-				"&o&7This Brick Furnace might be removed in the future to only use the Primitive Smelter, what do you think about it?&r&r"
+				"  - Dig a hole in the ground"
+				""
+				"  - &eShift + Right-Click&r to insert the item you want to fire (e.g. unfired bricks)"
+				""
+				"  - You can insert up to &e8 items&r"
+				""
+				"  - Add straw on top (&eFarmer's Delight Straw&r and &eSwitchgrass Fiber&r are both accepted)"
+				""
+				"  - Then add &elogs&r"
+				""
+				"  - Finally, &elight the top on fire&r and make sure it's &eprotected from rain&r"
+				""
+				"After some time, the kiln will produce the hardened items along with some &eash&r."
+				""
+				"Check the recipe of a pottery item for a more detailed explanation."
 			]
 			id: "458A888B9749186F"
 			tasks: [{
-				id: "7B1F50298CEEA8C3"
-				item: "brickfurnace:brick_furnace"
-				type: "item"
+				icon: "farmersdelight:straw"
+				id: "421A4B7A1C7D53A2"
+				observe_type: 0
+				timer: 0L
+				title: "Create a pit kiln"
+				to_observe: "charcoal_pit:pottery_kiln"
+				type: "observation"
 			}]
-			title: "That should be faster than a Campfire"
+			title: "Create Pit Kilns to smelt items!"
 			x: 11.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["458A888B9749186F"]
+			dependencies: ["0FFEA76177B0FE17"]
+			dependency_requirement: "one_started"
 			description: [
 				"The &ePrimitive Smelter&r is your &enext tier of furnace&r and a very important block."
 				""
@@ -339,7 +358,7 @@
 				type: "observation"
 			}]
 			title: "Finally, a true furnace"
-			x: 13.5d
+			x: 14.5d
 			y: 0.0d
 		}
 		{
@@ -356,16 +375,21 @@
 				type: "item"
 			}]
 			title: "Time to find some Copper Rocks"
-			x: 16.5d
+			x: 17.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["458A888B9749186F"]
+			description: [
+				"This Ceramic Vessel will &ekeep items inside&r even if you break it!"
+				""
+				"Food items will rot &e50% slower&r inside it."
+			]
 			hide_until_deps_complete: true
 			id: "653F090B135AF9E8"
 			tasks: [{
 				id: "415BBFD1F262474A"
-				item: "storage_pots:storage_pot"
+				item: "charcoal_pit:ceramic_pot"
 				type: "item"
 			}]
 			title: "Another storage solution"
@@ -507,7 +531,7 @@
 				type: "item"
 			}]
 			title: "Shape of an ingot"
-			x: 15.5d
+			x: 16.0d
 			y: 0.0d
 		}
 		{
@@ -527,7 +551,7 @@
 				type: "item"
 			}]
 			title: "It's getting hot..."
-			x: 14.5d
+			x: 15.0d
 			y: 1.0d
 		}
 		{
@@ -568,7 +592,7 @@
 				item: "dens_addition:wooden_tongs"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 15.0d
 			y: -1.0d
 		}
 		{
@@ -593,12 +617,9 @@
 		{
 			dependencies: ["458A888B9749186F"]
 			description: [
-				"Use a &eSparkling Flin&rt with &eSwitchgrass Fiber&r to be &eable to lit up&r the furnace!"
-				"Otherwise the furnace won't be usable since it won't turn up."
+				"Use a &eSparkling Flin&rt with &eSwitchgrass Fiber&r as a better way of creating fire!"
 				""
 				"Be careful not setting up random fire, it spreads very fast and is deadly."
-				""
-				"&7Little hint: the leaves are a shade of purple. You might have already found some!&r"
 			]
 			id: "5823599F43F28B08"
 			tasks: [{
@@ -633,6 +654,8 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["094BD2013092183D"]
+			description: ["Weak and fragile primitive armor but might save your life."]
 			id: "290ABCE9D6CE687F"
 			tasks: [
 				{
@@ -680,8 +703,44 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: -2.0d
+			title: "Improvised Armor"
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["458A888B9749186F"]
+			description: [
+				"The &eCharcoal Pit&r is shape-less multiblock that allows &eLog Piles&r to be &eturned into charcoal&r. To make it just place your &eLog Piles&r into a contiguous shape and cover every exposed space with a solid block."
+				""
+				"To light it &euncover a face of a Log Pile&r, &elight it on fire&r and &equickly cover it back&r. If the Log Piles are exposed to air they will be destroyed. If it &eis working&r you will see &esmoke particles at the top&r."
+				""
+				"After a while the &esmoke will stop&r and the Log piles will be &ereplaced&r by an &eAsh-looking block&r."
+			]
+			icon: "charcoal_pit:log_pile"
+			id: "0FFEA76177B0FE17"
+			tasks: [
+				{
+					icon: "charcoal_pit:wood_ash"
+					id: "4CC981E4ECEF7780"
+					observe_type: 0
+					timer: 0L
+					title: "Obtain a pile of charcoal!"
+					to_observe: "charcoal_pit:wood_ash"
+					type: "observation"
+				}
+				{
+					icon: "charcoal_pit:log_pile"
+					id: "3E11E0B6BBAA0FC2"
+					observe_type: 0
+					timer: 0L
+					title: "Check the recipe through JEI!"
+					to_observe: "charcoal_pit:log_pile"
+					type: "observation"
+				}
+			]
+			title: "Craft a log pile and do a Charcoal Pit"
+			x: 13.0d
+			y: 0.0d
 		}
 	]
 	title: "Primitive Age"
