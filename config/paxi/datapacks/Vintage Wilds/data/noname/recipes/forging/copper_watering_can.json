@@ -1,14 +1,22 @@
 {
-  "type": "iguanatweaksexpanded:forging",
-  "category": "forge_misc",
-  "ingredient": {
-    "item": "ytech:copper_plate"
+  "type": "overgeared:forging",
+  "category": "tools",
+  "hammering": 2,
+  "has_polishing": false,
+  "key": {
+    "#": {
+      "item": "overgeared:copper_plate"
+    },
+    "B": {
+      "tag": "c:empty_buckets"
+    }
   },
-  "amount": 2,
-  "gear": {
-    "tag": "forge:buckets/empty"
+  "needs_minigame": false,
+  "pattern": ["#B#"],
+  "requires_blueprint": false,
+  "result": {
+    "item": "dew_drop_watering_cans:copper_watering_can"
   },
-  "result": "dew_drop_watering_cans:copper_watering_can",
-  "smashes_required": 3,
-  "experience": 9
+  "show_notification": true,
+  "tier": "stone"
 }

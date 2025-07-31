@@ -12,7 +12,7 @@
   "post": [
     {
       "type": "drop_item",
-      "item": "ytech:copper_pickaxe_head_part"
+      "item": "overgeared:copper_pickaxe_head"
     },
     {
       "type": "execute",

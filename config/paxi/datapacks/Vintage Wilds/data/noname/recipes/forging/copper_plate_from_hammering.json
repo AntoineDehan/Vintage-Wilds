@@ -1,13 +1,18 @@
 {
-  "type": "iguanatweaksexpanded:forging",
-  "category": "forge_misc",
-  "ingredient": {
-    "item": "minecraft:copper_ingot"
+  "type": "overgeared:forging",
+  "category": "misc",
+  "hammering": 2,
+  "has_quality": false,
+  "key": {
+    "#": {
+      "item": "minecraft:copper_ingot"
+    }
   },
-  "amount": 1,
-  "gear": {
-    "item": "ytech:wooden_plate"
+  "needs_minigame": false,
+  "pattern": ["#"],
+  "result": {
+    "item": "ytech:copper_plate"
   },
-  "result": "ytech:copper_plate",
-  "smashes_required": 1
+  "show_notification": true,
+  "tier": "stone"
 }

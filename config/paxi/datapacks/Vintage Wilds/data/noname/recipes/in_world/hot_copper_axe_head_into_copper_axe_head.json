@@ -12,7 +12,7 @@
   "post": [
     {
       "type": "drop_item",
-      "item": "ytech:copper_axe_head_part"
+      "item": "overgeared:copper_axe_head"
     },
     {
       "type": "execute",

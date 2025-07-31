@@ -17,7 +17,7 @@ StartupEvents.registry("item", (e) => {
   e.create("dens_addition:copper_sword", "sword").tier("copper");
 
   //Forging
-  e.create("dens_addition:hot_copper_ingot");
+  // e.create("dens_addition:hot_copper_ingot"); Probably not needed anymore since it's added from the Overgearded mod (keeping it just for now)
 
   e.create("dens_addition:hot_copper_hammer_head_part");
   e.create("dens_addition:hot_copper_pickaxe_head_part");

@@ -20,11 +20,24 @@ ServerEvents.recipes((event) => {
   event.remove({ output: "iguanatweaksexpanded:copper_axe" });
   event.remove({ output: "iguanatweaksexpanded:copper_hoe" });
   event.remove({ output: "iguanatweaksexpanded:copper_shovel" });
-  event.remove({ output: "iguanatweaksexpanded:copper_sword" });
+  event.remove({ output: "iguanatweaksexpanded:copper_hammer" });
+
+  event.remove({ output: "ytech:copper_pickaxe" });
+  event.remove({ output: "ytech:copper_axe" });
+  event.remove({ output: "ytech:copper_hoe" });
+  event.remove({ output: "ytech:copper_shovel" });
+  event.remove({ output: "ytech:copper_sword" });
 
   event.remove({
     output: "minecraft:copper_ingot",
     mod: "iguanatweaksreborn",
+  });
+
+  ///// Overgeared Items \\\\\
+  event.remove({ output: "overgeared:copper_plate" });
+  event.remove({
+    type: "minecraft:smelting",
+    output: "overgeared:heated_iron_copper",
   });
 
   ///// Charcoal Pit Items \\\\\
@@ -58,7 +71,10 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "ytech:golden_saw" });
   event.remove({ id: "ytech:iron_saw" });
 
-  // event.remove({ type: "ytech:workspace_crafting" });
+  event.remove({
+    type: "ytech:workspace_crafting",
+    output: "minecraft:furnace",
+  });
 
   // event.remove({ type: "ytech:hammering" });
   event.remove({ id: "ytech:copper_plate" });

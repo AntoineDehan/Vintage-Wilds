@@ -1,14 +1,22 @@
 {
-  "type": "iguanatweaksexpanded:forging",
-  "category": "forge_misc",
-  "ingredient": {
-    "item": "ytech:copper_plate"
+  "type": "overgeared:forging",
+  "category": "tools",
+  "hammering": 3,
+  "has_polishing": false,
+  "key": {
+    "#": {
+      "item": "overgeared:copper_plate"
+    },
+    "H": {
+      "item": "dens_addition:saw_handle"
+    }
   },
-  "amount": 3,
-  "gear": {
-    "item": "dens_addition:saw_handle"
+  "needs_minigame": false,
+  "pattern": ["###", "H  "],
+  "requires_blueprint": false,
+  "result": {
+    "item": "ytech:copper_saw"
   },
-  "result": "ytech:copper_saw",
-  "smashes_required": 6,
-  "experience": 15
+  "show_notification": true,
+  "tier": "stone"
 }

@@ -18,76 +18,11 @@
       "name": "Den_lille",
       "uniqueId": "7ed56862-d5bd-49fa-942d-17b4a366804a"
     },
-    "time": 1748075327142,
-    "type": "Profiler",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/oKmBZTxSHa"
-    }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "Den_lille",
-      "uniqueId": "7ed56862-d5bd-49fa-942d-17b4a366804a"
-    },
     "time": 1748019840402,
     "type": "Profiler",
     "data": {
       "type": "file",
       "value": "C:\\Users\\Antoine\\curseforge\\minecraft\\Instances\\New Project\\config\\spark\\profile-2025-05-23_19.04.00.sparkprofile"
-    }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "Den_lille",
-      "uniqueId": "7ed56862-d5bd-49fa-942d-17b4a366804a"
-    },
-    "time": 1748019606674,
-    "type": "Profiler",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/uu60NXr4Kk"
-    }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "Den_lille",
-      "uniqueId": "7ed56862-d5bd-49fa-942d-17b4a366804a"
-    },
-    "time": 1747994803687,
-    "type": "Profiler",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/Yxi9wpmUuU"
-    }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "Den_lille",
-      "uniqueId": "7ed56862-d5bd-49fa-942d-17b4a366804a"
-    },
-    "time": 1746630815638,
-    "type": "Profiler",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/nb9cwR3Bh3"
-    }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "Den_lille",
-      "uniqueId": "7ed56862-d5bd-49fa-942d-17b4a366804a"
-    },
-    "time": 1746629956718,
-    "type": "Profiler",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/OO4iHm0fIw"
     }
   }
 ]

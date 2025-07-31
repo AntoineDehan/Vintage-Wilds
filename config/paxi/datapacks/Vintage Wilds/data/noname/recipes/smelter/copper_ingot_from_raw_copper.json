@@ -9,7 +9,7 @@
     "tag": "ytech:molds/ingot"
   },
   "result": {
-    "item": "dens_addition:hot_copper_ingot"
+    "item": "overgeared:heated_copper_ingot"
   },
   "smeltingTime": 200
 }

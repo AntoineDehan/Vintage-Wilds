@@ -148,4 +148,5 @@ ServerEvents.tags("item", (event) => {
     "farmersdelight:straw",
     "lititup:switchgrass_fiber"
   );
+  event.add("overgeared:tongs", "dens_addition:wooden_tongs");
 });

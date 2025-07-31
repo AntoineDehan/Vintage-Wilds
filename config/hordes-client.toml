@@ -28,10 +28,14 @@
 	immunityTooltip = true
 	#Show a tooltip on wearable items that grant some protection against infection?
 	wearableProtectionTooltip = true
+
+["Zombie Players"]
 	#Colour tint for zombie players.
 	zombiePlayerColour = [121, 156, 101]
 	#Colour tint for drowned players.
 	drownedPlayerColour = [144, 255, 255]
 	#Colour tint for husk players.
 	huskPlayerColour = [193, 168, 5]
+	#Render zombie players with capes if the player that got infected has one equipped?
+	zombiePlayerCapes = true
 

@@ -41,19 +41,21 @@
 			description: [
 				"The &eSmithing System&r is still a &eWIP&r but I would like &eYOUR opinion&r about it."
 				""
-				"To handle ingot and &ecreate tools&r or other items you will &eneed a Forge&r."
-				"To use the Forge add the materials needed and &ehit the forge&r (right-click) with a &eHammer&r."
+				"To handle ingot and &ecreate tools&r or other items you will &eneed a Smithing Anvil&r."
+				"To use the Smithing Anvil, right click on it to place the materials needed and &ehit the Smithing Anvil&r (shift-right-click) with a &eSmithing Hammer&r."
+				""
+				"To smith &eCopper Tools head&r parts you &ewon't need a Blueprint&r."
 			]
 			hide_until_deps_complete: true
 			id: "58043DF622C90D95"
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				icon: "iguanatweaksexpanded:forge"
+				icon: "overgeared:smithing_anvil"
 				id: "1DF655D6871B8670"
 				observe_type: 0
 				timer: 0L
-				title: "Check the recipe throguh JEI!"
+				title: "Check the recipe through JEI!"
 				to_observe: "iguanatweaksexpanded:forge"
 				type: "observation"
 			}]
@@ -63,14 +65,14 @@
 		}
 		{
 			dependencies: ["52663D363DC057A0"]
-			description: ["Assemble it at a &eForge&r."]
+			description: ["Assemble it easily with a stick."]
 			id: "03634F063EBF5ED5"
 			shape: "octagon"
 			tasks: [{
-				id: "46C94720DC54A7D4"
+				id: "14F980250CE690ED"
 				item: {
 					Count: 1
-					id: "dens_addition:copper_pickaxe"
+					id: "overgeared:copper_pickaxe"
 					tag: {
 						Damage: 0
 					}
@@ -171,7 +173,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["58043DF622C90D95"]
@@ -282,14 +284,14 @@
 		}
 		{
 			dependencies: ["60AE087FE62235A7"]
-			description: ["Assemble it at a &eForge&r."]
+			description: ["Assemble it easily with a stick."]
 			id: "182285A55BBA2BBD"
 			shape: "octagon"
 			tasks: [{
-				id: "0474A0736B0DFC9E"
+				id: "5972BEB9400BBD2A"
 				item: {
 					Count: 1
-					id: "iguanatweaksexpanded:copper_hammer"
+					id: "overgeared:copper_smithing_hammer"
 					tag: {
 						Damage: 0
 					}
@@ -301,14 +303,14 @@
 		}
 		{
 			dependencies: ["2B57000CBB83C1FB"]
-			description: ["Assemble it at a &eForge&r."]
+			description: ["Assemble it easily with a stick."]
 			id: "027E590E6420035F"
 			shape: "octagon"
 			tasks: [{
-				id: "24013D8F7A1D4269"
+				id: "132F3AC38CE126A6"
 				item: {
 					Count: 1
-					id: "dens_addition:copper_axe"
+					id: "overgeared:copper_axe"
 					tag: {
 						Damage: 0
 					}
@@ -320,14 +322,14 @@
 		}
 		{
 			dependencies: ["450BA985B4B5807E"]
-			description: ["Assemble it at a &eForge&r."]
+			description: ["Assemble it easily with a stick."]
 			id: "648B122AC055A5E7"
 			shape: "octagon"
 			tasks: [{
-				id: "00B390854AE4D066"
+				id: "09CCF83831941710"
 				item: {
 					Count: 1
-					id: "dens_addition:copper_sword"
+					id: "overgeared:copper_sword"
 					tag: {
 						Damage: 0
 					}
@@ -359,10 +361,10 @@
 			dependencies: ["6C20B22ED5FCBD81"]
 			id: "6F0257E3F4607274"
 			tasks: [{
-				id: "5AB3127E4D151E03"
+				id: "765D8E0615BBA67D"
 				item: {
 					Count: 1
-					id: "dens_addition:copper_shovel"
+					id: "overgeared:copper_shovel"
 					tag: {
 						Damage: 0
 					}
@@ -376,10 +378,10 @@
 			dependencies: ["6C20B22ED5FCBD81"]
 			id: "42CFEB76C823DCF5"
 			tasks: [{
-				id: "7AADE7D2FD5090A3"
+				id: "4525D6E6E254C891"
 				item: {
 					Count: 1
-					id: "ytech:copper_hoe"
+					id: "overgeared:copper_hoe"
 					tag: {
 						Damage: 0
 					}
@@ -539,7 +541,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2CE1BAD1FAB54D41"]
@@ -558,7 +560,7 @@
 			}]
 			title: "Patterns"
 			x: 13.0d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["329837FAADDB35DC"]
@@ -577,7 +579,7 @@
 			}]
 			title: "Durable Molds"
 			x: 13.0d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["20A377F26B080F66"]

@@ -438,11 +438,9 @@
 			dependencies: ["1DE8DC32ADF342DC"]
 			dependency_requirement: "one_completed"
 			description: [
-				"You should start making &ebricks&r as &esoon as possible&r, it takes a &elot of time&r to harden &eon a simple Campfire&r."
-				""
 				"You will need a &eBrick Mold&r to shape your bricks."
 				""
-				"Put your &eUnfired Brick&r on a &eCampfire&r to harden it."
+				"Put your &eUnfired Brick&r in a &ePit Kiln&r to harden it."
 			]
 			id: "5109FC4CE3A511AE"
 			tasks: [{

@@ -1,14 +1,23 @@
 {
-  "type": "iguanatweaksexpanded:forging",
-  "category": "forge_misc",
-  "ingredient": {
-    "item": "minecraft:iron_ingot"
+  "type": "overgeared:forging",
+  "category": "tools",
+  "hammering": 3,
+  "has_polishing": false,
+  "has_quality": false,
+  "key": {
+    "#": {
+      "item": "overgeared:heated_iron_ingot"
+    },
+    "B": {
+      "item": "minecraft:bucket"
+    }
   },
-  "amount": 3,
-  "gear": {
-    "item": "ytech:clay_bucket"
+  "needs_minigame": false,
+  "pattern": ["#B#", " # "],
+  "requires_blueprint": false,
+  "result": {
+    "item": "minecraft:bucket"
   },
-  "result": "minecraft:bucket",
-  "smashes_required": 8,
-  "experience": 9
+  "show_notification": true,
+  "tier": "stone"
 }

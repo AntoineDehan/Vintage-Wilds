@@ -1,0 +1,15 @@
+{
+  "type": "overgeared:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "ytech:copper_hammer_head_part"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "item": "overgeared:copper_smithing_hammer"
+  }
+}

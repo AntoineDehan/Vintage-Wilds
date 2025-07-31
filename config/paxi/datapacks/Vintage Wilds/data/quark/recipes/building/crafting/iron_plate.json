@@ -1,14 +1,19 @@
 {
-  "type": "iguanatweaksexpanded:forging",
+  "type": "overgeared:forging",
   "category": "forge_blocks",
-  "ingredient": {
-    "item": "ytech:iron_plate"
+  "hammering": 4,
+  "has_polishing": false,
+  "key": {
+    "#": {
+      "item": "ytech:iron_plate"
+    }
   },
-  "amount": 2,
-  "gear": {
-    "tag": "immersive_weathering:wax"
+  "needs_minigame": false,
+  "pattern": ["###", "# #", "###"],
+  "requires_blueprint": false,
+  "result": {
+    "item": "quark:iron_plate"
   },
-  "result": "quark:iron_plate",
-  "smashes_required": 15,
-  "experience": 15
+  "show_notification": true,
+  "tier": "stone"
 }

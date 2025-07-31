@@ -1,14 +1,22 @@
 {
-  "type": "iguanatweaksexpanded:forging",
-  "category": "forge_misc",
-  "ingredient": {
-    "item": "ytech:iron_plate"
+  "type": "overgeared:forging",
+  "category": "tools",
+  "hammering": 3,
+  "has_polishing": false,
+  "key": {
+    "#": {
+      "item": "ytech:iron_plate"
+    },
+    "H": {
+      "item": "dens_addition:saw_handle"
+    }
   },
-  "amount": 2,
-  "gear": {
-    "item": "minecraft:stick"
+  "needs_minigame": false,
+  "pattern": ["###", "H  "],
+  "requires_blueprint": false,
+  "result": {
+    "item": "ytech:iron_saw"
   },
-  "result": "ytech:iron_saw",
-  "smashes_required": 12,
-  "experience": 15
+  "show_notification": true,
+  "tier": "stone"
 }
