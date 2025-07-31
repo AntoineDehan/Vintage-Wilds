@@ -41,7 +41,7 @@
 	"Enable Repair Kits" = false
 	#Add Soul Steel, a new metal made by alloying Iron, Soul Sand and Hellish Coal. Disabling this will disable ore generation and items in the creative inventory.
 	"Enable Soul Steel" = false
-	"Enable Forging" = true
+	"Enable Forging" = false
 	#Add Quaron, a new metal made by alloying Iron and Amethyst. Disabling this will disable ore generation and items in the creative inventory.
 	"Enable Quaron" = false
 

@@ -1,0 +1,29 @@
+{
+  "enabled": true,
+  "day_enabled": true,
+  "night_enabled": true,
+  "rain_enabled": true,
+  "thunder_enabled": true,
+  "cave_enabled": true,
+  "cloud_enabled": true,
+  "void_enabled": true,
+  "water_enabled": true,
+  "lava_enabled": true,
+  "use_vanilla_for_unconfigured": true,
+  "dimension_blacklist": [
+    "minecraft:the_end"
+  ],
+  "use_defaults": false,
+  "cave_y_start": 64,
+  "cave_y_end": -32,
+  "cave_pick": 6,
+  "cloud_y_start": 192,
+  "cloud_y_end": 256,
+  "cloud_pick": 6,
+  "void_y_start": -64,
+  "void_y_end": -32,
+  "void_pick": 6,
+  "change_time": 200,
+  "step_color": 0.1,
+  "step_distance": 20.0
+}

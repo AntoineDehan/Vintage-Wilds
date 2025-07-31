@@ -1,0 +1,67 @@
+{
+  "day": {
+    "start": 32,
+    "end": "*0.9"
+  },
+  "night": {
+    "opacity": "*1.5",
+    "start": 0,
+    "end": "*0.75"
+  },
+  "cave": {
+    "red": "*0.7",
+    "green": "*0.7",
+    "blue": "*0.7",
+    "opacity": 0.75,
+    "start": 0,
+    "end": 64
+  },
+  "rain": {
+    "red": "*0.8",
+    "green": "*0.8",
+    "blue": "*0.8",
+    "opacity": 0.4,
+    "start": 0,
+    "end": "*0.6"
+  },
+  "thunder": {
+    "red": "*0.65",
+    "green": "*0.65",
+    "blue": "*0.65",
+    "opacity": "*1.5",
+    "start": 0,
+    "end": "*0.5"
+  },
+  "void": {
+    "red": 0,
+    "green": 0,
+    "blue": 0,
+    "opacity": 0.8,
+    "start": 0,
+    "end": 48
+  },
+  "cloud": {
+    "red": 1,
+    "green": 1,
+    "blue": 1,
+    "opacity": 0.75,
+    "start": 0,
+    "end": 32
+  },
+  "water": {
+    "red": "-0.6",
+    "green": "-0.6",
+    "blue": "+0.75",
+    "opacity": 0.75,
+    "start": 0,
+    "end": 48
+  },
+  "lava": {
+    "red": 1,
+    "green": 0.6,
+    "blue": 0,
+    "opacity": 0.9,
+    "start": 0,
+    "end": 2
+  }
+}

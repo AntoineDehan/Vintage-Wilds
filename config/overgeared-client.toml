@@ -1,0 +1,8 @@
+
+["Minigame Config"]
+	#Vertical position of the minigame overlay
+	#Range: -10000 ~ 10000
+	overlayHeight = 55
+	#If player's vanilla HUD is visible during minigame. May not work with modded HUD.
+	HUDVisible = true
+

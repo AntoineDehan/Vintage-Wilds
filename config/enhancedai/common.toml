@@ -123,6 +123,11 @@
 		#Multiplies the distance at which the darkness effect is applied.
 		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 		"Darkness range multiplier" = 2.0
+		#Multiplies the distance at which vibrations reach wardens.
+		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+		"Listen range multiplier" = 2.0
+		#If enabled, will make warden have higher step height making it not need to jump.
+		"Step up" = true
 
 [Villagers]
 	#Make villagers fight back. Use the enhancedai:villagers_can_attack entity type tag to add more villagers.
@@ -793,8 +798,6 @@
 			Sounds = "OLD_EXPLOSION"
 			#If true, Angry Creeper will have a name
 			Name = true
-			#When ignited, Angry Creeper will not stop swelling
-			"Force Explosion" = false
 			#Makes angry creepers blow up on death like when they were added back in 0.30
 			"Explode on death" = true
 			#If true, Angry Creeper explosion will generate fire
@@ -802,7 +805,7 @@
 			#Explosion power of Angry Creeper
 			#Range: 0.0 ~ 12.0
 			"Explosion power" = 3.0
-			#Angry Creeper will not stop swelling when triggered
+			#When ignited, Angry Creeper will not stop swelling
 			"Forced Explosion" = false
 
 [Bugs]
@@ -879,7 +882,7 @@
 [Animals]
 	#Make animals flee/fight back when one is attacked
 	"Enable Animals Group Flee" = true
-	#Make animals fight back or be scared by players. Use the entity type tag enhancedai:can_fight_back and enhancedai:can_be_scared_by_players to add/remove animals.
+	#Make animals fight back or be scared by players. Use the entity type tag enhancedai:can_be_neutral, enhancedai:can_be_hostile, and enhancedai:can_be_scared_by_players to add/remove animals.
 	"Enable Animals Scared Attack" = true
 	#Makes animals not tempted by food. Use the entity type tag enhancedai:can_ignore_food_temptation to change animals.
 	"Enable Not Tempted Animals" = true
@@ -890,11 +893,8 @@
 		#Range: > 1
 		"Flee Range" = 24
 
-	#Make animals fight back or be scared by players. Use the entity type tag enhancedai:can_fight_back and enhancedai:can_be_scared_by_players to add/remove animals.
+	#Make animals fight back or be scared by players. Use the entity type tag enhancedai:can_be_neutral, enhancedai:can_be_hostile, and enhancedai:can_be_scared_by_players to add/remove animals.
 	[Animals."Animals Scared Attack"]
-		#Animals have this percentage chance to be able to fight back instead of fleeing. Animals have a slightly bigger range to attack. Attack damage can't be changed via config due to limitation so use mods like Mobs Properties Randomness to change the damage. Base damage is 3
-		#Range: 0.0 ~ 1.0
-		"Fight back chance" = 0.35
 		#Animals have this percentage chance to be scared by players and run away. Fight back chance has priority over this
 		#Range: 0.0 ~ 1.0
 		"Players Scared chance" = 0.25
@@ -912,6 +912,12 @@
 		Knockback = 1.5
 		#Animals' knockback attribute will be increased/decreased based on the side of the mob.
 		"Knockback size based" = true
+		#Animals have this percentage chance to be able to fight back instead of fleeing. Animals have a slightly bigger range to attack. Attack damage can't be changed via config due to limitations so use mods like Mobs Properties Randomness to change the damage. Base damage is 3
+		#Range: 0.0 ~ 1.0
+		"Neutral chance" = 0.35
+		#Animals have this percentage chance to be hostile
+		#Range: 0.0 ~ 1.0
+		"Hostile chance" = 0.1
 
 	#Makes animals not tempted by food. Use the entity type tag enhancedai:can_ignore_food_temptation to change animals.
 	[Animals."Not Tempted Animals"]

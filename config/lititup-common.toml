@@ -1,7 +1,7 @@
 
 ["Main Settings Handler"]
 	#Enable or disable lit up interaction of vanilla furnace blocks.
-	#Disabling this may affect compatibility with other mods depending on their furnace block implementations.
+	#Disabling this may affect compatibility with other mods depending on their furnace block implementation.
 	Main_Executor_Event = true
 	#Enable or disable Lava/Fire ignition option. Putting Furnace above those sources will resume vanilla execution of the Furnace.
 	Lava_Fire_Ignition = true
@@ -49,22 +49,34 @@
 	Furnace_Executor_Block_List = ["minecraft:fire", "minecraft:campfire:true", "minecraft:soul_campfire:true", "minecraft:magma_block", "minecraft:lava"]
 
 ["Compatibility Handler"]
-	#Enable or disable compatibility with the Brick Furnace mod. Link: https://www.curseforge.com/minecraft/mc-mods/brick-furnace
-	Brick_furnace_mod_compatibility = true
-	#Enable or disable compatibility with the Iron Furnaces mod. Link: https://www.curseforge.com/minecraft/mc-mods/iron-furnaces
-	Iron_furnaces_mod_compatibility = true
-	#Enable or disable compatibility with the Better Furnace Reforged mod. Link: https://www.curseforge.com/minecraft/mc-mods/better-furnaces-reforged
-	Better_Furnaces_Reforged_mod_compatibility = true
-	#Enable or disable compatibility with Farmer's Delight mod. Link: https://www.curseforge.com/minecraft/mc-mods/farmers-delight
+	#Enable or disable compatibility with Farmer's Delight mod.
+	#Link: https://www.curseforge.com/minecraft/mc-mods/farmers-delight
 	Farmers_Delight_Mod_Compatibility = true
-	#Enable or disable compatibility with the Aether mod. Link: https://www.curseforge.com/minecraft/mc-mods/aether
-	#Note: This feature is disabled by default because you can't use flint and steel in the Aether dimension.
-	Aether_mod_compatibility = false
-	#Enable or disable compatibility with the CrockPot mod. Link: https://www.curseforge.com/minecraft/mc-mods/crock-pot
-	Crock_Pot_mod_compatibility = true
 	#Enable or disable compatibility with Let's Do Candlelight mod.
 	#Link: https://www.curseforge.com/minecraft/mc-mods/lets-do-candlelight
 	Let_Do_Candlelight_Compatibility = true
+	#Enable or disable compatibility with the Brick Furnace mod.
+	#Link: https://www.curseforge.com/minecraft/mc-mods/brick-furnace
+	Brick_Furnace_Mod_Compatibility = true
+	#Enable or disable compatibility with the Iron Furnaces mod.
+	#Link: https://www.curseforge.com/minecraft/mc-mods/iron-furnaces
+	Iron_Furnaces_Mod_Compatibility = true
+	#Enable or disable compatibility with the Furnace Mk2 mod.
+	#Link: https://www.curseforge.com/minecraft/mc-mods/furnace-mk2
+	Furnace_Mk2_Mod_Compatibility = true
+	#Enable or disable compatibility with the Better Furnace Reforged mod.
+	#Link: https://www.curseforge.com/minecraft/mc-mods/better-furnaces-reforged
+	Better_Furnaces_Reforged_Mod_Compatibility = true
+	#Enable or disable compatibility with the Aether mod.
+	#Link: https://www.curseforge.com/minecraft/mc-mods/aether 
+	#Note: This feature is disabled by default because you can't use flint and steel in the Aether dimension.
+	Aether_Mod_Compatibility = false
+	#Enable or disable compatibility with the Crock Pot mod.
+	#Link: https://www.curseforge.com/minecraft/mc-mods/crock-pot
+	Crock_Pot_Mod_Compatibility = true
+	#Enable or disable compatibility with the Tough As Nails mod.
+	#Link: https://www.curseforge.com/minecraft/mc-mods/tough-as-nails
+	Tough_As_Nails_Mod_Compatibility = true
 
 ["Extra Settings"]
 	#If true, campfires placed by the player will not be lit.
