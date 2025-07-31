@@ -125,7 +125,7 @@
 	[World."Coal & Fire"]
 		#Chance for logs to release charcoal layer when burnt
 		#Range: 0.0 ~ 1.0
-		"Charcoal from burnt logs chance" = 0.0
+		"Charcoal from burnt logs chance" = 0.5
 		#If enabled, a data pack will be enabled that:
 		#* Removes the Charcoal recipe from smelting
 		#* Makes Coal Ore require an Iron Pickaxe or better to mine
