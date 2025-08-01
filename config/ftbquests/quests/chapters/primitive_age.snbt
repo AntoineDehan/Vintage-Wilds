@@ -172,7 +172,10 @@
 		{
 			dependencies: ["63400B5D93B518A2"]
 			description: [
-				"To craft a &eCampfire&r, &eright click on the ground&r on any solid block with some &eFire Logs&r, &eSticks&r and &eCharcoal&r. &3Check the recipe and more info through JEI&r."
+				"To craft a &eCampfire&r, &eright click on the ground&r on any solid block with some (6)&eFire Wood&r, (3)&eSticks&r and a (1)&eCharcoal&r."
+				"When every needed items are placed on the ground, shift-right-click on it. (be sure to have your off hand empty)"
+				""
+				"&3Check the recipe and more info through JEI&r."
 				""
 				"To &eobtain Charcoal&r you can &eburn a log&r, you can use two Flints (one in your main hand and the other in your off hand) to create a fire."
 				""

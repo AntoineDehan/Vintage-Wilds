@@ -56,7 +56,7 @@
 				observe_type: 0
 				timer: 0L
 				title: "Check the recipe through JEI!"
-				to_observe: "iguanatweaksexpanded:forge"
+				to_observe: "overgeared:smithing_anvil"
 				type: "observation"
 			}]
 			title: "Smithing time"
