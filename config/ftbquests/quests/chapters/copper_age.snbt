@@ -24,7 +24,7 @@
 			y: 0.0d
 		}
 		{
-			dependency: "182285A55BBA2BBD"
+			dependency: "58043DF622C90D95"
 			height: 1.0d
 			image: "explosiveenhancement:textures/particle/spark2.png"
 			rotation: 0.0d
@@ -270,7 +270,7 @@
 		}
 		{
 			dependencies: ["58043DF622C90D95"]
-			description: ["&eCopper Plates&r are used in &ea lot &rof recipes. Crafted at a &eForge&r."]
+			description: ["&eCopper Plates&r are used in &ea lot &rof recipes. Crafted at a &eSmithing Anvil&r."]
 			id: "6C20B22ED5FCBD81"
 			size: 1.15d
 			tasks: [{
@@ -620,6 +620,60 @@
 			title: "Use a map!"
 			x: 11.5d
 			y: -4.0d
+		}
+		{
+			dependencies: ["58043DF622C90D95"]
+			hide_until_deps_complete: true
+			id: "3FC28E7F7B54036A"
+			tasks: [
+				{
+					id: "6836821CFAC818B6"
+					item: {
+						Count: 1
+						id: "overgeared:copper_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "60E777737C10749E"
+					item: {
+						Count: 1
+						id: "overgeared:copper_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08C96DEC63929DBD"
+					item: {
+						Count: 1
+						id: "overgeared:copper_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C2030F24F320E11"
+					item: {
+						Count: 1
+						id: "overgeared:copper_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Forge a Copper Armor"
+			x: 7.0d
+			y: 1.0d
 		}
 	]
 	title: "Copper Age"

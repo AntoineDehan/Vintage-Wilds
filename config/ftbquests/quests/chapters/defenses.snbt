@@ -30,12 +30,14 @@
 				{
 					auto: "invisible"
 					command: "/tellraw @p [{\"text\":\"You feel like you’re being \",\"italic\":true},{\"text\":\"watched. \",\"bold\":\"true\",\"color\":\"red\"},{\"text\":\"Illagers have found your base. They’ll return soon, and they \"},{\"text\":\"won’t be alone.\",\"bold\":\"true\",\"color\":\"red\"}]"
+					elevate_perms: true
 					id: "6A8C20CD07373C85"
 					type: "command"
 				}
 				{
 					auto: "invisible"
 					command: "/playsound minecraft:item.goat_horn.sound.6 hostile @p"
+					elevate_perms: true
 					id: "5F5D7979A6F69D71"
 					type: "command"
 				}
