@@ -85,6 +85,14 @@ ServerEvents.tags("item", (event) => {
     "sapwood:stripped_pale_wood",
   ]);
 
+  //// Smithing
+
+  event.add("forge:hammers", "overgeared:copper_smithing_hammer");
+  event.add(
+    "overgeared:smithing_hammers",
+    "iguanatweaksexpanded:wooden_hammer"
+  );
+
   //// Ores
   event.add(
     "forge:raw_materials",

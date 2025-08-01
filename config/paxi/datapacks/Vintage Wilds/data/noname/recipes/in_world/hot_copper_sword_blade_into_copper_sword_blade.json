@@ -12,7 +12,7 @@
   "post": [
     {
       "type": "drop_item",
-      "item": "overgeared:copper_sword_head"
+      "item": "overgeared:copper_sword_blade"
     },
     {
       "type": "execute",

@@ -10,11 +10,11 @@ StartupEvents.registry("item", (e) => {
   e.create("dens_addition:flint_shovel", "shovel").tier("flint");
   e.create("dens_addition:flint_axe", "axe").tier("flint");
 
-  //Copper tools
-  e.create("dens_addition:copper_pickaxe", "pickaxe").tier("copper");
-  e.create("dens_addition:copper_shovel", "shovel").tier("copper");
-  e.create("dens_addition:copper_axe", "axe").tier("copper");
-  e.create("dens_addition:copper_sword", "sword").tier("copper");
+  //Copper tools   // e.create("dens_addition:hot_copper_ingot"); Probably not needed anymore since it's added from the Overgearded mod (keeping it just for now)
+  // e.create("dens_addition:copper_pickaxe", "pickaxe").tier("copper");
+  // e.create("dens_addition:copper_shovel", "shovel").tier("copper");
+  // e.create("dens_addition:copper_axe", "axe").tier("copper");
+  // e.create("dens_addition:copper_sword", "sword").tier("copper");
 
   //Forging
   // e.create("dens_addition:hot_copper_ingot"); Probably not needed anymore since it's added from the Overgearded mod (keeping it just for now)

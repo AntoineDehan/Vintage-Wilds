@@ -253,7 +253,7 @@
 	#Changes to respawning. Adds the doLooseRespawn gamerule that can disable the loose spawn range
 	"Enable Respawn" = true
 	#Prevents the player from sleeping if has not enough Hunger and gives him effects on wake up. Effects on wake up are controlled via json in this feature's folder
-	"Enable Sleeping Effects" = true
+	"Enable Sleeping Effects" = false
 	#Prevents sleeping if the player is not tired. Tiredness is gained by gaining exhaustion. Allows you to sleep during daytime if too tired. Energy Boost Items are controlled via json in this feature's folder
 	"Enable Tiredness" = false
 	#Add graves on death, and lose items on death. Controlled via game rules. Also adds a bounty system for the mob that killed the player. Graves can be disabled with the iguanatweaks:deathGrave game rule. Items percentage lost can be configured with the iguanatweaks:deathLoseItemsPercentage and iguanatweaks:deathLoseItemsEnchanted game rules.
@@ -373,7 +373,7 @@
 		#If the player's hunger bar is below 'Hunger Depleted on Wake Up' he can't sleep.
 		"No Sleep If Hungry" = false
 		#If the player's has the hunger effect he can't sleep.
-		"No Sleep with Hunger effect" = true
+		"No Sleep with Hunger effect" = false
 		#If the player has no hunger on wake up, beneficial effects are not applied.
 		"No beneficial effect when hungry" = true
 		#Apply the bad effects only when the Tired effect is equal or above this amplifier. -1 to disable

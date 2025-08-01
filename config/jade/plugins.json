@@ -65,16 +65,6 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "treechop": {
-    "plugin": true,
-    "show_tree_block_counts": true,
-    "show_num_chops_remaining": true
-  },
-  "workshop_for_handsome_adventurer": {
-    "jade_plugin2": true,
-    "jade_plugin3": true,
-    "jade_plugin1": true
-  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,

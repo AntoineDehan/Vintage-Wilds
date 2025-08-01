@@ -44,7 +44,7 @@
 				"To handle ingot and &ecreate tools&r or other items you will &eneed a Smithing Anvil&r."
 				"To use the Smithing Anvil, right click on it to place the materials needed and &ehit the Smithing Anvil&r (shift-right-click) with a &eSmithing Hammer&r."
 				""
-				"To smith &eCopper Tools head&r parts you &ewon't need a Blueprint&r."
+				"To smith &eCopper Tools head&r parts you &9won't need a Blueprint&r."
 			]
 			hide_until_deps_complete: true
 			id: "58043DF622C90D95"
