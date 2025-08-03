@@ -672,8 +672,32 @@
 				}
 			]
 			title: "Forge a Copper Armor"
-			x: 7.0d
+			x: 6.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["58043DF622C90D95"]
+			description: [
+				"Use it on the Smithing Anvil to forge items."
+				""
+				"Don't forget to quickly update your hammer to the copper one!"
+			]
+			hide_until_deps_complete: true
+			id: "4C4602968540DD0D"
+			tasks: [{
+				id: "5ACC238EB96C4072"
+				item: {
+					Count: 1
+					id: "iguanatweaksexpanded:wooden_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Your first Hammer"
+			x: 6.0d
+			y: 0.0d
 		}
 	]
 	title: "Copper Age"
