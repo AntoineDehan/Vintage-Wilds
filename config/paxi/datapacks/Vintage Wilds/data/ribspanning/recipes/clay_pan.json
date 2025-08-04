@@ -1,0 +1,8 @@
+{
+  "type": "charcoal_pit:pottery",
+  "ingredient": {
+    "item": "dens_addition:unfired_pan"
+  },
+  "result": "ribspanning:clay_pan",
+  "experience": 0.1
+}
