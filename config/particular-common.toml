@@ -71,7 +71,7 @@
 		[general.advancedSettings.fallingLeavesSettings]
 			#Chance of spawning falling leaves (higher = less frequent)
 			#Range: > 1
-			spawnChance = 60
+			spawnChance = 30
 			#Whether falling leaves create ripples when landing on water
 			spawnRipples = true
 			#Whether falling leaves lay flat on the ground
