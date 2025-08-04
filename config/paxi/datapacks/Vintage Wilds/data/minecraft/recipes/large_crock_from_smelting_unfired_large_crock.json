@@ -1,0 +1,8 @@
+{
+  "type": "charcoal_pit:pottery",
+  "ingredient": {
+    "item": "ceramiccrocks:unfired_large_crock"
+  },
+  "result": "ceramiccrocks:large_crock",
+  "experience": 0.25
+}

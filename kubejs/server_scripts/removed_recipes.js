@@ -83,6 +83,8 @@ ServerEvents.recipes((event) => {
 
   event.remove({ output: "ytech:fire_pit" });
   event.remove({ output: "ytech:unlit_torch" });
+  event.remove({ output: "ytech:unfired_amphora" });
+  event.remove({ id: "ytech:unfired_decoration_pot" });
 
   event.remove({ id: "ytech:birch_planks" });
   event.remove({ id: "minecraft:birch_planks" });
@@ -221,6 +223,7 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "blocky_siege:ballista_recipe" });
   event.remove({ id: "iguanatweaksexpanded:forge" });
   event.remove({ output: "brickfurnace:brick_blast_furnace" });
+  event.remove({ output: "primitive_creatures:fragileprimitivescissors" });
   event.remove({
     type: "minecraft:blasting",
   });
