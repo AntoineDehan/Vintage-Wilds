@@ -384,15 +384,16 @@
 		{
 			dependencies: ["458A888B9749186F"]
 			description: [
-				"This Ceramic Vessel will &ekeep items inside&r even if you break it!"
+				"This Small Crock will &ekeep items inside&r even if you break it!"
+				"A larger version is craftable as well (you can even &6d&r&cy&r&2e&r them!)"
 				""
 				"Food items will rot &e50% slower&r inside it."
 			]
 			hide_until_deps_complete: true
 			id: "653F090B135AF9E8"
 			tasks: [{
-				id: "415BBFD1F262474A"
-				item: "charcoal_pit:ceramic_pot"
+				id: "1CF95714B435CC6C"
+				item: "ceramiccrocks:small_crock"
 				type: "item"
 			}]
 			title: "Another storage solution"
@@ -748,6 +749,30 @@
 			title: "Craft a log pile and do a Charcoal Pit"
 			x: 13.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["4FAC05FC0150CE58"]
+			description: [
+				"Panning can be a secondary way of obtaining Copper, it should not be used as a primary way of finding Copper though!"
+				""
+				"To use the pan, stand IN water, have a block to pan in off-hand (sand/gravel etc...) and your pan in the main-hand, hold right-click and you got it!"
+			]
+			hide_until_deps_complete: true
+			id: "2E4423B1E18BC0C2"
+			tasks: [{
+				id: "3C3329F7C4340373"
+				item: {
+					Count: 1
+					id: "ribspanning:clay_pan"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Having some trouble finding Copper?"
+			x: 17.0d
+			y: 1.0d
 		}
 	]
 	title: "Primitive Age"

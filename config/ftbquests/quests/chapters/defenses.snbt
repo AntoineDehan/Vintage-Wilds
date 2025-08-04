@@ -82,8 +82,8 @@
 		}
 		{
 			dependencies: [
-				"1FDFA403A6757176"
 				"63E6C6DD4AC47DD9"
+				"0F9170C3DF8E5B58"
 			]
 			description: ["Those spikes should take less space while &edealing more damage&r!"]
 			hide_until_deps_complete: true
@@ -99,7 +99,7 @@
 		}
 		{
 			dependencies: [
-				"1FDFA403A6757176"
+				"0F9170C3DF8E5B58"
 				"63E6C6DD4AC47DD9"
 			]
 			description: [
@@ -127,8 +127,8 @@
 		}
 		{
 			dependencies: [
-				"1FDFA403A6757176"
 				"63E6C6DD4AC47DD9"
+				"0F9170C3DF8E5B58"
 			]
 			description: ["To use the cannon you will need &eCannon Projectiles&r and some &eGunpowder&r."]
 			hide_until_deps_complete: true
