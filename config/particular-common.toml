@@ -71,7 +71,7 @@
 		[general.advancedSettings.fallingLeavesSettings]
 			#Chance of spawning falling leaves (higher = less frequent)
 			#Range: > 1
-			spawnChance = 30
+			spawnChance = 120
 			#Whether falling leaves create ripples when landing on water
 			spawnRipples = true
 			#Whether falling leaves lay flat on the ground
@@ -82,7 +82,7 @@
 		[general.advancedSettings.caveDustSettings]
 			#Chance of spawning cave dust (higher = less frequent)
 			#Range: > 1
-			spawnChance = 700
+			spawnChance = 900
 			#Base maximum age of cave dust particles
 			#Range: > 1
 			baseMaxAge = 200

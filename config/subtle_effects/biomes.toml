@@ -1,21 +1,21 @@
 # Don't change this! Version used to track needed updates.
 version = 0
 biomeColorRain = true
-biomeParticlesRadius = 32
+biomeParticlesRadius = 28
 mushroomSporeBiomes = [
     "minecraft:mushroom_fields"
 ]
-mushroomSporeDensity = 10
+mushroomSporeDensity = 5
 fireflyBiomes = [
     "minecraft:swamp",
     "minecraft:mangrove_swamp"
 ]
-fireflyDensity = 6
+fireflyDensity = 3
 pollenBiomes = [
     "minecraft:flower_forest",
     "minecraft:sunflower_plains"
 ]
-pollenDensity = 50
+pollenDensity = 30
 sculkDustBiomes = [
     "minecraft:deep_dark"
 ]

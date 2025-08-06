@@ -39,7 +39,7 @@ renderType = "AUTO"
 #Wake Behavior
 [wakeBehavior]
 	#Range: 0.0 ~ 1.0
-	wavePropagationFactor = 0.95
+	wavePropagationFactor = 0.85
 	#Range: 0.0 ~ 1.0
 	waveDecayFactor = 0.5
 	#Range: > 0

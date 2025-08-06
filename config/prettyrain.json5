@@ -61,7 +61,7 @@
 	"groundFog": {
 		"density": 20,
 		"spawnHeight": 64,
-		"size": 8.0
+		"size": 6.0
 	},
 	"renderVanillaWeather": false,
 	"tickVanillaWeather": false,
