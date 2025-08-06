@@ -13,8 +13,13 @@ ServerEvents.tags("item", (event) => {
 
 ServerEvents.tags("item", (event) => {
   // Axes
-  let axes = ["dens_addition:flint_axe", "dens_addition:copper_axe"];
-  event.add("minecraft:axes", axes);
+
+  event.add(
+    "minecraft:axes",
+    "dens_addition:flint_axe",
+    "dens_addition:copper_axe",
+    "overgeared:copper_axe"
+  );
 
   /// Defenses Tags
   // Reinforced Doors
