@@ -56,7 +56,7 @@
 	"Player On Fire Modifier" = 12.5
 	# How much of an effect sprinting has on a player's temperature.
 	#Range: -1000.0 ~ 1000.0
-	"Player Sprint Modifier" = 1.4
+	"Player Sprint Modifier" = 0.6
 	# How much of an effect altitude has on player's temperature.
 	# Each 64 blocks further from sea level will impact player's temperature by this value.
 	# The sea level can be defined via datapack under the dimension's temperature.
@@ -110,7 +110,7 @@
 		# How much nearby players increase the ambient temperature by.
 		# Note that this value stacks!
 		#Range: -1000.0 ~ 1000.0
-		"Player Huddling Modifier" = 0.4
+		"Player Huddling Modifier" = 0.2
 		# The radius, in blocks, around which players will add to each other's temperature.
 		#Range: 0 ~ 10
 		"Player Huddling Radius" = 1
@@ -267,11 +267,11 @@
 
 				[temperature.integration.serene-seasons.temperate.summer]
 					#Range: -1000.0 ~ 1000.0
-					"Early Summer Modifier" = 6.0
+					"Early Summer Modifier" = 4.0
 					#Range: -1000.0 ~ 1000.0
-					"Mid Summer Modifier" = 10.0
+					"Mid Summer Modifier" = 8.0
 					#Range: -1000.0 ~ 1000.0
-					"Late Summer Modifier" = 6.0
+					"Late Summer Modifier" = 4.0
 
 				[temperature.integration.serene-seasons.temperate.autumn]
 					#Range: -1000.0 ~ 1000.0
