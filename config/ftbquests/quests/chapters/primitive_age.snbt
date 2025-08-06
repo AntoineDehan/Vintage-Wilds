@@ -367,7 +367,7 @@
 		{
 			dependencies: ["18F5F126DAD1061E"]
 			description: [
-				"Your &eonly way&r to find &6Copper&r during the &ePrimitive Stage&r is to find &eCopper Ore Rocks&r spawning &eon the surface&r."
+				"Your &eonly way&r to find &6Copper&r during the &ePrimitive Stage&r is to find &eCopper Ore Rocks&r spawning &eon the surface&r. &o(or to pan sand/gravel)&r"
 				""
 				"You will be able to found it in &epretty much all biomes (forests and plateaux)&r, there will be a good amount on the surface, &emark the spot&r, it also means that there is &6Copper&r &ebeneath it underground&r!"
 			]
@@ -555,31 +555,6 @@
 			title: "It's getting hot..."
 			x: 15.0d
 			y: 1.0d
-		}
-		{
-			dependencies: ["094BD2013092183D"]
-			description: [
-				"Tanning Racks are used to obtain leather."
-				""
-				"&o&7This not implemented currently&r&r"
-			]
-			hide_until_deps_complete: true
-			hide_until_deps_visible: false
-			id: "0EDEE36E8BE2E469"
-			tasks: [{
-				id: "7CF76B5FE86B38FC"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "ytech:tanning_racks"
-					}
-				}
-				type: "item"
-			}]
-			title: "Tanning Racks"
-			x: 7.5d
-			y: 0.0d
 		}
 		{
 			dependencies: ["18F5F126DAD1061E"]
@@ -773,6 +748,48 @@
 			title: "Having some trouble finding Copper?"
 			x: 17.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["0BD45BC48F14EE97"]
+			description: [
+				"&l&eSurface Crafting&r&r"
+				"{image:craft_on_surface:item/layered_icon width:50 height:50 align:center}"
+				""
+				"This icon represents a recipe that uses &eSurface Crafting&r."
+				"It shows you the required items and the &eorder&r in which to place them on the ground."
+				""
+				"To begin, hold the first item in your main hand (your off-hand must be empty) and &eright-click on the ground&r."
+				"Then, continue placing the remaining items the same way."
+				""
+				"Once everything is in place, simply &eshift + right-click&r the structure to craft it."
+				""
+				""
+				""
+				"&l&6Primitive Crafting Table&r&r"
+				"{image:dens_addition:item/primitive_crafting_table width:50 height:50 align:center}"
+				""
+				"&eSurface Crafting&r also works on top of the &6Primitive Crafting Table&r."
+				"Place all the required items on top of it (with a &eright-click&r), then &eshift + right-click as usual&r."
+				""
+				""
+				""
+				"&l&9JEI Information Pages&r&r"
+				"{image:minecraft:item/writable_book width:50 height:50 align:center}"
+				""
+				"When you see this icon on an item in JEI, it means the item has &9extra information&r."
+				"Click on the tab to open it, it's often &9important and helps you understand how things work&r."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "4B4E7EB7C9A3283F"
+			subtitle: "Searching recipes on JEI is very important. If you need more explanation, read this quest."
+			tasks: [{
+				id: "6E5FFB1BD7770BBA"
+				type: "checkmark"
+			}]
+			title: "More information here!"
+			x: 3.5d
+			y: -1.0d
 		}
 	]
 	title: "Primitive Age"
