@@ -3,7 +3,7 @@
   "ingredient": {
     "item": "minecraft:raw_copper"
   },
-  "inputCount": 4,
+  "inputCount": 3,
   "minTemp": 1085,
   "mold": {
     "tag": "ytech:molds/ingot"
