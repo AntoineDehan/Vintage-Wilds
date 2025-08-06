@@ -1,0 +1,13 @@
+{
+  "type": "ytech:tanning",
+  "hitCount": 5,
+  "ingredient": {
+    "item": "dens_addition:soaked_hide"
+  },
+  "result": {
+    "item": "minecraft:leather"
+  },
+  "tool": {
+    "tag": "forge:knives"
+  }
+}

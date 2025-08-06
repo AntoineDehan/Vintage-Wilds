@@ -1,0 +1,15 @@
+{
+  "type": "charcoal_pit:barrel",
+  "item_in": {
+    "item": "ytech:raw_hide"
+  },
+  "fluid_in": {
+    "fluid": "dens_addition:tannin",
+    "amount": 250
+  },
+  "item_out": {
+    "item": "dens_addition:soaked_hide"
+  },
+  "out_amount": 1,
+  "time": 12000
+}

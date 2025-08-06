@@ -30,4 +30,5 @@ StartupEvents.registry("item", (e) => {
 
   // Misc
   e.create("dens_addition:empty_keg");
+  e.create("dens_addition:soaked_hide");
 });
