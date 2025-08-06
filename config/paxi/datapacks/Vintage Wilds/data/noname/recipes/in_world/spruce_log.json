@@ -1,0 +1,16 @@
+{
+  "type": "lychee:block_interacting",
+  "item_in": {
+    "tag": "forge:knives"
+  },
+  "block_in": "spruce_wood",
+  "post": [
+    {
+      "type": "place",
+      "block": "spruce_log"
+    },
+    {
+      "type": "damage_item"
+    }
+  ]
+}
