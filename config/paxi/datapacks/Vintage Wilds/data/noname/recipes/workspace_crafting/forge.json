@@ -6,7 +6,7 @@
     }
   },
   "pattern": {
-    "bottom": ["CCC", "CCC", "CCC"],
+    "bottom": ["C C", "CCC", "C C"],
     "middle": [" C ", " C ", " C "],
     "top": ["CCC", "CCC", "CCC"]
   },
