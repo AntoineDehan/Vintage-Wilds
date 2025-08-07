@@ -295,7 +295,7 @@
 			#Range: 0.0 ~ 1.7976931348623157E308
 			Minimum = 2.0
 			#Range: 0.0 ~ 1.7976931348623157E308
-			Maximum = 6.0
+			Maximum = 5.0
 
 		["Sleep & Respawn".Respawn."Stats penalty"]
 
