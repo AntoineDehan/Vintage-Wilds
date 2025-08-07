@@ -1,5 +1,5 @@
 StartupEvents.registry("item", (e) => {
-  e.create("dens_addition:fire_wood");
+  e.create("dens_addition:fire_wood").burnTime(800);
 
   // Pottery
   e.create("dens_addition:unfired_cooking_pot");

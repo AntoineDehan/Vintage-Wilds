@@ -58,6 +58,7 @@ ServerEvents.recipes((event) => {
   event.remove({ type: "charcoal_pit:bloomery" });
   event.remove({ id: "charcoal_pit:clay_pot" });
   event.remove({ id: "charcoal_pit:barrel2" });
+  event.remove({ id: "charcoal_pit:barrel" });
   event.remove({ output: "sapwood:log_pile" });
 
   ///// Iguanatweaksreborn Items \\\\\
