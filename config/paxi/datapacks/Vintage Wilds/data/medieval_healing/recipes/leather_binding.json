@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "L": {
+      "item": "ytech:leather_strips"
+    },
+    "S": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [" S ", "LLL", " S "],
+  "result": {
+    "item": "medieval_healing:leather_binding"
+  }
+}

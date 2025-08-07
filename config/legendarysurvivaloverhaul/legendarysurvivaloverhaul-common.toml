@@ -7,7 +7,7 @@
 	# Whether the thirst system is enabled.
 	"Thirst Enabled" = true
 	# Whether body members receive localized damages.
-	"Localized Body Damage Enabled" = false
+	"Localized Body Damage Enabled" = true
 	# Whether the overhaul health system is enabled.
 	"Health Overhaul Enabled" = false
 
@@ -439,10 +439,10 @@
 [body-damage]
 	# Multiply the damage taken by the player when shot in the head without helmet.
 	#Range: 1.0 ~ 1000.0
-	"Headshot Multiplier" = 1.5
+	"Headshot Multiplier" = 1.0
 	# How much of the hurt player's damage is assigned to the body parts.
 	#Range: 0.0 ~ 1000.0
-	"Body Damage Multiplier" = 0.5
+	"Body Damage Multiplier" = 0.1
 	# How much health ratio are recovered in all body parts from bed sleeping.
 	#Range: 0.0 ~ 1.0
 	"Body Part Health Ratio Recovered" = 1.0
@@ -560,18 +560,18 @@
 		# Any other value will default to SIMPLE.
 		"Body Part Health Mode" = "DYNAMIC"
 		#Range: 0.0 ~ 1000.0
-		"Head Part Health" = 0.5
+		"Head Part Health" = 0.8
 		# Both arms will have this health.
 		#Range: 0.0 ~ 1000.0
-		"Arms Part Health" = 0.5
+		"Arms Part Health" = 0.8
 		#Range: 0.0 ~ 1000.0
-		"Chest Part Health" = 0.6
+		"Chest Part Health" = 1.0
 		# Both legs will have this health.
 		#Range: 0.0 ~ 1000.0
-		"Legs Part Health" = 0.5
+		"Legs Part Health" = 0.8
 		# Both feet will have this health.
 		#Range: 0.0 ~ 1000.0
-		"Feet Part Health" = 0.5
+		"Feet Part Health" = 0.8
 
 	[body-damage.body-parts-effects]
 

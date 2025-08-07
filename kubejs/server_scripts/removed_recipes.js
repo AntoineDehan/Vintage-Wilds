@@ -222,8 +222,13 @@ ServerEvents.recipes((event) => {
 
   event.remove({ id: "blocky_siege:ballista_recipe" });
   event.remove({ id: "iguanatweaksexpanded:forge" });
-  event.remove({ output: "brickfurnace:brick_blast_furnace" });
   event.remove({ output: "primitive_creatures:fragileprimitivescissors" });
+
+  event.remove({ output: "vital_herbs:watering_can" });
+  event.remove({ output: "vital_herbs:razor_leaf_sword" });
+  event.remove({ output: "vital_herbs:razor_leaf_pickaxe" });
+  event.remove({ output: "vital_herbs:razor_leaf_axe" });
+
   event.remove({
     type: "minecraft:blasting",
   });

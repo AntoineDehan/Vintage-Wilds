@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "A": {
+      "item": "ytech:leather_strips"
+    },
+    "S": {
+      "tag": "forge:shears"
+    },
+    "H": {
+      "item": "medieval_healing:herbal_medicine"
+    },
+    "F": {
+      "tag": "forge:files"
+    }
+  },
+  "pattern": ["LAL", "HSH", "FAL"],
+  "result": {
+    "item": "medieval_healing:suture_kit"
+  }
+}
