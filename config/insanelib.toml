@@ -13,6 +13,12 @@
 	"Fix jump movement factor slowdown only" = true
 
 [Base]
-	#If true, game time, day time, and weather will not advance if no players are online. This can break anything that relies on game time. Also Serene Season and Time Control mods ticking are stopped. Game time is stopped with a simple flag in-code, whilst day time and weather are stopped with an integrated data pack.
+	#If true, game time and day time, will not advance if no players are online. This can break anything that relies on game time.
 	"Prevent time ticking if no players online" = true
+	#If true, also prevents weather from advancing if no players are online. This needs to be disabled in order to allow to set the gamerule again.
+	"Also weather" = true
+	#If true, also prevents game time from advancing if no players are online with Time Control installed. This needs to be disabled in order to allow to set the gamerule again.
+	"Time control integration" = true
+	#If true, also prevents seasons from advancing if no players are online with Serene Seasons installed. This needs to be disabled in order to allow to set the gamerule again.
+	"Serene seasons integration" = true
 
