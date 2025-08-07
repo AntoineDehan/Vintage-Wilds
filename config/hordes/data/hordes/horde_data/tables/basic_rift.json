@@ -1,6 +1,6 @@
 [
   {
-    "entity": "kaolinclayze:iloger_1",
+    "entity": "primitive_creatures:iloger_1",
     "weight": 20,
     "first_day": 0,
     "last_day": 20
@@ -18,7 +18,7 @@
     "last_day": 0
   },
   {
-    "entity": "kaolinclayze:iloger_2",
+    "entity": "primitive_creatures:iloger_2",
     "weight": 10,
     "first_day": 0,
     "last_day": 20
@@ -30,7 +30,7 @@
     "last_day": 0
   },
   {
-    "entity": "kaolinclayze:iloger_4",
+    "entity": "primitive_creatures:iloger_4",
     "weight": 15,
     "first_day": 20,
     "last_day": 0
@@ -42,7 +42,7 @@
     "last_day": 0
   },
   {
-    "entity": "kaolinclayze:iloger_3",
+    "entity": "primitive_creatures:iloger_3",
     "weight": 12,
     "first_day": 25,
     "last_day": 0

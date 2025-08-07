@@ -1821,12 +1821,12 @@
 		"Reroll Even If Not Out Of Stock" = false
 
 [oddities]
-	Backpack = true
-	Crate = true
-	Magnets = true
-	"Matrix Enchanting" = true
-	Pipes = true
-	"Tiny Potato" = true
+	Backpack = false
+	Crate = false
+	Magnets = false
+	"Matrix Enchanting" = false
+	Pipes = false
+	"Tiny Potato" = false
 	"Totem Of Holding" = true
 
 	[oddities.backpack]
@@ -1944,7 +1944,7 @@
 
 	[oddities.totem_of_holding]
 		#Set this to false to remove the behaviour where totems destroy themselves if the player dies again.
-		"Dark Souls Mode" = true
+		"Dark Souls Mode" = false
 		#Totem will always spawn if the player killer is themselves.
 		"Spawn Totem on PVP Kill" = false
 		#Set this to true to make it so that if a totem is destroyed, the items it holds are destroyed alongside it rather than dropped
