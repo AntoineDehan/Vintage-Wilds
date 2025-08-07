@@ -1,0 +1,28 @@
+{
+  "type": "ytech:workspace_crafting",
+  "key": {
+    "p": {
+      "tag": "minecraft:planks"
+    },
+    "s": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "a": {
+      "tag": "forge:plates/wooden"
+    },
+    "b": {
+      "tag": "forge:buckets/empty"
+    }
+  },
+  "pattern": {
+    "bottom": ["ppp", "ppp", "ppp"],
+    "middle": ["aaa", "aba", "aaa"],
+    "top": ["sss", "sss", "sss"]
+  },
+  "result": {
+    "item": "charcoal_pit:barrel"
+  },
+  "tool": {
+    "tag": "forge:saws"
+  }
+}
