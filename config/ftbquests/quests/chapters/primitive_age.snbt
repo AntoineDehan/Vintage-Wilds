@@ -824,35 +824,6 @@
 			x: 0.5d
 			y: 3.0d
 		}
-		{
-			id: "17A333B353F10549"
-			tasks: [
-				{
-					id: "0DA0AD14AB32772D"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:berries"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "749C4E18CB202B82"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:mushrooms"
-						}
-					}
-					type: "item"
-				}
-			]
-			x: 8.0d
-			y: 3.5d
-		}
 	]
 	title: "Primitive Age"
 }

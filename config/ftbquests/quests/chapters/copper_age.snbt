@@ -583,7 +583,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["20A377F26B080F66"]
+			hide_dependency_lines: false
 			id: "56C656F2F40CCC4F"
 			tasks: [{
 				id: "5B4BCC4E8ACC425E"
@@ -591,8 +591,8 @@
 				title: "Portable storage"
 				type: "item"
 			}]
-			x: 15.5d
-			y: -0.5d
+			x: 20.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["20A377F26B080F66"]
@@ -720,6 +720,95 @@
 			}]
 			x: 16.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["4E3E02D37B25838C"]
+			description: [
+				"The &esecond step&r of Leatherworking is to create a &eBarrel&r, used to hold fluids and process materials."
+				""
+				"Once you’ve crafted a Barrel, you’ll need to &eproduce Tannin&r."
+				"To do that:"
+				""
+				"   - Fill the Barrel with Water."
+				""
+				"   - Add a Log(s)."
+				"&o&7(1 Log = 250ml of water consumed to create 250ml of Tannin.)&r&r"
+				""
+				"You’ll then need to wait less than half a day."
+				""
+				"Once you have enough Tannin in the Barrel, add your &eRaw Hide&r and wait again less than half a day for it to process."
+			]
+			id: "3B4046831F06675E"
+			tasks: [{
+				id: "2C3F2C666F006E9F"
+				item: "charcoal_pit:barrel"
+				type: "item"
+			}]
+			title: "Barrel but not for storage"
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["218D9D1EB0F8D4FC"]
+			description: ["&eAll animals will drop Raw Hide&r, that's what you need to then create &eLeather&r."]
+			id: "4E3E02D37B25838C"
+			tasks: [{
+				id: "61E1F9ED98C30F12"
+				item: "ytech:raw_hide"
+				type: "item"
+			}]
+			title: "Let's start Leatherworking"
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3B4046831F06675E"]
+			description: [
+				"Congrats! You're almost at the end of the process."
+				""
+				"Now, take the &eSoaked Hide&r and use it on a &eTanning Rack&r to finish the leatherworking process."
+			]
+			id: "327A4A877A13A37B"
+			tasks: [{
+				id: "1A5CE401186E7124"
+				item: "dens_addition:soaked_hide"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["327A4A877A13A37B"]
+			description: [
+				"Add the &eSoaked Hide&r to the &eTanning Rack&r, then r&eight-click it several times&r with a &eKnife&r in hand."
+				"After a bit of work, you'll obtain &eLeather&r."
+			]
+			id: "6CB52F01C766964F"
+			tasks: [{
+				id: "50EDE9B5F4202A91"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ytech:tanning_racks"
+					}
+				}
+				title: "Tanning Racks"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6CB52F01C766964F"]
+			id: "1B9A3FB40C663188"
+			tasks: [{
+				id: "72C927E3C456CCEE"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -5.5d
 		}
 	]
 	title: "Copper Age"

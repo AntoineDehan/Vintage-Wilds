@@ -10,7 +10,7 @@ fireflyBiomes = [
     "minecraft:swamp",
     "minecraft:mangrove_swamp"
 ]
-fireflyDensity = 3
+fireflyDensity = 2
 pollenBiomes = [
     "minecraft:flower_forest",
     "minecraft:sunflower_plains"
