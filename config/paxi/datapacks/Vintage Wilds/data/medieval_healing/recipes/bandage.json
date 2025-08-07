@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "item": "farmersdelight:straw"
+    },
+    "T": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": ["TS", "ST"],
+  "result": {
+    "item": "medieval_healing:bandage"
+  }
+}

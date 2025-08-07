@@ -40,6 +40,14 @@ ServerEvents.recipes((event) => {
     output: "overgeared:heated_iron_copper",
   });
 
+  event.remove({ output: "overgeared:knappable_rock" });
+  event.remove({ output: "overgeared:stone_anvil" });
+  event.remove({ type: "overgeared:rock_knapping" });
+  event.remove({
+    type: "minecraft:smelting",
+    output: "overgeared:heated_copper_ingot",
+  });
+
   ///// Charcoal Pit Items \\\\\
   event.remove({ output: "charcoal_pit:unfired_brick" });
   event.remove({ output: "charcoal_pit:sandy_collector" });

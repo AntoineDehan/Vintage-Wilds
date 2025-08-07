@@ -726,7 +726,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["4FAC05FC0150CE58"]
+			dependencies: ["18F5F126DAD1061E"]
 			description: [
 				"Panning can be a secondary way of obtaining Copper, it should not be used as a primary way of finding Copper though!"
 				""
@@ -790,6 +790,68 @@
 			title: "More information here!"
 			x: 3.5d
 			y: -1.0d
+		}
+		{
+			dependencies: ["49CF295AF121E359"]
+			description: [
+				"&c&lBody Health System&r&r"
+				""
+				"Your health is now split into &emultiple localized body parts&r."
+				"{image:legendarysurvivaloverhaul:textures/gui/body_health_screen.png width:125 height:125 align:left}"
+				"Taking damage to specific parts of your body &ecauses different effects&r:"
+				"    A severe head injury will inflicts Blindess randomly."
+				""
+				"    A broken leg might make you take more fall damage."
+				""
+				"    Arm damage can make fighting harder."
+				""
+				"But don’t worry, unlike in other modpacks, this system is &ewell balanced&r and &eproperly integrated&r."
+				""
+				"Your limbs won’t get instantly crippled; they take &egradual damage&r."
+				"And you have m&eany healing options&r starting with the &cPrimitive Bandage&r."
+				"As you progress, you’ll unlock better and more effective medical items."
+				""
+				"You can check your Body Health through the inventory and corresponding tab."
+			]
+			hide_until_deps_visible: true
+			id: "6BF065333C0C37A3"
+			tasks: [{
+				id: "0E71DCCEEBF1E4D4"
+				item: "medieval_healing:bandage"
+				type: "item"
+			}]
+			title: "Early game healing"
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			id: "17A333B353F10549"
+			tasks: [
+				{
+					id: "0DA0AD14AB32772D"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:berries"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "749C4E18CB202B82"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:mushrooms"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 3.5d
 		}
 	]
 	title: "Primitive Age"

@@ -449,6 +449,7 @@
 			dependency_requirement: "one_completed"
 			description: ["In &aVintage Wilds&r, &ewater is finite&r. Using a Watering Can &edo not consume water&r."]
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "05F0C7CDBB2B76E1"
 			tasks: [{
 				id: "73244B0B46C6EEDD"
@@ -681,6 +682,8 @@
 				"Use it on the Smithing Anvil to forge items."
 				""
 				"Don't forget to quickly update your hammer to the copper one!"
+				""
+				"&o&7placeholder until I make another hammer&r&r"
 			]
 			hide_until_deps_complete: true
 			id: "4C4602968540DD0D"
@@ -698,6 +701,25 @@
 			title: "Your first Hammer"
 			x: 6.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["20A377F26B080F66"]
+			description: [""]
+			hide_until_deps_visible: true
+			id: "10E92FA587E4F9BB"
+			tasks: [{
+				id: "2336198F4F14A135"
+				item: {
+					Count: 1
+					id: "medieval_healing:suture_kit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: -2.0d
 		}
 	]
 	title: "Copper Age"

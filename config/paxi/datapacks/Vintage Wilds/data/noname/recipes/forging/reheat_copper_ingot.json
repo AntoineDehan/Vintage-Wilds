@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "misc",
+  "ingredient": {
+    "item": "minecraft:copper_ingot"
+  },
+  "result": "overgeared:heated_copper_ingot",
+  "cookingtime": 450
+}

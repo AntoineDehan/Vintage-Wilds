@@ -65,6 +65,15 @@ ServerEvents.tags("item", (event) => {
     "primalstorage:oak_shelves"
   );
 
+  event.add(
+    "forge:berries",
+    "wildberries:blueberries",
+    "wildberries:raspberry",
+    "wildberries:blackberry",
+    "wildberries:cranberries",
+    "wildberries:strawberry"
+  );
+
   event.add("forge:stripped_logs", [
     "minecraft:stripped_oak_log",
     "minecraft:stripped_oak_wood",

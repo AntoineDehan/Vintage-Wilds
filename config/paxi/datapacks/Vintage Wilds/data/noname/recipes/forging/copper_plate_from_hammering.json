@@ -5,7 +5,7 @@
   "has_quality": false,
   "key": {
     "#": {
-      "item": "minecraft:copper_ingot"
+      "item": "overgeared:heated_copper_ingot"
     }
   },
   "needs_minigame": false,

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:mushrooms"
+    },
+    {
+      "tag": "forge:berries"
+    },
+    {
+      "item": "minecraft:charcoal"
+    },
+    {
+      "tag": "vital_herbs:herbs"
+    }
+  ],
+  "result": {
+    "item": "medieval_healing:raw_herbal_mix"
+  }
+}

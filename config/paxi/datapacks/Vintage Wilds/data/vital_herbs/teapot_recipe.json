@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [" a ", "bcb", "bdb"],
+  "key": {
+    "a": {
+      "tag": "forge:plates/metal"
+    },
+    "b": {
+      "item": "minecraft:brick"
+    },
+    "c": {
+      "tag": "vital_herbs:herbs"
+    },
+    "d": {
+      "item": "minecraft:charcoal"
+    }
+  },
+  "result": {
+    "item": "vital_herbs:teapot",
+    "count": 1
+  }
+}
