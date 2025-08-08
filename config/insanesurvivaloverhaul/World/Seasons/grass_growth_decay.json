@@ -1,27 +1,27 @@
 [
   {
     "sub_season": "early_spring",
-    "chance": 1000,
+    "chance": 500,
     "grass_ticking_type": "grow",
     "light_level": 12
   },
   {
     "sub_season": "mid_spring",
-    "chance": 1000,
+    "chance": 500,
     "grass_ticking_type": "grow",
     "light_level": 12,
     "can_grow_flower": true
   },
   {
     "sub_season": "late_spring",
-    "chance": 1000,
+    "chance": 500,
     "grass_ticking_type": "grow",
     "light_level": 12,
     "can_grow_flower": true
   },
   {
     "sub_season": "early_summer",
-    "chance": 2000,
+    "chance": 1000,
     "grass_ticking_type": "grow",
     "light_level": 10,
     "can_grow_tall": true,
@@ -29,14 +29,14 @@
   },
   {
     "sub_season": "mid_summer",
-    "chance": 2000,
+    "chance": 1000,
     "grass_ticking_type": "grow",
     "light_level": 8,
     "can_grow_tall": true
   },
   {
     "sub_season": "late_summer",
-    "chance": 2000,
+    "chance": 1000,
     "grass_ticking_type": "grow",
     "light_level": 7,
     "can_grow_tall": true
