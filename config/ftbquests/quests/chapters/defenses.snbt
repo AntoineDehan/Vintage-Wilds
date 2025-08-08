@@ -39,6 +39,7 @@
 					command: "/playsound minecraft:item.goat_horn.sound.6 hostile @p"
 					elevate_perms: true
 					id: "5F5D7979A6F69D71"
+					silent: true
 					type: "command"
 				}
 			]

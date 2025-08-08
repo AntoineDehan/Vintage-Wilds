@@ -289,7 +289,7 @@
 				""
 				"The Grass Bed &ewon't set your respawn point&r."
 				""
-				"&o&7The sleeping/tired system is a WIP and I'm interested in hearing your opinion about it&r&r."
+				"/!\\\\ I'm sorry but &4sleeping currently has some issues&r, you can &4only sleep during the day&r AND to right-click the bed you need to be a &4few blocks away from the bed&r itself. Sorry again and I'm working on fixing it asap /!\\\\"
 			]
 			hide_until_deps_complete: true
 			id: "2B148EDECB3CAFD7"
