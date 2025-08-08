@@ -1,3 +1,8 @@
 {
-  "values": ["#minecraft:is_forest", "#forge:is_plateau"]
+  "values": [
+    "#minecraft:is_forest",
+    "#forge:is_plateau",
+    "#forge:is_plains",
+    "#forge:is_rare"
+  ]
 }
