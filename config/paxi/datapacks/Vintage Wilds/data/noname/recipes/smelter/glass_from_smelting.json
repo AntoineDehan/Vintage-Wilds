@@ -1,0 +1,13 @@
+{
+  "type": "ytech:smelting",
+  "ingredient": {
+    "item": "minecraft:sand"
+  },
+  "inputCount": 2,
+  "minTemp": 950,
+  "mold": [],
+  "result": {
+    "item": "minecraft:glass"
+  },
+  "smeltingTime": 100
+}
