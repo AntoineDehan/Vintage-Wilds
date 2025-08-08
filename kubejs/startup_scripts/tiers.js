@@ -2,7 +2,7 @@
 
 ItemEvents.toolTierRegistry((event) => {
   event.add("flint", (tier) => {
-    tier.uses = 35;
+    tier.uses = 60;
     tier.speed = 1.5;
     tier.attackDamageBonus = 0;
     tier.level = 0;
@@ -13,7 +13,7 @@ ItemEvents.toolTierRegistry((event) => {
 
 ItemEvents.toolTierRegistry((event) => {
   event.add("copper", (tier) => {
-    tier.uses = 150;
+    tier.uses = 175;
     tier.speed = 4.0;
     tier.attackDamageBonus = 1.0;
     tier.level = 1;

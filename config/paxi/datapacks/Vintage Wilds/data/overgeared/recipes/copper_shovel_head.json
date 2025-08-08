@@ -1,0 +1,22 @@
+{
+  "type": "overgeared:forging",
+  "blueprint": ["shovel"],
+  "category": "misc",
+  "hammering": 3,
+  "has_polishing": true,
+  "has_quality": true,
+  "key": {
+    "#": {
+      "item": "ytech:copper_plate"
+    }
+  },
+  "minimum_quality": "poor",
+  "needs_minigame": false,
+  "pattern": ["#"],
+  "requires_blueprint": false,
+  "result": {
+    "item": "overgeared:copper_shovel_head"
+  },
+  "show_notification": true,
+  "tier": "stone"
+}

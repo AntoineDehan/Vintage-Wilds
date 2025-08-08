@@ -23,7 +23,7 @@
 	"Enable Timber trees" = false
 	#Various changes to explosions, like higher knockback and getting hit when behind blown up blocks.
 	"Enable Explosion overhaul" = true
-	"Enable Faster decay leaves" = false
+	"Enable Faster decay leaves" = true
 
 	[World.Fluids]
 		#If enabled, water will deal fall damage if too shallow
@@ -868,7 +868,7 @@
 	[Mining."Block hardness"]
 		#Multiplier applied to the hardness of blocks. E.g. with this set to 2.0 blocks will take 2 times longer to break.
 		#Range: 0.0 ~ 128.0
-		"Hardness multiplier" = 1.0
+		"Hardness multiplier" = 2.0
 
 	#Add repair kits, making you able to repair items in the crafting grid
 	[Mining."Repair kits"]
@@ -953,7 +953,7 @@
 		#If true, a data pack will be enabled that disables stone tools crafting and generation in chests will be replaced with flint ones
 		"Disable stone tools" = true
 		#If you want to just disable stone tools
-		"Dont enable flint tools" = true
+		"Dont enable flint tools" = false
 
 	#Make items not able to mine / attack
 	[Items."Disabled items"]

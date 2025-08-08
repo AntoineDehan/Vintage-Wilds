@@ -15,7 +15,7 @@
 			y: -0.5d
 		}
 		{
-			dependency: "182285A55BBA2BBD"
+			dependency: "58043DF622C90D95"
 			height: 1.0d
 			image: "iguanatweaksexpanded:item/copper_hammer"
 			rotation: 0.0d
@@ -179,6 +179,7 @@
 			dependencies: ["58043DF622C90D95"]
 			description: [
 				"To craft an &eAxe&r you will need a &emold&r."
+				"Or you can Forge it at the &eSmithing Anvil&r as well !"
 				""
 				"Clay molds are more durable."
 			]
@@ -225,6 +226,7 @@
 			dependencies: ["58043DF622C90D95"]
 			description: [
 				"To craft a &ePickaxe&r you will need a &emold&r."
+				"Or you can Forge it at the &eSmithing Anvil&r as well !"
 				""
 				"Clay molds are more durable."
 			]
@@ -248,6 +250,7 @@
 			dependencies: ["58043DF622C90D95"]
 			description: [
 				"To craft an &eSword&r you will need a &emold&r."
+				"Or you can Forge it at the &eSmithing Anvil&r as well !"
 				""
 				"Clay molds are more durable."
 			]
@@ -449,7 +452,7 @@
 			dependency_requirement: "one_completed"
 			description: ["In &aVintage Wilds&r, &ewater is finite&r. Using a Watering Can &edo not consume water&r."]
 			hide_dependency_lines: true
-			hide_until_deps_visible: true
+			hide_until_deps_complete: true
 			id: "05F0C7CDBB2B76E1"
 			tasks: [{
 				id: "73244B0B46C6EEDD"
@@ -565,7 +568,7 @@
 		}
 		{
 			dependencies: ["329837FAADDB35DC"]
-			description: ["&eClay Molds&r are &emore durabl&re than Sand Molds and so &ewon't break everytime&r you use them in a Smelter."]
+			description: ["&eClay Molds&r are &emore durable&r than Sand Molds and so &ewon't break everytime&r you use them in a Smelter."]
 			id: "60D7011DDA8D0C06"
 			tasks: [{
 				id: "0DB2BFB1F2642DD3"
@@ -583,7 +586,9 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["1B9A3FB40C663188"]
 			hide_dependency_lines: false
+			hide_until_deps_complete: true
 			id: "56C656F2F40CCC4F"
 			tasks: [{
 				id: "5B4BCC4E8ACC425E"
@@ -591,8 +596,8 @@
 				title: "Portable storage"
 				type: "item"
 			}]
-			x: 20.5d
-			y: 0.5d
+			x: 9.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["20A377F26B080F66"]
@@ -751,6 +756,7 @@
 		{
 			dependencies: ["218D9D1EB0F8D4FC"]
 			description: ["&eAll animals will drop Raw Hide&r, that's what you need to then create &eLeather&r."]
+			hide_until_deps_complete: true
 			id: "4E3E02D37B25838C"
 			tasks: [{
 				id: "61E1F9ED98C30F12"

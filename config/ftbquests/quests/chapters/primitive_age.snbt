@@ -151,6 +151,8 @@
 				"Bad news, you won't be able to craft planks without a saw, you will have to use other means as of now."
 				""
 				"A &eCampfire&r would be the next step."
+				""
+				"You can also &etransform&r a &eblock of Wood&r into a &eWood Log&r by &eright-clicking with a knife&r on it."
 			]
 			id: "63400B5D93B518A2"
 			tasks: [{
@@ -233,7 +235,7 @@
 				""
 				"&3To craft a Primitive Crafting Table, search the recipe on JEI.&r"
 				""
-				"To craft items with it, right click with an item/block on it to combine certain item/block."
+				"To craft items with it, right click with an item/block on it to add it on top of the Primitive Crafting Table, then when everything is placed down, shift-right-click on it."
 			]
 			hide_until_deps_complete: true
 			id: "3D33914EC566F90F"
@@ -257,7 +259,7 @@
 				"As you can see you &ewon't be able to craft Chest&r before the &6Copper Age&r."
 				"There are different &ePrimitive storage&r solution available."
 				""
-				"&o&7More to come in the future&r&r"
+				"Don't forget, you can transform your Wood blocks in to Logs block by right-clicking it with a knife &c!!&r"
 			]
 			hide_until_deps_complete: true
 			id: "37047310D3CB7DE8"
@@ -280,7 +282,9 @@
 		{
 			dependencies: ["3D33914EC566F90F"]
 			description: [
-				"You &ecannot sleep without being&r &9Tired&r but if you sleep to rarely &eyou will have debuffs&r and might hear some sounds that are not there..."
+				"You are able to sleep whenever you want (day included) but if you don't sleep often enough you can have the Tiered effect."
+				"Starting Tiered III phantoms will spawn."
+				""
 				"Some &econsumables&r can give you a &eboost of energy &rwithout sleeping."
 				""
 				"The Grass Bed &ewon't set your respawn point&r."
@@ -336,7 +340,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["0FFEA76177B0FE17"]
+			dependencies: ["458A888B9749186F"]
 			dependency_requirement: "one_started"
 			description: [
 				"The &ePrimitive Smelter&r is your &enext tier of furnace&r and a very important block."
@@ -367,9 +371,9 @@
 		{
 			dependencies: ["18F5F126DAD1061E"]
 			description: [
-				"Your &eonly way&r to find &6Copper&r during the &ePrimitive Stage&r is to find &eCopper Ore Rocks&r spawning &eon the surface&r. &o(or to pan sand/gravel)&r"
+				"Your &eonly way&r to find &6Copper&r during the &ePrimitive Stage&r is to find &eCopper Ore Rocks&r spawning &eon the surface&r. &o(or by panning sand/gravel)&r"
 				""
-				"You will be able to found it in &epretty much all biomes (forests and plateaux)&r, there will be a good amount on the surface, &emark the spot&r, it also means that there is &6Copper&r &ebeneath it underground&r!"
+				"You will be able to found it in &epretty much all biomes&r &o(forests, plateaux, plains and rare biomes)&r, there will be a good amount on the surface, &emark the spot&r, it also means that there is &6Copper&r &ebeneath it underground&r!"
 			]
 			id: "33DB428B465669F4"
 			tasks: [{
@@ -635,7 +639,7 @@
 			description: [
 				"Weak and fragile primitive armor but might save your life."
 				""
-				"Crafted on the Primitive Crafting Table."
+				"Crafted on the &lPrimitive Crafting Table&r."
 				""
 				"&o&8The recipes are a placeholder for the moment.&r&r"
 			]
@@ -808,7 +812,7 @@
 				"But don’t worry, unlike in other modpacks, this system is &ewell balanced&r and &eproperly integrated&r."
 				""
 				"Your limbs won’t get instantly crippled; they take &egradual damage&r."
-				"And you have m&eany healing options&r starting with the &cPrimitive Bandage&r."
+				"And you have &emany healing options&r starting with the &cPrimitive Bandage&r."
 				"As you progress, you’ll unlock better and more effective medical items."
 				""
 				"You can check your Body Health through the inventory and corresponding tab."
