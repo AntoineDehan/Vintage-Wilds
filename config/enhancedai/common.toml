@@ -603,7 +603,7 @@
 	[Mobs."Biting mobs"]
 		#The damage dealt to the attacker when bit
 		#Range: 0.0 ~ 1.7976931348623157E308
-		Damage = 3.0
+		Damage = 1.0
 
 		#Chance for a Mob to bite the attacker
 		[Mobs."Biting mobs".Chance]
@@ -629,7 +629,7 @@
 	[Mobs."Miner mobs"]
 		#Chance for a mob in the entity type tag enhancedai:can_be_miner to spawn with the miner ability
 		#Range: 0.0 ~ 1.0
-		"Miner chance" = 0.07
+		"Miner chance" = 0.0
 		#Mobs with the miner AI will mine only if they have any tool in the off-hand
 		"Can mine with tool only" = true
 		#Mobs with the miner AI will mine only if their off-hand tool can mine targeted blocks (e.g. zombies with shovels will not mine stone). Blocks that require no tool (e.g. planks) will be minable regardless of proper tool or not.
@@ -894,7 +894,7 @@
 	[Animals."Animals Group Flee"]
 		#Range at which an animal alerts other animals.
 		#Range: > 1
-		"Flee Range" = 24
+		"Flee Range" = 10
 
 	[Animals."Animals Scared Attack"]
 		#Animals have this percentage chance to be scared by players and run away. Fight back chance has priority over this
@@ -911,12 +911,12 @@
 		"Movement Speed Multiplier" = 1.1
 		#Animals' knockback attribute will be set to this value.
 		#Range: 0.0 ~ 128.0
-		Knockback = 1.5
+		Knockback = 0.5
 		#Animals' knockback attribute will be increased/decreased based on the side of the mob.
-		"Knockback size based" = true
+		"Knockback size based" = false
 		#Animals have this percentage chance to be able to fight back instead of fleeing. Animals have a slightly bigger range to attack. Attack damage can't be changed via config due to limitations so use mods like Mobs Properties Randomness to change the damage. Base damage is 3
 		#Range: 0.0 ~ 1.0
-		"Neutral chance" = 0.35
+		"Neutral chance" = 0.55
 		#Animals have this percentage chance to be hostile
 		#Range: 0.0 ~ 1.0
 		"Hostile chance" = 0.1
@@ -924,7 +924,7 @@
 	[Animals."Not Tempted Animals"]
 		#Animals have this percentage chance to not be temped by food.
 		#Range: 0.0 ~ 1.0
-		"Not tempted chance" = 0.5
+		"Not tempted chance" = 0.0
 
 [Drowned]
 	#Makes drowned swim speed based off swim speed attribute instead of movement speed. Only drowned in the enhancedai:change_drowned_swimming entity type tag are affected by this feature.

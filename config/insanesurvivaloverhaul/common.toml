@@ -556,7 +556,7 @@
 	"Enable Stats buffs" = false
 	"Enable Misc mobs" = true
 	#Change wandering trader offers. Trades can be customized via json in this feature's folder
-	"Enable Wandering trades" = true
+	"Enable Wandering trades" = false
 	#Changes to mob spawn with Serene Seasons installed. Check this feature's json config folder for all the configuration options
 	"Enable Season spawning" = true
 

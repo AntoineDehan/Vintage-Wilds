@@ -23,6 +23,7 @@ ServerEvents.tick((event) => {
       server.runCommandSilent(
         "effect give @a legendarysurvivaloverhaul:heat_resistance 280 0 true"
       );
+      server.runCommandSilent("gamerule doTraderSpawning false");
       server.persistentData.cleanedInitialItems = true;
       cleanupStarted = false;
     }

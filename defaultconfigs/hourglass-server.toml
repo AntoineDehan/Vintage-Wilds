@@ -78,12 +78,12 @@
 	#Set to 'true' for the weather to clear when players wake up in the morning as it does in vanilla.
 	#Set to 'false' to force weather to pass naturally. Adds realism when accelerateWeather is enabled.
 	#Note: This setting is ignored if game rule doWeatherCycle is false.
-	clearWeatherOnWake = true
+	clearWeatherOnWake = false
 	#When true, players are allowed to sleep at all times of day in dimensions controlled by Hourglass.
 	#Note: Other mods may override this ability.
 	allowDaySleep = false
 	#When true, a clock is displayed in the sleep interface.
-	displayBedClock = true
+	displayBedClock = false
 
 	#This section defines settings for notification messages.
 	#All messages support Minecraft formatting codes (https://minecraft.fandom.com/wiki/Formatting_codes).
