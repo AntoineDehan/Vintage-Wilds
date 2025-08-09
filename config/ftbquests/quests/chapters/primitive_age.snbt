@@ -181,9 +181,11 @@
 				""
 				"To &eobtain Charcoal&r you can &eburn a log&r, you can use two Flints (one in your main hand and the other in your off hand) to create a fire."
 				""
+				"You will also need to &elit up the campfire&r (with two flints for example)"
+				""
 				"&eThe Campfire is essential&r to your survival, eating &eraw food is not recommanded&r and &enights&r might be a bit &ecold&r. "
 				""
-				"It will burn out (you can add fuel) and extinguish under rain."
+				"&o&7It will burn out (you can add fuel) and extinguish under rain.&r&r"
 			]
 			id: "0BD45BC48F14EE97"
 			tasks: [{
@@ -759,7 +761,7 @@
 				"&l&eSurface Crafting&r&r"
 				"{image:craft_on_surface:item/layered_icon width:50 height:50 align:center}"
 				""
-				"This icon represents a recipe that uses &eSurface Crafting&r."
+				"While searching a recipe on JEI, take a look at the multiple tabs availage after selecting a recipe. This icon represents a recipe that uses &eSurface Crafting&r."
 				"It shows you the required items and the &eorder&r in which to place them on the ground."
 				""
 				"To begin, hold the first item in your main hand (your off-hand must be empty) and &eright-click on the ground&r."

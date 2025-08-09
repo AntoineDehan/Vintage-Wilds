@@ -21,7 +21,7 @@ ServerEvents.tags("item", (event) => {
     "overgeared:copper_axe"
   );
 
-  /// Defenses Tags
+  //// Defenses Tags
   // Reinforced Doors
   event.add(
     "forge:doors/reinforced",
@@ -53,6 +53,10 @@ ServerEvents.tags("item", (event) => {
     "ytech:iron_plate",
     "ytech:golden_plate"
   );
+
+  event.add("forge:buckets/water", "ytech:water_clay_bucket");
+  event.add("c:water_buckets", "ytech:water_clay_bucket");
+  event.add("c:buckets/water", "ytech:water_clay_bucket");
 
   event.add(
     "forge:shelves",
