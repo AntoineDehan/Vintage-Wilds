@@ -734,9 +734,17 @@
 		{
 			dependencies: ["18F5F126DAD1061E"]
 			description: [
-				"Panning can be a secondary way of obtaining Copper, it should not be used as a primary way of finding Copper though!"
+				"Panning can be used as an alternative way to &eobtain small amounts of Copper&r, but it &nshould not be your main source&r!"
 				""
-				"To use the pan, stand IN water, have a block to pan in off-hand (sand/gravel etc...) and your pan in the main-hand, hold right-click and you got it!"
+				"&eTo use the pan:&r"
+				""
+				"  - Stand in water."
+				""
+				"  - Hold a block you want to pan (sand, gravel) in your off-hand."
+				""
+				"  - Hold your pan in the main-hand."
+				""
+				"  - Hold right-click… and see what you get!"
 			]
 			hide_until_deps_complete: true
 			id: "2E4423B1E18BC0C2"
